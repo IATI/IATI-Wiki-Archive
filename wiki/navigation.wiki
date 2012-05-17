@@ -1,1 +1,1 @@
-{{Pagelist>.}}
+<pagelist>
