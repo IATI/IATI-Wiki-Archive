@@ -4,4 +4,4 @@ Select your version
 
 [[standard:1.0:start|1.0 (current)]]
 
-[[standard:1.1|1.1 (draft)]]
+[[standard:1.1:start|1.1 (draft)]]
