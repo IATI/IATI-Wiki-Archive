@@ -1,6 +1,0 @@
-Working under contract to the IATI team since October 2011.
-
-Generally working on data issues, helping people publish and check the quality of their data.
-
-Code for anything I have worked on for IATI is on my GitHub:
-https://github.com/caprenter
