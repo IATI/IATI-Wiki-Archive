@@ -1,4 +1,5 @@
 ====== AidInfo ======
+{{ :community:aidinfo-logo.png|}}
 [[http://www.aidinfo.org/|AidInfo Website]]
 
 AidInfo is a member of the IATI Technical Community, and hosts the IATI Technical Secretariat. 
