@@ -16,4 +16,4 @@ Important messages will be sent as announcements.
 
 ===== Recent discussions =====
 
-{{rss>https://groups.google.com/group/iati-technical/feed/atom_v1_0_topics.xml}}
+{{rss>https://groups.google.com/group/iati-technical/feed/rss_v2_0_topics.xml}}
