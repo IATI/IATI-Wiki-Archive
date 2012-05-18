@@ -1,6 +1,0 @@
-====== User pages ======
-
-===== Create your own =====
-When you are logged in, look for your username link at the top-right of the screen. Click this and then select 'Create this page' to fill out your own profile.
-
-===== Browse others =====
