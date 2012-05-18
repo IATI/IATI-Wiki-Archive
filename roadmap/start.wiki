@@ -4,7 +4,7 @@ Any member of the IATI community can add their planned work to this shared roadm
 
 ===== Roadmap Items ====
 
-//The roadmap items below are mostly based on discussions from the [[http://support.iatistandard.org/categories/20036606-tag-workshop-may-2012|2012 TAG meeting]]. If you have more details on any roadmap item, please click through to create the relevant page (you may want to rename the items before clicking through)//
+//The roadmap items below are mostly based on discussions from the [[http://support.iatistandard.org/categories/20036606-tag-workshop-may-2012|2012 TAG meeting]]. If you have more details on any roadmap item, please click through to create the relevant page (you may want to rename the items before clicking through).//
 
 ==== May 2012 ====
   *[[Set up wiki]]
