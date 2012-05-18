@@ -1,1 +1,1 @@
-{{indexmenu>#1|navbar}}
+{{indexmenu>#1|navbar tsort}}
