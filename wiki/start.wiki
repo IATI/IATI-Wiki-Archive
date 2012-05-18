@@ -1,0 +1,47 @@
+====== Contribution Guidelines ======
+
+This site runs dokuwiki. Many pages are open to edits from registered users. Anonymous edits are not allowed.
+
+At present, edits can only be made using wikitext (or the forms provided for editing some pages). Dokuwiki syntax is [[wiki:syntax|described here]].
+
+===== Wiki Sections =====
+The wiki is divided into sections (namespaces), and each namespace should have a default template for pages. When creating or editing a page, please try and stick to the template where possible.
+
+Tip: Simple links (e.g. <code>[[syntax]]</code>) will link to a page of that name in the same namespace. To link between namespace, include the namespace and page name, separate by ':' such as <code>[[tools:aidview]]</code>
+
+==== User pages ====
+Every registered user can create their own user page. See the link at the top-right of the screen to access or create your page.
+
+You are encourages to fill in a brief biography on your user page.
+
+==== Roadmap ====
+The roadmap is a space for shared planning of IATI related activities.
+
+Any registered user can add items to the roadmap to describe activities they are currently involved in.
+
+New pages should be added using the form on the 'Roadmap' page.
+
+==== Community ====
+The community section contains details of individuals and organisations involved in IATI.
+
+Registered users are encouraged to add themselves and/or their organisation to this section.
+
+==== Tools ====
+Anyone can add a new page describing an IATI tool.
+
+Tool creators can request that documentation pages for their tool are access controlled if they wish to limit edits, but where you are able to edit and improve a tool page, you are invited and encouraged to do so.
+
+==== Documentation ====
+The documentation section is maintained by the IATI Technical Secretariat only. Suggested edits should be forwarded to the Technical Secretariat.
+
+===== Editors =====
+
+The wiki is edited by [[user:timdavies|Tim Davies]] and [[user:caprenter|David Carpenter]] who will manage access control settings.
+
+===== Further policies =====
+
+Please note the license for content submitted to this site.
+
+The editors reserve the right to add, edit or remove content at any time.
+
+Content does not represent the views of IATI, The Technical Secretariat or any member of the community unless otherwise noted. 
