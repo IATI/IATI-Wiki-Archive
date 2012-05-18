@@ -12,7 +12,7 @@ There are many different tools developed and currently in development for creati
 
   * [[tools:Validation tools:start]]
 
-==== Consuming IATI data ====
+===== Consuming IATI data =====
 
 Tools for accessing and working with IATI DATa
 
