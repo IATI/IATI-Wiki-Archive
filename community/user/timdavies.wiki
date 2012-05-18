@@ -1,6 +1,6 @@
 ====== Tim Davies ======
 /* Edit this page to create your own profile. */
-
+{{ :community:user:timdavies.jpg?200|}}
 ---- dataentry people ----
 name           : Tim Davies
 organisation   : AidInfo / Practical Participation
