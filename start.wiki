@@ -1,3 +1,4 @@
 ====== International Aid Transparency Documentation Wiki ======
-{{ :iatisupport_avatar.png?155|}}
+{{ ::iatistandard_header_logo.png|}}
+
 [[standard:start|Standard Documentation]] 
