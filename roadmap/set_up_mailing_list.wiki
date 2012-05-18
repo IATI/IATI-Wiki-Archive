@@ -1,0 +1,8 @@
+<- [[:roadmap:start]]
+===== Set up mailing list =====
+Tim will re-purpose the IATI Tools google group:\\
+https://groups.google.com/forum/?fromgroups#!forum/iati-technical
+
+Aidinfo staff will notify their mailing list about the group on Monday 21st May 2012
+
+~~TASK:Matt?2012-05-21!~~
