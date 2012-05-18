@@ -1,0 +1,3 @@
+====== Wiki Config ======
+
+This section contains key configuration files for the wiki layout, headers etc. 
