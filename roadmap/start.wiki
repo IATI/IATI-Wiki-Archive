@@ -1,6 +1,76 @@
 ====== Technical Roadmap ======
 
+Any member of the IATI community can add their planned work to this shared roadmap.
+
+===== Roadmap Items ====
+
+//The roadmap items below are mostly based on discussions from the [[http://support.iatistandard.org/categories/20036606-tag-workshop-may-2012|2012 TAG meeting]]. If you have more details on any roadmap item, please click through to create the relevant page (you may want to rename the items before clicking through)//
+
+==== May 2012 ====
+  *[[Set up wiki]]
+  *[[Set up mailing list]]
+  *[[Relaunch iatistandard.org]]
+  *[[Blog about the TAG]]
+  *[[% things I learnt at the TAG]]
+  *[[CSV tool launch]]
+  *[[Set up public calendar]]
+
+==== June 2012 ====
+  *[[Send 1st newsletter]]
+  *[[Columbia & Honduras]]
+  *[[NGOs publishing IATI data (approx 60)]]
+  *[[Paper on registry updates]]
+  *[[IATI explorer review and consultation]]
+  *[[WP-EFF endorsing Standard?]]
+  *[[Pre-Busan signatories Implementation Schedules]]
+
+==== July 2012 ====
+  *[[DRC]]
+  *[[Newsletter]]
+  *[[Private Sector Workshop]]
+  *[[IATI exchange]]
+  *[[AMP and Aid Data exporter]]
+  *[[UNDCF Side Event]]
+  *[[DAD Community of Practice]]
+  *[[Data Review]]
+  *[[New TAG Coordination]]
+
+==== 2012 August ====
+  *[[Rwanda]]
+  *[[Newsletter]]
+  *[[User Access to compliance tolls]]
+  *[[Learnings from IATI work with Nepalese NGOs]]
+
+==== September 2012 ====
+  *[[IATI Annual Report]]
+  *[[17th - 20th Helsinki]]
+  *[[Newsletter]]
+  *[[Licensing process]]
+
+==== October 2012 ====
+  *[[Standard 1.01]]
+  *[[IATI Steering Committee]]
+  *[[Core TAG Meeting?]]
+  *[[Newsletter]]
+  *[[Busan Partnership Steering Group]]
+  *[[TAG operations manual]]
+
+==== November 2012 ====
+  *[[Newsletter]]
+  *[[Registry update]]
+  *[[PWYF Index launch]]
+
+==== December 2012 ====
+  *[[Newsletter]]
+  *[[Imp Scheds for Busan Standard]]
+  *[[AMP Workshop 10th]]
+  *[[Change of IATI governance and hosting]]
+
+==== January 2013 ====
+  *[[Relaunch of IATI websites]]
 
 
+===== Task list =====
+We have the [[http://www.dokuwiki.org/plugin:task|Dokuwiki Task plugin]] installed which you can use to optionally track the status of roadmap items. Add <code>~~TASK~~</code> to any page in this section to include it in the public task tracker. When changing due dates, be sure to also update the list above.
 
 {{tasks>roadmap}}
