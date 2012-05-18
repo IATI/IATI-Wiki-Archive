@@ -1,8 +1,12 @@
-====== tools:aid_stream ======
+====== Aid Stream ======
 /* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
 
-
-===== Description =====
-
+===== Detailed Description =====
+/* Provide additional details here */
 
 ===== Documentation =====
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
