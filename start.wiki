@@ -5,7 +5,7 @@ Welcome to the [[http://www.aidtransparency.net|International Aid Transparency I
 
 [[http://www.aidtransparency.net|The Initiative]] | [[http://www.iatistandard.org|The Standard]] | [[http://www.iatiregistry.org|The Data (IATI Registry)]] | [[http://support.iatistandard.org|User Support]]
 
-====== On this site ======
+===== On this site =====
 
 [[roadmap:start|Technical Roadmap]] - Our plans over the coming months  
 
