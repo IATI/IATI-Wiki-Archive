@@ -1,2 +1,2 @@
-[[:|home]]
+**[[:|Home]]**
 {{indexmenu>#1|navbar tsort}}
