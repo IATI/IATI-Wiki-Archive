@@ -1,8 +1,15 @@
 ====== Community members ======
 
 
-===== Browse others =====
+===== Who is here =====
 
+---- datatable ----
+cols    : %pageid%, name, organisation, one-line-bio, user_tags
+headers : Details, Name, Organisation, Bio, Tags
+max     : 10
+filter  : type=people
+sort    : name
+----
 
 
 ===== Create your own =====
