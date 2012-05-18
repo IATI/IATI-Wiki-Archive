@@ -2,7 +2,8 @@
 
 The International Aid Transparency Initiative is supported by a small technical secretariat hosted by [[aidinfo]], but the IATI technical community is far wider, including all the organisations and individuals involved in producing, supporting, using and creating tools that work with, IATI data.
 
-===== Technical Community and the TAG ===== The [[TAG|Technical Advisory Group]] (TAG) is made up of both policy and technology specialists who are invited to an (approximately) annual face-to-face meeting to discuss the IATI standard and it's development.
+===== Technical Community and the TAG ===== 
+The [[TAG|Technical Advisory Group]] (TAG) is made up of both policy and technology specialists who are invited to an (approximately) annual face-to-face meeting to discuss the IATI standard and it's development.
 
 There is a strong overlap between the TAG membership, and those in the wider IATI technical community, but you do not need to be a formal TAG member to contribute to this wiki.
 
