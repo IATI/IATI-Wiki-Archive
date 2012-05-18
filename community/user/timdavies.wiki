@@ -1,7 +1,7 @@
 ====== Tim Davies ======
 /* Edit this page to create your own profile. */
 
-----data people ----
+---- dataentry people ----
 name: Tim Davies
 organisation: AidInfo / Practical Participation
 website_url: http://www.timdavies.org.uk
