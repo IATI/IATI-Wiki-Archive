@@ -1,0 +1,3 @@
+====== Sandbox ======
+
+Want to experiment with Dokuwiki? You can create and edit pages in this section.
