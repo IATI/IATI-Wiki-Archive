@@ -9,7 +9,7 @@ twitter_url    : http://www.twitter.com/timdavies
 one-line-bio   : Part-time contracted to AidInfo; providing research, development and technical for IATI
 email          : tim@practicalparticipation.co.uk
 lastupdated_dt : 
-tags_tags      : technical, policy, tools, usability 
+user_tags      : technical, policy, tools, usability 
 ----
 
 ===== More detail =====
