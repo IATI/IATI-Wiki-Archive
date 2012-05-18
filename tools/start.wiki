@@ -1,0 +1,24 @@
+====== IATI Tools ======
+
+There are many different tools developed and currently in development for creating, validating and consuming IATI data. This page provides links to those tools right now, and will be developed to provide detailed documentation on tools soon.
+
+===== Creating IATI Data =====
+
+  * [[tools:Aid Stream:start]]
+  * [[tools:Open Aid Register:start]]
+  * [[tools:CSV Conversion Tool:start]]
+
+===== Validating and managing data quality =====
+
+  * [[tools:Validation tools:start]]
+
+==== Consuming IATI data ====
+
+Tools for accessing and working with IATI DATa
+
+=== APIs ===
+
+  * [[tools:IATI Explorer:start]]
+  * [[tools:OIPA:start]]
+
+//To be completed//
