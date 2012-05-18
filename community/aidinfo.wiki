@@ -8,6 +8,6 @@ AidInfo is a member of the IATI Technical Community. AidInfo is a program of Dev
 cols    : %pageid%, name, organisation, one-line-bio, user_tags
 headers : Details, Name, Organisation, Bio, Tags
 max     : 10
-filteror  : organisation=AidInfo*, organisation=AidInfo
+filteror  : organisation=AidInfo*
 sort    : name
 ----
