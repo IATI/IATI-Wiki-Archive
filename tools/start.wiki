@@ -16,9 +16,19 @@ There are many different tools developed and currently in development for creati
 
 Tools for accessing and working with IATI DATa
 
+=== Interfaces ===
+  * [[tools:AidView:start]]
+  * [[tools:IATI Explorer:start]]
+
 === APIs ===
 
   * [[tools:IATI Explorer:start]]
   * [[tools:OIPA:start]]
+  * [[tools:AidView:API|AidView API]]
 
-//To be completed//
+
+=== Conversion Tools ===
+  * [[tools:xslt:start|Format Conversions]], including [[tools:xslt:CSV Exporter]] tool linked from IATI Registry
+  * [[tools:linked data:start|Linked Data conversion]]
+
+=== IATI Data on Third Party Platforms ===
