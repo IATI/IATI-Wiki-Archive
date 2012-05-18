@@ -1,0 +1,8 @@
+~~TASK~~
+
+We recognise there are problems with the current [[http://iatistandard.org|iatistandard.org]] website.
+
+A review and rebuild has been underway for a while and a go live date has been set for 5th June 2012.
+
+Progress on the development site can be seen at:
+http://dev.iatistandard.org
