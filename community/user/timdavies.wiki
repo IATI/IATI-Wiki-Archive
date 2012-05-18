@@ -7,7 +7,7 @@ organisation : AidInfo / Practical Participation
 website_url  : http://www.timdavies.org.uk
 twitter_url  : http://www.twitter.com/timdavies
 one-line-bio : Part-time contracted to AidInfo; providing research, development and technical for IATI
-email_mail   : tim@practicalparticipation.co.uk
+e_mail   : tim@practicalparticipation.co.uk
 lastupdated  : 2012/05/18 10:39
 ----
 
