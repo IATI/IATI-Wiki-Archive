@@ -10,8 +10,10 @@ There are many different tools developed and currently in development for creati
 
 ===== Validating and managing data quality =====
 
-  * [[tools:Validation tools:start]]
+Validation Tools are used to check the quality of data formatted to the IATI Standard.
 
+  *[[:tools:XML Validation:start]]
+  *[[:tools:Batch processing:start]]
 ===== Consuming IATI data =====
 
 Tools for accessing and working with IATI Data
