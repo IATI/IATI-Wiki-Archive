@@ -1,6 +1,0 @@
-<- [[:tools:start]]
-=====Validation Tools=====
-Validation Tools are used to check the quality of data formatted to the IATI Standard.
-
-  *[[:tools:XML Validation:start]]
-  *[[:tools:Batch processing:start]]
