@@ -14,3 +14,7 @@ Welcome to the [[http://www.aidtransparency.net|International Aid Transparency I
 [[tools:start|IATI tools]] - tools for creating, validating and consuming IATI data
 
 [[standard:start|Standard documentation]]
+
+===== Discussion list ======
+
+The [[community:mailing list]] will be used for discussion of updates to the standard, notification of changes, and discussion of key technical issues.
