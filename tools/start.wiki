@@ -14,7 +14,7 @@ There are many different tools developed and currently in development for creati
 
 ===== Consuming IATI data =====
 
-Tools for accessing and working with IATI DATa
+Tools for accessing and working with IATI Data
 
 === Interfaces ===
   * [[tools:AidView:start]]
