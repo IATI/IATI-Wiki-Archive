@@ -4,7 +4,7 @@
 ---- dataentry people ----
 name: David Carpenter
 
-organisation: aidinfo / freelance
+organisation: aidinfo / consultant
 
 website_url:
 
