@@ -3,10 +3,11 @@
 
 ===== Who is here =====
 
----- datatable ----
+---- datatable people ----
 cols    : %pageid%, name, organisation, one-line-bio, user_tags
 headers : Details, Name, Organisation, Bio, Tags
 max     : 10
+filter  :
 sort    : name
 ----
 
