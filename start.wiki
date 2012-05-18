@@ -18,3 +18,5 @@ Welcome to the [[http://www.aidtransparency.net|International Aid Transparency I
 ===== Discussion list ======
 
 The [[community:mailing list]] will be used for discussion of updates to the standard, notification of changes, and discussion of key technical issues.
+
+You can also follow updates from the [[https://twitter.com/iati_tag|IATI Tag]] Twitter account. 
