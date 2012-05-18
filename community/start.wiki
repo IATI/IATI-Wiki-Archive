@@ -1,4 +1,4 @@
-====== The IATI Technical Community ======
+====== Technical Community ======
 
 The International Aid Transparency Initiative is supported by a small technical secretariat hosted by [[aidinfo]], but the IATI technical community is far wider, including all the organisations and individuals involved in producing, supporting, using and creating tools that work with, IATI data.
 
