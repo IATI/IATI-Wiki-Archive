@@ -1,2 +1,2 @@
 ====== Standard Documentation: Version 1.0 ======
-{{for version 1-0}}
+{{for version 1.0}}
