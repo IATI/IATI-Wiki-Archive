@@ -19,12 +19,13 @@ Tools for accessing and working with IATI DATa
 === Interfaces ===
   * [[tools:AidView:start]]
   * [[tools:IATI Explorer:start]]
+  * [[tools:Open Aid:start|OpenAid]]
 
 === APIs ===
 
-  * [[tools:IATI Explorer:start]]
+  * [[tools:IATI Explorer:start]] (including Android client libraries)
   * [[tools:OIPA:start]]
-  * [[tools:AidView:API|AidView API]]
+  * [[tools:Open Aid:API|AidView API]]
 
 
 === Conversion Tools ===
@@ -32,3 +33,4 @@ Tools for accessing and working with IATI DATa
   * [[tools:linked data:start|Linked Data conversion]]
 
 === IATI Data on Third Party Platforms ===
+  * [[tools:Open Spending:start]]
