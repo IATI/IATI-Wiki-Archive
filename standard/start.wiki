@@ -1,4 +1,10 @@
-====== Standard Documentation ======
+====== IATI Standard Documentation ======
+==== Current Documentation ====
+All documentation about the IATI Standard can be found on the official website: \\
+http://www.iatistandard.org
+
+==== Future Documentation ====
+We recognise the need to version our documentation over time, and see this wiki as an opportunity to achieve this. 
 
 Select your version
 
