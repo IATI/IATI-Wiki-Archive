@@ -11,13 +11,12 @@ Any member of the IATI community can add their planned work to this shared roadm
   *[[Set up mailing list]]
   *[[Relaunch iatistandard.org]]
   *[[Blog about the TAG]]
-  *[[% things I learnt at the TAG]]
   *[[CSV tool launch]]
   *[[Set up public calendar]]
 
 ==== June 2012 ====
-  *[[Send 1st newsletter]]
-  *[[Columbia & Honduras]]
+  *[[Newsletter|Send 1st newsletter]]
+  *[[Pilots in Columbia & Honduras]]
   *[[NGOs publishing IATI data (approx 60)]]
   *[[Paper on registry updates]]
   *[[IATI explorer review and consultation]]
@@ -25,10 +24,10 @@ Any member of the IATI community can add their planned work to this shared roadm
   *[[Pre-Busan signatories Implementation Schedules]]
 
 ==== July 2012 ====
-  *[[DRC]]
+  *[[DRC Pilot]]
   *[[Newsletter]]
   *[[Private Sector Workshop]]
-  *[[IATI exchange]]
+  *[[tool:IATI Exchange:start]]
   *[[AMP and Aid Data exporter]]
   *[[UNDCF Side Event]]
   *[[DAD Community of Practice]]
@@ -36,21 +35,21 @@ Any member of the IATI community can add their planned work to this shared roadm
   *[[New TAG Coordination]]
 
 ==== 2012 August ====
-  *[[Rwanda]]
+  *[[Pilot in Rwanda]]
   *[[Newsletter]]
   *[[User Access to compliance tolls]]
   *[[Learnings from IATI work with Nepalese NGOs]]
 
 ==== September 2012 ====
   *[[IATI Annual Report]]
-  *[[17th - 20th Helsinki]]
+  *Event:[[OKFest in Helsinki]], 17th - 22nd September
   *[[Newsletter]]
   *[[Licensing process]]
 
 ==== October 2012 ====
   *[[Standard 1.01]]
   *[[IATI Steering Committee]]
-  *[[Core TAG Meeting?]]
+  *[[Core TAG Meeting]] (?)
   *[[Newsletter]]
   *[[Busan Partnership Steering Group]]
   *[[TAG operations manual]]
