@@ -1,4 +1,16 @@
-====== International Aid Transparency Documentation Wiki ======
+====== International Aid Transparency Initiative Documentation ======
 {{ ::iatistandard_header_logo.png|}}
 
-[[standard:start|Standard Documentation]] 
+Welcome to the [[http://www.aidtransparency.net|International Aid Transparency Initiative]] technical documentation wiki. 
+
+[[http://www.aidtransparency.net|The Initiative]] | [[http://www.iatistandard.org|The Standard]] | [[http://www.iatiregistry.org|The Data (IATI Registry)]] | [[http://support.iatistandard.org|User Support]]
+
+====== On this site ======
+
+[[roadmap:start|Development roadmap]]
+
+[[community:start|The technical community]] - details of everyone involved in working on IATI
+
+[[tools:start|IATI tools]] - tools for creating, validating and consuming IATI data
+
+[[standard:start|Standard documentation]]
