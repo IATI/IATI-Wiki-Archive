@@ -18,3 +18,8 @@ Available from the repository. See below.
 https://github.com/caprenter/IATI-Data-Spotter
 
 There is discussion about whether or not a public interface should be added to the tool to enable people to upload their own files and check them themselves, or whether this should just be a public interface onto all the data in the [[http://iatiregistry.org|registry]], or both.
+
+=== API plans ===
+
+Some thoughts on running these scripts on a nightly basis to create a database of statistics on data quality:
+http://pwyf.okfnpad.org/IATI-API
