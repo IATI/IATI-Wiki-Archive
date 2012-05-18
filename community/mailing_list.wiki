@@ -1,6 +1,8 @@
 ====== IATI Technical Mailing List ======
 
-The IATI Technical Mailing list is [[https://groups.google.com/d/forum/iati-technical|hosted on Google Groups]].
+The IATI Technical Mailing list is [[https://groups.google.com/d/forum/iati-technical|hosted on Google Groups]]. 
+
+**[[https://groups.google.com/group/iati-technical?hl=en-GB|Subscribe here]].**
 
 All members of the technical community are encouraged to join this list which will include:
 
@@ -13,7 +15,3 @@ Members are encouraged to announce any project plans, significant released of so
 Subscriptions can be set to digest mode for a daily or weekly summary of messages. 
 
 Important messages will be sent as announcements.
-
-===== Recent discussions =====
-
-{{rss>https://groups.google.com/group/iati-technical/feed/rss_v2_0_topics.xml}}
