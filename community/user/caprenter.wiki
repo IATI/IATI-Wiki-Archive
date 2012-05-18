@@ -1,0 +1,30 @@
+====== David Carpenter ======
+/* Edit this page to create your own profile. */
+
+---- dataentry people ----
+name: David Carpenter
+
+organisation:
+
+website_url:
+
+twitter_url:
+
+email_mail: caprenter@gmail.com
+
+one-line-bio: Working under contract to the IATI team since October 2011.
+
+user_tags:   #<-Enter comma separated key words about your involvement in IATI
+----
+
+===== More detail =====
+
+Working under contract to the IATI team since October 2011.
+
+Generally working on data issues, helping people publish and check the quality of their data.
+
+Code for anything I have worked on for IATI is on my GitHub:
+https://github.com/caprenter
+
+
+
