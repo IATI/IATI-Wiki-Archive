@@ -13,4 +13,4 @@ Regular discussion takes place on the [[mailing list]].
 
 ===== Organisations and individuals =====
 
-Please add yourself to the list below by either [[community members#create_your_own|creating and linking to your user page]], or [[creating a page for your organisation]]. 
+Please add yourself to the list below by either [[community:start#create_your_own|creating and linking to your user page]], or [[creating a page for your organisation]]. 
