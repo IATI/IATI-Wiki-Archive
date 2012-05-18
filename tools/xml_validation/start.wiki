@@ -1,0 +1,39 @@
+===== XML Validation =====
+
+==== xmllint ====
+[[http://xmlsoft.org/xmllint.html|xmllint]] is a command line tool that can be used to check xml files for validation against the IATI Standard xml schemas.
+
+=== Examples ===
+Test an xml file against a schema  
+  
+  xmllint --noout --schema  http://iatistandard.org/downloads/iati-activities-schema.xsd some_data_file.xml
+  xmllint --noout --schema  http://iatistandard.org/downloads/iati-organisations-schema.xsd some_data_file.xml
+  
+To send the errors to a file
+
+  xmllint --noout --schema  http://iatistandard.org/downloads/iati-activities-schema.xsd some_data_file.xml 2> errors.txt
+  
+To make an XML file more readable in your text editor:
+
+  xmllint --format --recover input_file.xml > output_file.xml
+ 
+
+==== IATI-Data-Spotter ====
+/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+This is a PHP application that can be run on a web-server to run checks over batches of data. \\
+Currently the source code is available, but there is not a public interface.\\
+The application parses XML files into memory before running routines so can be quite memory intensive.\\
+Creator: [[community:user:caprenter]]
+
+=== Detailed Description ===
+/* Provide additional details here */
+
+=== Documentation ===
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+Available from the repository. See below.
+
+=== Links, source code and development plans ===
+/* Please provide links to any source code, additional resources, or development plans*/
+https://github.com/caprenter/IATI-Data-Spotter
+
+There is discussion about whether or not a public interface should be added to the tool to enable people to upload their own files and check them themselves, or whether this should just be a public interface onto all the data in the [[http://iatiregistry.org|registry]], or both.
