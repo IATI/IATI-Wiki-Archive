@@ -1,0 +1,27 @@
+====== John Adams ======
+/* Edit this page to create your own profile. */
+
+---- dataentry people ----
+name: John Adams
+
+organisation: Department for International Development (DFID)
+
+website_url: www.dfid.gov.uk
+
+twitter_url: www.twitter.com/johnthegeo
+
+email_mail: J-adams@dfid.gov.uk
+
+one-line-bio: CTO and technology lead for DFID's transparency initiatives.
+
+user_tags:   #<-Enter comma separated key words about your involvement in IATI
+----
+
+===== More detail =====
+/* You might like to include details of projects you work on, or more about your engagement with IATI here. */
+
+
+
+
+
+
