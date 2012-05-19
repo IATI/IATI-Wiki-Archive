@@ -1,0 +1,17 @@
+<- [[:roadmap:start]]
+
+====== Set up public calendar ======
+
+We have a number of options:
+
+  - Create a Google Calendar and give specific people permission to add to it;
+  -  Adapt the [[http://dokuwiki.org/plugin:noticeboard|Noticeboard]] plugin to allow a calendar to be created through Dokuwiki
+    * A source copy of the module exists on Google code, but it is not currently maintained. It can output iCal, but would need some tweaks to work for our purposes. It can have multi-day events
+  -  Adapt the [[http://dokuwiki.org/plugin:task]] module to provide an iCal output
+    * Tasks allows single day entries (so not good for multi-day events), but could fairly easily be adapted to have an iCal output
+
+Using the iCal module for dokuwiki we can display calendars on the Wiki. We could use (1) for events, and (3) for tasks.
+
+
+~~TASK:Tim Davies?2012-05-31~~
+
