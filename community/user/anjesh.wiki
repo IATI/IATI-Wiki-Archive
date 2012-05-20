@@ -2,19 +2,13 @@
 /* Edit this page to create your own profile. */
 
 ---- dataentry people ----
-name: Anjesh Tuladhar
-
-organisation: YoungInnovations Pvt. Ltd.
-
-website_url: www.younginnovations.com.np
-
-twitter_url: anjesh
-
-email_mail: anjeshtuladhar@gmail.com
-
-one-line-bio: Involved in IATI since 2 years and head AidStream development team
-
-user_tags:   #<-Enter comma separated key words about your involvement in IATI
+name         : Anjesh Tuladhar
+organisation : YoungInnovations Pvt. Ltd.
+website_url  : http://www.younginnovations.com.np
+twitter_url  : http://anjesh
+email_mail   : anjeshtuladhar@gmail.com
+one-line-bio : Involved in IATI since 2 years and heading AidStream development team
+user_tags    :  #<-Enter comma separated key words about your involvement in IATI
 ----
 
 ===== More detail =====
