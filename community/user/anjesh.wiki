@@ -7,7 +7,7 @@ organisation : YoungInnovations Pvt. Ltd.
 website_url  : http://www.younginnovations.com.np
 twitter_url  : http://anjesh
 email_mail   : anjeshtuladhar@gmail.com
-one-line-bio : Involved in IATI since 2 years and heading AidStream development team
+one-line-bio : COO and AidStream development team lead
 user_tags    :  #<-Enter comma separated key words about your involvement in IATI
 ----
 
