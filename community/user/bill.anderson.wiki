@@ -1,0 +1,26 @@
+====== Bill Anderson ======
+/* Edit this page to create your own profile. */
+
+---- dataentry people ----
+name: Bill Anderson
+
+organisation: AidInfo
+
+website_url: www.aidinfo.org
+
+twitter_url: https://twitter.com/#!/isiAfrica
+
+email_mail: bill.anderson@devinit.org
+
+one-line-bio: Working on the standard, publisher implementation, automatic data exchange and IFMIS integration.
+
+user_tags:   #<-Enter comma separated key words about your involvement in IATI
+----
+
+===== More detail =====
+/* You might like to include details of projects you work on, or more about your engagement with IATI here. */
+
+
+
+
+
