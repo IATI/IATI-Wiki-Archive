@@ -1,0 +1,7 @@
+A number of [[http://en.wikipedia.org/wiki/Development_finance_institution|development finance institutions]] are planning (or considering) to publish to IATI. This includes [[http://www.cdcgroup.com/|CDC]], [[http://www.ifc.org|IFC]], [[http://www.swedfund.se/en/|Swedfund]], [[http://www.eib.org/|EIB]], and [[http://www.kfw.de/kfw/en/Development_Finance/index.jsp|KfW]].
+
+We are currently looking to organise a workshop to bring these organisations, and others, together to discuss how IATI can properly encompass private sector flows.
+
+One issue for IATI is to modify our transaction types to allow for the reporting of the purchase and sale of equity. An issue for the private sector is to develop a fair and pragmatic exclusion policy that is a little more specific than "commercial confidentiality".
+
+This initiative is being coordinated by [[community:user:bill.anderson|Bill Anderson]].
