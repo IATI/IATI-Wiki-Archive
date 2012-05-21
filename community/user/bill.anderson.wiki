@@ -1,6 +1,6 @@
 ====== Bill Anderson ======
 /* Edit this page to create your own profile. */
-{{:community:user:billanderson.jpg?200|}}
+{{ :community:user:billanderson.jpg?200|}}
 ---- dataentry people ----
 name         : Bill Anderson
 organisation : AidInfo
