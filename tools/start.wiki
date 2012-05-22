@@ -36,3 +36,7 @@ Tools for accessing and working with IATI Data
 
 === IATI Data on Third Party Platforms ===
   * [[tools:Open Spending:start]]
+
+=== Other ===
+  * [[tools: IATI-Registry-Refresher:start]]
+  * [[tools: Show my iati data:start]]
