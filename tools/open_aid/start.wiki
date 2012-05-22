@@ -9,6 +9,6 @@ Openaid.nl is an initiative of [[http://www.akvo.org|Akvo.org]], a Dutch non-pro
 
 
 ===== Links, source code and development plans =====
-You can find the [[https://www.gnu.org/licenses/agpl-3.0.html|AGPL licensed code]] for both the User Interface for openaid.nl at [[https://github.com/openaid-IATI/OIPA|Github]]. You will also find the OIPA webservice which you can download, use and test with. OIPA is also released under the [[https://www.gnu.org/licenses/agpl-3.0.html|AGPL licence]].
+You can find the [[https://www.gnu.org/licenses/agpl-3.0.html|AGPL licensed code]] for both the User Interface for openaid.nl at [[https://github.com/openaid-IATI/|Github]]. You will also find the [[https://github.com/openaid-IATI/|OIPA webservice]] which you can download, use and test with. OIPA is also released under the [[https://www.gnu.org/licenses/agpl-3.0.html|AGPL licence]].
 
  
