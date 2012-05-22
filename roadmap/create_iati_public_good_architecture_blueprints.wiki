@@ -1,0 +1,24 @@
+<- [[:roadmap:start]]
+
+====== Create IATI public good architecture blueprints ======
+
+The IATI public good infrastructure may involve:
+
+  * Tools to aggregate and process IATI data
+  * A data store
+  * APIs onto that data
+  * Convenience services for working with the data
+  * Basic visualisation services
+  * E-mail alerts
+
+These are all services which it makes sense to either 
+  * (a) provide once centrally; 
+  * (b) which have the properties of being diminishable public goods; 
+  * (c) provide as interchangeable layers of an infrastructure;
+
+As a number of different projects develop that work with IATI data, articulating a shared blueprint for how tools should work together will be beneficial. 
+
+~~TASK:Tim Davies?2012-06-22!~~
+
+
+
