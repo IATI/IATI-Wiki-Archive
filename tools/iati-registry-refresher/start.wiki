@@ -1,0 +1,25 @@
+====== IATI-Registry-Refresher  ======
+/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+A tool to grab a snapshot of data from the IATI Registry.\\
+Creator: [[community:user:caprenter]]
+
+===== Detailed Description =====
+/* Provide additional details here */
+This is really a collection of php and shell scripts that can be run to get you some fresh data from the registry.\\
+It will:
+  * fetch a list of groups publishing on the registry
+  * fetch the URLs of all the files each group is publishing
+  * fetch all the XML data from each of those urls and save them in a useful directory structure
+
+===== Documentation =====
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+https://github.com/caprenter/IATI-Registry-Refresher/blob/master/README
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
+Released under the GNU General Public License\\
+https://github.com/caprenter/IATI-Registry-Refresher
+
+There are no great plans for this. If you can take it and improve it, please do! I often adapt it to just pull data from a single publisher.
+
+People are working with the registry and the CKAN API to look at how they can be notified of general updates to keep their data fresh. These tools are not really meant to do that.
