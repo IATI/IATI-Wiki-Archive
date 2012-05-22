@@ -1,5 +1,5 @@
 ===== What is OpenAid NL? =====
-In September 2011 the Dutch Ministry of Foreign Affairs started publishing data on all the development aid projects it finances. The data is published in the international IATI standard which is easy for computers to read, but very hard for humans. On openaid.nl the information is made accessible using a web-interface. The web-interface is powered by OIPA, a webservice that runs from the OIPA network.
+In September 2011 the Dutch Ministry of Foreign Affairs started publishing data on all the development aid projects it finances. The data is published in the international IATI standard which is easy for computers to read, but very hard for humans. On openaid.nl the information is made accessible using a web-interface. The web-interface is powered by OIPA, a webservice that runs from the [[tools:oipa:start|OIPA]] network.
 
 
 ===== History =====
@@ -11,6 +11,6 @@ Openaid.nl was initiated by [[http://www.akvo.org|Akvo.org]], a Dutch non-profit
 ===== Links, source code and development plans =====
 You can find the [[https://www.gnu.org/licenses/agpl-3.0.html|AGPL licensed code]] for both the User Interface for openaid.nl at [[https://github.com/openaid-IATI/|Github]]. You will also find the [[https://github.com/openaid-IATI/|OIPA webservice]] which you can download, use and test with. OIPA is also released under the [[https://www.gnu.org/licenses/agpl-3.0.html|AGPL licence]].
 
-Developments for 2012 will consist of producing openaidsearch (operational late June 2012) which will also be powered by OIPA.
+Developments for 2012 will consist of producing openaidsearch (operational late June 2012) which will also be powered by [[tools:oipa:start|OIPA]].
 
  
