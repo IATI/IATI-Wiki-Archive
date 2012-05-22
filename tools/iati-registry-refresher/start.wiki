@@ -22,4 +22,5 @@ https://github.com/caprenter/IATI-Registry-Refresher
 
 There are no great plans for this. If you can take it and improve it, please do! I often adapt it to just pull data from a single publisher.
 
-People are working with the registry and the CKAN API to look at how they can be notified of general updates to keep their data fresh. These tools are not really meant to do that.
+People are working with the registry and the CKAN API to look at how they can be notified of general updates to keep their data fresh.\\
+These tools are not really meant to do that.
