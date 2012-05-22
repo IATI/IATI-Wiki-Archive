@@ -26,7 +26,6 @@ REST calls examples OIPA network:
   * http://search-api-data.openaid.nl/api/data/activity/?sector=Public%20finance%20management |Shows all activities in the sector “Public finance management”
   * http://search-api-data.openaid.nl/api/data/transaction/?activity_id=2 | Shows all transactions within a activity (id=2)
   * http://search-api-data.openaid.nl/api/data/transaction/?activity_id=2&transaction_date__gte=2010-12-31 | Shows all transactions within a activity (id=2) and later than 2010-12-31
-  * http://search-api-data.openaid.nl/api/data/transaction/?activity_id=2&transaction_date__gte=2009-12-31&value__gte=300000 | Shows all all transactions within a activity (id=2) and later than 2009-12-31 and budget more than €3.000.000 
   * http://search-api-data.openaid.nl/api/data/activity/?description__contains=water&title__contains=DMV|RESKI | 
   * http://search-api-data.openaid.nl/api/data/activity/?description__contains=water&title__contains=DMV&title__contains=RESKI |
 
@@ -40,4 +39,4 @@ After decoding the JSON into variables, the data can be used in a HTML page (eg 
 
 
 ===== Links, source code and development plans =====
-/* Please provide links to any source code, additional resources, or development plans*/
+To do! (soon..)
