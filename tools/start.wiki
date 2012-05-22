@@ -21,7 +21,7 @@ Tools for accessing and working with IATI Data
 === Interfaces ===
   * [[tools:AidView:start]]
   * [[tools:IATI Explorer:start]]
-  * [[tools:Open Aid:start|OpenAid]]
+  * [[tools:Open Aid:start|OpenAidNL]]
 
 === APIs ===
 
