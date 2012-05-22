@@ -3,12 +3,14 @@ In September 2011 the Dutch Ministry of Foreign Affairs started publishing data 
 
 
 ===== History =====
-Openaid.nl is an initiative of [[http://www.akvo.org|Akvo.org]], a Dutch non-profit organisation dedicated to developing internet and mobile tools that make aid more efficient and transparent.
+Openaid.nl was initiated by [[http://www.akvo.org|Akvo.org]], a Dutch non-profit organisation dedicated to developing internet and mobile tools that make aid more efficient and transparent.
 
 [[http://www.zimmermanzimmerman.nl|Zimmerman & Zimmerman]] is a dutch design and consultancy firm that develops online concepts. They where responsible for developing the concept, the design and the technical development of [[http://www.openaid.nl|openaid.nl]].
 
 
 ===== Links, source code and development plans =====
 You can find the [[https://www.gnu.org/licenses/agpl-3.0.html|AGPL licensed code]] for both the User Interface for openaid.nl at [[https://github.com/openaid-IATI/|Github]]. You will also find the [[https://github.com/openaid-IATI/|OIPA webservice]] which you can download, use and test with. OIPA is also released under the [[https://www.gnu.org/licenses/agpl-3.0.html|AGPL licence]].
+
+Developments for 2012 will consist of producing openaidsearch (operational late June 2012) which will also be powered by OIPA.
 
  
