@@ -26,7 +26,7 @@ Tools for accessing and working with IATI Data
 === APIs ===
 
   * [[tools:IATI Explorer:start]] (including Android client libraries)
-  * [[tools:OIPA:start]] (OpenAid NL)
+  * [[tools:OIPA:start]] (OpenAidNL)
   * [[tools:Open Aid:API|AidView API]]
 
 
