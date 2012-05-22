@@ -5,3 +5,10 @@
 Is there an easy way to find out which datasets are currently handled in the OIPA network, or when the data was last updated? 
 
  --- //[[tim@practicalparticipation.co.uk|Tim Davies]] 2012/05/22 10:29//
+
+Not yet. We are devicing a workflow where each and every imported IATI set has its own unique id in the OIPA network. The current setup on the parser side is very manual: download, grab, ingest and done. This process must be automated. We are thinking in the lines of auto-pick URI for each IATI id in the OIPA network, API key for each unique id etc. This is somewhere in the middle of our requirements list ;-)
+
+Once the sets all have unique id's, API keys tracing and monitoring them will become more easy to handle.
+
+
+ --- //[[siem@zimmermanzimmerman|Siem Vaessen]] 2012/05/22 14:11//
