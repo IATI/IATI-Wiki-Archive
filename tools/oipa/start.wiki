@@ -1,5 +1,5 @@
 ====== OIPA ======
-OIPA stands for Openaid IATI Parser and API. It has been developed within the [[tools:open_aid:start | OpenAid NL]]project
+OIPA stands for Openaid IATI Parser and API. It has been developed within the [[tools:open_aid:start | OpenAid NL]] project. 
 
 
 ===== Detailed Description =====
