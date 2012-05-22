@@ -1,7 +1,7 @@
 ====== Tool Name ======
 /* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
 
-[http://aidstream.org AidStream]
+[[AidStream]][[www.aidstream.org]]
 
 ===== Detailed Description =====
 /* Provide additional details here */
