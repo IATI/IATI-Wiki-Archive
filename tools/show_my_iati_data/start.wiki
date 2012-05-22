@@ -1,0 +1,23 @@
+====== Show my iati data (Preview Tool) ======
+/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+A small script to try to make IATI XML a bit more human readable.\\
+Currently employed as the 'preview tool', linked when people click 'Preview' on the registry\\
+Creator: [[community:user:caprenter]]
+
+===== Detailed Description =====
+/* Provide additional details here */
+A simple PHP tool that you can throw up on a server. You can submit a URL to the application. If it has IATI data at the end of it, it is parsed and a data tree is produced that can be navigated (requires javascript)\\
+See it in action: http://tools.aidinfolabs.org/showmydata/ \\
+Example: http://tools.aidinfolabs.org/showmydata/index.php?url=http://projects.dfid.gov.uk/iati/Region/289
+
+It is limited in that it loads files into memory to parse and manipulate them. Very large XML files cause it problems. 
+
+===== Documentation =====
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+https://github.com/caprenter/showmyiatidata/blob/master/README
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
+https://github.com/caprenter/showmyiatidata
+
+Easy access, human readable tools, are a constant source of discussion. No development of this tool is planned.
