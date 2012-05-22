@@ -15,7 +15,7 @@ OIPA enables IATI standard compliant datasets to easily parse and interface IATI
   * The datamodel residing in MySQL contains different IATI sets that have been mapped in the parser.
   * The API enables web-platforms to easily interface using REST calls to pick up data.
 
-
+At present the OIPA network holds data from the Dutch Ministry of Foreign Affairs. 
 
 ===== Documentation & examples =====
 
