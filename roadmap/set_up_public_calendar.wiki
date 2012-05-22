@@ -9,8 +9,10 @@ We have a number of options:
     * A source copy of the module exists on Google code, but it is not currently maintained. It can output iCal, but would need some tweaks to work for our purposes. It can have multi-day events
   -  Adapt the [[http://dokuwiki.org/plugin:task]] module to provide an iCal output
     * Tasks allows single day entries (so not good for multi-day events), but could fairly easily be adapted to have an iCal output
+  - Use the [[http://lanyrd.com/guides/open-aid-data/|"Open Aid Data" guide on Lanyrd]] or set up an IATI-specific guide.
+    * Makes it easier to make events more discoverable, and to connect people.
 
-Using the iCal module for dokuwiki we can display calendars on the Wiki. We could use (1) for events, and (3) for tasks.
+Using the iCal module for dokuwiki we can display calendars on the Wiki. We could use (1) and/or (4) for events, and (3) for tasks.
 
 
 ~~TASK:Tim Davies?2012-05-31~~
