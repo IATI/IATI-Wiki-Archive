@@ -22,4 +22,4 @@ The [[community:mailing list]] will be used for discussion of updates to the sta
 You can also follow updates from the [[https://twitter.com/iati_tag|IATI Tag]] Twitter account. 
 
 ===== Recent changes and new pages =====
-{{rss>http://wiki.iatistandard.org/feed.php 5 author date 3h}}
+{{rss>http://wiki.iatistandard.org/feed.php 5 author date 1h}}
