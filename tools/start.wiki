@@ -39,4 +39,4 @@ Tools for accessing and working with IATI Data
 
 === Other ===
   * [[tools: IATI-Registry-Refresher:start]]
-  * [[tools: Show my iati data (Preview tool):start]]
+  * [[tools: Show my iati data:start| Show my iati data (Preview Tool)]]
