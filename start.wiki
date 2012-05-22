@@ -20,3 +20,6 @@ Welcome to the [[http://www.aidtransparency.net|International Aid Transparency I
 The [[community:mailing list]] will be used for discussion of updates to the standard, notification of changes, and discussion of key technical issues.
 
 You can also follow updates from the [[https://twitter.com/iati_tag|IATI Tag]] Twitter account. 
+
+===== Recent changes and new pages =====
+{{rss>http://wiki.iatistandard.org/feed.php}}
