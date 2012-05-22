@@ -1,0 +1,18 @@
+<- [[:roadmap:start]]
+
+====== Survey of donors ======
+
+At the 2012 TAG meeting in Cookham, there were discussions about the need to better understand:
+
+  * How donors currently manage their aid information (e.g. what software platforms are they using)
+  * How donors currently visualise their aid information
+  * Any plans donors had to develop new tools to visualise and use their aid information
+
+This could help support better collaboration between donors.
+
+At present, this is an idea only, and we need to decide if this should be a job for the TAG, Secretariat, or an independent party. 
+
+~~TASK:Tim Davies?2012-07-31~~
+
+
+
