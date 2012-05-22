@@ -1,8 +1,12 @@
 ====== Tool Name ======
 /* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
 
+[[AidStream]]
+
 ===== Detailed Description =====
 /* Provide additional details here */
+
+AidStream is a platform for organisations that wish to publish aid data in International Aid Transparency Initiative (IATI) format without getting into the complexities of IATI
 
 ===== Documentation =====
 /* Provide links to documentation, or use the wiki to develop documentation of this tool. */
