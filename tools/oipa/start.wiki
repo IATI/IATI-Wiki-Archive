@@ -1,12 +1,17 @@
 ====== OIPA ======
-OIPA stands for Openaid IATI Parser and API. It has been developed within the [[tools:open_aid:start | OpenAid NL]] project. 
+OIPA stands for Openaid IATI Parser and API. It has been developed within the [[tools:open_aid:start | OpenAid NL]] project and runs as an open webservice.
 
 
 ===== Detailed Description =====
-/* Provide additional details here */
+OIPA enables IATI standard compliant datasets to easily parse and interface IATI compliant data. OIPA runs as a webservice, which is being reffered to as the OIPA network. OIPA consists of several software components which are dependent on each other.
+
+  * Parser makes the IATI compliant available xml datasets available in the non xml database MySQL.
+  * The datamodel residing in MySQL contains different IATI sets that have been mapped in the parser.
+  * The API enables web-platforms to easily interface using REST calls to pick up data.
+
+
 
 ===== Documentation =====
-/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
 
 
 ===== Links, source code and development plans =====
