@@ -5,8 +5,9 @@ URL: [[http://www.aidstream.org]]
 ===== Detailed Description =====
 /* Provide additional details here */
 
-AidStream is a platform for organisations that wish to publish aid data in International Aid Transparency Initiative (IATI) format without getting into the complexities of IATI
+[[http://www.aidstream.org|AidStream]] is a platform for organisations that wish to publish aid data in International Aid Transparency Initiative (IATI) format without getting into the complexities of IATI.
 
+It has been developed by the good people at [[http://www.younginnovations.com.np/|Young Innovations]], Nepal
 ===== Documentation =====
 /* Provide links to documentation, or use the wiki to develop documentation of this tool. */
 http://docs.aidstream.org/
