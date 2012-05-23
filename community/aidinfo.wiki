@@ -1,16 +1,16 @@
-====== AidInfo ======
+====== aidinfo ======
 {{ :community:aidinfo-logo.png|}}
 [[http://www.aidinfo.org/|AidInfo Website]]
 
-AidInfo is a member of the IATI Technical Community, and hosts the IATI Technical Secretariat. 
+aidInfo is a member of the IATI Technical Community, and hosts the IATI Technical Secretariat. 
 
-Supporting IATI is just one of the strands of AidInfo's work, which includes wider advocacy for access to development resource information, and carrying out action research into the impacts of open data. 
+Supporting IATI is just one of the strands of aidinfo's work, which includes wider advocacy for access to development resource information, and carrying out action research into the impacts of open data. 
 
-//"AidInfo works to accelerate poverty reduction by making aid more transparent. We believe that aid will work better – and that poverty reduction will come about more quickly – when information about aid can be accessed quickly, easily and cheaply. In short, we think that better aid will result from better information.
+//"aidinfo works to accelerate poverty reduction by making aid more transparent. We believe that aid will work better – and that poverty reduction will come about more quickly – when information about aid can be accessed quickly, easily and cheaply. In short, we think that better aid will result from better information.
 
 We strive to enable governments, civil society and citizens greater and easier access to information on aid. This means that aid money can be tracked, adequate project feedback given and that government and donors can be held to account"//
 
-AidInfo is a program of [[http://www.devinit.org/|Development Initiatives Poverty Research Limited]] which hosts a number of other development focussed research and data analysis projects.
+aidinfo is a program of [[http://www.devinit.org/|Development Initiatives Poverty Research Limited]] which hosts a number of other development focussed research and data analysis projects.
 
 
 ===== AidInfo Team =====
