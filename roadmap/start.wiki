@@ -13,7 +13,7 @@ Any member of the IATI community can add their planned work to this shared roadm
   *[[Blog about the TAG]]
   *[[CSV tool launch]]
   *[[Set up public calendar]]
-  *[[Paper on managing code list versioning]]
+  *[[Paper on code list versioning]]
 
 ==== June 2012 ====
   *[[Newsletter|Send 1st newsletter]]
