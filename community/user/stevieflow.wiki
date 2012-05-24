@@ -5,7 +5,7 @@
 name                                                                         : Steven Flower
 organisation                                                                 : 
 website_url                                                                  : 
-twitter_url                                                                  : http://@stevieflow
+twitter_url                                                                  : http://twitter.com/@stevieflow
 email_mail                                                                   : stevieflow@gmail.com
 one-line-bio                                                                 : 
 I work with the IATI TAG to assist organisations to publish to the Standard. : 
