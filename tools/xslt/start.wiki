@@ -1,4 +1,4 @@
-====== Tool Name ======
+====== XSLT Library ======
 /* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
 
 Many users of IATI data would prefer to access it in some format other than XML, often in CSV format for use in spreadsheet software. A number of different tools are available to support conversion of the data, the most commonly used being the [[tools:xslt:csv|CSV Converter tool]] linked from the IATI Registry. 
