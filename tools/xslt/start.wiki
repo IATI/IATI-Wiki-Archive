@@ -1,0 +1,22 @@
+====== Tool Name ======
+/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+
+Many users of IATI data would prefer to access it in some format other than XML, often in CSV format for use in spreadsheet software. A number of different tools are available to support conversion of the data, the most commonly used being the [[tools:xslt:csv|CSV Converter tool]] linked from the IATI Registry. 
+
+===== Detailed Description =====
+/* Provide additional details here */
+
+A series of XML Style Sheet Transformations are provided at [[https://github.com/aidinfolabs/IATI-XSLT/]] which can be used in any [[http://en.wikipedia.org/wiki/XSLT#Processor_implementations|XSLT Processor]] to turn IATI XML into other formats, including [[https://github.com/aidinfolabs/IATI-XSLT/tree/master/templates|CSV, RDF, Atom and JSON for Exhibit]].
+
+These can be used in scripts or manually applied to individual files in order to get IATI data into the format you need. 
+
+===== Documentation =====
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+
+  * [[http://www.aidinfolabs.org/archives/393|AidInfoLabs]] has a tutorial on using the free desktop EditX software to run transformations.
+  * [[http://support.iatistandard.org/entries/20680393-csv-spreadsheet-version-of-iati|On the Knowledge Base]] you will find details of using the command line xsltproc tool to transform data into CSV.
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
+
+The [[https://github.com/aidinfolabs/IATI-XSLT/tree/master/templates|source code of the transformations is available on GitHub]]. New and modified transformations are welcome.
