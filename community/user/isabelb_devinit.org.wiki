@@ -1,0 +1,26 @@
+====== Isabel Bucknall ======
+/* Edit this page to create your own profile. */
+
+---- dataentry people ----
+name: Isabel Bucknall
+
+organisation: aidinfo
+
+website_url: www.aidinfo.org
+
+twitter_url:
+
+email_mail: isabelb@devinit.org
+
+one-line-bio: Working on the IATI country work in Rwanda, Colombia and Honduras. 
+
+user_tags:   #<-policy, country systems, 
+----
+
+===== More detail =====
+/* You might like to include details of projects you work on, or more about your engagement with IATI here. */
+
+
+
+
+
