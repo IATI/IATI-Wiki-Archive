@@ -7,8 +7,7 @@ organisation                                                                 : a
 website_url                                                                  : 
 twitter_url                                                                  : http://twitter.com/@stevieflow
 email_mail                                                                   : stevieflow@gmail.com
-one-line-bio                                                                 : I work with the IATI TAG to assist organisations to publish to the Standard. I also work on documentation and data reviews
-                                : 
+one-line-bio                                                                 : I work with the IATI TAG to assist organisations to publish to the Standard. I also work on documentation and data reviews                         
 user_tags                                                                    :  implementation, publishing, support, technical
 ----
 ===== More detail =====
