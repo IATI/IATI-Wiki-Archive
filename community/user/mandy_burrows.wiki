@@ -10,7 +10,7 @@ website_url:www.aidinfo.org
 
 email_mail: mandy.burrows@devinit.org
 
-one-line-bio: Working to provide implementation support ro organisations seeking to publish to the IATI Standard.
+one-line-bio: Working to provide implementation support for organisations seeking to publish to the IATI Standard.
 
 user_tags:   #<-Enter comma separated key words about your involvement in IATI
 ----
