@@ -1,13 +1,9 @@
 ====== Discussion ======
 
-<del>Most pages have a 'discussion' tab at the top which can be used to discuss the page contents, without needing to make direct edits to the pages themselves. </del>
-
-**We've currently turned off the discussion tab. If you want it back - drop a note in on this page.**
+Most pages have a 'discussion' tab at the top which can be used to discuss the page contents, without needing to make direct edits to the pages themselves. 
 
 Please note that there is no guarantee that page authors will see contents on these discussion pages, and that these should not be used for support requests.
 
 Official support for the IATI Standard is delivered through [[http://support.iatistandard.org]].
 
 Support for individual tools is delivered by their creators as stated on the relevant wiki pages. 
-
-==== Want discussion tabs? ====
