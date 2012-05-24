@@ -1,4 +1,4 @@
-====== A Proper Mailing list ======
+====== A proper mailing list ======
 The task of mailing is not quite complete. We have a list of TAG 2012 attendees and they have been informed of the mailing list and wiki. But there's loads of other people we need to inform:
   * Those invited to TAG 2012 who didn't come
   * Those who have posted to support.iatistandard.org
