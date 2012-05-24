@@ -23,9 +23,7 @@ So who's job does this become? And when should it be done by?
  --- //[[caprenter@gmail.com|David Carpenter]] 2012/05/24 11:52//
 
 
-====== Discussion, distribution and newsletter lists ======
-
-
+====== Discussion distribution and newsletter lists ======
 It strikes me we probably have three lists needed:
 
   * [[community:mailing list|IATI Technical]] that is our **discussion list** for high-traffic conversations of all things technical
