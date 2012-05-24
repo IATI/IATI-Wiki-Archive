@@ -14,7 +14,7 @@ email_mail: isabelb@devinit.org
 
 one-line-bio: Working on the IATI country work in Rwanda, Colombia and Honduras. 
 
-user_tags:   #<-policy, country systems, 
+user_tags:   policy, country systems, 
 ----
 
 ===== More detail =====
