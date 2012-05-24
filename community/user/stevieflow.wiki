@@ -3,16 +3,15 @@
 
 ---- dataentry people ----
 name                                                                         : Steven Flower
-organisation                                                                 : 
+organisation                                                                 : aidinfo
 website_url                                                                  : 
 twitter_url                                                                  : http://twitter.com/@stevieflow
 email_mail                                                                   : stevieflow@gmail.com
 one-line-bio                                                                 : 
-I work with the IATI TAG to assist organisations to publish to the Standard. : 
-I also work on documentation and data reviews                                : 
-user_tags                                                                    :  #<-Enter comma separated key words about your involvement in IATI
+ : I work with the IATI TAG to assist organisations to publish to the Standard. I also work on documentation and data reviews
+                                : 
+user_tags                                                                    :  #implementation, publishing, support, technical
 ----
-
 ===== More detail =====
 /* You might like to include details of projects you work on, or more about your engagement with IATI here. */
 
