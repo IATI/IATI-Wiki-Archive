@@ -1,0 +1,27 @@
+====== Pernilla Näsfors ======
+/* Edit this page to create your own profile. */
+
+---- dataentry people ----
+name: Pernilla Näsfors
+
+organisation: Sida - Swedish International Development Cooperation Agency
+
+website_url: http://www.openaid.se
+
+twitter_url: http://www.twitter.com/pernillan
+
+email_mail: pernilla.nasfors@sida.se
+
+one-line-bio: Transparency and Social Media Manager. Member of the IATI Secretariat.
+
+user_tags:   policy, technical #<-Enter comma separated key words about your involvement in IATI
+----
+
+===== More detail =====
+/* You might like to include details of projects you work on, or more about your engagement with IATI here. */
+
+
+
+
+
+
