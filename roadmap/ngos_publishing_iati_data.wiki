@@ -1,5 +1,6 @@
-The IATI TAG Secretariat have been working with BOND to support DFID funded NGOs to publish their activities to the IATI Standard, as stipulated by their DFID funding.
+=====NGOs Publishing IATI Data=====
+The IATI TAG Secretariat have been working with [[http://www.bond.org.uk/|BOND]] to support DFID funded NGOs to publish their activities to the IATI Standard, as stipulated by their DFID funding.
 
-By the end of June, current GPAF and CSCF grant-holders will have published implementation schedules and data. 
+By the end of June, current [[http://www.dfid.gov.uk/work-with-us/funding-opportunities/not-for-profit-organisations/global-poverty-action-fund/|Global Poverty Action Fund (GPAF)]] and [[http://www.dfid.gov.uk/Work-with-us/Funding-opportunities/Not-for-profit-organisations/CSCF/|Civil Society Challenge Fund (CSCF)]] grant-holders will have published implementation schedules and data. 
 
-Many of the organisations will be using [[:www.aidstream.org|AidStream]]to publish. 
+Many of the organisations will be using [[tools:aid_stream:start|AidStream]] to publish. 
