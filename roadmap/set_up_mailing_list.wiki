@@ -1,6 +1,7 @@
 <- [[:roadmap:start]]
 ===== Set up mailing list =====
-Tim will re-purpose the IATI Tools google group:\\
+Tim will re-purpose the IATI Tools google group:
+
 https://groups.google.com/forum/?fromgroups#!forum/iati-technical
 
 Aidinfo staff will notify their mailing list about the group on Monday 21st May 2012
@@ -18,10 +19,9 @@ The task of mailing is not quite complete. We have a list of TAG 2012 attendees 
 I think we need to build and curate a single list. (Or a super-set list of lists)
  --- //[[bill.anderson@devinit.org|Bill Anderson]] 2012/05/24 11:40//
 
-Good idea.//
+Good idea.
 So who's job does this become? And when should it be done by?
  --- //[[caprenter@gmail.com|David Carpenter]] 2012/05/24 11:52//
-
 
 ====== Discussion distribution and newsletter lists ======
 It strikes me we probably have three lists needed:
