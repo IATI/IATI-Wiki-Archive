@@ -22,6 +22,21 @@ Good idea.//
 So who's job does this become? And when should it be done by?
  --- //[[caprenter@gmail.com|David Carpenter]] 2012/05/24 11:52//
 
+====== Discussion lists, distribution lists, newsletter lists etc ======
+
+It strikes me we probably have three lists needed:
+
+  * [[community:mailing list|IATI Technical]] that is our **discussion list** for high-traffic conversations of all things technical
+  * An **announcements list** to which standard change proposals and notifications are sent
+    * With a really clear policy; only posted to by approved people; messages CCed to IATI Technical where they can be discussed;
+    * Mostly quiet, with quarterly flurries of messages
+    * Anyone with an interest in the standard should be a member
+    * Messages should be clearly headed [CHANGE] or [PROPOSAL] to let people filter for what they want
+  * A **newsletter list** which we get as many people as possible onto and which posts monthly round-up of all things
+
+Only the IATI Technical **discussion list** is done so far. The others still need to be created. We will want to manually add lots of people to the announce list and then have them opt out, which makes Google Groups a trickier option (not great when you try and directly add lots of people). 
+
+Mailchimp type tools might be most appropriate for this and the newsletter perhaps? 
 
 
 ~~TASK:Matt?2012-05-21!~~
