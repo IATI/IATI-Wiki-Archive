@@ -2,21 +2,15 @@
 /* Edit this page to create your own profile. */
 
 ---- dataentry people ----
-name: Steven Flower
-
-organisation:
-
-website_url:
-
-twitter_url: @stevieflow
-
-email_mail: stevieflow@gmail.com
-
-one-line-bio:
-I work with the IATI TAG to assist organisations to publish to the Standard.
-I also work on documentation and data reviews
-
-user_tags:   #<-Enter comma separated key words about your involvement in IATI
+name                                                                         : Steven Flower
+organisation                                                                 : 
+website_url                                                                  : 
+twitter_url                                                                  : http://@stevieflow
+email_mail                                                                   : stevieflow@gmail.com
+one-line-bio                                                                 : 
+I work with the IATI TAG to assist organisations to publish to the Standard. : 
+I also work on documentation and data reviews                                : 
+user_tags                                                                    :  #<-Enter comma separated key words about your involvement in IATI
 ----
 
 ===== More detail =====
