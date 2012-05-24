@@ -8,3 +8,5 @@ Aidinfo staff will notify their mailing list about the group on Monday 21st May 
 This was completed by [[community:user:bill.anderson]] on 22nd May 2012.
 
 ~~TASK:Matt?2012-05-21!~~
+
+[[talk:roadmap:set_up_mailing_list|A proper mailing list]]
