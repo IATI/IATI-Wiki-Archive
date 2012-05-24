@@ -2,7 +2,7 @@
 
 <del>Most pages have a 'discussion' tab at the top which can be used to discuss the page contents, without needing to make direct edits to the pages themselves. </del>
 
-We've currently turned off the discussion tab. If you want it back - drop a note in on this page. 
+**We've currently turned off the discussion tab. If you want it back - drop a note in on this page.**
 
 Please note that there is no guarantee that page authors will see contents on these discussion pages, and that these should not be used for support requests.
 
