@@ -1,0 +1,25 @@
+====== IATI CSV Exporter ======
+/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+
+The CSV Exporter provides a simple interface for converting individual IATI XML files into CSV that can be read in spreadsheet software. It provides a choice between:
+  * A simple activity summary
+  * Detailed activity information
+  * A line-by-line break down of activities
+
+It can be accessed [[http://tools.aidinfolabs.org/csv/direct_from_registry/|here]]
+
+===== Detailed Description =====
+/* Provide additional details here */
+
+The tool uses [[tools:xslt:start|XSLT transformations]] to convert files in memory. It can be slow or fail on very large files. 
+
+It uses jquery to fetch a list of currently available files from the IATI Registry. 
+
+===== Documentation =====
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
+
+Source code is not yet published (an oversight). Contact [[community:users:timdavies|Tim Davies]] for a copy. PHP and JQuery. 
