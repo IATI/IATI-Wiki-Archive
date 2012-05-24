@@ -22,7 +22,7 @@ Good idea.//
 So who's job does this become? And when should it be done by?
  --- //[[caprenter@gmail.com|David Carpenter]] 2012/05/24 11:52//
 
-====== Discussion lists, distribution lists, newsletter lists etc ======
+===== Discussion lists, distribution lists, newsletter lists etc ======
 
 It strikes me we probably have three lists needed:
 
