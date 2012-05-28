@@ -1,0 +1,27 @@
+====== Simon Whitehouse ======
+/* Edit this page to create your own profile. */
+
+---- dataentry people ----
+name: Simon Whitehouse
+
+organisation:
+
+website_url: http://siwhitehouse.co.uk
+
+twitter_url: @siwhitehouse
+
+email_mail: iatistandard@siwhitehouse.co.uk
+
+one-line-bio: 
+
+user_tags:   #<-Enter comma separated key words about your involvement in IATI
+----
+
+===== More detail =====
+/* You might like to include details of projects you work on, or more about your engagement with IATI here. */
+
+
+
+
+
+
