@@ -4,3 +4,9 @@ The IATI TAG Secretariat have been working with [[http://www.bond.org.uk/|BOND]]
 By the end of June, current [[http://www.dfid.gov.uk/work-with-us/funding-opportunities/not-for-profit-organisations/global-poverty-action-fund/|Global Poverty Action Fund (GPAF)]] and [[http://www.dfid.gov.uk/Work-with-us/Funding-opportunities/Not-for-profit-organisations/CSCF/|Civil Society Challenge Fund (CSCF)]] grant-holders will have published implementation schedules and data. 
 
 Many of the organisations will be using [[tools:aid_stream:start|AidStream]] to publish. 
+
+====Data Review of NGO data====
+Once there is some data published on the registry. We will need to conduct a data review on the quality of the data.\\
+We envision this as being a review on a sample of the publishers.\\
+If not completed in June this should be available in early July.\\
+This is probably an internal process, but please contact us for more information.
