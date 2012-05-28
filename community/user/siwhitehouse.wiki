@@ -8,7 +8,7 @@ organisation:
 
 website_url: http://siwhitehouse.co.uk
 
-twitter_url: @siwhitehouse
+twitter_url: http://www.twitter.com/siwhitehouse
 
 email_mail: iatistandard@siwhitehouse.co.uk
 
