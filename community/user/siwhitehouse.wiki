@@ -12,7 +12,7 @@ twitter_url: @siwhitehouse
 
 email_mail: iatistandard@siwhitehouse.co.uk
 
-one-line-bio: 
+one-line-bio: I work with AidInfo to help create tools and applications which use IATI data
 
 user_tags:   #<-Enter comma separated key words about your involvement in IATI
 ----
