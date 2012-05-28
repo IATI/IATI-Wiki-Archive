@@ -19,7 +19,7 @@ Any member of the IATI community can add their planned work to this shared roadm
   *[[Newsletter|Send 1st newsletter]]
   *[[Pilots in Columbia & Honduras]]
   *[[NGOs publishing IATI data]] (approx 60)
-  *[[Data review of NGOs IATI data]] (sample)
+  *[[NGOs publishing IATI data|Data review of NGOs data]] (sample)
   *[[Paper on registry updates]]
   *[[IATI explorer review and consultation]]
   *[[WP-EFF endorsing Standard?]]
