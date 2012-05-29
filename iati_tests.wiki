@@ -1,6 +1,6 @@
-=====Decimal Upgrade to 1.02=====
-The IATI TAG has expressed a desire to perform a decimal upgrade of the standard by October 2012. The process for achieving this is outlined below.
+=====IATI Tests=====
+Various tests are available around IATI data
 
-New ideas/issues should be logged and discussed on the [[http://support.iatistandard.org/home|knowledge base]].
-^ IATI ^ Community ^ Timescale ^ Due Date ^
-| A clear cut off date for new submissions should be advertised. | Community submits and discusses proposals/ideas before the cut off date |  | 1st June |
+
+^ Group ^ Test Name ^ Type ^ Element ^ Description ^ Outcome ^
+| iati-activity | xs:dateTime | Type | Check that date is expressed for activity modified is in a valid format |  | Pass/Fail |
