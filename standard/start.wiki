@@ -13,4 +13,4 @@ Select your version
 [[standard:1.1:start|1.1 (draft)]]
 
 ====Updating the Standard====
-[[standard:1.02:start]]
+[[standard:1.02:start|Decimal Upgrade to 1.02]]
