@@ -1,3 +1,5 @@
+====== Dates and times in XML documents ======
+
 This article describes the syntax of ''dates and times'' in the IATI XML formats.
 
 For dates and times, IATI uses a subset of the [[http://en.wikipedia.org/wiki/ISO_8601|ISO 8601]] standard.  Dates appear in the format ''YYYY-MM-DD''.  For example, January 1, 2013 will appear as "2013-01-01":
