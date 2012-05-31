@@ -1,0 +1,14 @@
+=====Where Can I...?=====
+
+A newcomer to IATI should find:
+  * all basic guidance at iatistandard.org, 
+  * Frequently Asked Questions (FAQs) in the Knowledge Base (support.iatistandard.org), 
+  * answers to specific/individual queries through the ticketing system. 
+
+These interfaces should clearly signpost the existence of the wiki and mailing group.
+
+Over time, guidance material on iatistandard.org will be deployed from the wiki, and changes to the guidance will be done in a clearly demarcated section of the wiki. This makes the guidance on the wiki authoritative.
+
+All discussion documents should be stored in the wiki
+
+All discussion should take place on the mailing group.
