@@ -17,7 +17,6 @@ Any member of the IATI community can add their planned work to this shared roadm
 
 ==== June 2012 ====
   *[[Newsletter|Send 1st newsletter]]
-  *[[Pilots in Columbia & Honduras]]
   *[[NGOs publishing IATI data]] (approx 60)
   *[[NGOs publishing IATI data|Data review of NGOs data]] (sample)
   *[[Paper on registry updates]]
@@ -27,6 +26,7 @@ Any member of the IATI community can add their planned work to this shared roadm
   *[[Create IATI public good architecture blueprints]]
 ==== July 2012 ====
   *[[DRC Pilot]]
+  *[[Pilots in Columbia & Honduras]]
   *[[Newsletter]]
   *[[Private Sector Workshop]]
   *[[tool:IATI Exchange:start]]
