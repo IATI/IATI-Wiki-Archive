@@ -1,0 +1,34 @@
+====== Revisions ======
+
+The IATI standards are living entities that will be improved through the suggestions and experiences of the publishers and users of IATI-format data, and expanded as the transparency agenda develops. IATI's change control system allows for two types of upgrades:
+
+Minor or Decimal upgrades (i.e from 1.00 to 1.01) will occur quarterly and include bug-fixes, codelist modifications and minor additions to the standards which improve the functionality without introducing substantial new content. These upgrades will be approved by the Secretariats of the Technical Advisory Group and Steering Committee.
+
+All proposed decimal upgrade changes will be published in this section of the Knowledge Base as they arise. Discussion in these pages is most welcome.
+
+Major or Integer Upgrades (i.e. from 1.00 to 2.00) will occur when substantial additions involving new areas of data are required. These upgrades will be preceded by a formal consultation period in which all stakeholders and publishers will be included.  
+
+The [[http://support.iatistandard.org/forums/20020808-modifications-additions-improvements|IATI Knowledge Base Modifications, Additions, Improvements forum]] is the official channel for managing current proposals for revisions. 
+
+===== Revision Process =====
+
+New ideas/issues should be logged and discussed on the [[http://support.iatistandard.org/home|knowledge base]].
+
+If you wish to explore a revision idea before submitting a proposal you may wish to consult the [[community:mailing_list|IATI Technical Mailing List]].
+
+^ IATI ^ Community ^ Timescale ^ 
+| A clear cut off date for new submissions should be advertised. | Community submits and discusses proposals/ideas before the cut off date |  | 
+| The TAG technical team should have agreed as to which proposals should go forward to the next upgrade, and communicated this with the community. | These are flagged on the knowledge base as under consideration. During this time the community can help shape the proposals, and discuss what has been included or left out. | within 1 week | 
+| Consultation | During this time the community can help shape the proposals, and discuss what has been included or left out. |Over a two week period | 
+| These ideas need to then be built into fully implemented examples. | During this time the community can help shape the proposals | within 1 week | 
+| At which point they are published as proposed changes for consultation | During this time the community can help shape the proposals | over a 4 week period | 
+| Final proposals are published. | At this stage we hope that the proposals are solid and will be accepted, but people will still have a chance to air their views. | within 2 weeks | 
+| Consultation |  | over a 2 week period | 
+| Proposals are accepted, and implementation process begins. |  |  | 
+| Development version of changes are in place. |  | within 2 weeks | 
+| Development versions are available for community testing. | Community can test | within 2 weeks | 
+| Bugs ironed out |  | within 2 weeks | 
+| Changes go live |  |  | 
+
+
+
