@@ -6,16 +6,19 @@ Any member of the IATI community can add their planned work to this shared roadm
 
 //The roadmap items below are mostly based on discussions from the [[http://support.iatistandard.org/categories/20036606-tag-workshop-may-2012|2012 TAG meeting]]. If you have more details on any roadmap item, please click through to create the relevant page (you may want to rename the items before clicking through).//
 
-==== May 2012 ====
-  *[[Set up wiki]]
-  *[[Set up mailing list]]
-  *[[Relaunch iatistandard.org]]
+==== Archived  ====
+
+[[Completed items]]
+
+==== June 2012 ====
+From May
   *[[Blog about the TAG]]
   *[[CSV tool launch]]
   *[[Set up public calendar]]
+  *[[Relaunch iatistandard.org]]
   *[[Paper on code list versioning]]
 
-==== June 2012 ====
+Scheduled for June
   *[[Newsletter|Send 1st newsletter]]
   *[[NGOs publishing IATI data]] (approx 60)
   *[[NGOs publishing IATI data|Data review of NGOs data]] (sample)
