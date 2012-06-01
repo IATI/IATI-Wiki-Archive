@@ -18,7 +18,6 @@ The reliance of IATI on third-party code lists raises the question of how IATI s
 
 
 ===== Versioning policy =====
-<note>
 IATI should maintain versioned code lists. Whenever a third-party code list changes, IATI should take a copy of the updated code list, **but** this updated code list should only become the **current** code list at the next decimal or integer standard upgrade, subject to an assessment of the impact of adopting the new code list. 
 
 Each version (decimal and integer) of the IATI Standard should specify the code list version numbers it is compatible with (or vice-versa).
@@ -30,7 +29,7 @@ The IATI code list API should provide access to all known versions of each code 
 This provides consistency, and ensures users are adequately informed of any code list changes. 
 
 == Worked example ==
-
+<note>
 The IATI [[http://iatistandard.org/codelists/country|Country Code]] is based on [[http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm|ISO 3166]] which is [[http://www.iso.org/iso/country_codes/updates_on_iso_3166/tracking_changes_in_iso_3166-2.htm|regularly revised]] when as countries change.
 
 The current IATI Version of this code list, listed on the IATI Standard Website, and accessible through the codelist API is:
