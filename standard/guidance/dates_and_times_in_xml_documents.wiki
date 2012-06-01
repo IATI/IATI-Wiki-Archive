@@ -14,7 +14,7 @@ In some cases, IATI requires both a date ''and'' a time.  The time appears in th
   
 Since IATI is an international standard, you should normally also include an indication of the timezone in use when you are specifying a time as well as a date.  If you are giving all times in [[http://en.wikipedia.org/wiki/Coordinated_Universal_Time|Coordinated Universal Time]] (aka Greenwich Mean Time), then you can simply append the letter 'Z' to the time:
 
-  * 2013-01-01T12:00:00Z &mdash; January 1, 2013, 12:00:00 UTC
+  * 2013-01-01T12:00:00Z -- January 1, 2013, 12:00:00 UTC
 
 In other cases, you specify the offset from UTC by adding a "+" or "-" sign followed by the number of hours and minutes in the format "hh:mm":
 
