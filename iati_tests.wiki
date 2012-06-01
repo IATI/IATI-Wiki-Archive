@@ -1,6 +1,0 @@
-=====IATI Tests=====
-Various tests are available around IATI data
-
-
-^ Group ^ Test Name ^ Type ^ Element ^ Description ^ Outcome ^
-| iati-activity | xs:dateTime | Type | iati-activity | Check that date is expressed for activity modified is in a valid format | Pass/Fail |
