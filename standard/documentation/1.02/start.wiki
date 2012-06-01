@@ -1,22 +1,3 @@
-=====Decimal Upgrade to 1.02=====
-The IATI TAG has expressed a desire to perform a decimal upgrade of the standard by October 2012. The process for achieving this is outlined below.
+===== 1.02 =====
 
-New ideas/issues should be logged and discussed on the [[http://support.iatistandard.org/home|knowledge base]].
-^ IATI ^ Community ^ Timescale ^ Due Date ^
-| A clear cut off date for new submissions should be advertised. | Community submits and discusses proposals/ideas before the cut off date |  | 1st June |
-| The TAG technical team should have agreed as to which proposals should go forward to the next upgrade, and communicated this with the community. | These are flagged on the knowledge base as under consideration. During this time the community can help shape the proposals, and discuss what has been included or left out. | within 1 week | 8th June |
-| Consultation | During this time the community can help shape the proposals, and discuss what has been included or left out. |Over a two week period | 22nd June |
-| These ideas need to then be built into fully implemented examples. | During this time the community can help shape the proposals | within 1 week | 29th June |
-| At which point they are published as proposed changes for consultation | During this time the community can help shape the proposals | over a 4 week period | 27th July |
-| Final proposals are published. | At this stage we hope that the proposals are solid and will be accepted, but people will still have a chance to air their views. | within 2 weeks | 10th August |
-| Consultation |  | over a 2 week period | 24th August |
-| Proposals are accepted, and implementation process begins. |  |  | 24th August |
-| Development version of changes are in place. |  | within 2 weeks | 7th September |
-| Development versions are available for community testing. | Community can test | within 2 weeks | 21st September |
-| Bugs ironed out |  | within 2 weeks | 5th October |
-| Changes go live |  |  | 5th October |
-
-
-
-
-
+1.02 is a proposed decimal release due by October 2012. For details of the change process please see [[standard:revision:1.02]]
