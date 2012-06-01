@@ -12,7 +12,8 @@ Anyone wishing to be part of the technical community can use the wiki to find:
 
 This wiki provides a space for the growing [[community:start|technical community]] to collaborate on documenting elements of the IATI Standard as well as third-party tools, code, how-tos and guidance. 
 
-These interfaces should clearly signpost the existence of the wiki and mailing group.
+==== Becoming more consistent ====
+We are working towards a more consistent user experience for newcomers to IATI and established members of the technical community alike.
 
 Over time, guidance material on iatistandard.org will be deployed from the wiki, and changes to the guidance will be done in a clearly demarcated section of the wiki. In the future this will make the guidance on the wiki authoritative.
 
