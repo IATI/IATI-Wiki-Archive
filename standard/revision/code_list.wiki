@@ -1,5 +1,5 @@
 ====== Code List Versioning ======
 
+<note warning>
 **This is a draft proposal**
-
-
+</note>
