@@ -7,3 +7,4 @@ Guidance in this section has been contributed by the community, and unless noted
 ===== Guidance pages =====
 
   * [[Dates and Times in XML documents]]
+  * [[Tests and Validation]]
