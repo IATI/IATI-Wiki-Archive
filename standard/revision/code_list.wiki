@@ -16,8 +16,9 @@ Some applications of IATI data may choose to use code lists to validate IATI XML
 
 The reliance of IATI on third-party code lists raises the question of how IATI should deal with changes to those code lists. 
 
-===== Versioning policy =====
 
+===== Versioning policy =====
+<note>
 IATI should maintain versioned code lists. Whenever a third-party code list changes, IATI should take a copy of the updated code list, **but** this updated code list should only become the **current** code list at the next decimal or integer standard upgrade, subject to an assessment of the impact of adopting the new code list. 
 
 Each version (decimal and integer) of the IATI Standard should specify the code list version numbers it is compatible with (or vice-versa).
@@ -56,7 +57,7 @@ If there are multiple changes to a third-party code list between standard change
   * Country codelist Version 1.01.2
 
 On a version upgrade of the standard being agreed, the most recent version would be made current, with this specified in the codelist meta-data and returned by the code list API. 
-
+</note>
 ==== Impact assessments ====
 
 The IATI TAG should be informed of updates to third-party code lists during the [[standard:revision:start|standard revision process]], and should be given the opportunity to highlight any adverse impacts of adopting an updated code list. 
