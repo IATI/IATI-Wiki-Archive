@@ -1,0 +1,8 @@
+====== Archived Roadmap Items ======
+//Please move completed items from the Roadmap here//
+
+==== May 2012 ====
+  *<del>[[Set up wiki]]</del>
+  *<del>[[Set up mailing list]]</del>
+
+
