@@ -34,7 +34,7 @@ The IATI [[http://iatistandard.org/codelists/country|Country Code]] is based on 
 
 The current IATI Version of this code list, listed on the IATI Standard Website, and accessible through the codelist API is:
 
-  * Country codelist Version 1
+  * Country codelist Version 1.0 - **Current** | **Official version for IATI Standard 1.0**
 
 The IATI Technical Secretariat should monitor the official source if ISO 3166. When it is updated (for example, to add South Sudan), a cached IATI Version of this code list should be created, so that IATI holds:
 
@@ -49,7 +49,6 @@ This means that IATI now provides access to:
 
   * Country codelist Version 1.0 - Deprecated | Official version for IATI Standard 1.0
   * Country codelist Version 1.01 - //including South Sudan// - **Current** | **Official version for IATI Standard 1.01**
-
 ==== Impact assessments ====
 
 The IATI TAG should be informed of updates to third-party code lists during the [[standard:revision:start|standard revision process]], and should be given the opportunity to highlight any adverse impacts of adopting an updated code list. 
