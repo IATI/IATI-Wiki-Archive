@@ -17,6 +17,7 @@ From May
   *[[Set up public calendar]]
   *[[Relaunch iatistandard.org]]
   *[[Paper on code list versioning]]
+  *[[Set up mailing list]]
 
 Scheduled for June
   *[[Newsletter|Send 1st newsletter]]
