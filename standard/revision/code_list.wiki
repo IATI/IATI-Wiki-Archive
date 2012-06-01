@@ -1,5 +1,5 @@
 ====== Code List Versioning ======
 
-<note warning>
-**This is a draft proposal**
+<note important>
+**This is a draft proposal** It is not agreed IATI policy. 
 </note>
