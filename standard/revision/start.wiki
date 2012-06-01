@@ -16,6 +16,8 @@ New ideas/issues should be logged and discussed on the [[http://support.iatistan
 
 If you wish to explore a revision idea before submitting a proposal you may wish to consult the [[community:mailing_list|IATI Technical Mailing List]].
 
+The table below sets out the draft quarterly change process, with details of the IATI Technical Secretariat, and [[community:start|Technical Community]] roles and responsibilities in the process.
+
 ^ IATI ^ Community ^ Timescale ^ 
 | A clear cut off date for new submissions should be advertised. | Community submits and discusses proposals/ideas before the cut off date |  | 
 | The TAG technical team should have agreed as to which proposals should go forward to the next upgrade, and communicated this with the community. | These are flagged on the knowledge base as under consideration. During this time the community can help shape the proposals, and discuss what has been included or left out. | within 1 week | 
