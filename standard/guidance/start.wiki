@@ -1,0 +1,9 @@
+====== Guidance ======
+
+This section contains guidance to support use of the standard. At present, additional guidance can also be found [[http://support.iatistandard.org/forums/20018512-definitions-rules-and-guidelines|on the knowledge base]]. 
+
+Guidance in this section has been contributed by the community, and unless noted, should not be taken as authoritative, or as forming a core part of the standard. 
+
+===== Guidance pages =====
+
+  * [[Dates and Times in XML documents]]
