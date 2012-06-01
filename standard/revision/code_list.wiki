@@ -1,5 +1,5 @@
 ====== Code List Versioning ======
-
+~~NOTOC
 <note important>
 **This is a draft proposal** It is not agreed IATI policy. 
 </note>
@@ -28,7 +28,7 @@ The IATI code list API should provide access to all known versions of each code 
 
 This provides consistency, and ensures users are adequately informed of any code list changes. 
 
-=== Worked example ===
+== Worked example ==
 
 The IATI [[http://iatistandard.org/codelists/country|Country Code]] is based on [[http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm|ISO 3166]] which is [[http://www.iso.org/iso/country_codes/updates_on_iso_3166/tracking_changes_in_iso_3166-2.htm|regularly revised]] when as countries change.
 
@@ -49,6 +49,14 @@ This means that IATI now provides access to:
 
   * Country codelist Version 1.0 - Deprecated | Official version for IATI Standard 1.0
   * Country codelist Version 1.01 - //including South Sudan// - **Current** | **Official version for IATI Standard 1.01**
+
+If there are multiple changes to a third-party code list between standard changes then IATI may store these as, for example,:
+
+  * Country codelist Version 1.01.1
+  * Country codelist Version 1.01.2
+
+On a version upgrade of the standard being agreed, the most recent version would be made current, with this specified in the codelist meta-data and returned by the code list API. 
+
 ==== Impact assessments ====
 
 The IATI TAG should be informed of updates to third-party code lists during the [[standard:revision:start|standard revision process]], and should be given the opportunity to highlight any adverse impacts of adopting an updated code list. 
@@ -57,19 +65,40 @@ The IATI TAG should be informed of updates to third-party code lists during the 
 
 
 ===== Code list APIS =====
+
 A code list API is provided to support access to the code list values. 
 
 The present version of the API at [[http://www.iatistandard.org/api/codelists/codes.json]] draws upon a simple database of code list values which does not support versioning. 
 
+An draft version-aware codelist API has been developed at [[http://datadev.aidinfolabs.org/data/codelist/]]. This is based on storing XML documents representing each code list in a simple folder structure and recording basic meta-data about each code list.
+
+The API will always return an IATI cached and versioned copy of third party code lists. 
+
+===== Automated tracking and updating of third party code lists =====
+
+Where third parties provide their code lists in a consistent and structured format then a simple system could be built to monitor these, and provide automated storage of changed versions in the IATI Code List API (subject to human review of changes).
+
+This would require third parties (e.g. DAC) to:
+
+  * Provide a stable RESTFul URI which points directly to the latest version of a code list
+  * Make this code list available at this URI in a consistent machine readable format
+  * Publish a change log of updates to the code list
+  * Maintain a structured list of past code lists, kept accessible in the same structured format
+  * Maintain clear structured meta-data on when a codelist was valid from and until
+
+Ideally, third parties will:
+  * Publish code lists using the [[http://www.w3.org/2004/02/skos/|SKOS RDF vocabulary]], with a full dump of the data available at a single URI
+  * Provide a URI for each concept in the code list, and return definitions of terms when that URI is accessed
+  * Also publish structured CSV of code lists for non-RDF users
 
 
-==== Standard 1.01 exceptions ====
+===== Standard 1.01 exceptions =====
 
 A number of the code lists used in Version 1.01 of the IATI Standard have been adapted from existing code lists, rather than acting as straight translations of these. In particular, the [[http://iatistandard.org/codelists/organisation_identifier_bilateral|Bilateral Organisational Identifiers]] are based on the OECD DAC CRS codes, but with DAC numerical country code replaced with an ISO code. 
 
 For a future version of the standard, the bilateral identifiers codes should be updated to be compatible with the DAC CRS codes. 
 
-==== Code list sources ====
+===== Code list sources =====
 
 At present IATI draws upon codes from:
 
