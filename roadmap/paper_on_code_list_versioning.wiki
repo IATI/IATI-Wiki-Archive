@@ -1,0 +1,7 @@
+====== Code list versioning ======
+
+The IATI Standard references a number of code lists. 
+
+An agreed process for versioning these code lists is required. 
+
+The draft proposal for this can be found in [[standard:revision:code_list|Revisions > Code Lists]].
