@@ -1,4 +1,5 @@
-====== IATI Standard Documentation ======
+====== IATI Standard ======
+
 ==== Current Documentation ====
 All documentation about the IATI Standard can be found on the official website: \\
 http://www.iatistandard.org
@@ -8,9 +9,9 @@ We recognise the need to version our documentation over time, and see this wiki 
 
 Select your version
 
-[[standard:1.0:start|1.0 (current)]]
+[[standard:documentation:1.0:start|1.0 (current)]]
 
-[[standard:1.1:start|1.1 (draft)]]
+[[standard:documentation:1.1:start|1.1 (draft)]]
 
 ====Updating the Standard====
-[[standard:1.02:start|Decimal Upgrade to 1.02]]
+[[standard:documentation:1.02:start|Decimal Upgrade to 1.02]]
