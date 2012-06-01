@@ -16,7 +16,7 @@ From May
   *[[CSV tool launch]]
   *[[Set up public calendar]]
   *[[Relaunch iatistandard.org]]
-  *[[Paper on code list versioning]]
+  *[[Paper on code list versioning]] - Draft complete
   *[[Set up mailing list]]
 
 Scheduled for June
