@@ -1,3 +1,5 @@
 ====== Documentation ======
 
+Official documentation is held at [[http://www.iatiregistry.org]]. 
 
+This section of the site is only used for development of documentation. 
