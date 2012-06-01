@@ -3,3 +3,77 @@
 <note important>
 **This is a draft proposal** It is not agreed IATI policy. 
 </note>
+
+===== Background =====
+
+The IATI Standard makes use of a large number of [[http://iatistandard.org/standard/codelists|code lists]]. 
+
+The majority of these codes lists are based upon pre-existing third party code lists. 
+
+The standard website sets out (through highlighting validation rules) when it is mandatory for values to be taken from the code list, and when the code list is provided only for convenience. 
+
+Some applications of IATI data may choose to use code lists to validate IATI XML files, or may use code lists to construct their interfaces, thus it is important to be able to identify, for any given version of the standard, which code lists are compatible with it. 
+
+The reliance of IATI on third-party code lists raises the question of how IATI should deal with changes to those code lists. 
+
+===== Versioning policy =====
+
+IATI should maintain versioned code lists. Whenever a third-party code list changes, IATI should take a copy of the updated code list, **but** this updated code list should only become the **current** code list at the next decimal or integer standard upgrade, subject to an assessment of the impact of adopting the new code list. 
+
+Each version (decimal and integer) of the IATI Standard should specify the code list version numbers it is compatible with (or vice-versa).
+
+A change log should alert users at the point of each IATI Standard version upgrade of any changes made to the code lists. 
+
+The IATI code list API should provide access to all known versions of each code list. The 'current' code list returned should always be that which relates to the most recent version of the standard. There may be more recent versions of a code list available from the API, and applications may choose to validate against the most recent version of the code list. 
+
+This provides consistency, and ensures users are adequately informed of any code list changes. 
+
+=== Worked example ===
+
+The IATI [[http://iatistandard.org/codelists/country|Country Code]] is based on [[http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm|ISO 3166]] which is [[http://www.iso.org/iso/country_codes/updates_on_iso_3166/tracking_changes_in_iso_3166-2.htm|regularly revised]] when as countries change.
+
+The current IATI Version of this code list, listed on the IATI Standard Website, and accessible through the codelist API is:
+
+  * Country codelist Version 1
+
+The IATI Technical Secretariat should monitor the official source if ISO 3166. When it is updated (for example, to add South Sudan), a cached IATI Version of this code list should be created, so that IATI holds:
+
+  * Country codelist Version 1.0 - **Current** | **Official version for IATI Standard 1.0**
+  * Country codelist Version 1.01 - //including South Sudan//.
+
+Until Version 1.01 of the standard is agreed, the current country code list used in validation of version 1.0 standard documents remains Country code list Version 1.0.
+
+When version 1.01 of the standard is agreed then version 1.01 becomes the **current** official version of the code list to be used with Version 1.01 of the IATI Standard. 
+
+This means that IATI now provides access to:
+
+  * Country codelist Version 1.0 - Deprecated | Official version for IATI Standard 1.0
+  * Country codelist Version 1.01 - //including South Sudan// - **Current** | **Official version for IATI Standard 1.01**
+
+==== Impact assessments ====
+
+The IATI TAG should be informed of updates to third-party code lists during the [[standard:revision:start|standard revision process]], and should be given the opportunity to highlight any adverse impacts of adopting an updated code list. 
+
+//For example, if a third-party has removed a code that a lot of providers are using, without adding new codes, TAG members may wish to request the adoption of the updated code list into the IATI Standard is delayed for a period.//
+
+
+===== Code list APIS =====
+A code list API is provided to support access to the code list values. 
+
+The present version of the API at [[http://www.iatistandard.org/api/codelists/codes.json]] draws upon a simple database of code list values which does not support versioning. 
+
+
+
+==== Standard 1.01 exceptions ====
+
+A number of the code lists used in Version 1.01 of the IATI Standard have been adapted from existing code lists, rather than acting as straight translations of these. In particular, the [[http://iatistandard.org/codelists/organisation_identifier_bilateral|Bilateral Organisational Identifiers]] are based on the OECD DAC CRS codes, but with DAC numerical country code replaced with an ISO code. 
+
+For a future version of the standard, the bilateral identifiers codes should be updated to be compatible with the DAC CRS codes. 
+
+==== Code list sources ====
+
+At present IATI draws upon codes from:
+
+  * The International Standards Organisation
+  * The OECD Development Assistance Committee Creditor Reporting System
+  * ? 
