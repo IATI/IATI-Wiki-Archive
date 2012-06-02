@@ -1,7 +1,7 @@
 ====== AidView Backend Database ======
 /* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
 
-AidView is powered by an eXist XML database and set of scripts written by [[https://twitter.com/kitwallace|Chris Wallace]]. These are working notes on the process of trying to set up a copy of the database. The backend powers the [[API]] and [[Start|AidView application]].
+AidView is powered by an eXist XML database and set of scripts written by [[https://twitter.com/kitwallace|Chris Wallace]]. These are working notes on the process of trying to set up a copy of the database. The backend powers the [[AidView API]] and [[Start|AidView application]].
 
 ===== Documentation =====
 
