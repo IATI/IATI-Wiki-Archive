@@ -27,7 +27,7 @@ Tools for accessing and working with IATI Data
 
   * [[tools:IATI Explorer:start]] (including Android client libraries)
   * [[tools:OIPA:start]] (OpenAidNL)
-  * [[tools:Open Aid:API|AidView API]]
+  * [[tools:AidView:API|AidView API]]
 
 
 === Conversion Tools ===
