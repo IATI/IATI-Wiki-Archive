@@ -1,10 +1,16 @@
 ====== AidView ======
 /* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
 
-[[http://www.aidview.net|AidView]] is an tablet optimised interface for exploring IATI data. An alpha version was produced ahead of the [[http://www.aideffectiveness.org/busanhlf4/| Busan Forum on Aid Effectiveness]] and development of the beta is currently underway managed by [[community:users:siwhitehouse|Simon Whitehouse]].
+[[http://www.aidview.net|AidView]] is an tablet optimised interface for exploring IATI data. An alpha version was produced by White October for [[community:aidinfo|AidInfo]] ahead of the [[http://www.aideffectiveness.org/busanhlf4/| Busan Forum on Aid Effectiveness]] and development of the beta is currently underway managed by [[community:user:siwhitehouse|Simon Whitehouse]].
 
 ===== Detailed Description =====
 /* Provide additional details here */
+
+AidView uses an API which stores a sub-set of the data from the IATI Registry and is currently accessible at http://datadev.aidinfolabs.org/xquery/woapi.xq
+ 
+<note warning>
+Note: API location is subject to change. Please contact [[community:user:timdavies|Tim Davies]] if you are using the API to be notified of changes.
+</note>
 
 ===== Documentation =====
 /* Provide links to documentation, or use the wiki to develop documentation of this tool. */
