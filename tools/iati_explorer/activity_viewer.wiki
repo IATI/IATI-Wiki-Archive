@@ -1,0 +1,18 @@
+====== Activity Viewer ======
+/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+
+The IATI Explorer Activity Viewer takes any IATI Identifier and provides a human readable page of information about it. 
+
+Enter activity IDs at [[http://www.iatiexplorer.org/explorer/activity/]]
+
+===== Detailed Description =====
+/* Provide additional details here */
+
+The Activity viewer is part of the [[start|IATI Explorer]]. 
+
+===== Documentation =====
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
