@@ -1,0 +1,14 @@
+====== AidView ======
+/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+
+[[http://www.aidview.net|AidView]] is an tablet optimised interface for exploring IATI data. An alpha version was produced ahead of the [[http://www.aideffectiveness.org/busanhlf4/| Busan Forum on Aid Effectiveness]] and development of the beta is currently underway managed by [[community:users:siwhitehouse|Simon Whitehouse]].
+
+===== Detailed Description =====
+/* Provide additional details here */
+
+===== Documentation =====
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
