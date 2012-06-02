@@ -16,6 +16,9 @@ The current linked data model is draft, and is likely to change.  Please add a n
 ===== Detailed Description =====
 /* Provide additional details here */
 
+Linked data can support the integration of diverse data sources and extra contextual information linked to IATI project information, as well as providing a flexible way to query IATI data via SPARQL. 
+
+As an XML standard, IATI does not yet have an agreed linked data vocabulary, but a proof of concept has been established, and a proposal has been made for [[http://support.iatistandard.org/entries/21180347-linked-data|updates to the standard to better accomodate linked data]].
 
 ===== Uses =====
 
