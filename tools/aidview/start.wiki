@@ -16,7 +16,7 @@ The AidView interface can be accessed at [[http://www.aidview.net]]. It is based
 
 ==== API ====
 
-The [[AidView API]] is currently accessible and can be used to prototype additional applications.
+The AidView [[API]] is currently accessible and can be used to prototype additional applications.
 
 
 ===== Documentation =====
