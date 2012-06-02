@@ -14,23 +14,6 @@ The AidView interface can be accessed at [[http://www.aidview.net]]. It is based
   * View individual project profiles - with a selection of 'widgets' displaying data on the project
   * Collect widgets together
 
-
-==== API ====
-AidView uses an API which stores a sub-set of the data from the IATI Registry and is currently accessible at http://datadev.aidinfolabs.org/xquery/woapi.xq
-
-The data in the API has been through an import pipeline which:
-  * Normalises currency to USD
-  * Creates total project values based on the highest of total commitments, total disbursement or total spending
-  * Pre-computers OLAP cubes for a number of values to support faster queries
-
-Data stored in the API is manually refreshed, and editorialised, so the main corpus of data only includes data appropriate for display in the AidView interface (e.g. recent projects).
- 
-An open source version of the code for the AidView API is due soon. 
-
-<note warning>
-Note: API location is subject to change. Please contact [[community:user:timdavies|Tim Davies]] if you are using the API to be notified of changes.
-</note>
-
 ===== Documentation =====
 /* Provide links to documentation, or use the wiki to develop documentation of this tool. */
 
