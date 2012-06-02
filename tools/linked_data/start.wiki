@@ -9,6 +9,10 @@ A copy of the data is hosted on the Kasabi platform at [[http://kasabi.com/datas
 The [[http://kasabi.com/dataset/iati/|Kasabi triple store]] of IATI data is not updated on a scheduled or regular basis. It is possible this data may be behind or out of of synchronisation with current IATI data. Please contact [[community:user:timdavies|Tim Davies]] to request the data is refreshed if you have an application that requires this. 
 </note>
 
+<note important>
+The current linked data model is draft, and is likely to change.  Please add a note to this page with details of any tools using the linked data so that we can inform users in advance of proposed changes. 
+</note>
+
 ===== Detailed Description =====
 /* Provide additional details here */
 
