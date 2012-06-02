@@ -6,17 +6,25 @@ An initial workflow for converting IATI data into Linked Data, and uploading thi
 A copy of the data is hosted on the Kasabi platform at [[http://kasabi.com/dataset/iati/]].
 
 <note warning>
-The [[http://kasabi.com/dataset/iati/|Kasabi triple store]] of IATI data is not updated on a scheduled or regular basis. It is possible this data may be behind or out of of synchronisation with current IATI data. 
+The [[http://kasabi.com/dataset/iati/|Kasabi triple store]] of IATI data is not updated on a scheduled or regular basis. It is possible this data may be behind or out of of synchronisation with current IATI data. Please contact [[community:user:timdavies|Tim Davies]] to request the data is refreshed if you have an application that requires this. 
 </note>
 
 ===== Detailed Description =====
 /* Provide additional details here */
 
 
+===== Uses =====
+
+The [[http://r4d.herokuapp.com/|Research for Development]] prototype makes use of IATI linked data and research data to present a widget that queries that data via SPARQL to find research related to a given IATI ID. 
 
 ===== Documentation =====
 /* Provide links to documentation, or use the wiki to develop documentation of this tool. */
 
+Documentation on running the conversion scripts to grab data from the IATI Registry, convert it to RDF, and upload to the Kasabi platform (and the source code for doing so) is [[https://github.com/practicalparticipation/International-Development-Linked-Data-Tools-|provided on GitHub]].
+
+Documentation on using Kasabi to access and explore linked data is [[http://kasabi.com/doc/developer-guide|provided on the Kasabi platform]]. 
 
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
+
+Source code is [[https://github.com/practicalparticipation/International-Development-Linked-Data-Tools-|available on GitHub]].
