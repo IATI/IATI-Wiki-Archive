@@ -14,6 +14,11 @@ The AidView interface can be accessed at [[http://www.aidview.net]]. It is based
   * View individual project profiles - with a selection of 'widgets' displaying data on the project
   * Collect widgets together
 
+==== API ====
+
+The [[AidView API]] is currently accessible and can be used to prototype additional applications.
+
+
 ===== Documentation =====
 /* Provide links to documentation, or use the wiki to develop documentation of this tool. */
 
