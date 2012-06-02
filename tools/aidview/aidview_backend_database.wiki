@@ -5,7 +5,7 @@ AidView is powered by an eXist XML database and set of scripts written by [[http
 
 ===== Documentation =====
 
-Source code available at: TBC
+Source code available on [[https://github.com/aidinfolabs/AidView-API|GitHub]].
 
 ==== Set up server with eXist ====
 
