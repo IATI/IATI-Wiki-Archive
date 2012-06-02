@@ -49,3 +49,5 @@ The interface uses [[http://nodejs.org/|Node.js]] and is deployed to [[http://ww
 The source code for the interface [[https://github.com/whiteoctober/IATI|is available on GitHub]]. We would like to thank all the contributors to the following open source projects whose work we have built upon: [[http://exist-db.org/|eXist]], [[http://nodejs.org/|Node.js], [[http://jquery.com|jQuery]], [[http://documentcloud.github.com/underscore/|underscore.js]], [[http://html5boilerplate.com/|HTML Boilerplate]], [[http://expressjs.com/|express.js]] and many more whose work we rely upon day-to-day. 
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
+
+Find the AidView front end code [[https://github.com/whiteoctober/IATI|on GitHub here]].
