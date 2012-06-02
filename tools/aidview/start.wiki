@@ -8,6 +8,13 @@
 
 ==== Interface ====
 
+The AidView interface can be accessed at [[http://www.aidview.net]]. It is based around simple faceted browsing where you can:
+  * Filter by Country of project; Sector of project; and Donor; and keyword search
+  * View 'data file' profiles (when filtered to < 300 projects)
+  * View individual project profiles - with a selection of 'widgets' displaying data on the project
+  * Collect widgets together
+
+
 ==== API ====
 AidView uses an API which stores a sub-set of the data from the IATI Registry and is currently accessible at http://datadev.aidinfolabs.org/xquery/woapi.xq
 
