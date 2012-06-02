@@ -1,0 +1,42 @@
+====== AidView Backend Database ======
+/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+
+AidView is powered by an eXist XML database and set of scripts written by [[https://twitter.com/kitwallace|Chris Wallace]]. These are working notes on the process of trying to set up a copy of the database.
+
+===== Documentation =====
+
+Source code available at: TBC
+
+==== Set up server with eXist ====
+
+Starting with a [[http://www.turnkeylinux.org/core|Turnkey Linux Core image]]. (Mine = root / existpass)
+
+Install open-jdk
+ 
+  apt-get install openjdk-6-jre
+  apt-get install openjdk-6-jdk
+
+Fetch latest stable version of eXist from http://exist-db.org/exist/download.xml and follow the [[http://exist-db.org/exist/quickstart.xml#installation|installation instructions]]. Then run the command line installation (your version number may vary...)
+
+  java -jar eXist-setup-1.4.2-rev16251.jar -p /root/eXist
+
+Check that is running by changing to the eXist bin directory and running startup.sh
+
+  cd /root/eXist/bin
+  ./startup.sh
+
+By default this launches a server bound to localhost, so to access I tunnel to the server
+
+  ssh -f root@[servername] -L 8080:localhost:8080 -N
+  
+I can how access eXist at http://localhost:8080
+
+==== Install the applications ====
+
+==== Import data ====
+
+
+
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
