@@ -31,6 +31,8 @@ By default this launches a server bound to localhost, so to access I tunnel to t
   
 I can how access eXist at http://localhost:8080
 
+Log-in to the admin interface at http://localhost:8080/exist/admin/ to set a password (user management).
+
 ==== Install the applications ====
 
 ==== Import data ====
