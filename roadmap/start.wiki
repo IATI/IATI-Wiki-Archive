@@ -12,7 +12,6 @@ Any member of the IATI community can add their planned work to this shared roadm
 
 ==== June 2012 ====
 From May
-  *[[Blog about the TAG]]
   *[[CSV tool launch]]
   *[[Set up public calendar]]
   *[[Relaunch iatistandard.org]]
