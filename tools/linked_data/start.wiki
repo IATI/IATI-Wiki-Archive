@@ -23,6 +23,7 @@ As an XML standard, IATI does not yet have an agreed linked data vocabulary, but
 
 The [[http://r4d.herokuapp.com/|Research for Development]] prototype makes use of IATI linked data and research data to present a widget that queries that data via SPARQL to find research related to a given IATI ID. 
 
+The [[http://rhoksoton.github.com/CharityViz/|CharityViz]] widget demo provides a contextual information widget using data accessed with SPARQL. 
 ===== Documentation =====
 /* Provide links to documentation, or use the wiki to develop documentation of this tool. */
 
