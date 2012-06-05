@@ -1,0 +1,26 @@
+====== Siem Vaessen ======
+/* Edit this page to create your own profile. */
+
+---- dataentry people ----
+name: Siem Vaessen
+
+organisation: Zimmerman & Zimmerman
+
+website_url: www.zimmermanzimmerman.nl
+
+twitter_url: @siemvaessen
+
+email_mail: siem@zimmermanzimmerman.nl
+
+one-line-bio: Creating sustainable concepts in the field of software & design. Open data geek.
+
+user_tags:   #<-Enter comma separated key words about your involvement in IATI
+----
+
+===== More detail =====
+/* You might like to include details of projects you work on, or more about your engagement with IATI here. */
+
+
+
+
+
