@@ -12,7 +12,7 @@ twitter_url: @siemvaessen
 
 email_mail: siem@zimmermanzimmerman.nl
 
-one-line-bio: Creating sustainable concepts in the field of software & design. Open data geek.
+one-line-bio: Technical liason of OIPA, building an open aid data infrastructure. 
 
 user_tags:   technical, concept, usability#<-Enter comma separated key words about your involvement in IATI
 ----
