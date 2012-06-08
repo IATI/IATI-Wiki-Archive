@@ -44,4 +44,8 @@ After decoding the JSON into variables, the data can be used in a HTML page (eg 
   * JAVA: http://code.google.com/p/google-gson/
 
 ===== Links, source code and development plans =====
-To do! (soon..)
+You can find the [[https://www.gnu.org/licenses/agpl-3.0.html|AGPL licensed code]] for both the User Interface for openaid.nl at [[https://github.com/openaid-IATI/|Github]]. You will also find the [[https://github.com/openaid-IATI/|OIPA webservice]] which you can download, use and test with. OIPA is also released under the [[https://www.gnu.org/licenses/agpl-3.0.html|AGPL licence]].
+
+Developments for 2012 will consist of producing openaidsearch (operational late June 2012) which will also be powered by [[tools:oipa:start|OIPA]].
+
+ 
