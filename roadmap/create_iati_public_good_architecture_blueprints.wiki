@@ -12,13 +12,33 @@ The IATI public good infrastructure may involve:
   * E-mail alerts
 
 These are all services which it makes sense to either 
-  * (a) provide once centrally; 
-  * (b) which have the properties of being diminishable public goods; 
-  * (c) provide as interchangeable layers of an infrastructure;
+  * a] provide once centrally; 
+  * b] which have the properties of being diminishable public goods; 
+  * c] provide as interchangeable layers of an infrastructure;
 
 As a number of different projects develop that work with IATI data, articulating a shared blueprint for how tools should work together will be beneficial. 
 
-~~TASK:Tim Davies?2012-06-22!~~
+===== What might be in an IATI Toolkit =====
 
+From [[http://lopad.org/4vf3Bjwnho]].
+
+  * API - data as a service (e.g. Chris' Exist work)
+    * Project access
+    * Spending access
+    * Geographical search
+    * Aggregated data
+  * database and API 'in a box'
+  * data harvesting (from the registry)
+  * conversion tools - serialisation
+  * currency conversion tool
+  * data cleaning tools & routines
+  * notification functions
+  * code list verficiation
+  * mashing datasets
+  * documentation for end-users
+  * Geographic Information Systems based tools
+
+
+~~TASK:Tim Davies?2012-06-22!~~
 
 
