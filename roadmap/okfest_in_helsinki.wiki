@@ -1,0 +1,22 @@
+====== OKFest - IATI Technical Fringe Event ======
+
+OKFest 2012 (http://okfestival.org/) will have an Open Development track, as well as bringing together many more from across the Open Knowledge community. 
+
+At the IATI TAG Meeting in May we discussed holding a IATI Technical Workshop alongside OKFest, to focus on tasks from the shared Technical Roadmap http://wiki.iatistandard.org/roadmap/start and other key issues. 
+
+This would take place outside the main OKFest programme as a focussed day of meeting. 
+
+===== Poll for setting date =====
+
+http://www.doodle.com/nh9cqzcryva5bh6v
+
+===== Organising ToDo list =====
+
+  * Check if there are enough people to make workshop worthwhile
+  * Decide on day
+  * Arrange venue
+  * Set agenda and key issues to address
+  * Arrange remote participation if appropriate
+
+===== Potential Agenda Issues =====
+//Add agenda ideas here...//
