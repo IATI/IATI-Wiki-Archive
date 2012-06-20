@@ -1,0 +1,8 @@
+====== Discussion: Modelling Linked Data ======
+
+We are currently working on an updated model for IATI Linked Data.
+
+Dick Murray from Unit4 has drafted a framework which will be posted here shortly...
+
+See the [[http://www.reegle.info/countries/india-energy-profile/IN|Programms]] elements of Reegle for possible models for project data.
+
