@@ -1,0 +1,5 @@
+==== Example Usage ====
+
+    <iati-activity default-currency="USD" last-updated-datetime="2012-03-31T01:01:01" hierarchy="1">
+       ....
+    </iati-activity>
