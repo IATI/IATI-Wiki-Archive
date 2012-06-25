@@ -1,0 +1,5 @@
+==== Example Usage ====
+
+<code xml>
+    <other-identifier>AFG033</other-identifier>
+</code>
