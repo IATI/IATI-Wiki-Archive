@@ -1,0 +1,5 @@
+==== Example Usage ====
+
+<code xml>
+    <iati-identifier>GB-CC-285776-AFG033</iati-identifier>
+</code>
