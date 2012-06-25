@@ -12,7 +12,7 @@ Source code available on [[https://github.com/aidinfolabs/AidView-API|GitHub]].
 Starting with a [[http://www.turnkeylinux.org/core|Turnkey Linux Core image]]. (Mine = root / existpass)
 
 Install open-jdk
- 
+
   apt-get install openjdk-6-jre
   apt-get install openjdk-6-jdk
 
