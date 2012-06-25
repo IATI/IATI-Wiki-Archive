@@ -35,9 +35,6 @@ I can how access eXist at http://localhost:8080
 
 Log-in to the admin interface at http://localhost:8080/exist/admin/ to set a password (user management).
 
-To access the server via [[http://demo.exist-db.org:8098/exist/webdav.xml#macosx|WebDav]] on Mac Finder, use Go -> Connect to Server and connect to ''http://localhost:8080/exist/webdav/db'' with the username admin, and password you just set.
-
-
 ==== Install the applications ====
 
 === via Restore client ===
