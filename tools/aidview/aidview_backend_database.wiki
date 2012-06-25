@@ -154,7 +154,15 @@ Some documentation is provided at /admin/doc
 Visit /admin/ to access the administration interface. You will be asked for the eXist admin username and password. 
 
 
+=== To create a new corpus ===
 
+//For development reasons, data on activities is divided into 'corpus' sections. Each corpus contains the master list of activitySets, the collection of activities and the OLAP.//
+
+At present a Corpus is created by editing the code. To create a Corpus:
+
+  * Add a directory in /db/apps/iati/data with the name of your new corpus
+  * Add an 'activities' directory within this
+  * Edit /db/apps/iati/config/corpusindex.xml to add a new entry for your corpus. Copy the existing record as required. 
 
 
 ===== Links, source code and development plans =====
