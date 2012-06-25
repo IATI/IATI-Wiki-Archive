@@ -3,6 +3,7 @@
 
 ===== Activity Standard =====
 [[standard:documentation:1.0:iati-activities]]
+
 [[standard:documentation:1.0:iati-activity]]
 [[standard:documentation:1.0:reporting-org]]
 [[standard:documentation:1.0:iati-identifier]]
