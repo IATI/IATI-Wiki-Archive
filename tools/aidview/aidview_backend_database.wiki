@@ -50,8 +50,10 @@ The IATI Backend Database scripts require some additional modules to be enabled 
   cp build.properties local.build.properties
   nano local.build.properties
 
+<code bash | In local.build.properties>
   # Scheduler module
   include.module.scheduler = true
+</code>
 
   * Change to the eXist root, create the build/classes directory if it doesn't exist, and then run ./build.sh extension-modules
 
