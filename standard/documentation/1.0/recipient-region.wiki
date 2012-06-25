@@ -1,0 +1,7 @@
+===== Recipient Region ===== 
+
+==== Example Usage ====
+
+<code xml>
+<recipient-region percentage="100" code="489" xml:lang="en">South America</recipient-region>
+</code>
