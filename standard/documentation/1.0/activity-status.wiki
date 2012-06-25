@@ -1,0 +1,5 @@
+==== Example Usage ====
+
+<code xml>
+    <activity-status code="3">Completion</activity-status>
+</code>
