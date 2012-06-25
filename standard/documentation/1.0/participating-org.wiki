@@ -1,0 +1,8 @@
+===== Participating Organisation ===== 
+
+==== Example Usage ====
+
+<code xml>
+    <participating-org role="Funding" type="21" ref="GB-CC-285776">CAFOD</participating-org>
+
+</code>
