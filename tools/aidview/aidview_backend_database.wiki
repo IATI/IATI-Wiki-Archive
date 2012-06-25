@@ -21,6 +21,40 @@ Fetch latest stable version of eXist from http://exist-db.org/exist/download.xml
   java -jar eXist-setup-1.4.2-rev16251.jar -p /root/eXist
 
 
+=== Apache configuration ===
+You will need to enable mod_proxy. 
+(Ubuntu 10.04 instructions here: http://library.linode.com/web-servers/apache/proxy-configuration/multiple-webservers-proxypass-ubuntu-10.04-lucid )
+
+Add this to your virtual host set up:
+    # IATI exist HTTP Virtual Hosy
+    <VirtualHost *:80>
+      ServerAdmin you@gmail.com
+      ProxyRequests off
+      ServerName *YOUR-SERVER-URL-HERE*
+    <Proxy *>
+       Allow from all
+    </Proxy>
+      ProxyPass / http://localhost:8080/exist/rest/db/apps/iati/
+      ProxyPassReverse / http://localhost:8080/exist/rest/db/apps/iati/
+      ProxyPassReverseCookiePath / /
+      RewriteMap escape int:escape
+      RewriteEngine on
+      AllowEncodedSlashes On 
+      RewriteRule ^/data$ /data/ [R]
+      RewriteRule ^/$ /data/ [R]
+      RewriteRule ^/data/(.*).csv$ /xquery/data.xq?_path=${escape:$1}&_format=csv [QSA,P]
+      RewriteRule ^/data/(.*).json$ /xquery/data.xq?_path=${escape:$1}&_format=json [QSA,P]
+      RewriteRule ^/data/(.*).xml$ /xquery/data.xq?_path=${escape:$1}&_format=xml [QSA,P]
+      RewriteRule ^/data/(.*).rss$ /xquery/data.xq?_path=${escape:$1}&_format=rss [QSA,P]
+      RewriteRule ^/data/(.*)$ /xquery/data.xq?_path=${escape:$1} [QSA,P]
+
+      RewriteRule ^/admin$ /admin/ [R]
+      RewriteRule ^/admin/(.*).xml$ /xquery/admin.xq?_path=${escape:$1}&_format=xml [QSA,P]
+      RewriteRule ^/admin/(.*)$ /xquery/admin.xq?_path=${escape:$1} [QSA,P] 
+     
+    </VirtualHost>
+
+
 ==== Running eXist ====
 Check that eXist is installed and will run by changing to the eXist bin directory and running startup.sh
 
