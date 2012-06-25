@@ -177,6 +177,15 @@ E.g.
 		<description>A test corpus</description>
 	</corpus>
 </code>
+
+==== API Layer ====
+
+An API layer is available at xquery/woapi.xq
+
+
+==== Accessing Logs ====
+
+You can access the logs at webapp/WEB-INF/logs/exist.log
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
 
