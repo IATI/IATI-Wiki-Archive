@@ -42,7 +42,11 @@ To access the server via [[http://demo.exist-db.org:8098/exist/webdav.xml#macosx
 
 === via Restore client ===
 
+(For this you will also need to install eXist on your local computer following the instructions on the eXist website, and then launch the client program.)
 
+  * Start the eXist admin client.
+  * Restore the data from the unzipped backup by selecting the __contents__.xml file in the root of the backup, in this case you will find this at PATH_TO_BACKUP/aidinfolabs-AidView-API-backup.201206231718/db/__contents__.xml. In the restore dialogue you will need to select 'Files of Type' as '__contents__.xml files' in order to make the file visible.
+  * At the prompt enter username 'admin' and no password. The database will then restore.
 
 === or Via WebDav ===
 
