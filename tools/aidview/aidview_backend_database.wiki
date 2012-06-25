@@ -52,7 +52,6 @@ Add this to your virtual host set up:
       RewriteRule ^/data/(.*).xml$ /xquery/data.xq?_path=${escape:$1}&_format=xml [QSA,P]
       RewriteRule ^/data/(.*).rss$ /xquery/data.xq?_path=${escape:$1}&_format=rss [QSA,P]
       RewriteRule ^/data/(.*)$ /xquery/data.xq?_path=${escape:$1} [QSA,P]
-
       RewriteRule ^/admin$ /admin/ [R]
       RewriteRule ^/admin/(.*).xml$ /xquery/admin.xq?_path=${escape:$1}&_format=xml [QSA,P]
       RewriteRule ^/admin/(.*)$ /xquery/admin.xq?_path=${escape:$1} [QSA,P] 
