@@ -47,6 +47,8 @@ Log-in to the admin interface at http://localhost:8080/exist/admin/ to set a pas
 
 === or Via WebDav ===
 
+To access the server via [[http://demo.exist-db.org:8098/exist/webdav.xml#macosx|WebDav]] on Mac Finder, use Go -> Connect to Server and connect to ''http://localhost:8080/exist/webdav/db'' with the username admin, and password you just set.
+
 Connected via WebDav, copy the source to /db/
 
 Then visit: http://localhost:8080/exist/rest/db/apps/iati/xquery/data.xq to access the public homepage.
