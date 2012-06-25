@@ -190,3 +190,25 @@ You can access the logs at webapp/WEB-INF/logs/exist.log
 /* Please provide links to any source code, additional resources, or development plans*/
 
 [[https://github.com/aidinfolabs/AidView-API]]
+
+===== Installation differences for version 1.4 =====
+
+Vhosts:
+
+<code>
+  # data.aidinfolab.org HTTP Virtual Host
+<VirtualHost *:80>
+  ServerAdmin kit.wallace@gmail.com
+  ProxyRequests off
+  ServerName data.aidinfolabs.org
+ <Proxy *>
+   Allow from all
+ </Proxy>
+  ProxyPass / http://localhost:8080/exist/rest/db/apps/iati-api/
+  ProxyPassReverse / http://localhost:8080/exist/rest/db/apps/iati-api/
+  ProxyPassReverseCookieDomain localhost data.aidinfolabs.org
+  ProxyPassReverseCookiePath / /
+  RewriteEngine on
+  RewriteRule ^/$ /xquery/home.xq [P]
+</VirtualHost>
+</code>
