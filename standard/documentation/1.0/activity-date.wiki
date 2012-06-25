@@ -1,0 +1,6 @@
+==== Example Usage ====
+
+<code xml>
+    <activity-date type="start-actual" iso-date="2010-03-01"/>
+<activity-date type="end-planned" iso-date="2013-03-30"/>
+</code>
