@@ -212,3 +212,5 @@ Vhosts:
   RewriteRule ^/$ /xquery/home.xq [P]
 </VirtualHost>
 </code>
+
+Default password: daisy
