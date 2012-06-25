@@ -27,7 +27,7 @@ Fetch latest stable version of eXist from http://exist-db.org/exist/download.xml
 You will also need Apache. With mod_rewrite and mod_proxy enabled:
 
   apt-get install apache2
-  a2enmod rewrite proxy
+  a2enmod rewrite proxy proxy_http
 
 Then add this to your virtual host set up:
 
