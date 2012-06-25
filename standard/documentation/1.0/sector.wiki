@@ -1,0 +1,8 @@
+===== Sector ===== 
+
+==== Example Usage ====
+
+<code xml>
+<sector code="13040" percentage="60" xml:lang=”en”>STD control including HIV/AIDS</sector>
+<sector code="12220" percentage="60" xml:lang=”en”>Basic health care</sector>
+</code>
