@@ -10,6 +10,7 @@ Source code available on [[https://github.com/aidinfolabs/AidView-API|GitHub]].
 ==== Set up server with eXist ====
 
 Starting with a [[http://www.turnkeylinux.org/core|Turnkey Linux Core image]]. (Mine = root / existpass)
+  * Note, if using the core image you will need to add updated the AWS firewall rules to allow port 80 from the Turnkey management console. 
 
 Install open-jdk
 
