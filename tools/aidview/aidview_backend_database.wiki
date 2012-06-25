@@ -60,7 +60,7 @@ The IATI Backend Database scripts require some additional modules to be enabled 
   ./build.sh extension-modules
 
   * Then edit the conf.xml file to make sure the following modules are enabled:
-  * 
+
 <code xml | Exist Version 2.0 Modules>
 <!-- XSL functions -->
             <module uri="http://www.w3.org/1999/XSL/Transform" class="org.exist.xslt.functions.XSLModule" />
