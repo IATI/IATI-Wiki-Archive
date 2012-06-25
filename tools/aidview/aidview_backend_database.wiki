@@ -136,6 +136,9 @@ To access the server via [[http://demo.exist-db.org:8098/exist/webdav.xml#macosx
 
 Connected via WebDav, copy the source to /db/
 
+==== Configure the application ====
+
+Edit the /db/apps/iati/lib/config.xqm with the hostname and IP address of your server (you can edit using the eXist client application).
 ===== Operation =====
 
 Once you have configured eXist, Apache, and installed the application, you should be able to use the application.
