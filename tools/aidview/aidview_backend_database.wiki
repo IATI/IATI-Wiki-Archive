@@ -64,6 +64,7 @@ The IATI Backend Database scripts require some modules to be enabled in eXist. T
   <module uri="http://exist-db.org/xquery/xmldiff"            class="org.exist.xquery.modules.xmldiff.XmlDiffModule" />
 </code>
 
+  * Restart eXist
 
 ==== Install the applications ====
 
