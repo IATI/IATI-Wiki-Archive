@@ -1,0 +1,7 @@
+==== Example Usage ====
+
+<code xml>
+    <contact-info>
+       ....
+    </contact-info>
+</code>
