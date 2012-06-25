@@ -1,0 +1,5 @@
+==== Example Usage ====
+
+<code xml>
+    <activity-website>http://portfolio.theglobalfund.org/en/Grant/Index/AFG-011-G12-T</activity-website>
+    </code>
