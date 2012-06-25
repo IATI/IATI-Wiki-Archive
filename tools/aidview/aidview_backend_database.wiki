@@ -24,14 +24,13 @@ Fetch latest stable version of eXist from http://exist-db.org/exist/download.xml
 
 === Apache configuration ===
 
-You will also need Apache. 
+You will also need Apache. With mod_rewrite and mod_proxy enabled:
 
   apt-get install apache2
+  a2enmod rewrite proxy
 
-You will need to enable mod_proxy. 
-(Ubuntu 10.04 instructions here: http://library.linode.com/web-servers/apache/proxy-configuration/multiple-webservers-proxypass-ubuntu-10.04-lucid )
+Then add this to your virtual host set up:
 
-Add this to your virtual host set up:
     # IATI exist HTTP Virtual Hosy
     <VirtualHost *:80>
       ServerAdmin you@gmail.com
