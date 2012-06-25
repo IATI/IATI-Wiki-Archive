@@ -1,3 +1,4 @@
+===== IATI Activities ===== 
 ==== Example Usage ====
 
 <code xml>
