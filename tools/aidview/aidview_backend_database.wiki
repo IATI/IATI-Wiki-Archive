@@ -36,36 +36,48 @@ I can how access eXist at http://localhost:8080
 Log-in to the admin interface at http://localhost:8080/exist/admin/ to set a password (user management).
 
 ==== Configuring eXist ====
+(These instructions are for eXist version 2)
 
-The IATI Backend Database scripts require some modules to be enabled in eXist. To enable the modules:
+The IATI Backend Database scripts require some additional modules to be enabled in eXist. To enable the modules:
 
   * Stop your running copy of eXist
-  * Change to the eXist directory
+  * Change to the eXist extensions directory
+
+  cd /root/eXist/extensions
+
+  * Copy ''build.properties'' to ''local.build.properties'' and then edit it to change the line for include.module.scheduler to 'true'
+
+  cp build.properties local.build.properties
+  nano local.build.properties
+
+  # Scheduler module
+  include.module.scheduler = true
+
+  * Change to the eXist root, create the build/classes directory if it doesn't exist, and then run ./build.sh extension-modules
 
   cd /root/eXist
+  mkdir build/classes
+  ./build.sh extension-modules
 
-  * Edit the conf.xml file to move the following lines from being commented out, to being active (list below for Exist Version 2)
-
+  * Then edit the conf.xml file to make sure the following modules are enabled:
+  * 
 <code xml | Exist Version 2.0 Modules>
-  <module uri="http://exist-db.org/xquery/backups"            class="org.exist.backup.xquery.BackupModule" />
-  <module uri="http://exist-db.org/xquery/cache"              class="org.exist.xquery.modules.cache.CacheModule" />
-  <module uri="http://exist-db.org/xquery/counter"            class="org.exist.xquery.modules.counter.CounterModule" />
-  <module uri="http://exist-db.org/xquery/datetime"           class="org.exist.xquery.modules.datetime.DateTimeModule" />
-  <module uri="http://exist-db.org/xquery/httpclient"         class="org.exist.xquery.modules.httpclient.HTTPClientModule" />
-  <module uri="http://exist-db.org/xquery/image"              class="org.exist.xquery.modules.image.ImageModule" />
-  <module uri="http://exist-db.org/xquery/jfreechart"         class="org.exist.xquery.modules.jfreechart.JFreeChartModule" />
-  <module uri="http://exist-db.org/xquery/jndi"               class="org.exist.xquery.modules.jndi.JNDIModule" />
-  <module uri="http://exist-db.org/xquery/mail"               class="org.exist.xquery.modules.mail.MailModule" />
-  <module uri="http://exist-db.org/xquery/math"               class="org.exist.xquery.modules.math.MathModule" />
-  <module uri="http://exist-db.org/xquery/scheduler"          class="org.exist.xquery.modules.scheduler.SchedulerModule" />
-  <module uri="http://exist-db.org/xquery/simple-ql"          class="org.exist.xquery.modules.simpleql.SimpleQLModule" />
-  <module uri="http://exist-db.org/xquery/sql"                class="org.exist.xquery.modules.sql.SQLModule" />
-  <module uri="http://exist-db.org/xquery/svn"                class="org.exist.xquery.modules.svn.SVNModule" />
-  <module uri="http://exist-db.org/xquery/xmldiff"            class="org.exist.xquery.modules.xmldiff.XmlDiffModule" />
-</code>
+<!-- XSL functions -->
+            <module uri="http://www.w3.org/1999/XSL/Transform" class="org.exist.xslt.functions.XSLModule" />
+            <module uri="http://exist-db.org/xquery/file" class="org.exist.xquery.modules.file.FileModule" />
+            <!-- Compression module-->
+            <module uri="http://exist-db.org/xquery/compression" class="org.exist.xquery.modules.compression.CompressionModule" />
+            <!-- XSL functions -->
+            <module uri="http://www.w3.org/1999/XSL/Transform" class="org.exist.xslt.functions.XSLModule" />
+            <!-- XQDoc module: required for generating function documentation -->
+            <module uri="http://exist-db.org/xquery/xqdoc" class="org.exist.xqdoc.xquery.XQDocModule" />
+       <!-- included optional modules -->
+            <module uri="http://exist-db.org/xquery/datetime"           class="org.exist.xquery.modules.datetime.DateTimeModule" />
+            <module uri="http://exist-db.org/xquery/httpclient"         class="org.exist.xquery.modules.httpclient.HTTPClientModule" />
+            <module uri="http://exist-db.org/xquery/math"               class="org.exist.xquery.modules.math.MathModule" />
+            <module uri="http://exist-db.org/xquery/scheduler"          class="org.exist.xquery.modules.scheduler.SchedulerModule" /></code>
 
   * Restart eXist
-
 ==== Install the applications ====
 
 === via Restore client ===
