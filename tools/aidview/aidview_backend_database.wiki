@@ -35,6 +35,21 @@ I can how access eXist at http://localhost:8080
 
 Log-in to the admin interface at http://localhost:8080/exist/admin/ to set a password (user management).
 
+==== Configuring eXist ====
+
+The IATI Backend Database scripts require some modules to be enabled in eXist. To enable the modules:
+
+  * Stop your running copy of eXist
+  * Change to the eXist directory
+
+  cd /root/eXist
+
+  * Edit the conf.xml file to move the following lines from being commented out, to being active
+
+<code xml>
+  <module uri="http://exist-db.org/xquery/math"               class="org.exist.xquery.modules.math.MathModule" />
+  <module uri="http://exist-db.org/xquery/datetime"           class="org.exist.xquery.modules.datetime.DateTimeModule" />
+</code>
 ==== Install the applications ====
 
 === via Restore client ===
