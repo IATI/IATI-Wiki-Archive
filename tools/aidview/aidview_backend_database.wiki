@@ -136,7 +136,20 @@ To access the server via [[http://demo.exist-db.org:8098/exist/webdav.xml#macosx
 
 Connected via WebDav, copy the source to /db/
 
-==== Import data ====
+===== Operation =====
+
+Once you have configured eXist, Apache, and installed the application, you should be able to use the application.
+
+It is divided into a front-end /data/ service, a backend /admin/ service, and a number of additional scripts, such as a 'woapi.xq' service used to run AidView. 
+
+==== Useful links ====
+
+Some documentation is provided at /admin/doc
+
+==== Administration ====
+
+Visit /admin/ to access the administration interface. You will be asked for the eXist installation admin details. 
+
 
 
 
