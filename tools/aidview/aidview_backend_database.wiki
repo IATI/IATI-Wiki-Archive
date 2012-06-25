@@ -3,9 +3,9 @@
 
 AidView is powered by an eXist XML database and set of scripts written by [[https://twitter.com/kitwallace|Chris Wallace]]. These are working notes on the process of trying to set up a copy of the database. The backend powers the [[API|AidView API]] and [[Start|AidView application]].
 
-===== Documentation =====
+===== Installation =====
 
-Source code available on [[https://github.com/aidinfolabs/AidView-API|GitHub]].
+Source code available on [[https://github.com/aidinfolabs/AidView-API|GitHub]]. Development version is in the Master branch, with [[https://github.com/aidinfolabs/AidView-API/tree/version_one|Version 1 (production) available here]]. 
 
 ==== Set up server with eXist ====
 
