@@ -1,0 +1,7 @@
+===== Default Flow Type ===== 
+
+==== Example Usage ====
+
+<code xml>
+    <default-flow-type code="10" xml:lang="en">ODA</default-flow-type>
+</code>
