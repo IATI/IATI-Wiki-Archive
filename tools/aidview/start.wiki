@@ -24,7 +24,7 @@ The AidView [[API]] is currently accessible and can be used to prototype additio
 
 //Taken from the 'About' page of AidView//
 
-= About AidView =
+== About AidView ==
 
 AidView is a prototype demonstrating how detailed and timely data on aid activities shared through the [[http://www.aidtransparency.net|International Aid Transparency Initiative]] can be made accessible to a wide range of people. Designed to work on tablet devices such as iPads or Android tablets, AidView explores how different partners in the development process can have the information they need at their fingertips. It is also accessible through modern web browsers.
 
