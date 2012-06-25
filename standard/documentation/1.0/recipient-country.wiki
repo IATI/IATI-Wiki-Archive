@@ -1,0 +1,8 @@
+===== Recipient Country ===== 
+
+==== Example Usage ====
+
+<code xml>
+<recipient-country code="AR" percentage="100" xml:lang="en">Argentina</recipient-country>
+</code>
+
