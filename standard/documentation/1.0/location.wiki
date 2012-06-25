@@ -1,0 +1,9 @@
+===== Location ===== 
+
+==== Example Usage ====
+
+<code xml>
+    <location>
+       ....
+    </location>
+</code>
