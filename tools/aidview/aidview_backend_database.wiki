@@ -162,8 +162,14 @@ At present a Corpus is created by editing the code. To create a Corpus:
 
   * Add a directory in /db/apps/iati/data with the name of your new corpus
   * Add an 'activities' directory within this
-  * Edit /db/apps/iati/config/corpusindex.xml to add a new entry for your corpus. Copy the existing record as required. 
+  * Edit /db/apps/iati/config/corpusindex.xml to add a new entry for your corpus. Copy an existing record.
 
+E.g.
+<code xml>
+	<corpus name="All" pipeline="pipeline1">
+		<description>A test corpus</description>
+	</corpus>
+</code>
 
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
