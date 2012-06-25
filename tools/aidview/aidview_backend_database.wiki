@@ -148,7 +148,7 @@ Some documentation is provided at /admin/doc
 
 ==== Administration ====
 
-Visit /admin/ to access the administration interface. You will be asked for the eXist installation admin details. 
+Visit /admin/ to access the administration interface. You will be asked for the eXist admin username and password. 
 
 
 
