@@ -28,6 +28,8 @@ You will also need Apache. With mod_rewrite and mod_proxy enabled:
 
   apt-get install apache2
   a2enmod rewrite proxy proxy_http
+  
+(Note: If running CentOS you may need to [[http://sysadminsjourney.com/content/2010/02/01/apache-modproxy-error-13permission-denied-error-rhel/|follow the instructions here]] to allow the proxy to work ''/usr/sbin/setsebool -P httpd_can_network_connect 1'')
 
 Then add this to your virtual host set up:
 
