@@ -46,7 +46,7 @@ The IATI Backend Database scripts require some modules to be enabled in eXist. T
 
   * Edit the conf.xml file to move the following lines from being commented out, to being active (list below for Exist Version 2)
 
-<code xml Exist Version 2.0 Modules>
+<code xml | Exist Version 2.0 Modules>
   <module uri="http://exist-db.org/xquery/backups"            class="org.exist.backup.xquery.BackupModule" />
   <module uri="http://exist-db.org/xquery/cache"              class="org.exist.xquery.modules.cache.CacheModule" />
   <module uri="http://exist-db.org/xquery/counter"            class="org.exist.xquery.modules.counter.CounterModule" />
