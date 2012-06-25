@@ -1,0 +1,7 @@
+==== Example Usage ====
+
+<code xml>
+    <iati-activities version="1.00" generated-datetime="2012-05-29T00:00:00">
+       ....
+    </iati-activities>
+</code>
