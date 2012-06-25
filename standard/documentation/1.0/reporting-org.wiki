@@ -1,0 +1,5 @@
+==== Example Usage ====
+
+<code xml>
+    <reporting-org ref="GB-CC-285776" type="21">CAFOD</reporting-org>
+</code>
