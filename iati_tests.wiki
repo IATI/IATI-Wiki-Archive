@@ -1,0 +1,7 @@
+==== Example Usage ====
+
+<code xml>
+    <description type="1" xml:lang="en">
+Afghanistan is rated as one of 22 countries with the highest burden of TB in the world. It is also one of few countries outside of Africa affected by P. falciparum malaria. Although the seroprevalence of HIV in Afghanistan is unknown, high internal migration and refugee flows – along with poor living conditions and the low social status of women – contribute to the spread of HIV and other diseases. The program this grant supports takes an integrated approach to building capacity, training staff and creating partnerships for implementation to ensure improved service quality to address the problems of TB and malaria and to prevent the spread of HIV and AIDS. The program targeted TB and malaria patients with poor access to services, vulnerable groups such as women, and those at high risk of contracting HIV. The program laid the groundwork for restructuring HIV and AIDS, TB and malaria control activities while strengthening the capacity of the Ministry of Health to better plan, oversee, monitor and evaluate these activities.
+</description>
+</code>
