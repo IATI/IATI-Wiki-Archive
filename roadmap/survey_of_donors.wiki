@@ -12,6 +12,13 @@ This could help support better collaboration between donors.
 
 At present, this is an idea only, and we need to decide if this should be a job for the TAG, Secretariat, or an independent party. 
 
+====== Survey Questions ====== 
+
+  * Please rate the following features in order of importance:
+    * RSS feeds of latest updated IATI data
+    * E-mail alerts of latest IATI data
+    * ...
+
 ~~TASK:Tim Davies?2012-07-31~~
 
 
