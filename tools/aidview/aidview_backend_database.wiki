@@ -22,6 +22,11 @@ Fetch latest stable version of eXist from http://exist-db.org/exist/download.xml
 
 
 === Apache configuration ===
+
+You will also need Apache. 
+
+  apt-get install apache2
+
 You will need to enable mod_proxy. 
 (Ubuntu 10.04 instructions here: http://library.linode.com/web-servers/apache/proxy-configuration/multiple-webservers-proxypass-ubuntu-10.04-lucid )
 
