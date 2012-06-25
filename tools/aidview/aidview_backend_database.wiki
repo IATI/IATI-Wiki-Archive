@@ -153,10 +153,17 @@ Some documentation is provided at /admin/doc
 
 Visit /admin/ to access the administration interface. You will be asked for the eXist admin username and password. 
 
+=== To load data to a corpus ===
+A corpus is a collection of activities with it's own OLAP cubes and summary data. You can use the system to maintain separate corpus collections of activities. 
+
+From /admin/ select the 'Corpuses' option to go into an existing sorpus (or see below for details of how to create one).
+
+To load data to a Corpus you need to first fetch a list of the latest packages from the IATI Registry. You can find links for this in the 'Tasks' section. You can either:
+
+  * Fetch activities bit-by-bit using 'Page Refresh from CKAN'
+  * or Fetch all activities with 'Full Refresh from CKAN' (this can be slow and cause heavy server load). 
 
 === To create a new corpus ===
-
-//For development reasons, data on activities is divided into 'corpus' sections. Each corpus contains the master list of activitySets, the collection of activities and the OLAP.//
 
 At present a Corpus is created by editing the code. To create a Corpus:
 
@@ -170,7 +177,6 @@ E.g.
 		<description>A test corpus</description>
 	</corpus>
 </code>
-
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
 
