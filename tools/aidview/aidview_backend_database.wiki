@@ -44,12 +44,27 @@ The IATI Backend Database scripts require some modules to be enabled in eXist. T
 
   cd /root/eXist
 
-  * Edit the conf.xml file to move the following lines from being commented out, to being active
+  * Edit the conf.xml file to move the following lines from being commented out, to being active (list below for Exist Version 2)
 
-<code xml>
-  <module uri="http://exist-db.org/xquery/math"               class="org.exist.xquery.modules.math.MathModule" />
+<code xml Exist Version 2.0 Modules>
+  <module uri="http://exist-db.org/xquery/backups"            class="org.exist.backup.xquery.BackupModule" />
+  <module uri="http://exist-db.org/xquery/cache"              class="org.exist.xquery.modules.cache.CacheModule" />
+  <module uri="http://exist-db.org/xquery/counter"            class="org.exist.xquery.modules.counter.CounterModule" />
   <module uri="http://exist-db.org/xquery/datetime"           class="org.exist.xquery.modules.datetime.DateTimeModule" />
+  <module uri="http://exist-db.org/xquery/httpclient"         class="org.exist.xquery.modules.httpclient.HTTPClientModule" />
+  <module uri="http://exist-db.org/xquery/image"              class="org.exist.xquery.modules.image.ImageModule" />
+  <module uri="http://exist-db.org/xquery/jfreechart"         class="org.exist.xquery.modules.jfreechart.JFreeChartModule" />
+  <module uri="http://exist-db.org/xquery/jndi"               class="org.exist.xquery.modules.jndi.JNDIModule" />
+  <module uri="http://exist-db.org/xquery/mail"               class="org.exist.xquery.modules.mail.MailModule" />
+  <module uri="http://exist-db.org/xquery/math"               class="org.exist.xquery.modules.math.MathModule" />
+  <module uri="http://exist-db.org/xquery/scheduler"          class="org.exist.xquery.modules.scheduler.SchedulerModule" />
+  <module uri="http://exist-db.org/xquery/simple-ql"          class="org.exist.xquery.modules.simpleql.SimpleQLModule" />
+  <module uri="http://exist-db.org/xquery/sql"                class="org.exist.xquery.modules.sql.SQLModule" />
+  <module uri="http://exist-db.org/xquery/svn"                class="org.exist.xquery.modules.svn.SVNModule" />
+  <module uri="http://exist-db.org/xquery/xmldiff"            class="org.exist.xquery.modules.xmldiff.XmlDiffModule" />
 </code>
+
+
 ==== Install the applications ====
 
 === via Restore client ===
