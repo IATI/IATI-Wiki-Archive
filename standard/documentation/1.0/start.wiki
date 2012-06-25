@@ -3,3 +3,5 @@
 
 ===== Activity Standard =====
 [[standard:documentation:1.0:iati-activity]]
+
+[[standard:documentation:1.0:description]]
