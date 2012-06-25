@@ -1,0 +1,7 @@
+===== Collaboration Type ===== 
+
+==== Example Usage ====
+
+<code xml>
+    <collaboration-type code="2" xml:lang="en">Multilateral</collaboration-type>
+</code>
