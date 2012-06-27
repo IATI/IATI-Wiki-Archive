@@ -214,3 +214,17 @@ Vhosts:
 </code>
 
 Default password: daisy
+
+When you install the application (for example from the 'Restore' option, using the _contents_.xml file from the git repository) you will probably see the following errors:
+
+  WARN: Failed to restore resource 'pipeline-errors-v1.xml'
+  from file '/home/david/Desktop/Exist_day/1.4/AidView-API/apps/iati-api/archive/pipeline-errors-v1.xml'.
+  Reason: failed to read resource from file /home/david/Desktop/Exist_day/1.4/AidView-API/apps/iati-api/archive/pipeline-errors-  v1.xml
+  WARN: Failed to restore resource 'fullB-activitySets.xml'
+  from file '/home/david/Desktop/Exist_day/1.4/AidView-API/apps/iati-api/archive/fullB-activitySets.xml'.
+  Reason: failed to read resource from file /home/david/Desktop/Exist_day/1.4/AidView-API/apps/iati-api/archive/fullB-activitySets.xml
+  WARN: Failed to restore resource 'Icon_External_Link.png'
+  from file '/home/david/Desktop/Exist_day/1.4/AidView-API/apps/iati-api/assets/Icon_External_Link.png'.
+  Reason: failed to read resource from file /home/david/Desktop/Exist_day/1.4/AidView-API/apps/iati-api/assets/Icon_External_Link.png
+
+These are errors related (I think) to not being able to import the data. This data has not been included in the backup file used to restore as it is massive! So you can carry on. The structure should be in place for you to import your own data.
