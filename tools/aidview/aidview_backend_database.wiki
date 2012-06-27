@@ -129,11 +129,18 @@ The IATI Backend Database scripts require some additional modules to be enabled 
 
 === via Restore client ===
 
-(For this you will also need to install eXist on your local computer following the instructions on the eXist website, and then launch the client program.)
+To get a working copy of the AidView API backend you need to 'restore' the application by using the backup file available on [[https://github.com/aidinfolabs/AidView-API|GitHub]]. N.B. The development version is in the Master branch, with [[https://github.com/aidinfolabs/AidView-API/tree/version_one|Version 1 (production) available here]].
 
-  * Start the eXist admin client.
-  * Restore the data from the unzipped backup by selecting the __contents__.xml file in the root of the backup, in this case you will find this at PATH_TO_BACKUP/aidinfolabs-AidView-API-backup.201206231718/db/__contents__.xml. In the restore dialogue you will need to select 'Files of Type' as '__contents__.xml files' in order to make the file visible.
-  * At the prompt enter username 'admin' and no password. The database will then restore.
+Once we have the files we manage the restore process by launching the eXist client program (eXist Client Shell)
+
+  * Start the eXist admin client (also known as the eXist Client Shell).
+  * Go to Tools -> Restore
+  * Restore the data from backup by selecting the _contents_.xml file in the root of the backup, in this case you will find this at:
+
+    PATH_TO_BACKUP/AidView-API_contents_.xml. 
+  
+In the restore dialogue you will need to select 'Files of Type' as '__contents__.xml files' in order to make the file visible.
+  * At the prompt enter username 'admin' and no password (or the password you set). The database will then restore.
 
 === or Via WebDav ===
 
