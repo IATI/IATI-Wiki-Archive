@@ -19,6 +19,11 @@ Install open-jdk
 
 Fetch latest stable version of eXist from http://exist-db.org/exist/download.xml and follow the [[http://exist-db.org/exist/quickstart.xml#installation|installation instructions]]. Then run the command line installation (your version number may vary...)
 
+Either:
+  (Development version)
+  java -jar eXist-setup-2.0-tech-preview.jar
+  
+  (Current Live version)
   java -jar eXist-setup-1.4.2-rev16251.jar -p /root/eXist
 
 
@@ -31,7 +36,7 @@ You will also need Apache. With mod_rewrite and mod_proxy enabled:
   
 (Note: If running CentOS you may need to [[http://sysadminsjourney.com/content/2010/02/01/apache-modproxy-error-13permission-denied-error-rhel/|follow the instructions here]] to allow the proxy to work ''/usr/sbin/setsebool -P httpd_can_network_connect 1'')
 
-Then add this to your virtual host set up:
+Then add this to your virtual host set up: **N.B. This is for eXist 2.0 (Development).** For eXist 1.4 (Live) see [[http://wiki.iatistandard.org/tools/aidview/aidview_backend_database#installation_differences_for_version_14|Installation differences for version 1.4]]
 
     # IATI exist HTTP Virtual Hosy
     <VirtualHost *:80>
