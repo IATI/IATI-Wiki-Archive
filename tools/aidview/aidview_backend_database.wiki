@@ -106,7 +106,7 @@ The IATI Backend Database scripts require some additional modules to be enabled 
   mkdir build/classes
   ./build.sh extension-modules
 
-  * Then edit the conf.xml file to make sure the following modules are enabled:
+  * Then edit the conf.xml file to make sure the following modules (disabled by default) are enabled:
 
 <code xml | Exist Version 2.0 Modules>
 <!-- XSL functions -->
