@@ -1,0 +1,7 @@
+===== Default Aid Type ===== 
+
+==== Example Usage ====
+
+<code xml>
+<default-aid-type code="A02">Sector Budget Support</default-aid-type>
+</code>
