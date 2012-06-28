@@ -1,0 +1,7 @@
+===== Default Tied Status ===== 
+
+==== Example Usage ====
+
+<code xml>
+<default-tied-status code="5">Untied</default-tied-status>
+</code>
