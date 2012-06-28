@@ -16,3 +16,5 @@ A title may be repeated in many languages. This example assumes a default langua
     <title xml:lang="es">Grant Informe sobre los resultados</title>
     <title xml:lang="fr">Rapport sur le rendement de subvention</title>
 </code>
+
+It is good practice to provide activity titles in the language(s) spoken in the country(ies) where the activity take place, or is aimed at.
