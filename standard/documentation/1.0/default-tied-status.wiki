@@ -3,5 +3,5 @@
 ==== Example Usage ====
 
 <code xml>
-<default-tied-status code="5">Untied</default-tied-status>
+<default-tied-status code="5" xml:lang=”en”>Untied</default-tied-status>
 </code>
