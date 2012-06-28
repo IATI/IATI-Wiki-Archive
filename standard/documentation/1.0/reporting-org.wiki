@@ -1,6 +1,6 @@
 ===== Reporting Organisation ===== 
 ==== Example Usage ====
-
+The example below is for Oxfam (identified by GB-CHC-202918), with a type declared as International NGO (code 21)
 <code xml>
-    <reporting-org ref="GB-CC-285776" type="21">CAFOD</reporting-org>
+    <reporting-org ref="GB-CHC-202918" type="21">Oxfam GB</reporting-org>
 </code>
