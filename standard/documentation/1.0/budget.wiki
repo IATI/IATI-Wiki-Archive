@@ -1,0 +1,8 @@
+===== Budget ===== 
+==== Example Usage ====
+
+<code xml>
+    <budget>
+    ....
+    </budget>
+</code>
