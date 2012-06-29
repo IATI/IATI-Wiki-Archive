@@ -1,0 +1,9 @@
+===== Planned Disbursement =====
+ 
+==== Example Usage ====
+
+<code xml>
+   <planned-disbursement updated=”2010-12-01”>
+   ...
+   </planned-disbursement>
+    </code>
