@@ -59,6 +59,7 @@ Add the following lines to ~/.bashrc and run them
   export JENAROOT="/root/software/Jena"
   export PATH="$JENAROOT/bin:$PATH"
   export CLASSPATH=".:$JENAROOT/lib/*.jar:$TDBROOT/lib/*.jar:$JOSEKIROOT/lib/*.jar"
+  alias rdfcat="~/software/Jena/bin/rdfcat"
 
 For some reason I also needed to run
 
@@ -70,8 +71,11 @@ before I could run ''rdfcat'' successfully.
   mv International* scripts
   cd ~/scripts
   git clone https://github.com/aidinfolabs/IATI-XSLT.git
+  cd ~
   mkdir -p r4d/data/archive
-  mkdir -p iati/data
+  mkdir -p iati/data/codelists
+  
+I could then run 
   
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
