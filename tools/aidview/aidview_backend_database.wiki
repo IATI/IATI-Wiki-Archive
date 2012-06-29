@@ -137,7 +137,7 @@ Once we have the files we manage the restore process by launching the eXist clie
   * Go to Tools -> Restore
   * Restore the data from backup by selecting the _contents_.xml file in the root of the backup, in this case you will find this at:
 
-    PATH_TO_BACKUP/AidView-API_contents_.xml. 
+    PATH_TO_BACKUP/AidView-API/_contents_.xml. 
   
 In the restore dialogue you will need to select 'Files of Type' as '__contents__.xml files' in order to make the file visible.
   * At the prompt enter username 'admin' and no password (or the password you set). The database will then restore.
