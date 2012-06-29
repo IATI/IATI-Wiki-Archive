@@ -32,9 +32,47 @@ The data is currently loaded to this triple store using a set of Python scripts.
 === To install and run the scripts ===
 
 Either [[https://github.com/practicalparticipation/International-Development-Linked-Data-Tools-|see the instructions here]] or a pre-configured server is available via the Turnkey Linux Backup Management service. Contact [[community:user:TimDavies|Tim Davies]] for access.
- 
 
+== Example build on a clean Turnkey Linux core image ==
 
+  apt-get install python-setuptools gcc xsltproc libxml2-dev libxslt-dev python-dev
+  easy_install pytassium
+  easy_install ckan
+  easy_install ckanclient
+  easy_install lxml
+  easy_install argparse
+  
+  apt-get install default-jre
+  mkdir ~/software
+  cd ~/software/
+  mkdir Jena
+  cd Jena
+
+Then get the latest version of Jena from [[http://sourceforge.net/projects/jena/files/Jena/]] and download it
+
+  unzip *zip*
+  mv Jena*/* .
+  rmdir Jena-*
+
+Add the following lines to ~/.bashrc and run them
+
+  export JENAROOT="/root/software/Jena"
+  export PATH="$JENAROOT/bin:$PATH"
+  export CLASSPATH=".:$JENAROOT/lib/*.jar:$TDBROOT/lib/*.jar:$JOSEKIROOT/lib/*.jar"
+
+For some reason I also needed to run
+
+  chmod +x $JENAROOT/bin/make_classpath
+
+before I could run ''rdfcat'' successfully. 
+
+  git clone https://github.com/practicalparticipation/International-Development-Linked-Data-Tools-.git
+  mv International* scripts
+  cd ~/scripts
+  git clone https://github.com/aidinfolabs/IATI-XSLT.git
+  mkdir -p r4d/data/archive
+  mkdir -p iati/data
+  
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
 
