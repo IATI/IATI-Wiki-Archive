@@ -2,7 +2,7 @@
 ==== Example Usage ====
 
 <code xml>
-    <budget>
+    <budget type=”original”>
     ....
     </budget>
 </code>
