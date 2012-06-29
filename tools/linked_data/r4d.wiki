@@ -1,0 +1,39 @@
+====== Research for Development Widgets ======
+/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+
+The Research for Development-IATI widget makes use of linked data from IATI and Research for Development to provide a widget that displays research relating to a particular DFID project. 
+
+Access a [[http://r4d.herokuapp.com/|demonstration install here]].
+
+===== Detailed Description =====
+/* Provide additional details here */
+
+Data from IATI and Research for Development is periodically converted into RDF Linked Data and [[kasabi.com/dataset/r4d-aid-data|loaded into a triple store on the Kasabi platform]]. A node.js and javascript application ([[https://github.com/marxian/r4d|source]]) [[http://r4d.herokuapp.com/|deployed to Heroku]] can take any DFID Aries code (found in IATI identifiers as xxxx in GB-1-xxxxxx) and check for related research publications which are then presented in a configurable widget.
+
+The widget can display research with or without a border, to allow easier embedding into third party websites. 
+
+===== Documentation =====
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+
+==== Front end ====
+
+The demonstration application at [[http://r4d.herokuapp.com/]] provides sample javascript code for embedding the widget. It currently only accepts DFID Aries codes.
+
+Only some ARIES codes have attached research projects. When research is not found linked to an identifier the widget will not display. 
+
+Note that some IATI identifiers are for components of DFID projects (e.g. 100234-101) rather than the overall project (100234) to which research records are linked. If you have one of these identifiers, you may wish to strip off the end component. 
+
+==== Back end ====
+
+The data is stored on Kasabi in [[http://kasabi.com/dataset/r4d-aid-data|a triple store which can be accessed via SPARQL]].
+
+The data is currently loaded to this triple store using a set of Python scripts. 
+
+=== To install and run the scripts ===
+
+Either [[https://github.com/practicalparticipation/International-Development-Linked-Data-Tools-|see the instructions here]] or a pre-configured server is available via the Turnkey Linux Backup Management service. Contact [[community:users:TimDavies|Tim Davies]] for access.
+ 
+
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
