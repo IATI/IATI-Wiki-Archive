@@ -37,3 +37,7 @@ Either [[https://github.com/practicalparticipation/International-Development-Lin
 
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
+
+[[https://github.com/marxian/r4d|Widget source code]]
+
+[[https://github.com/practicalparticipation/International-Development-Linked-Data-Tools-|Data management scripts]]
