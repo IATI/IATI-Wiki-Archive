@@ -1,0 +1,7 @@
+This example from The Indigo Trust declares two location types of first and second order administrative divisions
+<code xml>
+<location>
+<location-type code="ADM1">Southwest</location-type>
+<location-type code="ADM2">Fako</location-type>
+</location>
+</code>
