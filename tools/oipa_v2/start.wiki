@@ -1,12 +1,46 @@
 ====== OIPA V2 ======
-/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+
+OIPA V2 stands for **O**penaid **I**ATI **P**arser and **A**PI. It has been developed within the [[tools:open_aid:start | OpenAid NL]] project and runs as an open webservice. Anyone can use it with the data residing in the OIPA network.
+
+{{:tools:oipa:oipa.001.png?650|}}
+
 
 ===== Detailed Description =====
-/* Provide additional details here */
 
-===== Documentation =====
-/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+OIPA enables IATI standard compliant datasets to easily parse and interface IATI compliant data. OIPA runs as a webservice, which is being reffered to as the OIPA network. OIPA consists of several software components which are dependent on each other.
 
+  * Parser makes the IATI compliant available xml datasets available in the non xml database MySQL. Runs from a Django admin interface where users can call any valid IATI xml URI and ingest it into OIPA.
+  * The datamodel now maps +95% of all IATI namespaces and each namespace is mapped into a seperate MySQL table.
+  * The API enables web-platforms to easily interface using REST calls to pick up data either using JSON or XML as output.
+
+At present the OIPA network holds data from all the avaialable IATI sets published at the IATI registry. (as of 3/7/12 still ingesting...)
+
+===== Documentation & examples =====
+
+Check the [[http://oipa.openaidsearch.org/api/v2/docs/|OIPA V2 documentation]] and create some REST calls yourself. 
+
+REST calls examples OIPA network:
+
+  * http://search-api-data.openaid.nl/api/data/activity/ | Shows alls activities by Dutch ministry of Foreign affairs
+  * http://search-api-data.openaid.nl/api/data/activity/88/ | Shows specific id of an activity
+  * http://search-api-data.openaid.nl/api/data/activity/?recipient_country_code=ZW&total_budget__gte=2000000 |Shows activities in a specific country (ZW) with a budget over €2.000.000
+  * http://search-api-data.openaid.nl/api/data/activity/?description__contains=human%20rights | Shows all activities where the description contains “human rights”
+  * http://search-api-data.openaid.nl/api/data/activity/?sector=Public%20finance%20management |Shows all activities in the sector “Public finance management”
+  * http://search-api-data.openaid.nl/api/data/transaction/?activity_id=2 | Shows all transactions within a activity (id=2)
+  * http://search-api-data.openaid.nl/api/data/transaction/?activity_id=2&transaction_date__gte=2010-12-31 | Shows all transactions within a activity (id=2) and later than 2010-12-31
+  * http://search-api-data.openaid.nl/api/data/activity/?description__contains=water&title__contains=DMV|RESKI | 
+  * http://search-api-data.openaid.nl/api/data/activity/?description__contains=water&title__contains=DMV&title__contains=RESKI |
+
+
+After decoding the JSON into variables, the data can be used in a HTML page (eg create table). Nearly every language has a JSON decoding library. Here are some examples:
+
+  * PHP: http://php.net/manual/en/function.json-decode.php
+  * Python: http://docs.python.org/library/json.html
+  * JAVA: http://code.google.com/p/google-gson/
 
 ===== Links, source code and development plans =====
-/* Please provide links to any source code, additional resources, or development plans*/
+You can find the [[https://www.gnu.org/licenses/agpl-3.0.html|AGPL licensed code]] for both the User Interface for openaid.nl at [[https://github.com/openaid-IATI/|Github]]. You will also find the [[https://github.com/openaid-IATI/|OIPA webservice]] which you can download, use and test with. OIPA is also released under the [[https://www.gnu.org/licenses/agpl-3.0.html|AGPL licence]].
+
+Developments for 2012 will consist of producing openaidsearch.org (operational late July 2012) which will also be powered by [[tools:oipa:start|OIPA]]. 
+
+ 
