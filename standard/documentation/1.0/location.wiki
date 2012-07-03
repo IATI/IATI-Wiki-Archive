@@ -1,9 +1,10 @@
 ===== Location ===== 
 
 ==== Example Usage ====
-
+The location element is used a contain various other elements
 <code xml>
     <location>
        ....
     </location>
 </code>
+
