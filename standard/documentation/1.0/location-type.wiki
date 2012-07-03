@@ -3,16 +3,12 @@
 ==== Example Usage ====
 Just the code can be declared
 <code xml>
-<location>
 <location-type code="PPL"/>
-</location>
 </code>
 
 Additionally the description for this code can be stated
 <code xml>
-<location>
 <location-type code="PPL">populated place</location-type>
-</location>
 </code>
 
 Where the description is in a language other than the activity default, then this should be declared:
