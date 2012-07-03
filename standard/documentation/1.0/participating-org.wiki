@@ -1,8 +1,9 @@
 ===== Participating Organisation ===== 
 
 ==== Example Usage ====
-
+This example from Cafod declares two participating organisations in the activity.  Caford as the Funding organisation, with a reference to the Charity Commission.  The Implementing organisation is not referenced:
 <code xml>
-    <participating-org role="Funding" type="21" ref="GB-CC-285776">CAFOD</participating-org>
+    <participating-org role="Funding" ref="GB-CHC-285776">CAFOD</participating-org>
+<participating-org role="Implementing">Caritas Africa</participating-org>
 
 </code>
