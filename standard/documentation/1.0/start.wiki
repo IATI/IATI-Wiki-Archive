@@ -33,6 +33,7 @@
 [[standard:documentation:1.0:location]]
 
   * [[standard:documentation:1.0:location-type]]
+  * [[standard:documentation:1.0:location-name]]
 
 [[standard:documentation:1.0:sector]]
 
