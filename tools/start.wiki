@@ -26,8 +26,7 @@ Tools for accessing and working with IATI Data
 === APIs ===
 
   * [[tools:IATI Explorer:start]] (including Android client libraries)
-  * [[tools:OIPAV1:start]] (OpenAidNL)
-  * [[tools:OIPAV2:start]] (OpenAidNL)
+  * [[tools:OIPA:start]] (OpenAidNL)
   * [[tools:AidView:API|AidView API]]
 
 
@@ -41,6 +40,7 @@ Tools for accessing and working with IATI Data
 === Other ===
   * [[tools:IATI-Registry-Refresher:start]]
   * [[tools:Show my iati data:start| Show my iati data (Preview Tool)]]
+
 ===== Tools under development =====
 
   * [[tools:subscribe:start|Subscription Tool]]
