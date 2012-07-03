@@ -34,7 +34,7 @@ REST calls examples OIPA network:
   * http://search-api-data.openaid.nl/api/data/activity/?description__contains=water&title__contains=DMV&title__contains=RESKI |
 
 <note warning>
-Note: API version and location and functionality is changed to OIPA V2. Please contact [[community:user:siemvaessen|Siem Vaessen]] if you are using the API to be notified of changes. OIPA V1 will no longer be supported!
+Note: API version and location and functionality has changed to OIPA V2. Please contact [[community:user:siemvaessen|Siem Vaessen]] if you are using the API to be notified of changes. OIPA V1 will no longer be supported!
 </note>
 
 After decoding the JSON into variables, the data can be used in a HTML page (eg create table). Nearly every language has a JSON decoding library. Here are some examples:
