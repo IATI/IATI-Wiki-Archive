@@ -26,6 +26,7 @@ REST calls examples OIPA network:
   * http://oipa.openaidsearch.org/api/v2/activities/?format=json&organisations=GB-CHC-202918%7CNL-1 | | Dutch ministry of Foreign affair and OXFAM
   * http://oipa.openaidsearch.org/api/v2/activities/?format=json&organisations=GB-CHC-202918|NL-1 | Oxfam
   * http://oipa.openaidsearch.org/api/v2/activities/?format=json&organisations=NL-1&countries=BA | Dutch ministry of Foreign affair and country Bosnia Herzegovina 
+  * http://oipa.openaidsearch.org/api/v2/activities/?format=json&query=Food | Title and description = food
 
 
 More examples will be posted, but you can also use the documentation and examples at [[http://oipa.openaidsearch.org/api/v2/docs/|OIPA documentation]]
