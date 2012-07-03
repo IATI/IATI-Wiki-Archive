@@ -1,3 +1,6 @@
+===== Location Type ===== 
+
+==== Example Usage ====
 This example from The Indigo Trust declares two location types of first and second order administrative divisions
 <code xml>
 <location>
