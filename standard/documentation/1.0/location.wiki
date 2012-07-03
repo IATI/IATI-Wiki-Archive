@@ -8,3 +8,12 @@ The location element is used a contain various other elements
     </location>
 </code>
 
+If more than one location is reported, percentage of activity commitment allocated to this location (if available).
+<code xml>
+    <location percentage="85>
+       ....
+    </location>
+    <location percentage="15>
+       ....
+    </location>
+</code>
