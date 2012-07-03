@@ -1,7 +1,18 @@
 ===== Collaboration Type ===== 
 
 ==== Example Usage ====
+The code can be declared:
 
 <code xml>
-    <collaboration-type code="2" xml:lang="en">Multilateral</collaboration-type>
+<collaboration-type code="1"/>
+</code>
+Additionally, a description of this code can be declared
+
+<code xml>
+<collaboration-type code="1">Bilateral</collaboration-type>
+</code>
+Where this description differs to the default language of the activity, then this should be declared - example of Dutch:
+ 
+<code xml>
+<collaboration-type code="1" xml:lang=”nl”>Bilaterale</collaboration-type>
 </code>
