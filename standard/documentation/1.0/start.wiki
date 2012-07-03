@@ -24,6 +24,12 @@
 
 [[standard:documentation:1.0:contact-info]]
 
+  * [[standard:documentation:1.0:contact-organisation]]
+  * [[standard:documentation:1.0:contact-person-name]]
+  * [[standard:documentation:1.0:contact-telephone]]
+  * [[standard:documentation:1.0:contact-email]]
+  * [[standard:documentation:1.0:contact-mailing-list]]
+
 [[standard:documentation:1.0:participating-org]]
 
 [[standard:documentation:1.0:recipient-country]]
@@ -34,6 +40,10 @@
 
   * [[standard:documentation:1.0:location-type]]
   * [[standard:documentation:1.0:location-name]]
+  * [[standard:documentation:1.0:location-description]]
+  * [[standard:documentation:1.0:location-administrative]]
+  * [[standard:documentation:1.0:location-coordinates]]
+  * [[standard:documentation:1.0:location-gazetteer-entry]]
 
 [[standard:documentation:1.0:sector]]
 
