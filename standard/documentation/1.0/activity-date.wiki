@@ -6,9 +6,9 @@ Example from DfID of an activity with one each of the four activity date types
 <activity-date type="start-actual">2007-01-01Z</activity-date>
 <activity-date type="end-planned">2009-12-31Z</activity-date>
 <activity-date type="end-actual">2009-12-31Z</activity-date>
-
-In some cases, not all dates are known, depending on the status of the activity:
 </code>
+In some cases, not all dates are known, depending on the status of the activity:
+
 <code xml>
     <activity-date type="start-actual" iso-date="2010-03-01"/>
     <activity-date type="end-planned" iso-date="2013-03-30"/>
