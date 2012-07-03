@@ -1,8 +1,20 @@
 ===== Contact Info ===== 
 ==== Example Usage ====
-
+This element is a container for other sub elements:
 <code xml>
     <contact-info>
        ....
     </contact-info>
+</code>
+
+This example from DfID, contains the Organisation, telephone, email and mailing address for the activity.  
+<code>
+<contact-info>
+<organisation>Department for International Development</organisation>
+<telephone>+44 (0) 1355 84 3132</telephone>
+<email>enquiry@dfid.gov.uk</email>
+<mailing-address>
+Public Enquiry Point, Abercrombie House, Eaglesham Road, East Kilbride, Glasgow G75 8EA
+</mailing-address>
+</contact-info>
 </code>
