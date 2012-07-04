@@ -73,27 +73,17 @@
 
 [[standard:documentation:1.0:transaction]]
 
-[[standard:documentation:1.0:transaction-type]]
-
-[[standard:documentation:1.0:provider-org]]
-
-[[standard:documentation:1.0:receiver-org]]
-
-[[standard:documentation:1.0:value]]
-
-[[standard:documentation:1.0:description]]
-
-[[standard:documentation:1.0:transaction-date]]
-
-[[standard:documentation:1.0:flow-type]]
-
-[[standard:documentation:1.0:finance-type]]
-
-[[standard:documentation:1.0:aid-type]]
-
-[[standard:documentation:1.0:disbursement-channel]]
-
-[[standard:documentation:1.0:tied-status]]
+  * [[standard:documentation:1.0:transaction-type]]
+  * [[standard:documentation:1.0:provider-org]]
+  * [[standard:documentation:1.0:receiver-org]]
+  * [[standard:documentation:1.0:value]]
+  * [[standard:documentation:1.0:description]]
+  * [[standard:documentation:1.0:transaction-date]]
+  * [[standard:documentation:1.0:flow-type]]
+  * [[standard:documentation:1.0:finance-type]]
+  * [[standard:documentation:1.0:aid-type]]
+  * [[standard:documentation:1.0:disbursement-channel]]
+  * [[standard:documentation:1.0:tied-status]]
 
 [[standard:documentation:1.0:document-link]]
 
