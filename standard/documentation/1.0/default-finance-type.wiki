@@ -2,6 +2,20 @@
 
 ==== Example Usage ====
 
+The code should be declared in any usage of this element:
+
 <code xml>
-<default-finance-type code="100" xml:lang=”en">Grant</default-finance-type>
+    <default-finance-type code="100"/>
+</code>
+
+Additionally, a text description of the code can be provided:
+
+<code xml>
+    <default-finance-type code="100">Grant</default-finance-type>
+</code>
+
+Where this text description is in a language that differs from the default, then this should be declared accordingly:
+
+<code xml>
+    <default-finance-type code="100" xml:lang=”fr”>Don</default-finance-type>
 </code>
