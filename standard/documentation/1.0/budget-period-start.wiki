@@ -1,4 +1,5 @@
-
+===== Period Start ===== 
+==== Example Usage ====
 
 For this element, an ISO 8601 code for the start date of the reporting period (yyyy-mm-dd) is required:
 
