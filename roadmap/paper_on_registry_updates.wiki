@@ -1,0 +1,4 @@
+===== Paper on Registry Updates =====
+
+An article about how to follow changes to files recorded on the registry has been published on the [[http://support.iatistandard.org/|Knowledge Base]]:\\
+The article is called [[http://support.iatistandard.org/entries/21502706-track-updates-to-files-data-using-the-iati-registry|Track updates to files/data using the IATI Registry]]
