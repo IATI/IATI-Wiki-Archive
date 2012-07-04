@@ -67,6 +67,10 @@
 
 [[standard:documentation:1.0:planned-disbursement]]
 
+  * [[standard:documentation:1.0:planned-disbursement-period-start]]
+  * [[standard:documentation:1.0:planned-disbursement-period-end]]
+  * [[standard:documentation:1.0:planned-disbursement-value]]
+
 [[standard:documentation:1.0:transaction]]
 
 [[standard:documentation:1.0:transaction-type]]
