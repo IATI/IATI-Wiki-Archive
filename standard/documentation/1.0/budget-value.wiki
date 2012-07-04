@@ -2,15 +2,20 @@
 
 ==== Example Usage ====
 
-Date of value for currency conversions.(yyyy-mm-dd)
+The total budget for the specified period should be declared as a positive integer:
+
 <code xml>
 <value value-date="2010-10-01">700000</value>
 </code>
-The ISO 4217 code for the currency in which the project is denominated. [only if different to default currency]
+
+A date of value for currency conversions should also be provided as yyyy-mm-dd:
+
+<code xml>
+<value value-date="2010-10-01">700000</value>
+</code>
+
+The ISO 4217 code for the currency in which the project is denominated should be declared, only if different to default currency
+
 <code xml>
 <value currency="GBP" value-date="2010-10-01">700000</value>
-</code>
-The total budget for the specified period in the specified currency. (Positive integer.
-<code xml>
-<value value-date="2010-10-01">700000</value>
 </code>
