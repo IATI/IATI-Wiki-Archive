@@ -18,7 +18,10 @@ The vocabulary attribute can be used to declare which code reference list is in 
 <sector vocabulary="WB" code="BC">Central government administration</sector>
 </code>
 
-
+If the specific vocabulary in use is not on the vocabulary codelist, then the value of RO (Reporting Organisation) can be used:
+<code xml>
+<sector vocabulary="RO">Education</sector>
+</code>
 When multiple sectors are in use in the same activity, then the percentage attribute should be used - the total of all percentages within the same activity should total 100.
 <code xml>
 <sector code="13040" percentage="60">STD control including HIV/AIDS</sector>
