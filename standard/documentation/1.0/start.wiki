@@ -61,6 +61,10 @@
 
 [[standard:documentation:1.0:budget]]
 
+  * [[standard:documentation:1.0:budget-period-start]]
+  * [[standard:documentation:1.0:budget-period-end]]
+  * [[standard:documentation:1.0:budget-value]]
+
 [[standard:documentation:1.0:planned-disbursement]]
 
 [[standard:documentation:1.0:transaction]]
