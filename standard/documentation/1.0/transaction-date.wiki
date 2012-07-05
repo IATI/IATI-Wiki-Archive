@@ -1,0 +1,14 @@
+===== Transaction Date ===== 
+==== Example Usage ====
+
+Date in the lifecycle of the financial transaction.  ISO 8601 date (yyyy-mm-dd):
+
+<code xml>
+    <transaction-date iso-date="2010-05-27"/>
+</code>
+
+Text describing the date of a financial transaction. For recording less specific dates (month, quarter, year) where full (iso) date is not known:
+
+<code xml>
+    <transaction-date>May 2010</transaction-date>
+</code>
