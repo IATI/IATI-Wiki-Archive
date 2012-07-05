@@ -18,7 +18,7 @@ To use the Conversion Tool, you will need to:
 
 ===== Links, source code and development plans =====
 Live version available at:
-  * Unordered List Itemhttp://csvconverter.aidinfolabs.org
+  * http://csvconverter.aidinfolabs.org
 
 Source code is available on Github:
   * https://github.com/markbrough/CSV-IATI-Converter.modeleditor
