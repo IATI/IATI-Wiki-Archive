@@ -1,0 +1,21 @@
+===== Flow Type ===== 
+
+==== Example Usage ====
+
+The code should be declared in any usage of this element:
+
+<code xml>
+    <flow-type code="10"/>
+</code>
+
+Additionally, a text description of the code can be provided:
+
+<code xml>
+    <flow-type code="10">ODA</default-flow-type>
+</code>
+
+Where this text description is in a language that differs from the default, then this should be declared accordingly:
+
+<code xml>
+    <flow-type code="10" xml:lang=”fr”> APD</default-flow-type>
+</code>
