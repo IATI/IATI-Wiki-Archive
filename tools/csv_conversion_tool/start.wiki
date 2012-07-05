@@ -23,3 +23,8 @@ Live version available at:
 Source code is available on Github:
   * https://github.com/markbrough/CSV-IATI-Converter.modeleditor
   * https://github.com/markbrough/CSV-IATI-Converter
+
+
+===== Contacts =====
+  * For implementaton support, please contact [[community:user:mandy_burrows|Mandy Burrows]] 
+  * For information about the development of the converter, please contact [[community:user:markbrough|Mark Brough]] 
