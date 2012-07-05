@@ -1,0 +1,20 @@
+===== Receiver Org ===== 
+==== Example Usage ====
+
+The full name of the organisation receiving the financial transaction (receiving in the case of loan and interest repayments).:
+
+<code xml>
+    <receiver-org>Ministere du Plan, RDC</receiver-org>
+</code>
+
+The unique Organisation Identifier for the receiver.:
+
+<code xml>
+    <receiver-org ref="CG-3">DFID</receiver-org>
+</code>
+
+If the funds are being provided to another reported activity, this must record the unique activity identifier for that activity:
+
+<code xml>
+    <receiver-org receiver-activity-id="CG-3-1440"/>
+</code>
