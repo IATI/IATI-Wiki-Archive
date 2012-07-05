@@ -25,6 +25,9 @@ Source code is available on Github:
   * https://github.com/markbrough/CSV-IATI-Converter
 
 
+===== Documentation =====
+  * Download an overview of the conversion tool here: {{:tools:csv_conversion_tool:iati_conversion_tool.docx|}}
+
 ===== Contacts =====
   * For implementaton support, please contact [[community:user:mandy_burrows|Mandy Burrows]] 
   * For information about the development of the converter, please contact [[community:user:markbrough|Mark Brough]] 
