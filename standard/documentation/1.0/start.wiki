@@ -104,7 +104,7 @@
   *   *   * [[standard:documentation:1.0:period-start]]
   *   *   * [[standard:documentation:1.0:period-end]]
   *   *   * [[standard:documentation:1.0:target]]
-  *   *   * [[standard:documentation:1.0:acual]]
+  *   *   * [[standard:documentation:1.0:actual]]
   *   * [[standard:documentation:1.0:baseline]]  
-
+  *   *   * [[standard:documentation:1.0:comment]]  
 [[standard:documentation:1.0:legacy-data]]
