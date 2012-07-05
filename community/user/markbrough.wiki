@@ -6,9 +6,9 @@ name: Mark Brough
 
 organisation: Publish What You Fund
 
-website_url:
+website_url: http://www.publishwhatyoufund.org
 
-twitter_url: @mark_brough
+twitter_url: http://twitter.com/mark_brough
 
 email_mail: mark.brough@publishwhatyoufund.org
 
