@@ -41,9 +41,9 @@
   * [[standard:documentation:1.0:location-type]]
   * [[standard:documentation:1.0:location-name]]
   * [[standard:documentation:1.0:description]]
-  * [[standard:documentation:1.0:location-administrative]]
-  * [[standard:documentation:1.0:location-coordinates]]
-  * [[standard:documentation:1.0:location-gazetteer-entry]]
+  * [[standard:documentation:1.0:administrative]]
+  * [[standard:documentation:1.0:coordinates]]
+  * [[standard:documentation:1.0:gazetteer-entry]]
 
 [[standard:documentation:1.0:sector]]
 
