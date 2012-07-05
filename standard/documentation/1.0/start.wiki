@@ -92,5 +92,7 @@
 [[standard:documentation:1.0:conditions]]
 
 [[standard:documentation:1.0:result]]
-
+  * [[standard:documentation:1.0:title]]
+  * [[standard:documentation:1.0:description]]
+  * [[standard:documentation:1.0:indicator]]
 [[standard:documentation:1.0:legacy-data]]
