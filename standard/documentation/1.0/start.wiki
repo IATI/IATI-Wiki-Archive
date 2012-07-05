@@ -98,4 +98,9 @@
   * [[standard:documentation:1.0:title]]
   * [[standard:documentation:1.0:description]]
   * [[standard:documentation:1.0:indicator]]
+  ** [[standard:documentation:1.0:title]]
+**[[standard:documentation:1.0:description]]
+**[[standard:documentation:1.0:period]]
+**[[standard:documentation:1.0:baseline]]
+
 [[standard:documentation:1.0:legacy-data]]
