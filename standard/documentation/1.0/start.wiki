@@ -24,11 +24,11 @@
 
 [[standard:documentation:1.0:contact-info]]
 
-  * [[standard:documentation:1.0:contact-organisation]]
-  * [[standard:documentation:1.0:contact-person-name]]
-  * [[standard:documentation:1.0:contact-telephone]]
-  * [[standard:documentation:1.0:contact-email]]
-  * [[standard:documentation:1.0:contact-mailing-list]]
+  * [[standard:documentation:1.0:organisation]]
+  * [[standard:documentation:1.0:person-name]]
+  * [[standard:documentation:1.0:telephone]]
+  * [[standard:documentation:1.0:email]]
+  * [[standard:documentation:1.0:mailing-address]]
 
 [[standard:documentation:1.0:participating-org]]
 
@@ -87,10 +87,13 @@
 
 [[standard:documentation:1.0:document-link]]
 
+  * [[standard:documentation:1.0:title]]
+  * [[standard:documentation:1.0:category]]
+
 [[standard:documentation:1.0:related-activity]]
 
 [[standard:documentation:1.0:conditions]]
-
+  * [[standard:documentation:1.0:conditions]]
 [[standard:documentation:1.0:result]]
   * [[standard:documentation:1.0:title]]
   * [[standard:documentation:1.0:description]]
