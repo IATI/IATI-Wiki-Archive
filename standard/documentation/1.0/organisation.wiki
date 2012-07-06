@@ -1,4 +1,4 @@
-===== Oeganisation ===== 
+===== Organisation ===== 
 ==== Example Usage ====
 
 <code>
