@@ -1,0 +1,6 @@
+===== Email ===== 
+==== Example Usage ====
+
+<code>
+<email>enquiry@dfid.gov.uk</email>
+</code>
