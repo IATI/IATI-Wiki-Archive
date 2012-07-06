@@ -1,4 +1,4 @@
-===== Organisation ===== 
+===== Mailing List ===== 
 ==== Example Usage ====
 
 <code>
