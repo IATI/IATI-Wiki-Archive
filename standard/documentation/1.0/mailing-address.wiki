@@ -1,4 +1,4 @@
-===== Mailing List ===== 
+===== Mailing Address ===== 
 ==== Example Usage ====
 
 <code>
