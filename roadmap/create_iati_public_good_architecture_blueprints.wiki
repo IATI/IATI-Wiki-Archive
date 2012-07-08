@@ -2,6 +2,13 @@
 
 ====== Create IATI public good architecture blueprints ======
 
+Making IATI work effectively for a wide range of potential users involves more than just a data standard. A 'Public Good Infrastructure' plan will identify common re-usable components and tools that could benefit many users of IATI. It will suggest ways in which a '[[http://en.wikipedia.org/wiki/Service-oriented_architecture|service oriented architecture]]' approach, and the development of secondary standards, can support the creation of a vibrant eco-system of user-focussed tools that use IATI data to meet real needs. 
+
+==== Layers and elements of IATI ====
+{{ :roadmap:iati_layers_-_public_good_infrastructure.png|}}
+
+
+
 The IATI public good infrastructure may involve:
 
   * Tools to aggregate and process IATI data
@@ -40,5 +47,4 @@ From [[http://lopad.org/4vf3Bjwnho]].
 
 
 ~~TASK:Tim Davies?2012-06-22!~~
-
 
