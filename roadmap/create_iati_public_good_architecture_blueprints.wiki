@@ -4,11 +4,23 @@
 
 Making IATI work effectively for a wide range of potential users involves more than just a data standard. A 'Public Good Infrastructure' plan will identify common re-usable components and tools that could benefit many users of IATI. It will suggest ways in which a '[[http://en.wikipedia.org/wiki/Service-oriented_architecture|service oriented architecture]]' approach, and the development of secondary standards, can support the creation of a vibrant eco-system of user-focussed tools that use IATI data to meet real needs. 
 
-==== Layers and elements of IATI ====
+===== Layers and elements of IATI =====
 {{ :roadmap:iati_layers_-_public_good_infrastructure.png|}}
 
+IATI can be divided into four layers:
 
+  * **The Data Layer** - this forms the core of IATI, and is made up of the [[http://www.iatistandard.org|IATI Standard]] and [[http://www.iatiregistry.org|IATI Registry]]. The core IATI platforms do not host data, and is not a database, but instead provides a common means of exchanging data, and registry of meta-data on datasets available from third-parties. 
+  * **The Access Layer** - many use cases of IATI involve accessing data that might be spread across many raw data files. An access layer provides a simple means of getting hold of raw data, regardless of the particular files it is contained in. It contains secondary standards, adopted by the community, for serialising IATI data as CSV, JSON or Linked Data. 
+  * **The Service Layer** - many processes involved in creating or using IATI data will involve common tasks, such as normalising currencies, mapping between code-lists, or querying to fetch specific data by geography or project value (for example). The service layer contains common modular services that act as building blocks for end-users of IATI.
+  * **The User Interface Layer** - this contains user-friendly tools for creating or accessing IATI data. 
 
+The **data layer** is already an accepted part of the core IATI initiative, funded and maintained through the technical secretariat. 
+
+The need for IATI core to provide a basic **access layer** is increasingly recognised, but no decision on whether IATI should manage the maintenance of basic tools for accessing data across files, or of secondary standards for serialising the data, is yet made [July 2012].
+
+The **service layer** has largely developed ad-hoc and is incomplete, with many gaps at present. 
+
+====== Early notes ======
 The IATI public good infrastructure may involve:
 
   * Tools to aggregate and process IATI data
