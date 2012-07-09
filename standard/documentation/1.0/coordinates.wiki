@@ -2,7 +2,12 @@
 
 ==== Example Usage ====
 
-Co-ordinates example with an exact precision (code 1):
+UNOPS example, with co-ordinates set to a precision of "near exact location" (code 2):
 <code xml>
-<coordinates latitude="0.651922" longitude="33.16983" precision="1"/>
+<location>
+      <name>Herat</name>
+      <coordinates latitude="34.341944400000003000" longitude="62.203055599999971000" precision="2" />
+      <location-type code="PPL" />
+      <administrative country="AF">Afghanistan, Herat, Injil</administrative>
+    </location>
 </code>
