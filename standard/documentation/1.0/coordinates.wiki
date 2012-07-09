@@ -1,0 +1,8 @@
+===== Recipient Region ===== 
+
+==== Example Usage ====
+
+Co-ordinates example with an exact precision (code 1):
+<code xml>
+<coordinates latitude="0.651922" longitude="33.16983" precision="1"/>
+</code>
