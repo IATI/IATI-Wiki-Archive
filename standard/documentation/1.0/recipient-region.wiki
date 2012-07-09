@@ -2,8 +2,6 @@
 
 ==== Example Usage ====
 
-==== Example Usage ====
-
 Recipient region can be declared just through the relevant code:
 <code xml>
 <recipient-region code="289"/>
