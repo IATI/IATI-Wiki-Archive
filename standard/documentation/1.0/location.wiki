@@ -17,3 +17,14 @@ If more than one location is reported, percentage of activity commitment allocat
        ....
     </location>
 </code>
+
+Example from UNOPS:
+
+<code xml>
+<location>
+      <name>Herat</name>
+      <coordinates latitude="34.341944400000003000" longitude="62.203055599999971000" precision="2" />
+      <location-type code="PPL" />
+      <administrative country="AF">Afghanistan, Herat, Injil</administrative>
+    </location>
+</code>
