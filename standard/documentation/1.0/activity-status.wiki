@@ -1,4 +1,4 @@
-====== Activity Status ======
+===== Activity Status =====
 
 ==== Example Usage ====
 This example declares that an activity has reached completion (code 3)
