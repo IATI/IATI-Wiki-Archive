@@ -1,4 +1,6 @@
 ===== Transaction ===== 
+==== Overview ====
+Transactions record the accounting part of an IATI activity. It is important that all transactions within an activity (and all sub-activities) should add up and provide a balanced summary of the finances of the activity. Every reported flow of funds into and out of an activity should be recorded as a separate transaction. The minimum ask is for you to provide a quarterly aggregation of all incomings and outgoings. In addition you should provide a 'Commitment' at the start of each activity which reflects the total budget for the activity, and further adjusting commitments (positive or negative) should be made whenever necessary to ensure that the sum of commitments always reflects the current overall commitment to an activity.  
 ==== Example Usage ====
 
 The budget element acts as a container for transaction details.
