@@ -93,7 +93,7 @@
 [[standard:documentation:1.0:related-activity]]
 
 [[standard:documentation:1.0:conditions]]
-  * [[standard:documentation:1.0:conditions]]
+  * [[standard:documentation:1.0:condition]]
 [[standard:documentation:1.0:result]]
   * [[standard:documentation:1.0:title]]
   * [[standard:documentation:1.0:description]]
