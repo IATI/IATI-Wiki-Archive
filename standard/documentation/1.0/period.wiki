@@ -1,6 +1,5 @@
 ===== Period ===== 
 ==== Example Usage ====
-When default language has been declared in the <iati-activity> element then this will suffice:
 <code xml>
     <period>
     ....
