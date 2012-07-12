@@ -1,0 +1,6 @@
+===== Target ===== 
+==== Example Usage ====
+
+<code xml>
+    <target value="N=42;P=57"/>
+</code>
