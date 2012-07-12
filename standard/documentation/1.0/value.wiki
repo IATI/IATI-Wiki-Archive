@@ -1,4 +1,6 @@
 ===== Value ===== 
+==== Notes ====
+The monetary value of the transaction in the specified currency – negative for repayments or reduced/cancelled commitments.
 
 ==== Example Usage ====
 
