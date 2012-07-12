@@ -1,0 +1,6 @@
+===== Actual ===== 
+==== Example Usage ====
+
+<code xml>
+    <actual value="N=41;P=56"/>
+</code>
