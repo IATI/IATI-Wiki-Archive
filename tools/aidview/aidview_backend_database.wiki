@@ -131,7 +131,7 @@ The IATI Backend Database scripts require some additional modules to be enabled 
 
 === via Restore client ===
 
-To get a working copy of the AidView API backend you need to 'restore' the application by using the backup file available on [[https://github.com/aidinfolabs/AidView-API|GitHub]]. N.B. The development version is in the Master branch, with [[https://github.com/aidinfolabs/AidView-API/tree/version_one|Version 1 (production) available here]].
+To get a working copy of the AidView API backend you need to 'restore' the application by using the backup file available on [[https://github.com/aidinfolabs/AidView-API|GitHub]]. N.B. The development version (eXist2.0) is in the Master branch, with [[https://github.com/aidinfolabs/AidView-API/tree/version_one|Version 1 (production) available here]] (eXist1.4).
 
 Once we have the files we manage the restore process by launching the eXist client program (eXist Client Shell)
 
