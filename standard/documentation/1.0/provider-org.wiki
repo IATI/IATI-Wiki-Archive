@@ -1,6 +1,5 @@
 ===== Provider Org ===== 
 
-===== Receiver Org ===== 
 ==== Notes ====
 The unique organisation identifier for the provider organisation. Some large organisations already have existing codes assigned through the OECD. For those organisations where no code exsits, the organisation can generate their own code for IATI use in the format of country-registration company-registration number. (e.g. the organisation identifier for DIPR is: GB-COH-06368740.)
 === Additional notes ===
