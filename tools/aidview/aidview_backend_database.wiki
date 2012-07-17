@@ -268,3 +268,10 @@ When you install the application (for example from the 'Restore' option, using t
   Reason: failed to read resource from file /home/david/Desktop/Exist_day/1.4/AidView-API/apps/iati-api/assets/Icon_External_Link.png
 
 These are errors related (I think) to not being able to import the data. This data has not been included in the backup file used to restore as it is massive! So you can carry on. The structure should be in place for you to import your own data.
+
+== Administration on 1.4 ==
+
+You will find an admin interface at :8080/exist/rest//db/apps/iati-api/xquery/admin.xq
+
+Username: caprenter@gmail.com / Password: daisy
+
