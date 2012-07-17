@@ -270,8 +270,16 @@ When you install the application (for example from the 'Restore' option, using t
 These are errors related (I think) to not being able to import the data. This data has not been included in the backup file used to restore as it is massive! So you can carry on. The structure should be in place for you to import your own data.
 
 == Administration on 1.4 ==
+//Initial notes: July 2012//
 
-You will find an admin interface at :8080/exist/rest//db/apps/iati-api/xquery/admin.xq
-
-Username: caprenter@gmail.com / Password: daisy
+  * You will find an admin interface at :8080/exist/rest//db/apps/iati-api/xquery/admin.xq
+    * Username: caprenter@gmail.com / Password: daisy
+  * The fullB corpus is the only one currently initialised. You may be able to manually set up another corpus based on this model, but for now, use fullB. 
+  * From the admin menu choose 'fullB'
+    * To load data from the registry choose 'Download Activity Set metadata from the registry'
+      * This will check the registry and provide a list of files to download
+      * To load from an existing fetched list of files form the registry choose 'Activity Sets' from the top of the screen
+    * To load a file manually, pick 'Download Activity Set from the Web'
+      * Enter the URL of the activities file into the form, and choose 'download'
+        * The database will fetch and index the file
 
