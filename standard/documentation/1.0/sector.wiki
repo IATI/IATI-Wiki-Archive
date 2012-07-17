@@ -31,5 +31,5 @@ When multiple sectors are in use in the same activity, then the percentage attri
 Should a description be used that is different to the default language set for the activity, then this should be declared as follows:
 
 <code xml>
-<sector code="13040" xml:lang=”en”>STD control including HIV/AIDS</sector>
+<sector code="13040" xml:lang="en">STD control including HIV/AIDS</sector>
 </code>
