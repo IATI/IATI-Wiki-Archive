@@ -272,7 +272,7 @@ These are errors related (I think) to not being able to import the data. This da
 == Administration on 1.4 ==
 //Initial notes: July 2012//
 
-  * You will find an admin interface at :8080/exist/rest//db/apps/iati-api/xquery/admin.xq
+  * You will find an admin interface at :8080/exist/rest////db/apps/iati-api/xquery/admin.xq
     * Username: caprenter@gmail.com / Password: daisy
   * The fullB corpus is the only one currently initialised. You may be able to manually set up another corpus based on this model, but for now, use fullB. 
   * From the admin menu choose 'fullB'
