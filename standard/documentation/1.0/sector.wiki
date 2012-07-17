@@ -13,7 +13,7 @@ Additionally, a text description for the code can be provided:
 <sector code="13040">STD control including HIV/AIDS</sector>
 </code>
 
-The vocabulary attribute can be used to declare which code reference list is in use.  If this is If omitted, then IATI assumes the DAC vocabulary.
+The vocabulary attribute can be used to declare which code reference list is in use.  If this is omitted, then IATI assumes the DAC vocabulary.
 <code xml>
 <sector vocabulary="WB" code="BC">Central government administration</sector>
 </code>
