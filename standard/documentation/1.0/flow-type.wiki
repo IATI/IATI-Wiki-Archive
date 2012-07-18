@@ -17,5 +17,5 @@ Additionally, a text description of the code can be provided:
 Where this text description is in a language that differs from the default, then this should be declared accordingly:
 
 <code xml>
-    <flow-type code="10" xml:lang=”fr”> APD</default-flow-type>
+    <flow-type code="10" xml:lang="fr"> APD</default-flow-type>
 </code>
