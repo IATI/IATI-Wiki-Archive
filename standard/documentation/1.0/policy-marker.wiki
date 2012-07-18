@@ -37,6 +37,6 @@ The vocabulary attribute can be used to declare which code reference list is in 
 Should a description be used that is different to the default language set for the activity, then this should be declared as follows:
 
 <code xml>
-<policy-marker vocabulary="DAC" code="04" xml:lang=”fr”>Developpement du commerce</policy-marker>
+<policy-marker vocabulary="DAC" code="04" xml:lang="fr">Developpement du commerce</policy-marker>
 </code>
 
