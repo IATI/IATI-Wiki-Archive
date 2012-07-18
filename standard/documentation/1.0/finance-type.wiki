@@ -17,5 +17,5 @@ Additionally, a text description of the code can be provided:
 Where this text description is in a language that differs from the default, then this should be declared accordingly:
 
 <code xml>
-    <finance-type code="100" xml:lang=”fr”>Don</default-finance-type>
+    <finance-type code="100" xml:lang="fr">Don</default-finance-type>
 </code>
