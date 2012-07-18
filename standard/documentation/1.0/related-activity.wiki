@@ -17,5 +17,5 @@ Additionally, a text title of the specific related activity can be provided:
 Where this text is in a language that differs from the default set in <iati-activity>, then this should be declared accordingly:
 
 <code xml>
-    <related-activity type="1" ref="GB-1-105838" xml:lang="fr"> Programme du secteur commercial </related-activity>
+    <related-activity type="1" ref="GB-1-105838" xml:lang="fr">Programme du secteur commercial</related-activity>
 </code>
