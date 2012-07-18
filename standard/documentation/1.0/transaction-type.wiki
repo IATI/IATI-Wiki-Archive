@@ -21,5 +21,5 @@ Additionally, a text description of the code can be provided:
 Where this text description is in a language that differs from the default, then this should be declared accordingly:
 
 <code xml>
-    <transaction-type code="C" xml:lang=”en”>Commitment</transaction-type>
+    <transaction-type code="C" xml:lang="en">Commitment</transaction-type>
 </code>
