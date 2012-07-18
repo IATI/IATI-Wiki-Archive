@@ -4,13 +4,13 @@ This is a container element for conditions.  Declared through the following yes/
 
 For no conditions:
 <code xml>
-<conditions attached=”0” />
+<conditions attached="0" />
 </code>
 
 For conditions:
 
 <code xml>
-<conditions attached=”1">
+<conditions attached="1">
 ....
 </conditions
 </code>
