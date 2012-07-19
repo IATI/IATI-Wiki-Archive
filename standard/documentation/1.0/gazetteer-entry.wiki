@@ -2,7 +2,14 @@
 
 ==== Example Usage ====
 
-Example for the Herat region of Afghanistan - which has an ID of 1140026 on [[http://www.geonames.org/1140026/herat.html | geonames.org]] :
+Example for the **Herat region of Afghanistan** - which has an ID of **1140026** on [[http://www.geonames.org/|geonames.org]]. \\
+To find Herat on geonames.org you would create a link like this: http://www.geonames.org/1140026/ \\
+The IATI gazeteer-ref for geonames is "GEO", so the element would look like:
+
 <code xml>
-<gazetteer-entry gazeteer-ref="geonames.org">1140026</gazetteer-entry>
+<location>
+  ....
+  <gazetteer-entry gazeteer-ref="GEO">1140026</gazetteer-entry>
+  ....
+</location>
 </code>
