@@ -1,0 +1,31 @@
+====== Who is publishing ...? ======
+/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+Tries to answer the question:
+"Who is publishing 'x' IATI activity element?" e.g. location or results info.
+
+===== Detailed Description =====
+/* Provide additional details here */
+PHP based application \\
+Requires a daily update of IATI data. Needs to run a processing script to generate data on the data, which is stored and can be displayed to end users. As such it has to:
+  * Track changes to the registry
+  * Automate downloads of updated files
+  * Run a time consuming script over all IATI data
+  * Agree what data is processed and stored by the previous script
+  * Make the results available to a web application
+
+At the moment it does this in parts that sometimes need to be manually pushed together. \\
+BUT it is a process that I think others might replicate. As such the process may be more important than the application.
+
+
+===== Documentation =====
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+Currently it is bundled inside:
+https://github.com/caprenter/IATI-Data-Spotter
+see the **where_is** directory
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
+Demo here:\\
+http://bntest.vm.bytemark.co.uk/david/iati/batch/where_is
+
+This should link into the development of other 'data on the data' tools
