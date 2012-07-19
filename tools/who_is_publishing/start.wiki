@@ -2,7 +2,7 @@
 /* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
 Tries to answer the question:
 "Who is publishing 'x' IATI activity element?" e.g. location or results info.
-
+Creator: [[community:user:caprenter]]
 ===== Detailed Description =====
 /* Provide additional details here */
 PHP based application \\
