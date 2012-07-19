@@ -44,6 +44,7 @@ Scheduled for June
   *[[Newsletter]]
   *[[User Access to compliance tolls]]
   *[[Learnings from IATI work with Nepalese NGOs]]
+  *[[Migrate servers for software on tools.aidinfolabs.org]] 
 
 ==== September 2012 ====
   *[[IATI Annual Report]]
