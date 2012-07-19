@@ -1,0 +1,2 @@
+===== Migrate servers for software on tools.aidinfolabs.org =====
+In order to rationalise some of our hosting solutions we plan to move the [[tools:show_my_iati_data:start|Preview Tool]] and the [[tools:csv_conversion_tool:start|CSV to IATI converter]] to another server by 5th of September 2012 
