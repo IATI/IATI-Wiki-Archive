@@ -18,22 +18,21 @@ From May
   *[[Set up mailing list]]
 
 Scheduled for June
-  *[[Newsletter|Send 1st newsletter]]
-  *[[NGOs publishing IATI data]] (approx 60)
+    *[[NGOs publishing IATI data]] (approx 60)
   *[[NGOs publishing IATI data|Data review of NGOs data]] (sample)
   *[[Paper on registry updates]]
   *[[IATI explorer review and consultation]]
   *[[WP-EFF endorsing Standard?]]
   *[[Pre-Busan signatories Implementation Schedules]]
   *[[Create IATI public good architecture blueprints]]
+
 ==== July 2012 ====
   *[[DRC Pilot]]
   *[[Pilots in Columbia & Honduras]]
-  *[[Newsletter]]
-  *[[Private Sector Workshop]]
   *[[tool:IATI Exchange:start]]
   *[[AMP and Aid Data exporter]]
   *[[UNDCF Side Event]]
+  *[[Newsletter|Send 1st newsletter]]
   *[[DAD Community of Practice]]
   *[[Data Review]]
   *[[New TAG Coordination]]
@@ -51,6 +50,7 @@ Scheduled for June
   *Event:[[OKFest in Helsinki]], 17th - 22nd September
   *[[Newsletter]]
   *[[Licensing process]]
+  *[[Private Sector Workshop]]
 
 ==== October 2012 ====
   *[[Standard 1.01]]
