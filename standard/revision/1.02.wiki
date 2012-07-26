@@ -2,7 +2,8 @@
 
 The IATI TAG has expressed a desire to perform a decimal upgrade of the standard by December 2012. The process for achieving this is outlined below.
 
-New ideas/issues should be logged and discussed on the [[http://support.iatistandard.org/home|knowledge base]].
+New ideas/issues should be logged and discussed on the [[http://support.iatistandard.org/forums/20020808-modifications-additions-improvements
+]].
 ^ IATI ^ Community ^ Timescale ^ Due Date ^
 | A clear cut off date for new submissions should be advertised. | Community submits and discusses proposals/ideas before the cut off date |  | 1 Jun |
 | The TAG technical team should have agreed as to which proposals should go forward to the next upgrade, and communicated this with the community. | These are flagged on the knowledge base as under consideration. During this time the community can help shape the proposals, and discuss what has been included or left out. | usually within 1 week | 2 Aug |
