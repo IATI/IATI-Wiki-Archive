@@ -5,7 +5,7 @@ The IATI TAG has expressed a desire to perform a decimal upgrade of the standard
 New ideas/issues should be logged and discussed on the [[http://support.iatistandard.org/home|knowledge base]].
 ^ IATI ^ Community ^ Timescale ^ Due Date ^
 | A clear cut off date for new submissions should be advertised. | Community submits and discusses proposals/ideas before the cut off date |  | 1st June |
-| The TAG technical team should have agreed as to which proposals should go forward to the next upgrade, and communicated this with the community. | These are flagged on the knowledge base as under consideration. During this time the community can help shape the proposals, and discuss what has been included or left out. | usually within 1 week | 2 August |
+| The TAG technical team should have agreed as to which proposals should go forward to the next upgrade, and communicated this with the community. | These are flagged on the knowledge base as under consideration. During this time the community can help shape the proposals, and discuss what has been included or left out. | usually within 1 week | 2 Aug |
 | Consultation | During this time the community can help shape the proposals, and discuss what has been included or left out. |Over a two week period | TBC |
 | These ideas need to then be built into fully implemented examples. | During this time the community can help shape the proposals | within 1 week | TBC |
 | At which point they are published as proposed changes for consultation | During this time the community can help shape the proposals | over a 4 week period | TBC |
