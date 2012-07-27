@@ -14,7 +14,7 @@ Instead of investing money in a technologist, all you have to do is input aid da
 Open Aid Register uses the amazing geospatial dababase in the cloud CartoDB.Through an interactive and easy to use map, you can add as many locations as you need. You can add as many locations as you need. Geospatial information will be stored @[[http://cartodb.com|cartodb]]. 
 
 **The IATI common registry updates automatically with your project data.**
-You don't have to update the IATI Registry manually – Open Aid Register does it for you. When you update a project, the information is automatically saved in the IATI common registry. This means your projects will be accessible and current to everyone. 
+You don't have to update the IATI Registry manually – Open Aid Register does it for you.\\ When you update a project, the information is automatically saved in the IATI common registry. This means your projects will be accessible and current to everyone. 
 
 **It's all open source.** 
 
