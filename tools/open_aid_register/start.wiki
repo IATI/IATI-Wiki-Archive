@@ -21,8 +21,7 @@ You don't have to update the IATI Registry manually – Open Aid Register does i
 ===== Documentation =====
 /* Provide links to documentation, or use the wiki to develop documentation of this tool. */
 
-About: http://www.openaidregister.org/about
-
+About: http://www.openaidregister.org/about \\FAQ: http://www.openaidregister.org/faq \\Video: http://vimeo.com/user8777138/open-aid-introductory-video
 
 
 
