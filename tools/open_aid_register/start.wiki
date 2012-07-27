@@ -1,0 +1,34 @@
+====== Tool Name ======
+/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+
+Open Aid Register is an extremely easy free publishing platform for IATI users. It's used currently by several NGOs and foundations.
+Open Aid Register is working since October 2011 and it's helping smaller and medium organizations (from 1 project to 100 projects or activitites) to introduce their information.
+
+===== Detailed Description =====
+/* Provide additional details here */
+
+**Open Aid Register helps NGOs easily convert aid data to IATI standard. **
+Instead of investing money in a technologist, all you have to do is input aid data into a form and Open Aid Register will format the data in IATI and provide it back to you.
+
+**You can easily and accurately geolocate aid projects.** 
+Open Aid Register uses the amazing geospatial dababase in the cloud CartoDB.Through an interactive and easy to use map, you can add as many locations as you need. You can add as many locations as you need. Geospatial information will be stored at @cartodb. 
+
+**The IATI common registry updates automatically with your project data.**
+You don't have to update the IATI Registry manually – Open Aid Register does it for you. When you update a project, the information is automatically saved in the IATI common registry. This means your projects will be accessible and current to everyone. 
+
+**It's all open source.** 
+
+===== Documentation =====
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+
+About: http://www.openaidregister.org/about
+
+
+
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
+
+URL: www.openaidregister.org
+Source Code: https://github.com/ruthdelcampo/OpenAidRegister
+New version with extended functionalities is planned to be done at the end of this year.
