@@ -1,10 +1,10 @@
 ====== Tool Name ======
 /* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
-
+{{ :tools:open_aid_register:screen_shot_2012-07-27_at_11.54.42_am.png?500|Screenshot of OAR's dashboard}}
 Open Aid Register is an extremely easy free publishing platform for IATI users. It's used currently by several NGOs and foundations.\\ 
-Open Aid Register is working since October 2011 and it's helping smaller and medium organizations (from 1 project to 100 projects or activitites) to introduce their information.
-
-{{ :tools:open_aid_register:screen_shot_2012-07-27_at_11.54.42_am.png | Screenshot of OAR's dashboard}}
+Open Aid Register is working since October 2011 and it's helping smaller and medium organizations (from 1 project to 100 projects or activitites) to introduce their information.\\ 
+All organizations committed to aid projects should strive to keep their data open and transparent. Open Aid Register's goal is to assist non-profits and NGOs in making this happen by helping them publish their data in the standard known as IATI.
+Open Aid Register also helps geocode your aid projects and
 ===== Detailed Description =====
 /* Provide additional details here */
 
