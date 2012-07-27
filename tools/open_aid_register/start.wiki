@@ -28,6 +28,6 @@ About: http://www.openaidregister.org/about\\ FAQ: http://www.openaidregister.or
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
 
-URL: www.openaidregister.org
-Source Code: https://github.com/ruthdelcampo/OpenAidRegister
+URL: www.openaidregister.org\\ 
+Source Code: https://github.com/ruthdelcampo/OpenAidRegister\\ 
 New version with extended functionalities is planned to be done at the end of this year.
