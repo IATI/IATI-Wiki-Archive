@@ -1,7 +1,7 @@
 ====== Tool Name ======
 /* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
 
-Open Aid Register is an extremely easy free publishing platform for IATI users. It's used currently by several NGOs and foundations.
+Open Aid Register is an extremely easy free publishing platform for IATI users. It's used currently by several NGOs and foundations.\\ 
 Open Aid Register is working since October 2011 and it's helping smaller and medium organizations (from 1 project to 100 projects or activitites) to introduce their information.
 
 ===== Detailed Description =====
