@@ -1,4 +1,4 @@
-====== Tool Name ======
+====== Open Aid Register ======
 /* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
 {{ :tools:open_aid_register:screen_shot_2012-07-27_at_11.54.42_am.png?500|Screenshot of OAR's dashboard}}
 Open Aid Register is an extremely easy free publishing platform for IATI users. It's used currently by several NGOs and foundations.\\ 
