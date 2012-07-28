@@ -40,7 +40,29 @@ To run the front-end locally you will need to:
   node web.js
 ==== Back end ====
 
-The data is stored on Kasabi in [[http://kasabi.com/dataset/r4d-aid-data|a triple store which can be accessed via SPARQL]].
+The data can be loaded into any triple store with a SPARQL interface. We are using [[4Store]]. 
+
+You can follow the instructions [[4Store|here]] to get a working install of 4Store.
+
+Then set-up a separate database:
+
+  4s-backend-setup r4d #Only run this the first time you set up the store
+
+And launch a backend and http server:
+
+  4s-backend r4d
+  4s-httpd r4d -p 8088
+
+(These should be set to launch on server startup)
+
+You will then need to add the following lines to the Apache configuration:
+
+  ProxyPass /r4d/status http://localhost:8088/status
+  ProxyPassReverse /r4d/status http://localhost:8088/status
+  ProxyPass /r4d/sparql http://localhost:8088/sparql
+  ProxyPassReverse /r4d/sparql http://localhost:8088/sparql
+
+This makes it easy to run an R4D triple store alongside any others. 
 
 The data is currently loaded to this triple store using a set of Python scripts. 
 
