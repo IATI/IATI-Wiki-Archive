@@ -23,6 +23,21 @@ Only some ARIES codes have attached research projects. When research is not foun
 
 Note that some IATI identifiers are for components of DFID projects (e.g. 100234-101) rather than the overall project (100234) to which research records are linked. If you have one of these identifiers, you may wish to strip off the end component. 
 
+=== Running locally ===
+
+To run the front-end locally you will need to:
+
+  * Checkout a copy from GitHub: [[https://github.com/marxian/r4d]]
+  * Install [[http://nodejs.org/|Node.js]]
+  * Install dependencies with npm 
+  * Install [[http://redis.io/|Redis]]
+  * Run redis
+
+  redis-server /usr/local/etc/redis.conf 
+
+  * Run node
+
+  node web.js
 ==== Back end ====
 
 The data is stored on Kasabi in [[http://kasabi.com/dataset/r4d-aid-data|a triple store which can be accessed via SPARQL]].
