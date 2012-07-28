@@ -32,6 +32,8 @@ Documentation on running the conversion scripts to grab data from the IATI Regis
 Documentation on using Kasabi to access and explore linked data is [[http://kasabi.com/doc/developer-guide|provided on the Kasabi platform]]. 
 
 Details of the original proof of concept [[http://www.aidinfolabs.org/archives/582|are on AidInfoLabs]].
+
+Experimental documentation of using [[4Store]] to host IATI linked data is [[4store|here]].
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
 
