@@ -61,9 +61,52 @@ Launch the backend
   
 Set up a HTTP server for it:
 
-  4s-httpd iati -p 80
-  # Using port 80 for now. We should switch to something else later and proxy through Apache for security. 
+  4s-httpd iati -p 8080
 
-(If on the TurnkeyHub, you might need to update the firewall rules to allow port 80 through). 
+<note warning>**Security Note:** Check that you have a firewall that only permits access to certain ports in place in front of the server you are running, otherwise any user can post data to your triple store. The TurnkeyHub Core image comes pre-configured with an EC2 firewall.</note>
+
+==== Setup Apache for Reverse Proxy & Access Control ====
+
+Install apache and enable reverse proxy
+
+  apt-get install apache2
+  a2enmod proxy_http
+
+Configure /etc/apache2/sites-available with the following configuration
+
+  <VirtualHost *:80>  
+
+  ServerAdmin webmaster@localhost  
+
+  ProxyRequests Off
+  ProxyPreserveHost On
+  <Proxy *>
+      Order allow,deny
+      Allow from all
+    <Limit POST PUT DELETE>
+      Deny from all
+    </Limit>
+  </Proxy>
+  ProxyPass / http://localhost:8080/
+  ProxyPassReverse / http://localhost:8080/  
+  
+
+  #Logging
+  ErrorLog /var/log/apache2/error.log  
+
+  # Possible values include: debug, info, notice, warn, error, crit,
+  # alert, emerg.
+  LogLevel warn  
+
+  CustomLog /var/log/apache2/access.log combined  
+  
+
+  </VirtualHost>
+
+  * Restart Apache (and if necessary allow port 80 through on your firewall)
+
+  /etc/init.d/apache2 restart
+
+It should now be possible to access /status/ etc. on the server, but not to make post requests to /data/, preventing third parties adding data to the server. 
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
