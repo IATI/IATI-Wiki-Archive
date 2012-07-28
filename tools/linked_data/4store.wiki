@@ -13,12 +13,39 @@ This guide is based on starting with a blank Ubuntu [[http://www.turnkeylinux.or
 
   * Install the dependencies as listed at [[http://4store.org/trac/wiki/Dependencies]].
 
-  apt-get install build-essential libpcre3-dev librasqal2-dev libtool libraptor1-dev libglib2.0-dev ncurses-dev libreadline-dev
+  apt-get install build-essential libpcre3-dev librasqal2-dev libtool libraptor1-dev libglib2.0-dev ncurses-dev libreadline-dev automake uuid-dev
+
+  * Install Raptor2 and RASQL from source
+
+  wget http://download.librdf.org/source/raptor2-2.0.8.tar.gz
+  tar xzf raptor2-2.0.8.tar.gz; rm raptor2-2.0.8.tar.gz
+  cd raptor2-2.0.8/
+  apt-get install yajl-tools
+  ./configure
+  make
+  make check
+  make install
+  ldconfig./au
+  
+  wget http://download.librdf.org/source/rasqal-0.9.29.tar.gz
+  tar xzf rasqal-0.9.29.tar.gz
+  rm rasqal-0.9.29.tar.gz
+  cd rasqal-0.9.29.tar.gz
+  ./configure
+  make
+  make install
 
   * Checkout the 4store code from Git
 
   git clone https://github.com/garlik/4store.git
 
-  * 
+  * Build 4store
+
+  cd 4store
+  sh autogen.sh
+  ./configure
+  make
+  make install
+  
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
