@@ -1,0 +1,24 @@
+====== Linked Data on 4Store ======
+/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+
+This page provides details of how to install the [[http://4store.org/|4Store]] triple store, configure it, and post IATI data into it. 
+
+===== Detailed Description =====
+/* Provide additional details here */
+
+===== Documentation =====
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+
+This guide is based on starting with a blank Ubuntu [[http://www.turnkeylinux.org/core|Turnkey Core server image]]. This can be run in a Virtual machine or cloud hosting. The instructions may work for other Ubuntu systems, but will need adapting for different flavours of linux. 
+
+  * Install the dependencies as listed at [[http://4store.org/trac/wiki/Dependencies]].
+
+  apt-get install build-essential libpcre3-dev librasqal2-dev libtool libraptor1-dev libglib2.0-dev ncurses-dev libreadline-dev
+
+  * Checkout the 4store code from Git
+
+  git clone https://github.com/garlik/4store.git
+
+  * 
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
