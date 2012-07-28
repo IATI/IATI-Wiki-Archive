@@ -68,6 +68,18 @@ The data is currently loaded to this triple store using a set of Python scripts.
 
 === To install and run the scripts ===
 
+== R4D Data ==
+
+Get a copy of the script from https://github.com/aidinfolabs/R4D-4Store-Sync 
+
+  git clone https://github.com/aidinfolabs/R4D-4Store-Sync.git
+
+Run the script whenever you want to update the stored data. It performs a full refresh of the triples stored.
+
+  python update.py
+
+== IATI Data ==
+
 <note important>This section needs to be updated to work with the new 4Store backend.</note>
 
 Either [[https://github.com/practicalparticipation/International-Development-Linked-Data-Tools-|see the instructions here]] or a pre-configured server is available via the Turnkey Linux Backup Management service. Contact [[community:user:TimDavies|Tim Davies]] for access.
