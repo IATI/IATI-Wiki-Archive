@@ -75,9 +75,9 @@ Install apache and enable reverse proxy
 Configure /etc/apache2/sites-available with the following configuration
 
   <VirtualHost *:80>  
-
+  
   ServerAdmin webmaster@localhost  
-
+  
   ProxyRequests Off
   ProxyPreserveHost On
   <Proxy *>
@@ -90,17 +90,15 @@ Configure /etc/apache2/sites-available with the following configuration
   ProxyPass / http://localhost:8080/
   ProxyPassReverse / http://localhost:8080/  
   
-
   #Logging
   ErrorLog /var/log/apache2/error.log  
-
+  
   # Possible values include: debug, info, notice, warn, error, crit,
   # alert, emerg.
   LogLevel warn  
-
+  
   CustomLog /var/log/apache2/access.log combined  
   
-
   </VirtualHost>
 
   * Restart Apache (and if necessary allow port 80 through on your firewall)
