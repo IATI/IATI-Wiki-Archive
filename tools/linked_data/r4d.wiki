@@ -68,6 +68,8 @@ The data is currently loaded to this triple store using a set of Python scripts.
 
 === To install and run the scripts ===
 
+<note important>This section needs to be updated to work with the new 4Store backend.</note>
+
 Either [[https://github.com/practicalparticipation/International-Development-Linked-Data-Tools-|see the instructions here]] or a pre-configured server is available via the Turnkey Linux Backup Management service. Contact [[community:user:TimDavies|Tim Davies]] for access.
 
 == Example build on a clean Turnkey Linux core image ==
