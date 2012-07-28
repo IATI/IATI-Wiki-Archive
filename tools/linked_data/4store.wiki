@@ -51,8 +51,19 @@ This guide is based on starting with a blank Ubuntu 10 LTS [[http://www.turnkeyl
 
 ==== Setup Store ====
 
-  4s-backend-setup test
+Setup a backend database for IATI data
 
+  4s-backend-setup iati
 
+Launch the backend
+
+  4s-backend iati
+  
+Set up a HTTP server for it:
+
+  4s-httpd iati -p 80
+  # Using port 80 for now. We should switch to something else later and proxy through Apache for security. 
+
+(If on the TurnkeyHub, you might need to update the firewall rules to allow port 80 through). 
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
