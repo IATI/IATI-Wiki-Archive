@@ -27,7 +27,7 @@ This guide is based on starting with a blank Ubuntu 10 LTS [[http://www.turnkeyl
   make
   make check
   make install
-  ldconfig./au
+  ldconfig
   
   wget http://download.librdf.org/source/rasqal-0.9.29.tar.gz
   tar xzf rasqal-0.9.29.tar.gz
