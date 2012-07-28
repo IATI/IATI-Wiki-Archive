@@ -74,30 +74,32 @@ Install apache and enable reverse proxy
 
 Configure /etc/apache2/sites-available with the following configuration
 
-  <VirtualHost *:80>  
+  <VirtualHost *:80>
   
-  ServerAdmin webmaster@localhost  
+  ServerAdmin webmaster@localhost
   
   ProxyRequests Off
   ProxyPreserveHost On
   <Proxy *>
       Order allow,deny
       Allow from all
-    <Limit POST PUT DELETE>
-      Deny from all
-    </Limit>
   </Proxy>
-  ProxyPass / http://localhost:8080/
-  ProxyPassReverse / http://localhost:8080/  
+  
+  ProxyPass /status http://localhost:8080/status
+  ProxyPassReverse /status http://localhost:8080/status
+  ProxyPass /test http://localhost:8080/test
+  ProxyPassReverse /test http://localhost:8080/test
+  ProxyPass /sparql http://localhost:8080/sparql
+  ProxyPassReverse /sparql http://localhost:8080/sparql
   
   #Logging
-  ErrorLog /var/log/apache2/error.log  
+  ErrorLog /var/log/apache2/error.log
   
   # Possible values include: debug, info, notice, warn, error, crit,
   # alert, emerg.
-  LogLevel warn  
+  LogLevel warn
   
-  CustomLog /var/log/apache2/access.log combined  
+  CustomLog /var/log/apache2/access.log combined
   
   </VirtualHost>
 
