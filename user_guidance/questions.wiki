@@ -1,6 +1,9 @@
 ====== Questions ======
 
-How can IATI data be used in different contexts? This section aims to build a library of questions and answers. These will highlight areas for improved user guidance, and areas where further development to IATI is needed.
+How can IATI data be used in different contexts? This section aims to build a library of questions and answers. These will highlight areas for improved user guidance, and areas where further development to IATI is needed. 
 
+===== Existing questions =====
 
 {{indexmenu>.}}
+
+===== Add new question =====
