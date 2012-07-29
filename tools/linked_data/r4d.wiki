@@ -66,7 +66,7 @@ This makes it easy to run an R4D triple store alongside any others.
 
 The data is currently loaded to this triple store using a set of Python scripts. 
 
-=== To install and run the scripts ===
+==== Data import ====
 
 == R4D Data ==
 
