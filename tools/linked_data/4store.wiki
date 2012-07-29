@@ -107,5 +107,43 @@ Configure /etc/apache2/sites-available with the following configuration
   /etc/init.d/apache2 restart
 
 It should now be possible to access /status/ etc. on the server, but not to make post requests to /data/, preventing third parties adding data to the server. 
+
+==== Set 4Store to run on launch ====
+
+Based on [[https://github.com/mhgrove/4Store-API/blob/master/init.4store|Michael Grove's script on GitHub]]. 
+
+  #!/bin/sh
+  #
+  # Linux startup script for 4store
+  # chkconfig: 2345 99 20
+  # description: Run an 4store backend and sparql http server
+  # processname: 4store
+  #
+  # To install, configure this file as needed and copy
+  # to /etc/rc.d/init.d as 4store.  Then use "# /sbin/chkconfig 4store reset"
+  
+  KB="iati"
+  PORT="8080"
+  
+  case "$1" in
+    start)
+	  echo "Starting 4store"
+	  4s-backend $KB
+	  4s-httpd -p $PORT $KB
+	  ;;
+    stop)
+	  killall "4s-httpd"
+	  pkill -f '^4s-backend'
+	  ;;
+    restart)
+	  $0 stop
+	  $0 start
+	  ;;
+    *)
+	  echo "Usage: $0 {start|stop|restart}"
+	  exit 1
+  esac
+  
+  exit 0
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
