@@ -1,4 +1,4 @@
-====== IATI Question: What is volume of resources are controlled by NGOs? ======
+====== IATI Question: What volume of resources are controlled by NGOs? ======
 
 //We are creating a collection of questions that potential users of IATI data want to answer. Collating these questions is designed to help inform improvements to the IATI standard, data and tools - as well as to provide a head-start to anyone working with similar questions.//
 
