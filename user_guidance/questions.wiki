@@ -9,4 +9,4 @@ How can IATI data be used in different contexts? This section aims to build a li
 ===== Add new question =====
 
 
-{{NEWPAGE}}
+{{NEWPAGE>user_guidance:questions}}
