@@ -29,6 +29,6 @@ An open source version of the code for the AidView API is due soon.
 ===== Documentation =====
 /* Provide links to documentation, or use the wiki to develop documentation of this tool. */
 
-I'm currently working on setting up a copy of the [[AidView Backend Database]].
+Check the [[AidView Backend Database]] documentation for details of how to set up your own version of the API.
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
