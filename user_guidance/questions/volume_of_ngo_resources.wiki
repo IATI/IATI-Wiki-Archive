@@ -45,4 +45,8 @@ The UK Charities Commission have recently started asking Charities to report on 
 The AidData platform may have backwards looking data of relevance to this question. 
 ===== What issue does this question raise for the IATI standard, data and tools =====
 
-  * The tools for accessing cached data are at present very complicated. 
+  * The tools for accessing data from across multiple files are at present very complicated. 
+
+  * Organisation Identifiers are poorly used at present
+
+  * Traceability features are not heavily used at present
