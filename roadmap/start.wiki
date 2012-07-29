@@ -14,17 +14,14 @@ Any member of the IATI community can add their planned work to this shared roadm
 From May
   *[[CSV tool launch]]
   *[[Set up public calendar]]
-  *[[Paper on code list versioning]] - Draft complete
-  *[[Set up mailing list]]
 
 Scheduled for June
-    *[[NGOs publishing IATI data]] (approx 60)
+
   *[[NGOs publishing IATI data|Data review of NGOs data]] (sample)
   *[[Paper on registry updates]]
   *[[IATI explorer review and consultation]]
-  *[[WP-EFF endorsing Standard?]]
   *[[Pre-Busan signatories Implementation Schedules]]
-  *[[Create IATI public good architecture blueprints]]
+  
 
 ==== July 2012 ====
   *[[DRC Pilot]]
@@ -32,13 +29,13 @@ Scheduled for June
   *[[tool:IATI Exchange:start]]
   *[[AMP and Aid Data exporter]]
   *[[UNDCF Side Event]]
-  *[[Newsletter|Send 1st newsletter]]
   *[[DAD Community of Practice]]
   *[[Data Review]]
   *[[New TAG Coordination]]
   *[[Survey of Donors]]
 
 ==== 2012 August ====
+  *[[Create IATI public good architecture blueprints|Continue to develop IATI public good architecture blueprints]]
   *[[Pilot in Rwanda]]
   *[[Newsletter]]
   *[[User Access to compliance tolls]]
