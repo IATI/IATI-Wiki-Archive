@@ -83,7 +83,7 @@ If you are not yet publishing IATI data, but are preparing or planning to publis
 
 ==== What do users do? ====
 
-
+//Questions about how people are currently accessing the data//
 ==== What do users want? ====
 
 We are currently exploring 
