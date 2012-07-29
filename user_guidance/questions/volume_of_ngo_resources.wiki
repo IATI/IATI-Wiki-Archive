@@ -2,14 +2,40 @@
 
 //We are creating a collection of questions that potential users of IATI data want to answer. Collating these questions is designed to help inform improvements to the IATI standard, data and tools - as well as to provide a head-start to anyone working with similar questions.//
 
-
 ===== The Question =====
+
+Can IATI tell me the volume of resources controlled by NGOs? I'm interested in total expenditure & income as well as total receipts from official and foundation sources.
 
 ===== How can IATI help with this question now? =====
 
+Right now IATI only includes a limited amount of data directly from NGOs. NGO publication into IATI is voluntary. You can find [[http://iatiregistry.org/publisher|a list of current publishers on the IATI Registry]].
+
+Many of the NGOs publishing currently only publish a proportion of their funding in the IATI standard. Details of this are available from their publisher record on the registry (look for the //Organisations / agencies covered// details).
+
+When NGOs who are publishing detailed information (for example, [[http://iatiregistry.org/publisher/oxfamgb|Oxfam]]) then is is possible to find details of their **expenditure** in all the countries they work in. 
+
+It is also possible to look inside the files published by official donors and foundations to locate payments they have made to a given NGO. This information maybe found in:
+
+  * The [[http://iatistandard.org/activities-standard/basic-activity-information/participating-organisation|participating-org]] field of an activity (see the [[http://iatistandard.org/codelists/organisation_type|type codes]])
+  * The [[http://iatistandard.org/activities-standard/financial-transaction/transaction-receiver|reciever-org]] field of a transaction
+
+==== Getting hold of the data ====
+This isn't as easy as it should be right now. You have a couple of options:
+
+  - Download CSV files direct from the registry for each organisation or country you might be interested in, and work with these in your preferred software. Note that this may raise [[http://support.iatistandard.org/entries/21404411-segmentation-issues|segmentation issues]].
+  - Use the [[tools:IATIExplorer:start]] service which maintains a cache of data that can be queried with [[http://www.w3schools.com/xpath/default.asp|xPath]]. Note that no guarantee can be offered at present of the currency of the data in the IATI Explorer service. 
+
+If trying (2) then you can run the results through the [[http://tools.aidinfolabs.org/csv/direct_from_registry/|CSV conversion tool]]. 
+
+Some example queries against the IATIExplorer service
+
 ===== What are the limitations of current IATI data? =====
+
+  * Only a limited number of NGOs are publishing.
+  * [[http://iatistandard.org/guides/organisation-data/organisation-identifiers|Organisational identifiers]] are not always included by official and foundation sources, making tracing payments to organisations challenging. 
 
 ===== What other data sources might be available? =====
 
 ===== What issue does this question raise for the IATI standard, data and tools =====
 
+  * The tools for accessing cached data are at present very complicated. 
