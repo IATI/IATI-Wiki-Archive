@@ -40,6 +40,9 @@ An example queries against the IATIExplorer service:
 
 ===== What other data sources might be available? =====
 
+The UK Charities Commission have recently started asking Charities to report on the countries in which they spend money. This data is not yet a complete dataset, nor available as open data, but can be sourced by agreement with the Charity Commission. 
+
+The AidData platform may have backwards looking data of relevance to this question. 
 ===== What issue does this question raise for the IATI standard, data and tools =====
 
   * The tools for accessing cached data are at present very complicated. 
