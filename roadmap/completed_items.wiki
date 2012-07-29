@@ -8,3 +8,10 @@
 ==== June 2012 ====
   * [[Relaunch iatistandard.org]]
 
+==== July 2012 ====
+
+  *[[Set up mailing list]]
+  *[[NGOs publishing IATI data]] (approx 60)
+  *[[WP-EFF endorsing Standard?]]
+  *[[Paper on code list versioning]] - Draft complete 
+  *[[Newsletter|Send 1st newsletter]]
