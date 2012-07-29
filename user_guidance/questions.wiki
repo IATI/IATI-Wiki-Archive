@@ -9,7 +9,7 @@ How can IATI data be used in different contexts? This section aims to build a li
 ===== Add new question =====
 
 <form>
-action template template user_guidance:questions: 
+action template user_guidance:questions: user_guidance:questions: 
 
 textbox  "The question" @
 submit
