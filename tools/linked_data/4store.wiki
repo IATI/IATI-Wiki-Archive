@@ -15,7 +15,7 @@ This guide is based on starting with a blank Ubuntu 10 LTS [[http://www.turnkeyl
 
   * Install the dependencies as listed at [[http://4store.org/trac/wiki/Dependencies]].
 
-  apt-get install build-essential libpcre3-dev librasqal2-dev libtool libraptor1-dev libglib2.0-dev ncurses-dev libreadline-dev automake uuid-dev
+  apt-get install build-essential libpcre3-dev librasqal2-dev libtool libraptor1-dev libglib2.0-dev ncurses-dev libreadline-dev automake uuid-dev libavahi-core-dev libavahi-glib-dev libavahi-client-dev avahi-daemon
 
   * Install Raptor2 and RASQL from source
 
@@ -48,7 +48,6 @@ This guide is based on starting with a blank Ubuntu 10 LTS [[http://www.turnkeyl
   ./configure
   make
   make install
-
 ==== Setup Store ====
 
 Setup a backend database for IATI data
