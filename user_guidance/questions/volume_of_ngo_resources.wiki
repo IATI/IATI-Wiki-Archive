@@ -23,7 +23,7 @@ It is also possible to look inside the files published by official donors and fo
 This isn't as easy as it should be right now. You have a couple of options:
 
   - Download CSV files direct from the registry for each organisation or country you might be interested in, and work with these in your preferred software. Note that this may raise [[http://support.iatistandard.org/entries/21404411-segmentation-issues|segmentation issues]].
-  - Use the [[tools:IATIExplorer:start]] service which maintains a cache of data that can be queried with [[http://www.w3schools.com/xpath/default.asp|xPath]]. Note that no guarantee can be offered at present of the currency of the data in the IATI Explorer service. 
+  - Use the [[tools:IATI_explorer:start]] service which maintains a cache of data that can be queried with [[http://www.w3schools.com/xpath/default.asp|xPath]]. Note that no guarantee can be offered at present of the currency of the data in the IATI Explorer service. 
 
 If trying (2) then you can run the results through the [[http://tools.aidinfolabs.org/csv/direct_from_registry/|CSV conversion tool]]. 
 
