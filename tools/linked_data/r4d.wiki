@@ -48,7 +48,7 @@ Then set-up a separate database:
 
   4s-backend-setup r4d #Only run this the first time you set up the store
 
-And launch a backend and http server:
+And launch a backend and http server (and add these lines to /etc/rc.local to launch on startup):
 
   4s-backend r4d
   4s-httpd r4d -p 8088
