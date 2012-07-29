@@ -26,14 +26,15 @@ Technical contact / Policy contact
 
 
 Are you (check all that apply)
-[ ] Already publishing IATI Data
-[ ] Preparing to publish IATI Data
-[ ] Interested in publishing IATI Data
-[ ] A user of IATI data (either directly, or through different tools and third parties)
-[ ] Interested in making more use of IATI data
-[ ] The creator of a tool that works with IATI data
+  * [ ] Already publishing IATI Data
+  * [ ] Preparing to publish IATI Data
+  * [ ] Interested in publishing IATI Data
+  * [ ] A user of IATI data (either directly, or through different tools and third parties)
+  * [ ] Interested in making more use of IATI data
+  * [ ] The creator of a tool that works with IATI data
 
 ==== What do publishers do? ====
+//Questions to help us map out the current publication processes for IATI data//
 
 If you are not yet publishing IATI data, but are preparing or planning to publish data, please answer with respect to your current plans. 
 
@@ -78,8 +79,15 @@ If you are not yet publishing IATI data, but are preparing or planning to publis
     * [ Free Text ]
  
 ==== What do publishers want? ====
-
 //Questions about potential tools we might provide//
+
+AidInfo is currently working on plans to develop an open source **Toolkit** of resources for accessing and working with IATI data (aimed at intermediaries and researchers), and a **Commissioning Fund** which can help organisations pool resources to commission user-facing tools that would bring them a greater return on their publication of IATI data. 
+
+We are interested in understanding possible priorities for these. 
+
+
+
+
 
 ==== What do users do? ====
 
