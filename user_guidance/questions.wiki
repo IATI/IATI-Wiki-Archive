@@ -4,7 +4,7 @@ How can IATI data be used in different contexts? This section aims to build a li
 
 ===== Existing questions =====
 
-{{indexmenu>.}}
+{{indexmenu>.}} 
 
 ===== Add new question =====
 
