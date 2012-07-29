@@ -53,8 +53,6 @@ And launch a backend and http server (and add these lines to /etc/rc.local to la
   4s-backend r4d
   4s-httpd r4d -p 8088
 
-(These should be set to launch on server startup)
-
 You will then need to add the following lines to the Apache configuration:
 
   ProxyPass /r4d/status http://localhost:8088/status
