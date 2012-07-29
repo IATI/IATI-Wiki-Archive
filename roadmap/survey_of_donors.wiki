@@ -12,14 +12,89 @@ This could help support better collaboration between donors.
 
 At present, this is an idea only, and we need to decide if this should be a job for the TAG, Secretariat, or an independent party. 
 
+====== Survey Management ====== 
+
 ====== Survey Questions ====== 
+
+==== About You ====
+
+//Basic demographics//
+
+
+Technical contact / Policy contact
+
+
+
+Are you (check all that apply)
+[ ] Already publishing IATI Data
+[ ] Preparing to publish IATI Data
+[ ] Interested in publishing IATI Data
+[ ] A user of IATI data (either directly, or through different tools and third parties)
+[ ] Interested in making more use of IATI data
+[ ] The creator of a tool that works with IATI data
+
+==== What do publishers do? ====
+
+If you are not yet publishing IATI data, but are preparing or planning to publish data, please answer with respect to your current plans. 
+
+  * Has publishing (or planning to publish) IATI data required you to start collecting new information on your aid activities? [Yes / No]
+    * If yes, what:
+  * Do you currently hold information on aid projects in a database? [Yes / No]
+    * If yes, please describe the database you use. In particular: what software is used; who is the vendor; is it an off-the-shelf product, or bespoke for your organisation.
+  * Can your database hold all the information you need to publish IATI data?
+    * If no, please describe the particular information it currently lacks (e.g. geolocation; sector codes etc.) 
+  * Do you have any plans to change your database in the next few years?
+
+  * Do you already publish details of your projects on your website?
+    * If yes, please provide the URL
+    * Which of the following features does your website currently provide?
+      * List of projects
+      * Map of project locations
+      * Financial details on projects
+      * Detailed transactional information on project spending
+      * Classification of projects
+      * Results data on projects
+      * Links to related documents
+      * Links to related media
+
+  * How do/will you generate your IATI data?
+    * A bespoke modification to our database software
+    * A bespoke modification to your website
+    * Converting from a CSV file
+    * Using the AidStream online tool
+    * Using the OpenAidRegister online tool
+  * Is your IATI data:
+    * Provided live from your project database or website
+    * Provided as a periodic export
+
+  * In preparing to publish your data in the IATI format, did you make use of any of the following. If so, how useful did you find them?
+    * [Very useful - Not at all useful - Did not use]
+    * IATI Standard Website
+    * IATI Support & Knowledge Base
+    * Looking at examples of other files
+    * ...
+
+  * What would you like to see to make it easier for you to publish IATI or add value to your IATI data in the future?
+    * [ Free Text ]
+ 
+==== What do publishers want? ====
+
+
+
+==== What do users do? ====
+
+
+==== What do users want? ====
+
+We are currently exploring 
 
   * Please rate the following features in order of importance:
     * RSS feeds of latest updated IATI data
     * E-mail alerts of latest IATI data
     * ...
 
-~~TASK:Tim Davies?2012-07-31~~
 
+
+~~TASK:Tim Davies?2012-07-31~~
 
 
