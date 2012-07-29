@@ -112,6 +112,8 @@ It should now be possible to access /status/ etc. on the server, but not to make
 
 Based on [[https://github.com/mhgrove/4Store-API/blob/master/init.4store|Michael Grove's script on GitHub]]. 
 
+Place the following script in /etc/init.d/
+
   #!/bin/sh
   #
   # Linux startup script for 4store
@@ -145,5 +147,10 @@ Based on [[https://github.com/mhgrove/4Store-API/blob/master/init.4store|Michael
   esac
   
   exit 0
+
+Then symlink to it from /etc/rc3.d/
+
+  ln -s /etc/init.d/4store-iati /etc/rc3.d/S924store-iati
+
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
