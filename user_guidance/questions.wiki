@@ -7,3 +7,10 @@ How can IATI data be used in different contexts? This section aims to build a li
 {{indexmenu>.}}
 
 ===== Add new question =====
+
+<form>
+action template __template user_guidance:questions: 
+
+textbox  "The question" @
+submit
+</form>
