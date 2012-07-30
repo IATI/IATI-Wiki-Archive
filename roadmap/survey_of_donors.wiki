@@ -78,6 +78,9 @@ If you are not yet publishing IATI data, but are preparing or planning to publis
   * What would you like to see to make it easier for you to publish IATI or add value to your IATI data in the future?
     * [ Free Text ]
  
+==== Cost and benefit estimates ====
+
+This section should cover questions to help publishers estimate the cost and benefits they have seen so far of publishing IATI data. 
 ==== What do publishers want? ====
 //Questions about potential tools we might provide//
 
