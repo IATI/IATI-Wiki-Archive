@@ -12,6 +12,6 @@ For conditions:
 <code xml>
 <conditions attached="1">
 ....
-</conditions
+</conditions>
 </code>
 
