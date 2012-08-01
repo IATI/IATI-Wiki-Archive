@@ -15,7 +15,7 @@ New ideas/issues should be logged and discussed on the Knowledge Base - [[http:/
 | Development version of changes are in place. |  | within 2 weeks | 26 Oct |
 | Development versions are available for community testing. | Community can test | within 2 weeks | 9 Nov |
 | Bugs ironed out |  | within 2 weeks | 23 Nov |
-| Changes go live |  |  | Dec |
+| Changes go live |  |  | 3 Dec |
 
 
 
