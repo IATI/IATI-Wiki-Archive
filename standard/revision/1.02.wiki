@@ -11,11 +11,11 @@ New ideas/issues should be logged and discussed on the Knowledge Base - [[http:/
 | At which point they are published as proposed changes for consultation | During this time the community can help shape the proposals | over a 4 week period | 14 Sept |
 | Final proposals are published. | At this stage we hope that the proposals are solid and will be accepted, but people will still have a chance to air their views. | within 2 weeks | 28 Sept |
 | Consultation |  | over a 2 week period | 12 Oct |
-| Proposals are accepted, and implementation process begins. |  |  | TBC |
-| Development version of changes are in place. |  | within 2 weeks | TBC |
-| Development versions are available for community testing. | Community can test | within 2 weeks | TBC |
-| Bugs ironed out |  | within 2 weeks | TBC |
-| Changes go live |  |  | TBC |
+| Proposals are accepted, and implementation process begins. |  |  | 15 Oct |
+| Development version of changes are in place. |  | within 2 weeks | 26 Oct |
+| Development versions are available for community testing. | Community can test | within 2 weeks | 9 Nov |
+| Bugs ironed out |  | within 2 weeks | 23 Nov |
+| Changes go live |  |  | Dec |
 
 
 
