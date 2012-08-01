@@ -6,11 +6,11 @@ New ideas/issues should be logged and discussed on the Knowledge Base - [[http:/
 ^ IATI ^ Community ^ Timescale ^ Due Date ^
 | A clear cut off date for new submissions should be advertised. | Community submits and discusses proposals/ideas before the cut off date |  | 1 Jun |
 | The TAG technical team should have agreed as to which proposals should go forward to the next upgrade, and communicated this with the community. | These are flagged on the knowledge base as under consideration. During this time the community can help shape the proposals, and discuss what has been included or left out. | usually within 1 week | 2 Aug |
-| Consultation | During this time the community can help shape the proposals, and discuss what has been included or left out. |Over a two week period | TBC |
-| These ideas need to then be built into fully implemented examples. | During this time the community can help shape the proposals | within 1 week | TBC |
-| At which point they are published as proposed changes for consultation | During this time the community can help shape the proposals | over a 4 week period | TBC |
-| Final proposals are published. | At this stage we hope that the proposals are solid and will be accepted, but people will still have a chance to air their views. | within 2 weeks | TBC |
-| Consultation |  | over a 2 week period | TBC |
+| Consultation | During this time the community can help shape the proposals, and discuss what has been included or left out. |Over a two week period | 17 Aug |
+| These ideas need to then be built into fully implemented examples. | During this time the community can help shape the proposals | within 1 week | 24 Aug |
+| At which point they are published as proposed changes for consultation | During this time the community can help shape the proposals | over a 4 week period | 14 Sept |
+| Final proposals are published. | At this stage we hope that the proposals are solid and will be accepted, but people will still have a chance to air their views. | within 2 weeks | 28 Sept |
+| Consultation |  | over a 2 week period | 12 Oct |
 | Proposals are accepted, and implementation process begins. |  |  | TBC |
 | Development version of changes are in place. |  | within 2 weeks | TBC |
 | Development versions are available for community testing. | Community can test | within 2 weeks | TBC |
