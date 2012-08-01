@@ -116,5 +116,11 @@ Add the following to /etc/rc.local
   export PATH='/root/Jena/bin:/usr/lib/git-core:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
   4s-backend iati
   4s-httpd -p 8080 iati
+  
+==== Add 4store to backups ====
+
+If using the Turnkey Linux backup manager (tklbam) then you need to explicitly add the Turnkey directory to the backup with:
+
+  echo /var/lib/4store >> /etc/tklbam/overrides
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
