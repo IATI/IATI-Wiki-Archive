@@ -5,17 +5,17 @@ The IATI TAG has expressed a desire to perform a decimal upgrade of the standard
 New ideas/issues should be logged and discussed on the Knowledge Base - [[http://support.iatistandard.org/forums/20020808-modifications-additions-improvements]].
 ^ IATI ^ Community ^ Timescale ^ Due Date ^
 | A clear cut off date for new submissions should be advertised. | Community submits and discusses proposals/ideas before the cut off date |  | 1 Jun |
-| The TAG technical team should have agreed as to which proposals should go forward to the next upgrade, and communicated this with the community. | These are flagged on the knowledge base as under consideration. During this time the community can help shape the proposals, and discuss what has been included or left out. | usually within 1 week | 2 Aug |
-| Consultation | During this time the community can help shape the proposals, and discuss what has been included or left out. |Over a two week period | 17 Aug |
-| These ideas need to then be built into fully implemented examples. | During this time the community can help shape the proposals | within 1 week | 24 Aug |
-| At which point they are published as proposed changes for consultation | During this time the community can help shape the proposals | over a 4 week period | 14 Sept |
-| Final proposals are published. | At this stage we hope that the proposals are solid and will be accepted, but people will still have a chance to air their views. | within 2 weeks | 28 Sept |
-| Consultation |  | over a 2 week period | 12 Oct |
-| Proposals are accepted, and implementation process begins. |  |  | 15 Oct |
-| Development version of changes are in place. |  | within 2 weeks | 26 Oct |
-| Development versions are available for community testing. | Community can test | within 2 weeks | 9 Nov |
-| Bugs ironed out |  | within 2 weeks | 23 Nov |
-| Changes go live |  |  | 3 Dec |
+| The TAG technical team should have agreed as to which proposals should go forward to the next upgrade, and communicated this with the community. | These are flagged on the knowledge base as under consideration. During this time the community can help shape the proposals, and discuss what has been included or left out. | usually within 1 week | 6 Aug |
+| Consultation | During this time the community can help shape the proposals, and discuss what has been included or left out. |Over a two week period (three weeks during Summer | 24 Aug |
+| These ideas need to then be built into fully implemented examples. | During this time the community can help shape the proposals | within 1 week | 31 Aug |
+| At which point they are published as proposed changes for consultation | During this time the community can help shape the proposals | over a 4 week period | 21 Sept |
+| Final proposals are published. | At this stage we hope that the proposals are solid and will be accepted, but people will still have a chance to air their views. | within 2 weeks | 5 Oct |
+| Consultation |  | over a 2 week period | 19 Oct |
+| Proposals are accepted, and implementation process begins. |  |  | 22 Oct |
+| Development version of changes are in place. |  | within 2 weeks | 2 Nov |
+| Development versions are available for community testing. | Community can test | within 2 weeks | 16 Nov |
+| Bugs ironed out |  | within 2 weeks | 30 Nov |
+| Changes go live |  |  | 10 Dec |
 
 
 
