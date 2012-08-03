@@ -11,11 +11,11 @@ The code should be declared in any usage of this element:
 Additionally, a text description of the code can be provided:
 
 <code xml>
-    <finance-type code="100">Grant</default-finance-type>
+    <finance-type code="100">Grant</finance-type>
 </code>
 
 Where this text description is in a language that differs from the default, then this should be declared accordingly:
 
 <code xml>
-    <finance-type code="100" xml:lang="fr">Don</default-finance-type>
+    <finance-type code="100" xml:lang="fr">Don</finance-type>
 </code>
