@@ -11,11 +11,11 @@ The code should be declared in any usage of this element:
 Additionally, a text description of the code can be provided:
 
 <code xml>
-    <tied-status code="5">Untied</default-tied-status>
+    <tied-status code="5">Untied</tied-status>
 </code>
 
 Where this text description is in a language that differs from the default, then this should be declared accordingly:
 
 <code xml>
-    <tied-status code="5" xml:lang="fr">Aide non-liee</default-tied-status>
+    <tied-status code="5" xml:lang="fr">Aide non-liee</tied-status>
 </code>
