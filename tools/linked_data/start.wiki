@@ -33,4 +33,6 @@ Details of the original proof of concept [[http://www.aidinfolabs.org/archives/5
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
 
-Source code is [[https://github.com/practicalparticipation/International-Development-Linked-Data-Tools-|available on GitHub]].
+XSLT Templates (for conversion to RDF): [[https://github.com/aidinfolabs/IATI-XSLT/tree/master/templates/rdf]]
+
+Sync Tools (for uploading to [[4Store]]): [[https://github.com/aidinfolabs/IATISyncTools/tree/master/conversions/linked_data]]
