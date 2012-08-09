@@ -3,7 +3,7 @@
 
 An initial workflow for converting IATI data into Linked Data, and uploading this to a triple store, has been developed in prototype. 
 
-A copy of the data is currently available through a SPARQL endpoint at http://iati-ld.tklapp.com/sparql/
+A copy of the data is currently available through a SPARQL endpoint at http://iati-ld.tklapp.com/sparql/ (See [[http://iati-ld.tklapp.com/snorql/|SNORQL interface]] onto endpoint for human browsing)
 
 <note warning>
 This [[http://iati-ld.tklapp.com/sparql/|triple store]] is not updated on a scheduled or regular basis. It is possible this data may be behind or out of of synchronisation with current IATI data. Please contact [[community:user:timdavies|Tim Davies]] to request the data is refreshed if you have an application that requires this. 
