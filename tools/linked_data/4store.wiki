@@ -11,6 +11,7 @@ This page provides details of how to install the [[http://4store.org/|4Store]] t
 
 This guide is based on starting with a blank Ubuntu 10 LTS [[http://www.turnkeylinux.org/core|Turnkey Core server image]]. This can be run in a Virtual machine or cloud hosting. The instructions may work for other Ubuntu systems, but will need adapting for different flavours of linux. 
 
+===== Documentation: Configuring 4Store =====
 ==== Install 4Store ====
 
   * Install the dependencies as listed at [[http://4store.org/trac/wiki/Dependencies]].
@@ -122,5 +123,8 @@ Add the following to /etc/rc.local
 If using the Turnkey Linux backup manager (tklbam) then you need to explicitly add the Turnkey directory to the backup with:
 
   echo /var/lib/4store >> /etc/tklbam/overrides
+  
+===== Documentation: Loading data =====
+
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
