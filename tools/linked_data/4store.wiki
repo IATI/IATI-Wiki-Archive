@@ -126,5 +126,32 @@ If using the Turnkey Linux backup manager (tklbam) then you need to explicitly a
   
 ===== Documentation: Loading data =====
 
+You can load data to 4Store using the IATISyncTools. You will need the Sync Tools and the IATI-XSLT templates
+
+  cd ~/
+  mkdir scripts
+  cd scripts
+  git clone https://github.com/aidinfolabs/IATISyncTools
+  git clone https://github.com/aidinfolabs/IATI-XSLT.git
+
+Then switch to the data where you want to store IATI data:
+
+  cd ~/
+  mkdir data
+  cd data
+  
+And run the iati_download script. (Run with --help option to see all parameters)
+
+  python ~/scripts/IATISyncTools/download/iati_download.py -v3
+
+Then change to the directory of files you want to convert to linked data:
+
+  python ~/scripts/IATISyncTools/conversions/linked_data/convert.py
+
+This will generate RDF files for each one. Then run:
+
+  python ~/scripts/IATISyncTools/conversions/linked_data/upload.py
+
+If you triple store settings are different from those described above you may need to modify this script. 
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
