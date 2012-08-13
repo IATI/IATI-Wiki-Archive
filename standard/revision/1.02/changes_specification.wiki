@@ -85,6 +85,9 @@ The language refers to the language of the document itself, so an element is a m
 == Demo ==
 Not yet available - url to come.
 
+==Changelog text==
+Removed language attribute from, and introduced an new language child element to, the document-link element
+
 ====Code list Changes====
 
 http://support.iatistandard.org/entries/21090158-add-openstreetmap-as-gazetteer-agency
