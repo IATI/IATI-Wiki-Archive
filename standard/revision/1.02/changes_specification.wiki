@@ -1,0 +1,28 @@
+=====Changes Specification=====
+Formal proposals under consultation can be found at: \\
+[[http://support.iatistandard.org/forums/21131653-first-decimal-upgrade|http://support.iatistandard.org/forums/21131653-first-decimal-upgrade]]
+
+This is a working document. As proposals are refined and finalised they will be prepared here. For discussion and comment please use the forum via the links provided.
+====Revision 1.02 details====
+
+===Schema Changes===
+
+http://support.iatistandard.org/entries/21180347-linked-data
+
+http://support.iatistandard.org/entries/21179937-document-link-and-language-schema-error
+
+ 
+===Code list Changes===
+
+http://support.iatistandard.org/entries/21090158-add-openstreetmap-as-gazetteer-agency
+
+http://support.iatistandard.org/entries/21179867-transaction-type-element-needs-additonal-code-options
+
+http://support.iatistandard.org/entries/21179746-document-link-and-aid-allocation-policies
+
+
+===Fixes===
+
+http://support.iatistandard.org/entries/21790496-alter-documentation-within-the-schema-that-is-out-of-date
+
+http://support.iatistandard.org/entries/21179707-hierarchy-attribute-should-be-changed-from-string-to-integer-in-xsd
