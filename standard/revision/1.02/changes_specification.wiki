@@ -11,6 +11,70 @@ http://support.iatistandard.org/entries/21180347-linked-data
 
 http://support.iatistandard.org/entries/21179937-document-link-and-language-schema-error
 
+This is a change to the [[http://iatistandard.org/downloads/iati-common.xsd|iati-common.xsd]]. \\
+It requires:
+  -  the removal of the language //attribute// from the document-link element 
+  -  the addition of a language //element// as a child of the document-link element
+
+A sample diff is shown below:
+<code:XML>
+<xsd:element name="document-link">
+  <xsd:annotation>
+    <xsd:documentation xml:lang="en">
+        A categorized link to an external document.
+    </xsd:documentation>
+  </xsd:annotation>
+  <xsd:complexType>
+    <xsd:choice minOccurs="1" maxOccurs="unbounded">
+      <xsd:element ref="title"/>
+      <xsd:element name="category" type="codeReqType">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">
+              A category into which this document falls, using the
+              IATI document category code list.  Must be specified at
+              least once, and may be repeated for multiple categories.
+
+              For the value of the @code attribute, see
+              http://iatistandard.org/codelists/document_category
+           </xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:any namespace="##other" processContents="lax"/>
+    </xsd:choice>
+    <xsd:attribute name="url" type="xsd:anyURI" use="required">
+      <xsd:annotation>
+        <xsd:documentation xml:lang="en">
+            The target URL of the external document, e.g. "http://www.example.org/doc.html".
+        </xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="format" type="xsd:string" use="optional">
+      <xsd:annotation>
+        <xsd:documentation xml:lang="en">
+            The MIME type of the external document,
+            e.g. "application/pdf".  A partial list of MIME types
+            appears at http://iatistandard.org/codelists/file_format
+        </xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+-    <xsd:attribute name="language" type="xsd:language" use="optional">
+-      <xsd:annotation>
+-        <xsd:documentation xml:lang="en">
+-            The ISO 639 language code for the target document, e.g. "en".
+-        </xsd:documentation>
+-      </xsd:annotation>
+-    </xsd:attribute>
++    <xsd:element name="language" type="codeType">
++      <xsd:annotation>
++        <xsd:documentation xml:lang="en">
++            The ISO 639 language code for the target document, e.g. "en".
++        </xsd:documentation>
++      </xsd:annotation>
++    </xsd:element>
+    <xsd:anyAttribute processContents="lax" namespace="##other"/>
+  </xsd:complexType>
+</xsd:element>
+</code>
  
 ===Code list Changes===
 
