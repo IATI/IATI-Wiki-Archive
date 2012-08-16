@@ -248,10 +248,24 @@ Removed language attribute from, and introduced an new language child element to
 
 =====Code list Changes=====
 
+==== Gazetteer Agency ====
 http://support.iatistandard.org/entries/21090158-add-openstreetmap-as-gazetteer-agency
 
+Adding Open Street Map to the list:
+
+   code: OSM \\
+   name: Open Street Map
+
+=== Metadata Change ===
+Version 1.01 
+
+=== Changelog ===
+Added Open Street Map
+
+==== Transaction Type ====
 http://support.iatistandard.org/entries/21179867-transaction-type-element-needs-additonal-code-options
 
+==== Document Link and Aid Allocation====
 http://support.iatistandard.org/entries/21179746-document-link-and-aid-allocation-policies
 
 
