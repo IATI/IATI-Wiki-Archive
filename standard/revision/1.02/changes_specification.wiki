@@ -1,15 +1,14 @@
-======Changes Specification======
+======Changes Specification - Revision 1.02 details======
 
 Formal proposals under consultation can be found at: \\
 [[http://support.iatistandard.org/forums/21131653-first-decimal-upgrade|http://support.iatistandard.org/forums/21131653-first-decimal-upgrade]]
 
 This is a working document. As proposals are refined and finalised they will be prepared here. For discussion and comment please use the forum via the links provided.
-=====Revision 1.02 details=====
 
-====Schema Changes====
-=== Linked Data Attribute ===
+=====Schema Changes=====
+==== Linked Data Attribute ====
 http://support.iatistandard.org/entries/21180347-linked-data
-==Required Change==
+===Required Change===
 This is a change to the [[http://iatistandard.org/downloads/iati-activities-schema.xsd|iati-activities-schema.xsd]]. \\
 It requires:
   - The addition of a attribute to the the <iati-activities> element: **iati-activities/@linked-data-default (0..1)** - a URI path upon which an activity identifier can be appended to get a dereferenceable URI for any activity contained within a file.  
@@ -154,24 +153,25 @@ A sample diff is shown below:
 </xsd:element>
 
 </code>
-== Reason ==
+=== Reason ===
 If a publisher chooses to publish linked data about their IATI activities then allowing them to declare where this data is published would support discovery of it, and any additional information they may choose to publish as Linked Data alongside it.
 
-== Demo ==
+=== Demo ===
 Not yet available - url to come.
 
-== Proposed Changelog text==
+=== Proposed Changelog text ===
 Introduced the @linked-data-default attribute on iati-activities elements \\
 Introduced the @linked-data-uri attribute on iati-activitie elements
 
 
-== Proposed Guidance ==
+=== Proposed Guidance ===
 
 IATI publishers are not obliged to publish their own Linked Data. However, if a publisher chooses to publish linked data about their IATI activities then allowing them to declare where this data is published would support discovery of it, and any additional information they may choose to publish as Linked Data alongside it. For this reason the above-mentioned two new optional properties into the IATI standard are being added. Where a publisher declares using one of these properties that authoritative linked data is accessible for an activity then consuming applications that are generating Linked Data from an IATI XML file should assert an owl:sameAs relationship to the relevant URI.
-===Document Link and Language Schema Error===
+
+==== Document Link and Language Schema Error====
 http://support.iatistandard.org/entries/21179937-document-link-and-language-schema-error
 
-==Required Change==
+===Required Change===
 This is a change to the [[http://iatistandard.org/downloads/iati-common.xsd|iati-common.xsd]]. \\
 It requires:
   -  the removal of the language //attribute// from the document-link element 
@@ -237,16 +237,16 @@ A sample diff is shown below:
 </xsd:element>
 </code>
  
-== Reason ==
+=== Reason ===
 The language refers to the language of the document itself, so an element is a more appropriate way of refering to this, rather than using a language attribute. This is thought to have been as it is due to an error.
 
-== Demo ==
+=== Demo ===
 Not yet available - url to come.
 
-==Changelog text==
+===Changelog text===
 Removed language attribute from, and introduced an new language child element to, the document-link element
 
-====Code list Changes====
+=====Code list Changes=====
 
 http://support.iatistandard.org/entries/21090158-add-openstreetmap-as-gazetteer-agency
 
@@ -255,7 +255,7 @@ http://support.iatistandard.org/entries/21179867-transaction-type-element-needs-
 http://support.iatistandard.org/entries/21179746-document-link-and-aid-allocation-policies
 
 
-====Fixes====
+=====Fixes=====
 
 http://support.iatistandard.org/entries/21790496-alter-documentation-within-the-schema-that-is-out-of-date
 
