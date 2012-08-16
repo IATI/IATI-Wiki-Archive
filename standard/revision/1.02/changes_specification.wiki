@@ -7,6 +7,7 @@ This is a working document. As proposals are refined and finalised they will be 
 =====Revision 1.02 details=====
 
 ====Schema Changes====
+=== Linked Data Attribute ===
 http://support.iatistandard.org/entries/21180347-linked-data
 ==Required Change==
 This is a change to the [[http://iatistandard.org/downloads/iati-activities-schema.xsd|iati-activities-schema.xsd]]. \\
