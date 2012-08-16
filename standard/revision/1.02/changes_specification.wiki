@@ -7,9 +7,16 @@ This is a working document. As proposals are refined and finalised they will be 
 =====Revision 1.02 details=====
 
 ====Schema Changes====
-
 http://support.iatistandard.org/entries/21180347-linked-data
+==Required Change==
+This is a change to the [[http://iatistandard.org/downloads/iati-activities-schema.xsd|iati-activities-schema.xsd]]. \\
+It requires:
+The addition of a attribute to the the <iati-activities> element: iati-activities/@linked-data-default (0..1) - a URI path upon which an activity identifier can be appended to get a dereferenceable URI for any activity contained within a file.  
+The addition of an attribute to the <iati-activity> element: iati-activity/@linked-data-uri (0..1) - a URI for a given activity (over-rides iati-activities/@linked-data-default if set)
 
+== Guidance ==
+
+IATI publishers are not obliged to publish their own Linked Data. However, if a publisher chooses to publish linked data about their IATI activities then allowing them to declare where this data is published would support discovery of it, and any additional information they may choose to publish as Linked Data alongside it. For this reason the above-mentioned two new optional properties into the IATI standard are being added. Where a publisher declares using one of these properties that authoritative linked data is accessible for an activity then consuming applications that are generating Linked Data from an IATI XML file should assert an owl:sameAs relationship to the relevant URI.
 ===Document Link and Language Schema Error===
 http://support.iatistandard.org/entries/21179937-document-link-and-language-schema-error
 
