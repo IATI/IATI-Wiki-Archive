@@ -11,10 +11,160 @@ http://support.iatistandard.org/entries/21180347-linked-data
 ==Required Change==
 This is a change to the [[http://iatistandard.org/downloads/iati-activities-schema.xsd|iati-activities-schema.xsd]]. \\
 It requires:
-The addition of a attribute to the the <iati-activities> element: iati-activities/@linked-data-default (0..1) - a URI path upon which an activity identifier can be appended to get a dereferenceable URI for any activity contained within a file.  
-The addition of an attribute to the <iati-activity> element: iati-activity/@linked-data-uri (0..1) - a URI for a given activity (over-rides iati-activities/@linked-data-default if set)
+  - The addition of a attribute to the the <iati-activities> element: **iati-activities/@linked-data-default (0..1)** - a URI path upon which an activity identifier can be appended to get a dereferenceable URI for any activity contained within a file.  
+  - The addition of an attribute to the <iati-activity> element: **iati-activity/@linked-data-uri (0..1)** - a URI for a given activity (over-rides iati-activities/@linked-data-default if set)
 
-== Guidance ==
+A sample diff is shown below:
+<code lang=xml>
+<xsd:element name="iati-activities">
+  <xsd:annotation>
+    <xsd:documentation xml:lang="en">
+        Top-level list of one or more IATI activity records.
+    </xsd:documentation>
+  </xsd:annotation>
+  <xsd:complexType>
+    <xsd:choice minOccurs="0" maxOccurs="unbounded">
+      <xsd:element ref="iati-activity"/>
+      <xsd:any namespace="##other" processContents="lax"/>
+    </xsd:choice>
+    <xsd:attribute name="version" type="xsd:decimal" use="optional">
+      <xsd:annotation>
+        <xsd:documentation xml:lang="en">
+            A number indicating the IATI specification version in use.
+        </xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="generated-datetime" type="xsd:dateTime" use="optional">
+      <xsd:annotation>
+        <xsd:documentation xml:lang="en">
+           A date/time stamp for when this file was generated.  This
+            is not necessarily the last-updated date for the
+            individual activity records in it.  Uses ISO 8601 date
+            format, e.g. "2010-03-12T18:45:00+01:00".  Use of this
+            attribute is highly recommended, to allow recipients to
+            know when a file has been updated.
+        </xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
++    <xsd:attribute name="linked-data-default" type="xsd:string" use="optional">
++      <xsd:annotation>
++        <xsd:documentation xml:lang="en">
++           IATI publishers are not obliged to publish their own Linked Data. 
++           However, if a publisher chooses to publish linked data about their IATI activities then allowing them to declare where +           this data is published would support discovery of it, and any additional information they may choose to publish as +           Linked Data alongside it. 
++          
++           This attribute is URI path upon which an activity identifier can be appended to get a dereferenceable URI for any +           activity contained within a file.
++           
++           Where a publisher declares using one of these properties that authoritative linked data is accessible for an activity +           then consuming applications that are generating Linked Data from an IATI XML file should assert an owl:sameAs +           relationship to the relevant URI.        
++         </xsd:documentation>
++      </xsd:annotation>
++    </xsd:attribute>
+    <xsd:anyAttribute processContents="lax" namespace="##other"/>
+  </xsd:complexType>
+</xsd:element>
+</code>
+<code lang=xml>
+<xsd:element name="iati-activity">
+    <xsd:annotation>
+        <xsd:documentation xml:lang="en">
+            Top-level element for a single IATI activity report.
+        </xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+        <xsd:choice minOccurs="1" maxOccurs="unbounded">
+            <xsd:element ref="activity-website"/>
+            <xsd:element ref="reporting-org"/>
+            <xsd:element ref="participating-org"/>
+            <xsd:element ref="recipient-country"/>
+            <xsd:element ref="recipient-region"/>
+            <xsd:element ref="collaboration-type"/>
+            <xsd:element ref="default-flow-type"/>
+            <xsd:element ref="default-aid-type"/>
+            <xsd:element ref="default-finance-type"/>
+            <xsd:element ref="iati-identifier"/>
+            <xsd:element ref="other-identifier"/>
+            <xsd:element ref="title"/>
+            <xsd:element ref="description"/>
+            <xsd:element ref="sector"/>
+            <xsd:element ref="activity-date"/>
+            <xsd:element ref="activity-status"/>
+            <xsd:element ref="contact-info"/>
+            <xsd:element ref="default-tied-status"/>
+            <xsd:element ref="policy-marker"/>
+            <xsd:element ref="location"/>
+            <xsd:element ref="transaction"/>
+            <xsd:element ref="result"/>
+            <xsd:element ref="conditions"/>
+            <xsd:element ref="budget"/>
+            <xsd:element ref="planned-disbursement"/>
+            <xsd:element ref="related-activity"/>
+            <xsd:element ref="document-link"/>
+            <xsd:element ref="legacy-data"/>
+            <xsd:any namespace="##other" processContents="lax"/>
+        </xsd:choice>
+        <xsd:attribute name="version" type="xsd:decimal" use="optional">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    A number indicating the IATI specification version in use.
+                    Defaults to "1.0" if not specified.  It is required to
+                    specify this attribute if the document is using features
+                    specific to an IATI specification other than the initial
+                    1.0 version.
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="last-updated-datetime" type="xsd:dateTime" use="optional">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    The last date/time that the data for this specific
+                    activity was updated.  This date must change whenever the
+                    value of any field changes.
+                 </xsd:documentation>
+             </xsd:annotation>
+         </xsd:attribute>
+         <xsd:attribute ref="xml:lang"/>
+         <xsd:attribute name="default-currency" type="xsd:string" use="optional">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Default ISO 4217 currency code for all financial values in
+                    this activity report.  See
+                    http://iatistandard.org/codelists/currency
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="hierarchy" type="xsd:string" use="optional">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Shortcut to show whether this is a parent or child
+                    activity, without having to evaluate related-activity
+                    elements.
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
++        <xsd:attribute name="linked-data-uri" type="xsd:string" use="optional">
++            <xsd:annotation>
++                <xsd:documentation xml:lang="en">
++                    A Linked Data URI for a given activity 
++                    (over-rides iati-activities/@linked-data-default if set)
++                </xsd:documentation>
++            </xsd:annotation>
++         </xsd:attribute>
+      <xsd:anyAttribute processContents="lax" namespace="##other"/>
+    </xsd:complexType>
+</xsd:element>
+
+</code>
+== Reason ==
+If a publisher chooses to publish linked data about their IATI activities then allowing them to declare where this data is published would support discovery of it, and any additional information they may choose to publish as Linked Data alongside it.
+
+== Demo ==
+Not yet available - url to come.
+
+== Proposed Changelog text==
+Introduced the @linked-data-default attribute on iati-activities elements \\
+Introduced the @linked-data-uri attribute on iati-activitie elements
+
+
+== Proposed Guidance ==
 
 IATI publishers are not obliged to publish their own Linked Data. However, if a publisher chooses to publish linked data about their IATI activities then allowing them to declare where this data is published would support discovery of it, and any additional information they may choose to publish as Linked Data alongside it. For this reason the above-mentioned two new optional properties into the IATI standard are being added. Where a publisher declares using one of these properties that authoritative linked data is accessible for an activity then consuming applications that are generating Linked Data from an IATI XML file should assert an owl:sameAs relationship to the relevant URI.
 ===Document Link and Language Schema Error===
