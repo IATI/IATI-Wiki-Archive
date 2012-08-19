@@ -10,7 +10,7 @@ Want to experiment with Dokuwiki? You can create and edit pages in this section.
 
   <GazetteerAgency>
   
-          <nowiki><code>NGA</code></nowiki>
+          <code>NGA</code>
           
           <name>National Geospatial-Intelligence Agency</name>
           
