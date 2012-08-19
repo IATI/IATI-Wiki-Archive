@@ -6,7 +6,9 @@ Want to experiment with Dokuwiki? You can create and edit pages in this section.
 
 ==== TEST ====
 
+<nowiki>
 <GazetteerAgency>
         <code>NGA</code>
         <name>National Geospatial-Intelligence Agency</name>
 </GazetteerAgency>
+</nowiki>
