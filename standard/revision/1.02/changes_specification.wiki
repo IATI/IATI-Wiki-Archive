@@ -251,10 +251,28 @@ Removed language attribute from, and introduced an new language child element to
 ==== Gazetteer Agency ====
 http://support.iatistandard.org/entries/21090158-add-openstreetmap-as-gazetteer-agency
 
-Adding Open Street Map to the list:
+Adding Open Street Map to the list at http://iatistandard.org/codelists/gazetteer_agency:
 
    code: OSM \\
    name: Open Street Map
+
+XML
+  
+   <codelist name="GazetteerAgency" date-last-modified="NEW DATETIME" version="1.01" xml:lang="en">
+      <GazetteerAgency>
+        <code>GEO</code>
+        <name>Geonames.org</name>
+      </GazetteerAgency>
+      <GazetteerAgency>
+        <code>NGA</code>
+        <name>National Geospatial-Intelligence Agency</name>
+      </GazetteerAgency>
+      <GazetteerAgency>
+        <code>OSM</code>
+        <name>Open Street Map</name>
+      </GazetteerAgency>
+    </codelist>
+        
 
 === Metadata Change ===
 Version 1.01 
