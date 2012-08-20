@@ -84,7 +84,7 @@ This section should cover questions to help publishers estimate the cost and ben
 ==== What do publishers want? ====
 //Questions about potential tools we might provide//
 
-AidInfo is currently working on plans to develop an open source **Toolkit** of resources for accessing and working with IATI data (aimed at intermediaries and researchers), and a **Commissioning Fund** which can help organisations pool resources to commission user-facing tools that would bring them a greater return on their publication of IATI data. 
+AidInfo is currently working on plans to develop an **open source toolkit** of resources for accessing and working with IATI data (aimed at intermediaries and researchers), and a **Commissioning Fund** which can help organisations pool resources to commission user-facing tools that would bring them a greater return on their publication of IATI data. 
 
 We are interested in understanding possible priorities for these. 
 
