@@ -253,7 +253,7 @@ http://support.iatistandard.org/entries/21090158-add-openstreetmap-as-gazetteer-
 
 Adding Open Street Map to the list at http://iatistandard.org/codelists/gazetteer_agency:
 
-   code: OSM \\
+   code: OSM 
    name: Open Street Map
 
 XML
