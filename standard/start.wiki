@@ -7,7 +7,7 @@ http://www.iatistandard.org
 ==== Future Documentation ====
 We recognise the need to version our documentation over time, and see this wiki as an opportunity to achieve this. 
 
-====Verion 1.x====
+====Version 1.x====
 
 [[standard:documentation:1.0:start|1.01 (current)]]
 
