@@ -50,7 +50,6 @@ Scheduled for June
   *[[Private Sector Workshop]]
 
 ==== October 2012 ====
-  *[[Standard 1.01]]
   *[[IATI Steering Committee]]
   *[[Core TAG Meeting]] (?)
   *[[Newsletter]]
@@ -63,6 +62,7 @@ Scheduled for June
   *[[PWYF Index launch]]
 
 ==== December 2012 ====
+  *[[standard:documentation:1.02:start|Standard v1.02 due]]
   *[[Newsletter]]
   *[[Imp Scheds for Busan Standard]]
   *[[AMP Workshop 10th]]
