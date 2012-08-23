@@ -1,0 +1,21 @@
+====== Rolf Kleef ======
+/* Edit this page to create your own profile. */
+
+---- dataentry people ----
+name: Rolf Kleef
+
+organisation: Open for Change
+
+website_url: http://www.openforchange.info
+
+twitter_url: https://twitter.com/rolfkleef
+
+email_mail: rolf@openforchange.info
+
+one-line-bio: Weaving the web to help humanity. Implementing open data, open organisations and online collaboration in civil society.
+
+user_tags: consulting, implementation, technical, organisational
+----
+
+===== More detail =====
+/* You might like to include details of projects you work on, or more about your engagement with IATI here. */
