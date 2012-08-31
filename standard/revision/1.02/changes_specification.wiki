@@ -486,6 +486,35 @@ Version 1.01
 Added 4 now options to the codelist: A10 - Tender, A11 - Contract, B04 - Aid Allocation Policy, B05 - Procurement Policy and Procedure
 =====Fixes=====
 
+==== Documentation ===
 http://support.iatistandard.org/entries/21790496-alter-documentation-within-the-schema-that-is-out-of-date
 
+Documentation in the activity schema is being amended. A changelog will be published.
+
+==== Hierarchy Attribute ====
 http://support.iatistandard.org/entries/21179707-hierarchy-attribute-should-be-changed-from-string-to-integer-in-xsd
+
+===Required Change===
+This is a change to the [[http://iatistandard.org/downloads/iati-activities-schema.xsd|iati-activities-schema.xsd]]. 
+
+===Proposal===
+Alter the activity xsd schema from:
+
+  <xsd:attribute name="hierarchy" type="xsd:string" use="optional">
+
+to
+
+  <xsd:attribute name="hierarchy" type="xsd:int" use="optional">
+  
+=== Reason ===
+In previous guidance, the attribute 'hierarchy' (on an iati-activity element) was defined as integer and specifies the level in the hierarchy of activities but in the XSD (http://iatistandard.org/downloads/iati-activities-schema.xsd) it is defined as a string and is described as a relative position as a parent (1) or child (2) - the distinction only matters in a hierarchy with more than 2 levels but needs clarification.
+
+=== Demo ===
+Not yet available - url to come.
+
+=== Proposed Changelog text ===
+hierarchy attribute changed from type="xsd:string" to "xsd:int"
+
+
+=== Proposed Guidance ===
+None yet
