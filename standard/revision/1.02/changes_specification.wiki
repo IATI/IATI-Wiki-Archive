@@ -283,6 +283,73 @@ Added Open Street Map
 ==== Transaction Type ====
 http://support.iatistandard.org/entries/21179867-transaction-type-element-needs-additonal-code-options
 
+Adding the following to the transaction type codelist (http://iatistandard.org/codelists/transaction_type):
+
+  QP  -  Purchase of Equity  -  The use of an activity's funds to purchase equity in a business
+  QS  -  Sale of Equity  -  The flow of funds into an activity from the sale of equity
+  CG  -  Credit Guarantee  -  A commitment made by a funding organisation to underwrite a loan or line of credit entered into by a third party.
+  
+XML
+  
+	<codelist name="TransactionType" date-last-modified="2012-12-17T16:37:03.457" version="1.01" xml:lang="en">
+		<TransactionType>
+			<code>C</code>
+			<name>Commitment</name>
+			<description>A firm written obligation by the donor to provide resources of a specified amount under specified financial terms and conditions and for specified purposes for the benefit of the recipient</description>
+		</TransactionType>
+		<TransactionType>
+			<code>D</code>
+			<name>Disbursement</name>
+			<description>The amount placed at the disposal of a recipient country or agency (in the case of internal development-related expenditures, the outlay of funds)</description>
+		</TransactionType>
+		<TransactionType>
+			<code>E</code>
+			<name>Expenditure</name>
+			<description>The outlay by the implementing agency on goods and services for the activity</description>
+		</TransactionType>
+		<TransactionType>
+			<code>IF</code>
+			<name>Incoming Funds</name>
+			<description>Funds received from an external funding source (eg a donor).</description>
+		</TransactionType>
+		<TransactionType>
+			<code>IR</code>
+			<name>Interest Repayment</name>
+			<description>The actual amount of interest repaid, including fees.</description>
+		</TransactionType>
+		<TransactionType>
+			<code>LR</code>
+			<name>Loan Repayment</name>
+			<description>The actual amount of principal (amortisation) repaid, including any arrears.</description>
+		</TransactionType>
+		<TransactionType>
+			<code>R</code>
+			<name>Reimbursement</name>
+			<description>A disbursement that covers funds already spent by the recipient, as agreed in the terms of the loan or grant.</description>
+		</TransactionType>
+  +                <TransactionType>
+  +			<code>QP</code>
+  +			<name>Purchase of Equity</name>
+  +			<description>The use of an activity's funds to purchase equity in a business.</description>
+  +		</TransactionType>
+  +                <TransactionType>
+  +			<code>QS</code>
+  +			<name>Sale of Equity</name>
+  +			<description>The flow of funds into an activity from the sale of equity.</description>
+  +		</TransactionType>
+  +               <TransactionType>
+  +			<code>CG</code>
+  +			<name>Credit Guarantee</name>
+  +			<description>A commitment made by a funding organisation to underwrite a loan or line of credit entered into by a third party.</description>
+  +		</TransactionType>
+	</codelist>
+        
+
+=== Metadata Change ===
+Version 1.01 
+
+=== Changelog ===
+Added 3 now options to the codelist: QP - Purchase of Equity, QS - Sale of Equity ,CG - Credit Guarantee
 ==== Document Link and Aid Allocation====
 http://support.iatistandard.org/entries/21179746-document-link-and-aid-allocation-policies
 
