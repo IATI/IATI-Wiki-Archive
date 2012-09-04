@@ -22,6 +22,7 @@ Tools for accessing and working with IATI Data
   * [[tools:AidView:start]]
   * [[tools:IATI Explorer:start]] including simple [[tools:IATI Explorer:activity viewer]]
   * [[tools:Open Aid:start|OpenAidNL]]
+  * [[UN-HABITAT|UN-HABITAT]]
 
 === APIs ===
 
