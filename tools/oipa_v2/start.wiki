@@ -43,5 +43,8 @@ More examples will be posted, but you can also use the documentation and example
 
 Development for 2012 will consist of producing openaidsearch.org (operational late July 2012) which will also be powered by [[tools:oipa:start|OIPA]]. 
 
+===== Examples =====
+OIPA is used for:
  
-See also [[UN Habitat]] site built on OIPA.
+  * The [[UN Habitat]] site
+  * The [[OpenAid.nl]] website
