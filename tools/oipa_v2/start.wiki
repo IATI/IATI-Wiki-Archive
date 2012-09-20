@@ -21,8 +21,8 @@ Check the cand create some REST calls yourself or just fork the complete project
 
 REST calls examples OIPA network:
 
-  * http://oipa.openaidsearch.org/api/v2/activities/?format=json&organisation__org_ref=44400 | Shows alls activities by Dutch ministry of Foreign affairs
-  * http://oipa.openaidsearch.org/api/v2/organisations/?format=json | Dutch ministry of Foreign affairs organisations file
+  * http://oipa.openaidsearch.org/api/v2/activities/?format=json&organisations=NL-1 | Shows alls activities by Dutch ministry of Foreign affairs
+  * http://oipa.openaidsearch.org/api/v2/organisations/?format=json | Show all the activities in store
   * http://oipa.openaidsearch.org/api/v2/activities/?format=json&organisations=GB-CHC-202918%7CNL-1 | | Dutch ministry of Foreign affair and OXFAM
   * http://oipa.openaidsearch.org/api/v2/activities/?format=json&organisations=GB-CHC-202918| Oxfam
   * http://oipa.openaidsearch.org/api/v2/activities/?format=json&organisations=NL-1&countries=BA | Dutch ministry of Foreign affair and country Bosnia Herzegovina 
