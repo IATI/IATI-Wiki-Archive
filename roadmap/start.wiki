@@ -48,6 +48,7 @@ Scheduled for June
   *[[Newsletter]]
   *[[Licensing process]]
   *[[Private Sector Workshop]]
+  *[[API Standardisation]]
 
 ==== October 2012 ====
   *[[IATI Steering Committee]]
