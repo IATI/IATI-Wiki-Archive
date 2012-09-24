@@ -1,0 +1,9 @@
+====== Tool Name ======
+Open UN-Habitat is UN-Habitat's open data website. Built by [[http://akvo.org | Akvo]] in partnership with [[http://www.zimmermanzimmerman.nl|Zimmerman & Zimmerman]] and [[http://www.verviant.com/|Verviant]], it's based on the [[tools:oipa_v2:start | OIPA Open Aid Search]] IATI parser engine.
+
+===== Detailed Description =====
+In September 2012, UN-Habitat started publishing IATI data. At the same time it launched the website [[http://open.unhabitat.org]] built in Wordpress and using the OIPA engine to parse IATI data. 
+
+
+===== Links, source code and development plans =====
+You can find OIPA documentation on the [[http://oipa.openaidsearch.org/api/v2/docs/ | OIPA website]] and all Wordpress files used for the site on [[https://github.com/openaid-IATI/OPEN-UN-HABITAT | Github]]
