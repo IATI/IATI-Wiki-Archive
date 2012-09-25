@@ -14,7 +14,7 @@ email_mail: justinwa@unops.org
 
 one-line-bio:Web developer at United Nations Office for Project Services (UNOPS)
 
-user_tags:web development, javascript, geocoding   #<-Enter comma separated key words about your involvement in IATI
+user_tags:technical, user interface, geocoding   #<-Enter comma separated key words about your involvement in IATI
 ----
 
 ===== More detail =====
