@@ -246,6 +246,9 @@ Not yet available - url to come.
 ===Changelog text===
 Removed language attribute from, and introduced an new language child element to, the document-link element
 
+===Documentation===
+Pages that need revision: \\
+  * http://iatistandard.org/organisation-standard/documents
 =====Code list Changes=====
 
 ==== Gazetteer Agency ====
