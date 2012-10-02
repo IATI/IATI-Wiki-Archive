@@ -283,6 +283,9 @@ Version 1.01
 
 === Changelog ===
 Added Open Street Map
+
+===Demo===
+  * http://datadev.aidinfolabs.org/data/codelist/GazetteerAgency/version/1.01/lang/en
 ==== Transaction Type ====
 http://support.iatistandard.org/entries/21179867-transaction-type-element-needs-additonal-code-options
 
