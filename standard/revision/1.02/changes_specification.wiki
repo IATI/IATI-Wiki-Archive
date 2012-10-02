@@ -487,6 +487,9 @@ Version 1.01
 
 === Changelog ===
 Added 4 now options to the codelist: A10 - Tender, A11 - Contract, B04 - Aid Allocation Policy, B05 - Procurement Policy and Procedure
+
+===Demo===
+  * http://datadev.aidinfolabs.org/data/codelist/DocumentCategory/version/1.01/lang/en
 =====Fixes=====
 
 ==== Documentation ===
