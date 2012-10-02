@@ -259,6 +259,7 @@ Adding Open Street Map to the list at http://iatistandard.org/codelists/gazettee
 XML
   
    <codelist name="GazetteerAgency" date-last-modified="NEW DATETIME" version="1.01" xml:lang="en">
+      <comment>Added Open Street Map</comment>
       <GazetteerAgency>
         <code>GEO</code>
         <name>Geonames.org</name>
@@ -279,7 +280,6 @@ Version 1.01
 
 === Changelog ===
 Added Open Street Map
-
 ==== Transaction Type ====
 http://support.iatistandard.org/entries/21179867-transaction-type-element-needs-additonal-code-options
 
