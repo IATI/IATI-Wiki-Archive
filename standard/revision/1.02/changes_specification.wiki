@@ -353,6 +353,9 @@ Version 1.01
 
 === Changelog ===
 Added 3 now options to the codelist: QP - Purchase of Equity, QS - Sale of Equity ,CG - Credit Guarantee
+
+===Demo===
+  * http://datadev.aidinfolabs.org/data/codelist/TransactionType/version/1.01/lang/en
 ==== Document Link and Aid Allocation====
 http://support.iatistandard.org/entries/21179746-document-link-and-aid-allocation-policies
 
