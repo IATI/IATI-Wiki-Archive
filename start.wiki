@@ -21,3 +21,6 @@ The [[community:mailing list]] will be used for discussion of updates to the sta
 
 You can also follow updates from the [[https://twitter.com/iati_tag|IATI Tag]] Twitter account. 
 
+===== Current projects =====
+
+  * [[roadmap:api standardisation|API Standardisation]]
