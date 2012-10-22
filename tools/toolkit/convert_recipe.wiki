@@ -1,0 +1,13 @@
+====== CSV Conversion Recipe ======
+This recipe outlines how to use Sync Tools to convert a  set of files to CSV on a **Windows computer** and steps through the process of install a unix environment, installing the scripts, and running the conversion. 
+
+===== Setup: Cygwin, Python, Git =====
+
+Cygwin provides a unix-like shell for running unix commands in Windows. Visit [[http://cygwin.com/install.html]] to download and run the Setup files. When it comes to 'Select Packages':
+  * Enter 'git' in the search box, and then under +Devel choose to install all the listed packages
+  * Enter 'python' in the search box, and then under +Python choose to install all the listed packages.
+  * Choose 'Next' and accept any required dependencies (files needed for python, git and other key packages to run)
+
+It can take up to a few hours for Cygwin to install (as it downloads all it's components from the web on demand), but once installed you will have a powerful unix-like environment available which can be used to process IATI files. 
+
+===== Running scripts =====
