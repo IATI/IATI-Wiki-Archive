@@ -1,0 +1,79 @@
+====== Aid Information Toolkit ======
+{{:tools:toolkit:openaidtoolkit.png?200 |}}
+Linked to work on the idea of a [[roadmap:create_iati_public_good_architecture_blueprints|Public Good Infrastructure]] we have been exploring the idea of creating a distribution of open source tools that all work together to perform key data access and use functions.
+
+A full outline of the 'Open Aid Information Toolkit' idea [[https://docs.google.com/document/pub?id=1hsBLPzBxL3FQ7WdRutLlE19iw7pY_7k14e1I_p9zm3E|can be found in this document]].
+
+This page can be used to start scoping out that work.
+
+{{:tools:toolkit:toolkitlayers.png|}}
+
+===== Desirable features / Architecture =====
+
+//What features would be desirable in a set of tools.//
+
+A powerful and interoperable set of scripts
+
+  * Able to run across platforms
+  * Shared configuration (e.g. for working directories etc.)
+  * Able to be connected together as a pipeline of tools
+
+Developer friendly
+  * Command line tools;
+  * Open source;
+
+User friendly
+  * Accessible web-based front end
+  * Cloud version available
+  * Easy to install and deploy
+
+Managing provenance
+  * Should make it possible to understand what has happened to data along a processing pipeline
+
+====== Tools required ======
+
+==== Registry download tool ====
+
+For fetching any changed packages for a given query. 
+
+[[sync_tools|Sync Tools Development Notes]]
+
+== Related tools ==
+
+  * [[http://packages.python.org/datapkg/|DataPkg]] is a command line tool for uploading or downloading data from CKAN
+  * [[http://pypi.python.org/pypi/ckanclient|CKAN Client]] is a Python library for working with CKAN
+  * [[https://github.com/okfn/iatitools/blob/master/1-iatidownload.py|OKFN IATI Tools]] includes scripts for downloading IATI data
+
+==== Validation tool ====
+
+For validating IATI XML files.
+
+Should be able to:
+  * Check for well formed data
+  * Validate against the schema
+  * Check for codelist values
+
+[[validation_tool|Validation Tool Development Notes]]
+
+==== Provenance module ====
+
+
+====== Design patterns ======
+
+  * We need environment variables that can be shared across scripts
+  * We need a shared logging framework
+
+Consider a model with a **master script** and then a set of **plugins**. Scripts would be executed from the master script to allow use of the same logging framework etc. 
+
+[[Script interface]]
+
+Look at
+  * [[http://eventlet.net/doc/design_patterns.html|Eventlet]] to support parallel processing
+  * Python [[http://docs.python.org/library/logging.html|Logging]] module.
+
+====== Distribution Management =====
+
+We need a light-weight structure to manage a community of contributors. Consider [[http://dl.acm.org/citation.cfm?doid=567793.567795|learning from the Open Source community]]. 
+
+====== Links, source code and development plans ======
+/* Please provide links to any source code, additional resources, or development plans*/
