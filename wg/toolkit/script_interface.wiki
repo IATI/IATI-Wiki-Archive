@@ -1,0 +1,26 @@
+====== Script interface ======
+
+//Notes on how scripts as part of the [[tools:toolkit:start]] should interface.//
+
+Design goals:
+  * Possible to include modules in other code
+  * Possible to call scripts on the command line to batch process a set of files
+    * Make easy to run in parallel or in map-reduce type arrangements
+  * Possible to wrap scripts in a REST web service
+
+Scripts should accept input:
+
+  * Piped to stdin
+  * From a filename or URL passed to the script as a command line parameter
+  * From a file listing files passed to the script as a command line parameter
+  * Iteratively through a set of directories
+
+Scripts should offer output:
+
+  * To stdout
+    * As IATI XML (where appropriate)
+    * As plaintext (where appropriate)
+    * As templated HTML (where appropriate)
+  * To an output file passed to the script as a command line parameter
+  * To a directory structure as determined by default values or command line parameters
+
