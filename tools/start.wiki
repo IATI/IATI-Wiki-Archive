@@ -46,7 +46,7 @@ Tools for accessing and working with IATI Data
 ===== Tools under development =====
 
   * [[tools:subscribe:start|Subscription Tool]]
-  * [[tools:toolkit:start|IATI Toolkit]]
+  * [[wg:toolkit:start|IATI Toolkit]]
 
 ===== MISC =====
 
