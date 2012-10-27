@@ -1,0 +1,26 @@
+====== IATI Technical Meeting at OKFest ======
+At the [[http://okfestival.org|Open Knowledge Festival in Helsinki]], Friday 21st September, 14:00 - 15:30.
+
+Including launch of the Aid Data Toolkit project.
+
+This meeting will:
+  * Provide an update on developments in IATI Tech Secretariat - (20 minutes)
+  * Provide an opportunity for everyone to share details of projects they are currently working on (2 - 3 minutes each)
+  * Introduce the idea of an Aid Data Toolkit (10 minutes)
+  * Break into small discussions, including planning for the Aid Data Toolkit (the time remaining)
+
+===== Sign up =====
+
+Enter your name below or e-mail tim@practicalparticipation.co.uk to register.
+
+  * [[community:user:TimDavies|Tim Davies]]
+  * Joni Hillman
+  * Jarna Virtanen
+  * [[community:user:rolf|Rolf Kleef]]
+  * Steven Flower
+  * Simon Parish
+  * Kim Borrowdale
+  * [[community:user:siwhitehouse|Simon Whitehouse]]
+
+Remote participation (if possible)
+  * John Adams
