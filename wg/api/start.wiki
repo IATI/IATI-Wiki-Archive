@@ -1,0 +1,142 @@
+====== API Standardisation ======
+
+IATI data may be stored in many different backend databases. It would be useful to have a standardised approach to providing APIs onto IATI data so that front-end applications can be agnostic about the backend they use. 
+
+This page is used to draft ideas for that standard.
+
+<note important>This is all draft. [[https://groups.google.com/d/topic/iati-technical/eFRluh5wXQE/discussion|Please join discussions on the IATI Technical List]].</note>
+
+===== Design Principles =====
+
+  * APIs should be RESTFul
+  * Field names and data structures in API queries and responses should match the field names and data structures in the IATI standard;
+  * Where the backend has augmented original raw IATI data it should be clear what is original published data, and what is augmented data;
+  * It should be possible for applications to easily switch from one API provider to another, where those API providers offer the same services.
+
+===== User stories =====
+
+We need to define a range of user stories and cases that APIs **should** and **could** serve. 
+
+DFID have prepared [[https://docs.google.com/spreadsheet/ccc?key=0ApqzJROt-jZ0dEplM0E4S1Y5TzFnU2lkTFUtUE1Rd1E|a range of user stories for an API and online platform which can be found here.]]
+
+
+===== Core Services =====
+
+APIs may wish to provide one or more services:
+
+  * **Retrieval** - returning an individual record or list of records; filtered by parameter; 
+    * Activities
+    * Transactions
+  * **Aggregation** - returning aggregates
+  * **Provenance** - returning information how data has been adapted;
+  * **About** - providing details of the criteria the API uses to include and update data
+
+===== Filters =====
+
+APIs may support filtering on one or more fields from IATI. These should be specified within the querystring, with field names based upon the element names in the IATI XML schema.
+
+==== Candidate patterns ====
+It is desirable that it should be possible to work out API query parameters simply from looking at the XML schema. However, given the nested nature of IATI XML, **and** the need to qualify whether a query parameter should be used to find values: with an exact match; that contain the query; greater than the query value; or less than the query value; we need an approach to express this in the query parameter.
+
+<note tip>Your opinion is needed: which of the following patterns should we adopt?</note>
+
+=== Approach 1: xpath ===
+
+xPath gives us an expressive way to reference XML elements, and express conditions. APIs could interpret and support a set of xPath conditions.
+
+Example
+
+  # Fetch a list of activities which have commitment transactions
+  /access/activities?condition=transactions/transaction/@type='C'
+  
+  # Fetch a list of transactions which have a value of over GBP 5000
+  /access/transactions?condition=transaction/value[@currency='GBP'] > '5000'
+
+=== Approach 2: Django style APIs ===
+
+Python framework Django provides an approach to '[[https://docs.djangoproject.com/en/1.4/topics/db/queries/#field-lookups-intro|field lookups]]' that we could adopt. To paraphrase from [[https://docs.djangoproject.com/en/1.4/topics/db/queries/#field-lookups-intro|the documentation]]:
+
+//Basic lookups keyword arguments take the form field_lookuptype=value. (That's a double-underscore). For example://
+
+  start-date__lte='2006-01-01'
+
+translates (roughly) into the following SQL:
+
+  SELECT * FROM iati_activity WHERE start-date <= '2006-01-01';
+
+Django provides lookup types for:
+  * _exact - exact match
+  * _iexact - case insensitive exact match
+  * _contains / _icontains
+  * _startswith / _endswith / istartswith / iendswith
+  * _gt / _lt / _gte / _lte  - Greater than; Less than; Greater than or equal to; Less than or equal to
+  * _search / _regex / _iregex
+
+The lookup syntax can be used to [[https://docs.djangoproject.com/en/1.4/topics/db/queries/#lookups-that-span-relationships|span relationships]] in the relational django model, which could also be used to approximate the structure of the IATI XML. For example, the API might be able to expressed something like:
+
+  # Fetch a list of activities which have commitment transactions
+  /access/activities?transactions_transaction_type=C
+  
+  # Fetch a list of transactions which have a value of over GBP 5000
+  /access/transactions?value_gt=5000&currency_exact=GBP
+  
+In this approach, attributes are not distinguished from fields.
+
+=== Approach 3: Agree a 'flattening' of the XML structure to use in APIs ===
+
+This may be combined with any the other approaches, and might involve agreeing, for example:
+
+  * That we assume for the purposes of the IATI 'transaction' elements to sit directly within 'iati-activity' and not nested within a 'transactions' block
+  * Ditto for results and other nested elements. 
+  * That APIs provide some convenience elements like start-date, which will choose the best option of start-date/@type='actual' or start-date/@type='planned'
+
+=== Approach 4: Any other approach? ===
+
+//Can you suggest another approach we should adopt?//
+
+=== Issues ===
+
+  * Users may want to 'and' or 'or' different conditions together. How should the API standard handle this?
+    * E.g. I want activities in 'Zambia' or 'Ghana', AND that are in the 'Water' or 'WASH' sectors AND that have a start date of this year or later. 
+
+=== Special parameters ===
+The following are suggested parameters that all APIs could use.
+
+== Query parameters ==
+  * **General query** ?q= - APIs may choose to respond to searches on ?q= by looking across a range of different fields
+
+== Response parameters ==
+  * **Format** - ?format= - for choosing whether to retrieve JSON, XML, CSV and so-on
+  * **Language** - ?lang= - APIs should offer the user a choice of what language to retrieve text and codelist fields in where multiple languages are available. 
+  * **Fields** - ?fields= - APIs could offer the user the chance to specify a comma separated list of fields to include in the response. We might also agree keywords for:
+    * All - return all fields
+    * Summary - return just key details (to be agreed)
+  * **Exclude fields** - either using !fieldname, or ?fields_exclude= to exclude particular fields from the response //(Is this needed? Or redundant if we have inclusion with ?fields=)//
+
+For pagination:
+  * ?limit= - the number of records to return 
+  * ?offset= - the offset to use in fetching records
+
+APIs should return a record-count, limit and offset value in their output.
+===== Output =====
+
+We need to agree common approaches to serialising output in a range of formats.
+
+We need agreed approaches for:
+  * XML - (easy - we just use IATI XML; perhaps some conventions needed on augmented data in the XML)
+  * JSON - can we just use a transformation of the XML?
+    * (Using the [[http://jsontoxml.utilities-online.info/|conversion tool here]] gives #text as the JSON attribute for the contents of an XML element; in some cases it would be more appropriate for this to be 'name', 'title', 'description', 'value' and so-on; this makes a straightforward transformation slightly challenging)
+    * [[http://google-styleguide.googlecode.com/svn/trunk/jsoncstyleguide.xml?showone=data.lang#data.lang|The Google JSON Style Guide]] outlines an approach from [[http://www.rfc-editor.org/rfc/bcp/bcp47.txt|RFC BCP47]] for using language tags in JSON. 
+  * CSV - we need a range of CSV formats
+  * ? anything else
+==== Desiderata ====
+
+  * APIs should clearly advertise their policy for data inclusion and update
+  * APIs should return details of data version
+  * APIs should return provenance information on when data was last updated
+  * It should be possible to write tests against APIs that will check whether activity information is up to date. 
+
+==== See also ====
+
+[[http://sdmx.org/wp-content/uploads/2011/04/SDMX_2-1_SECTION_7_WebServicesGuidelines.pdf|SDMX Web Service Guidelines]]
+[[http://code.google.com/p/linked-data-api/|Linked Data API]]
