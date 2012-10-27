@@ -4,7 +4,8 @@ There is no formal structure for IATI Working Groups right now, however, a numbe
 
 ===== Current ad-hoc groups =====
 
-[[wg:api:start|API Standardisation]]
+[[wg:api:start|API Standardisation]] - working to develop an API contract for aggregators of IATI data
 
-[[wg:geo:start|Location / Geocoding standards]]
+[[wg:geo:start|Location / Geocoding standards]] - discussing developments in the Geocoding methodology for IATI
 
+[[wg:toolkit:start|Aid Information Toolkit]] - exploring ideas for a toolkit of scripts and resources for working with IATI data. 
