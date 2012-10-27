@@ -1,0 +1,10 @@
+====== Working Groups ======
+
+There is no formal structure for IATI Working Groups right now, however, a number of ad-hoc working groups are emerging, and so there is space here for those groups to develop working notes and documents. 
+
+===== Current ad-hoc groups =====
+
+[[wg:api:start|API Standardisation]]
+
+[[wg:geo:start|Location / Geocoding standards]]
+
