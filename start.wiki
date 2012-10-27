@@ -7,13 +7,16 @@ Welcome to the [[http://www.aidtransparency.net|International Aid Transparency I
 
 ===== On this site =====
 
-[[roadmap:start|Technical Roadmap]] - plans over the coming months. Registered users can add discussions to roadmap entries and develop detailed plans in this section.
-
-[[community:start|The technical community]] - details of everyone involved in working on IATI. Registered users are encouraged to add their own profile, and one of their organisation if applicable 
+[[wg:start|Working Groups]] - A space for Working Groups to develop specific projects
 
 [[tools:start|IATI tools]] - containing documentation of tools for creating, validating and consuming IATI data. 
 
+[[community:start|The technical community]] - details of everyone involved in working on IATI. Registered users are encouraged to add their own profile, and one of their organisation if applicable 
+
 [[standard:start|Standard documentation]] - containing standard documentation, guidance, and details of the standard revision process.
+
+[[roadmap:start|Technical Roadmap]] - plans over the coming months. Registered users can add discussions to roadmap entries and develop detailed plans in this section.
+
 
 ===== Discussion list ======
 
