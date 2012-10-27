@@ -1,0 +1,47 @@
+====== Validation tool ======
+We need tools to check the quality of IATI data.
+
+===== Detailed Description =====
+There are a number of different layers of data quality:
+
+  * (1) XML validation - is the data valid XML (http://validator.w3.org/)
+  * (2) Schema validation - does the data validate against the [[http://iatistandard.org/schema|IATI Schema]] 
+  * (3) Codelist validation - are code list values and other extensible areas of the standard used correctly
+  * (4) Validation against implementation schedule - does a file meet the commitments a donor has set out in their [[http://www.aidtransparency.net/implementation|implementation schedules]].
+  * (5) Fit-for-purpose validation - is a data file fit for a particular use (for example, geocoding etc.)
+
+==== Possible approaches ====
+
+(1) can be met using the W3C validator tool (http://validator.w3.org/)
+
+(2) can be met using existing Schema Validation tools
+  * There have been some suggestions of [[http://support.iatistandard.org/entries/21904892-w3c-schema-definition-language-release-1-1|updating the Schema to use W3C Schema Language 1.1]] to allow conditions in validation
+
+For (3) it is possible to keep codelists within a schema (see [[http://www.ibm.com/developerworks/library/x-extenum/|1]]) but this would require updates the schema file whenever [[http://wiki.iatistandard.org/standard/revision/code_list?s[]=codelist|costlists change]], which would potentially raise issues. The alternative would be to have a **set of scripts** that can fetch the latest codelists from the [[http://iatistandard.org/codelists/code-list-api|code list API]] and provide options to the user on what validation to perform.
+  * It is important to have flexibility in this as well, because the standard can allow third-parties to provide their own code lists. 
+
+For (4) and (5) we need to be able to validate files against custom sets of rules. This seems best provided by a set of custom scripts. 
+===== Existing tools & resources =====
+
+  * There is an xquery based Validation tool ([[https://github.com/aidinfolabs/AidView-API/blob/version_one/apps/iati-api/lib/iati-vp.xqm|some code here]]) running [[http://wiki.iatistandard.org/tools/aidview/api|on top of eXist]] which checks files against a number of rules
+  * The [[tools:who_is_publishing:start|'Who is publishing' tool]] runs a nightly review of all files and details that are published and the different elements they create (written in php)
+  * The [[https://github.com/markbrough/IATI-Data-Quality|IATI Data Quality Tool]] developed at the 2012 London Development Data Challenge
+
+
+//What other tools for validation already exist?//
+
+===== Development approaches =====
+
+We could look to build the majority of this tool using an XML tool chain, including XQuery. 
+
+Tools like [[http://www.zorba-xquery.com/html/index|Zorba]] would allow use to run this from within PHP or python. 
+===== Documentation =====
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
+
+Some work here: \\
+https://github.com/caprenter/IATI-Public_Validator \\
+Live version: http://validator.elasticbeanstalk.com/
