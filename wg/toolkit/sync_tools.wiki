@@ -1,0 +1,40 @@
+====== Registry Sync Tools ======
+/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+
+A series of python scripts in development by [[community:user:TimDavies|Tim Davies]] to flexibly manage local synchronisation of IATI xml files.
+
+===== Detailed Description =====
+/* Provide additional details here */
+
+This is designed to develop into a package of tools that can be used to:
+
+  * Synchronise the latest IATI data to disk
+  * Keep track of which files have changed when, and log download issues
+  * Convert data between formats
+  * Upload data to third party services
+  * Archive files which are not longer available
+    * E.g. as test-case, [[http://iatiregistry.org/dataset?groups=oxfamgb|Oxfam]] went from segmented files to a single file in August 2012. A sync routine needs to be able to handle this.
+
+Initially these are being developed as command line python scripts that could be highly configurable through command line parameters. They could be refined as modules to be imported into other code. 
+
+
+===== Documentation =====
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+
+Implemented so far:
+
+  * iati_download.py - configurable script to sync files listed on the registry. 
+===== Development notes =====
+
+==== Working with the IATI Registry API ====
+
+There are a number of ways we can find the lastest changed file from the IATI Registry. See the documentation about the [[http://support.iatistandard.org/entries/21502706-track-updates-to-files-data-using-the-iati-registry|CKAN nightly process here]]. [[https://github.com/okfn/ckanext-iati|Archiver code is here]].
+
+  * From the [[http://iatiregistry.org/api/2/search/dataset?all_fields=1|Dataset Search]] with All Fields enabled we can look at **extras > data_updated** to see the latest last-updated-datetime element on an IATI-Activity record that the registry located for a given file.
+  * From the individual data package view (e.g. [[http://iatiregistry.org/api/2/rest/dataset/11580e90-0893-435a-97b4-4efeafb3f867]]) we get a sha1 hash and last-modified data for the resource which we can compare with a copy of the file on disk
+  * We can check the last-modified headers given by a HTTP server when we request a file
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
+
+[[https://github.com/aidinfolabs/IATISyncTools|Source code]]
