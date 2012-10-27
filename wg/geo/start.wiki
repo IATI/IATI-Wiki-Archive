@@ -1,0 +1,11 @@
+====== Geocoding Discussions ======
+
+//See discussion thread on [[https://groups.google.com/d/msg/iati-technical/fIoRvkJN_Eo/_ZwKUjWUKX8J|technical mailing list]].//
+
+===== Interested Parties =====
+//Add yourself here to indicate an interest in this working group. Note, as a signed-in user you can subscribe to updates from this namespace from the 'manage subscriptions' tab above.//
+ 
+  * [[community:user:timdavies|Tim Davies]]
+
+===== Workspace =====
+//Add any working notes, or create sub-pages here.//
