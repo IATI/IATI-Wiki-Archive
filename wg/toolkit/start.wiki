@@ -77,3 +77,5 @@ We need a light-weight structure to manage a community of contributors. Consider
 
 ====== Links, source code and development plans ======
 /* Please provide links to any source code, additional resources, or development plans*/
+
+See [[http://openhatch.org/]] for ideas around supporting open source communities.
