@@ -19,3 +19,39 @@ http://www.unsalb.org/
 
 == Geonames ==
 
+The GeoNames geographical database is available for download free of charge under a creative commons attribution license. It contains over 10 million geographical names and consists of over 8 million unique features whereof 2.8 million populated places and 5.5 million alternate names.
+http://www.geonames.org/
+
+== Pros ==
+  * It is the biggest open dataset available
+  * There is an Administrative Boundary georeference API
+  * Some countries have more than 1 admin level (with GB the highest at 4)
+
+== Cons ==
+  * There is no API to write data *into* geonames
+  * There is no versioning of data
+
+Questions
+  * OSM moved to the ODBL for a reason, Geoname is CC-Attribution, is that an issue?
+  * Does Geonames support Polygons? Are these available in the downloads?
+
+
+=== OpenStreetMap ===
+OpenStreetMap is a project that creates and provides free geographic data and mapping to anyone who wants it. We started it because most maps you think of as free actually have legal or technical restrictions on their use, holding back people from using them in creative, productive, or unexpected ways. 
+
+== Pros ==
+
+  * Supports 10+ admin levels
+  * Has read + write API support
+  * Is fully open
+  * Can also render a map
+  * Supports polygons
+  * All data is versioned
+  * Very extensive (and adaptive) datamodel
+  * Huge global community
+  * Hundreds of editing & mapping tools
+
+== Cons ==
+  * Not authoritive
+
+
