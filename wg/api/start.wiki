@@ -142,7 +142,7 @@ We need agreed approaches for:
 IATI format allows a number of classifications (e.g. sector) to be published using different vocabularies, although generally a default vocabulary is given. 
 
 In these cases, an API either needs to:
-  * Always require a vocabulary to be specified for these dimensions \\or
+  * Always require a vocabulary to be specified for these dimensions \\ or
   * Assume that unless a vocabulary is given that we are dealing with the default vocabulary (i.e. that for which an IATI codelist exists)
 
 
@@ -154,7 +154,7 @@ A number of code lists are hierarchical.
 
 IATI allows activities to include either:
 
-  * Recipient region \\and/or
+  * Recipient region \\ and/or
   * Recipient country
 
 Regions can be based on a DAC code list, or can use some alternative vocabulary. 
