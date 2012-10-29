@@ -1,0 +1,80 @@
+====== Examples of CSV Outputs ======
+
+===== Activity Centric =====
+
+==== Full Activity Listing ====
+
+=== Basic description ===
+
+Giving the option of getting all the data for an activity in a single CSV row. 
+
+=== Use case ===
+
+A user wants to get an overview of the activities in a given sector and country. They look at the filtered data in a spreadsheet. 
+
+If the user wants to explore a particular dimension of the data (e.g. results) in more detail, they make use of Google Refine to split out the rows of interest. 
+
+=== Details ===
+
+**One row per**: Activity
+
+**Aggregation across the activity for**:
+  * Each kind of transaction (in the default currency: i.e. don't double count if the same transactions are included in different currencies)
+    * (Note that Version 1.02 of the IATI standard will [[standard:revision:1.02:changes_specification#transaction_type|introduce some new transaction types]])
+  * Each [[http://iatistandard.org/codelists/budget_type|kind of budget]] (in the default currency)
+  * Planned disbursements
+**Concatenated values for:**
+  * All multiple-value fields
+
+Ideally, there should be the option to turn groups of fields on or off. For e.g. to exclude concatenated transactions. See [[http://iatistandard.org/activities-standard/overview]] for possible group names. 
+
+**Additional columns for:**
+  * Original file
+  * Last updated
+  * Provenance information
+
+**Example file:** //to be created//
+
+===== Transaction centric =====
+
+==== Full Transaction Listing ====
+
+**One row per**: Transaction
+
+**Columns for**:
+  * Activity identifier
+  * Currency (either default, or if specified at the transaction level)
+  * Every possible [[http://iatistandard.org/activities-standard/financial-transaction/transaction|element for a transaction]]
+
+**Aggregation**: None
+
+**Concatenated values for:**
+  * ? 
+
+**Example file:** //to be created//
+
+==== Transactions by Sector ====
+
+=== Basic description ===
+Provides a list of transactions. Each transaction is repeated against the vocabularies and sectors recorded for it's parent activities, along with the percentage of the activity apportioned the that sector (as a decimal)
+
+=== Use case ===
+
+A researcher is interested in how much is being spent by a given donor in particular sectors. 
+
+  * The user downloads the data and opens it in a spreadsheet
+  * The user filters the resulting data to only include rows for the sector vocabulary they are interested in;
+  * The user adds a formula to multiply the total transaction value by the sector percentage, to give value_for_sector column
+  * The user can use pivot charts to get a view on what donors are spending by sector
+
+=== Details ===
+**One row per**: Sector
+
+**Aggregation**: None
+
+**Concatenated values for:**
+  * ? 
+
+**Example file:** //to be created//
+
+===== Organisation centric =====
