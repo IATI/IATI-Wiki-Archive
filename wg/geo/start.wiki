@@ -7,5 +7,10 @@
  
   * [[community:user:timdavies|Tim Davies]]
   * [[community:user:reinier|Reinier Battenberg]]
+
+
+==== Subjects ====
+
+We are currently having a discussion on which provider to use for georeferencing locations. First we are [[comparing different geospatial providers]].
 ===== Workspace =====
 //Add any working notes, or create sub-pages here.//
