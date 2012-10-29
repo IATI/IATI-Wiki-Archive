@@ -1,0 +1,21 @@
+This page contains different geospatial providers or databases that would allow IATI providers to georeference their locations. The main (current) purpose is to find the Administrative Unit that is benefiting from a project that is receiving IATI documented funding.
+
+
+== SALB ==
+The Second Administrative Level Boundaries data set project (SALB) has for objective to provide access to a working platform for the collection, management, visualization and sharing of sub national data and information in a seamless way from the national to the global level.
+http://www.unsalb.org/
+
+=== Pros ===
+  * It is a UN project
+  * It could be authorative, if it gets buy in from its member states
+
+
+=== Cons ===
+  * It is a UN project
+  * It is dead
+  * The current statement is the data is not detailed enough for precise georeferencing
+  * The dataset is for download purposes, there is no API or other tools
+  * The dataset is small
+
+== Geonames ==
+
