@@ -2,6 +2,10 @@
 
 This page contains different geospatial providers or databases that would allow IATI providers to georeference their locations. The main (current) purpose is to find the Administrative Unit that is benefiting from a project that is receiving IATI documented funding.
 
+=====**Administrative Unit Boundary Sources**=====
+There are several multi-national sources for administrative boundary layers: FAO GAUL, GADM (gadm.org), UNSALB (UNSALB.org), and UNOCHA. In addition, there are in-country data sources in most partner countries (National Statistics Office, Ministry of Planning, Local GIS Groups, UN Surveys, etc.). However, there does not seem to be any single source of administrative polygon data with good coverage across all countries. Perhaps the ideal solution would be to mine all of the best sources country-by-country, then add all of the polygon layers into OSM/Geonames. Organizations could then download the boundary layers for their own use in applications/visualizations/data creation.
+
+It is important to separate the question of administrative data sources (UNSALB, GAUL, etc.) and hosting platforms (geonames, OSM, etc.) as well as to separate the question of sources for local place names with lat/long (OSM/geonames/NGA) from those of boundary layers. Boundary layers can come from many sources, then be used in many applications.
 
 ===== SALB =====
 The Second Administrative Level Boundaries data set project (SALB) has for objective to provide access to a working platform for the collection, management, visualization and sharing of sub national data and information in a seamless way from the national to the global level.
@@ -19,6 +23,10 @@ http://www.unsalb.org/
   * The dataset is for download purposes, there is no API or other tools
   * The dataset is small
 
+
+=====**Location Name/Coordinate Sources**=====
+These platforms generally function as a wiki (allowing users to add/edit locations) that begin with a large import of "official" data, then develop a community that adds/refines information. OSM has a much broader contributing community, while geonames.org relies more upon "official" sources. The Open Aid Partnership has agreed (and IATI should discuss) that there is no definitively preferable solution and that a platform/data source should not be prescribed to the DPs. The data standard is more important (required/recommended fields) at the moment. Currently, the data standard supports only lat/long data.
+
 ===== Geonames ======
 
 The GeoNames geographical database is available for download free of charge under a creative commons attribution license. It contains over 10 million geographical names and consists of over 8 million unique features whereof 2.8 million populated places and 5.5 million alternate names.
@@ -35,7 +43,7 @@ http://www.geonames.org/
 
 Questions
   * OSM moved to the ODBL for a reason, Geoname is CC-Attribution, is that an issue?
-  * Does Geonames support Polygons? Are these available in the downloads?
+  * Does Geonames support Polygons? Are these available in the downloads? (There is some back-end support for boundary layers (polygons) in geonames, but these do not appear to be available through download)
 
 
 ===== OpenStreetMap =====
@@ -55,6 +63,7 @@ OpenStreetMap is a project that creates and provides free geographic data and ma
 
 === Cons ===
   * Not authoritive
+  * Difficult to gather pure lat/long data from searches as most locations are represented by polygons (a centroid-calculator that allows you to pull either polygon or coordinate data from the API would be a nice feature in OSM)
 
 
 
