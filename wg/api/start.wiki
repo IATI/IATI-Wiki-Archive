@@ -148,7 +148,11 @@ In these cases, an API either needs to:
 
 === Hierarchical codelists ===
 
-A number of code lists are hierarchical.
+A number of code lists are hierarchical. I believe that only the lowest level in the hierarchy is ever used as a code, but, this needs to be confirmed. 
+
+A user might want to query by a code category. The hierarchy of codes is found in the codelist API.
+
+A good example can be found for [[http://iatistandard.org/codelists/sector|Sectors]]. 
 
 === Regional containment ===
 
@@ -164,7 +168,6 @@ Countries should always use the ISO code list.
 An API needs to decide whether or not it will infer containment in regions and provide some **additional** parameter for activities_in_region.
   * A standard **recipient_region** should by default only fetch activities that explicitly have a recipient region, as it may be semantically significant that an activity is tagged against region rather than being tagged against country. 
  
-
 
 ===== See also =====
 
