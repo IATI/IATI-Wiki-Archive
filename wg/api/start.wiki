@@ -136,7 +136,37 @@ We need agreed approaches for:
   * APIs should return provenance information on when data was last updated
   * It should be possible to write tests against APIs that will check whether activity information is up to date. 
 
-==== See also ====
+===== Issues to consider =====
+
+=== Vocabularies ===
+IATI format allows a number of classifications (e.g. sector) to be published using different vocabularies, although generally a default vocabulary is given. 
+
+In these cases, an API either needs to:
+  * Always require a vocabulary to be specified for these dimensions \\or
+  * Assume that unless a vocabulary is given that we are dealing with the default vocabulary (i.e. that for which an IATI codelist exists)
+
+
+=== Hierarchical codelists ===
+
+A number of code lists are hierarchical.
+
+=== Regional containment ===
+
+IATI allows activities to include either:
+
+  * Recipient region \\and/or
+  * Recipient country
+
+Regions can be based on a DAC code list, or can use some alternative vocabulary. 
+
+Countries should always use the ISO code list. 
+
+An API needs to decide whether or not it will infer containment in regions and provide some **additional** parameter for activities_in_region.
+  * A standard **recipient_region** should by default only fetch activities that explicitly have a recipient region, as it may be semantically significant that an activity is tagged against region rather than being tagged against country. 
+ 
+
+
+===== See also =====
 
 [[http://sdmx.org/wp-content/uploads/2011/04/SDMX_2-1_SECTION_7_WebServicesGuidelines.pdf|SDMX Web Service Guidelines]]
 [[http://code.google.com/p/linked-data-api/|Linked Data API]]
