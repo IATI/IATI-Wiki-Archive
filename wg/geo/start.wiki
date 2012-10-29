@@ -6,6 +6,6 @@
 //Add yourself here to indicate an interest in this working group. Note, as a signed-in user you can subscribe to updates from this namespace from the 'manage subscriptions' tab above.//
  
   * [[community:user:timdavies|Tim Davies]]
-
+  * [[community:user:reinier|Reinier Battenberg]]
 ===== Workspace =====
 //Add any working notes, or create sub-pages here.//
