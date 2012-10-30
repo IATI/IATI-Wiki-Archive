@@ -2,7 +2,7 @@
 
 This page contains different geospatial providers or databases that would allow IATI providers to georeference their locations. The main (current) purpose is to find the Administrative Unit that is benefiting from a project that is receiving IATI documented funding.
 
-=====**Administrative Unit Boundary Sources**=====
+=====Administrative Unit Boundary Sources=====
 There are several multi-national sources for administrative boundary layers: FAO GAUL, GADM (gadm.org), UNSALB (UNSALB.org), and UNOCHA. In addition, there are in-country data sources in most partner countries (National Statistics Office, Ministry of Planning, Local GIS Groups, UN Surveys, etc.). However, there does not seem to be any single source of administrative polygon data with good coverage across all countries. Perhaps the ideal solution would be to mine all of the best sources country-by-country, then add all of the polygon layers into OSM/Geonames. Organizations could then download the boundary layers for their own use in applications/visualizations/data creation.
 
 It is important to separate the question of administrative data sources (UNSALB, GAUL, etc.) and hosting platforms (geonames, OSM, etc.) as well as to separate the question of sources for local place names with lat/long (OSM/geonames/NGA) from those of boundary layers. Boundary layers can come from many sources, then be used in many applications.
