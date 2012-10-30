@@ -20,7 +20,7 @@ The unique Organisation Identifier for the receiver.:
 <code xml>
 <transaction>
   ....
-    <receiver-org ref="CG-3">DFID</receiver-org>
+    <receiver-org ref="GB-1">DFID</receiver-org>
   ...
 </transaction>
 </code>
