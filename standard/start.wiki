@@ -17,3 +17,8 @@ Generic details of how we make [[standard:revision:start|Revisions]] to the stan
 
 [[standard:documentation:1.02:start|Decimal Upgrade to 1.02]] \\
 This Upgrade is in progress. Changes are due to go live in December 2012.
+
+[[standard:documentation:1.03:start|Decimal Upgrade to 1.03]] \\
+This Upgrade is not yet in progress, but you can contribute to the issue queue: \\
+http://support.iatistandard.org/forums/20020808-modifications-additions-improvements \\
+We would anticipate that changes for this upgrade would go live in April 2013.
