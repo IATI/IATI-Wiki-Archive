@@ -1,0 +1,9 @@
+===== IATI Activity ===== 
+{{for revison 1.02}}
+==== Example Usage ====
+This example declares that the activity has a default language of English (en) and a default currency of US dollars.  It was last updated on the 31st March 2012, and has a hierarchy value of 1.
+<code xml>
+ <iati-activity xml:lang="en" default-currency="USD" last-updated-datetime="2012-03-31T01:01:01" hierarchy="1">
+       ....
+ </iati-activity>
+</code>
