@@ -1,4 +1,5 @@
 ===== 1.02 =====
+{{for revison 1.02}}
 
 1.02 is a proposed decimal release due by December 2012. For details of the change process please see [[standard:revision:1.02|Revisions 1.02]]
 
