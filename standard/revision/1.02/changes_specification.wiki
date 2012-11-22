@@ -240,7 +240,11 @@ A sample diff is shown below:
 The language refers to the language of the document itself, so an element is a more appropriate way of refering to this, rather than using a language attribute. This is thought to have been as it is due to an error.
 
 === Demo ===
-Not yet available - url to come.
+http://dev.iatistandard.org/downloads/1.02/iati-common.xsd
+
+The above is called referenced from: \\
+http://dev.iatistandard.org/downloads/1.02/iati-organisations-schema.xsd  \\
+http://dev.iatistandard.org/downloads/1.02/iati-activities-schema.xsd
 
 ===Changelog text===
 Removed language attribute from, and introduced an new language child element to, the document-link element
