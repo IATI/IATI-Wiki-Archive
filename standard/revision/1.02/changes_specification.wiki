@@ -157,7 +157,7 @@ A sample diff is shown below:
 If a publisher chooses to publish linked data about their IATI activities then allowing them to declare where this data is published would support discovery of it, and any additional information they may choose to publish as Linked Data alongside it.
 
 === Demo ===
-Not yet available - url to come.
+http://dev.iatistandard.org/downloads/1.02/iati-activities-schema.xsd
 
 === Proposed Changelog text ===
 Introduced the @linked-data-default attribute on iati-activities elements \\
@@ -167,7 +167,6 @@ Introduced the @linked-data-uri attribute on iati-activitie elements
 === Proposed Guidance ===
 
 IATI publishers are not obliged to publish their own Linked Data. However, if a publisher chooses to publish linked data about their IATI activities then allowing them to declare where this data is published would support discovery of it, and any additional information they may choose to publish as Linked Data alongside it. For this reason the above-mentioned two new optional properties into the IATI standard are being added. Where a publisher declares using one of these properties that authoritative linked data is accessible for an activity then consuming applications that are generating Linked Data from an IATI XML file should assert an owl:sameAs relationship to the relevant URI.
-
 ==== Document Link and Language Schema Error====
 http://support.iatistandard.org/entries/21179937-document-link-and-language-schema-error
 
