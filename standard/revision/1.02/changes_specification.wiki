@@ -172,6 +172,8 @@ http://support.iatistandard.org/entries/21179937-document-link-and-language-sche
 
 ===Required Change===
 This is a change to the [[http://iatistandard.org/downloads/iati-common.xsd|iati-common.xsd]]. \\
+**As such this will effect both activity and organisation files/data**
+
 It requires:
   -  the removal of the language //attribute// from the document-link element 
   -  the addition of a language //element// as a child of the document-link element: document-link/language/text() (0..1)  -  The ISO 639 code for the language of the document
