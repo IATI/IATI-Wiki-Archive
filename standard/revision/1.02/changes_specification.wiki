@@ -525,7 +525,7 @@ to
 In previous guidance, the attribute 'hierarchy' (on an iati-activity element) was defined as integer and specifies the level in the hierarchy of activities but in the XSD (http://iatistandard.org/downloads/iati-activities-schema.xsd) it is defined as a string and is described as a relative position as a parent (1) or child (2) - the distinction only matters in a hierarchy with more than 2 levels but needs clarification.
 
 === Demo ===
-Not yet available - url to come.
+http://dev.iatistandard.org/downloads/1.02/iati-activities-schema.xsd
 
 === Proposed Changelog text ===
 hierarchy attribute changed from type="xsd:string" to "xsd:int"
