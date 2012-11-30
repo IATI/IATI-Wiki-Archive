@@ -56,6 +56,7 @@ Should be able to:
 [[validation_tool|Validation Tool Development Notes]]
 
 ==== Currency Conversion ====
+//Written up for RHOK Soton//
 
 This component should be able to read in any IATI XML file and convert transaction and budget values from one currency to another. This requires:
 
@@ -69,6 +70,8 @@ This component should be able to read in any IATI XML file and convert transacti
   * **A process to write the converted values back to the file**
     * Ideally there would be the option to either overwrite the current currency values, changing default / element level currency in the process **or** to add a duplicate transaction in the new currency.
 
+Optionally: 
+  * It would be useful to be able to run these conversions in parallel: for example, as a map-reduce job, to be able to convert 100s of files rapidly (there are over 1500 IATI files now, and thousands more anticipated in coming months; some processes run overnight updates of the data, and being able to do this rapidly would be beneficial). 
 ==== Provenance module ====
 ====== Design patterns ======
 
