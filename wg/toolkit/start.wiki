@@ -55,9 +55,21 @@ Should be able to:
 
 [[validation_tool|Validation Tool Development Notes]]
 
+==== Currency Conversion ====
+
+This component should be able to read in any IATI XML file and convert transaction and budget values from one currency to another. This requires:
+
+  * **An open list of historic currency conversion rates** - no comprehensive data exists, but it should be possible to use one or more of the datasets on [[http://datahub.io/dataset?q=currency+conversion|the datahub]] to generate reasonably granular conversion tables for most major currencies. 
+    * API based solutions may be possible, but a large conversion process could involve thousands of transactions, exceeding the limits of most free APIs.
+    * It would be useful to have scripts that automatically update conversion tables 
+  * **A process to read in IATI XML files and to work out the current currency and value-date of any transaction / budget**
+    * Currencies may be provided in a @default-currency attribute of an iati-activity, or at the level of an [[http://iatistandard.org/activities-standard/financial-transaction/transaction-value|individual transaction value]]
+    * [[http://iatistandard.org/activities-standard/financial-transaction|Transactions]] **should** provide a [[http://iatistandard.org/activities-standard/financial-transaction/transaction-value|@value-date]] that is used for currency conversions (i.e. the currency rate from this date should be used to convert this number)
+    * Note that slightly different logic might be required to handle [[http://iatistandard.org/activities-standard/financial/activity-budgets|budget]] and [[http://iatistandard.org/activities-standard/financial/planned-disbursements|planned disbursement]] values.
+  * **A process to write the converted values back to the file**
+    * Ideally there would be the option to either overwrite the current currency values, changing default / element level currency in the process **or** to add a duplicate transaction in the new currency.
+
 ==== Provenance module ====
-
-
 ====== Design patterns ======
 
   * We need environment variables that can be shared across scripts
