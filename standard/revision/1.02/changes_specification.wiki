@@ -160,8 +160,8 @@ If a publisher chooses to publish linked data about their IATI activities then a
 http://dev.iatistandard.org/downloads/1.02/iati-activities-schema.xsd
 
 === Proposed Changelog text ===
-Introduced the @linked-data-default attribute on iati-activities elements \\
-Introduced the @linked-data-uri attribute on iati-activitie elements
+Introduced the @linked-data-default attribute on iati-activities element \\
+Introduced the @linked-data-uri attribute on iati-activity element
 
 
 === Proposed Guidance ===
