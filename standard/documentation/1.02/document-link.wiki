@@ -19,5 +19,5 @@ Additionally, the Internet Media Type ("MIME type") of the document linked to, a
 ===1.02===
 Removed language attribute from, and introduced an new language child element to, the document-link element.
 ===1.01===
-See previous version on the IATI Standard [[wiki]] and [[http://iatistandard.org/101/activities-standard/related-documents/activity-documents/ | website]]
+See previous version on the IATI Standard [[http://wiki.iatistandard.org/standard/documentation/1.0/document-link | wiki]] and [[http://iatistandard.org/101/activities-standard/related-documents/activity-documents/ | website]]
  
