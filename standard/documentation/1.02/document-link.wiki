@@ -16,4 +16,4 @@ Additionally, the Internet Media Type ("MIME type") of the document linked to, a
 </code>
 
 ==== Changelog ====
-1.01 > 1.02: [[http://wiki.iatistandard.org/standard/revision/1.02/changes_specification#document_link_and_language_schema_error | removal of the language attribute from the document-link element]].
+[[http://iatistandard.org/101/activities-standard/related-documents/activity-documents/ | 1.01]] > 1.02: [[http://wiki.iatistandard.org/standard/revision/1.02/changes_specification#document_link_and_language_schema_error | removal of the language attribute from the document-link element]].
