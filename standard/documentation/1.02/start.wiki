@@ -5,3 +5,112 @@
 
 For detailed information about what the changes are going to look like please see: \\
 [[standard:revision:1.02:changes_specification|Changes Specification]]
+
+===== Activity Standard =====
+[[standard:documentation:1.02:iati-activities]]
+
+[[standard:documentation:1.02:iati-activity]]
+
+[[standard:documentation:1.02:reporting-org]]
+
+[[standard:documentation:1.02:iati-identifier]]
+
+[[standard:documentation:1.02:other-identifier]]
+
+[[standard:documentation:1.02:activity-website]]
+
+[[standard:documentation:1.02:title]]
+
+[[standard:documentation:1.02:description]]
+
+[[standard:documentation:1.02:activity-status]]
+
+[[standard:documentation:1.02:activity-date]]
+
+[[standard:documentation:1.02:contact-info]]
+
+  * [[standard:documentation:1.02:organisation]]
+  * [[standard:documentation:1.02:person-name]]
+  * [[standard:documentation:1.02:telephone]]
+  * [[standard:documentation:1.02:email]]
+  * [[standard:documentation:1.02:mailing-address]]
+
+[[standard:documentation:1.02:participating-org]]
+
+[[standard:documentation:1.02:recipient-country]]
+
+[[standard:documentation:1.02:recipient-region]]
+
+[[standard:documentation:1.02:location]]
+
+  * [[standard:documentation:1.02:location-type]]
+  * [[standard:documentation:1.02:location-name]]
+  * [[standard:documentation:1.02:description]]
+  * [[standard:documentation:1.02:administrative]]
+  * [[standard:documentation:1.02:coordinates]]
+  * [[standard:documentation:1.02:gazetteer-entry]]
+
+[[standard:documentation:1.02:sector]]
+
+[[standard:documentation:1.02:policy-marker]]
+
+[[standard:documentation:1.02:collaboration-type]]
+
+[[standard:documentation:1.02:default-flow-type]]
+
+[[standard:documentation:1.02:default-finance-type]]
+
+[[standard:documentation:1.02:default-aid-type]]
+
+[[standard:documentation:1.02:default-tied-status]]
+
+[[standard:documentation:1.02:budget]]
+
+  * [[standard:documentation:1.02:period-start]]
+  * [[standard:documentation:1.02:period-end]]
+  * [[standard:documentation:1.02:value]]
+
+[[standard:documentation:1.02:planned-disbursement]]
+
+  * [[standard:documentation:1.02:period-start]]
+  * [[standard:documentation:1.02:period-end]]
+  * [[standard:documentation:1.02:value]]
+
+[[standard:documentation:1.02:transaction]]
+
+  * [[standard:documentation:1.02:transaction-type]]
+  * [[standard:documentation:1.02:provider-org]]
+  * [[standard:documentation:1.02:receiver-org]]
+  * [[standard:documentation:1.02:value]]
+  * [[standard:documentation:1.02:description]]
+  * [[standard:documentation:1.02:transaction-date]]
+  * [[standard:documentation:1.02:flow-type]]
+  * [[standard:documentation:1.02:finance-type]]
+  * [[standard:documentation:1.02:aid-type]]
+  * [[standard:documentation:1.02:disbursement-channel]]
+  * [[standard:documentation:1.02:tied-status]]
+
+[[standard:documentation:1.02:document-link]]
+
+  * [[standard:documentation:1.02:title]]
+  * [[standard:documentation:1.02:category]]
+
+[[standard:documentation:1.02:related-activity]]
+
+[[standard:documentation:1.02:conditions]]
+  * [[standard:documentation:1.02:condition]]
+
+[[standard:documentation:1.02:result]]
+  * [[standard:documentation:1.02:title]]
+  * [[standard:documentation:1.02:description]]
+  * [[standard:documentation:1.02:indicator]]
+  *   * [[standard:documentation:1.02:title]]
+  *   * [[standard:documentation:1.02:description]]
+  *   * [[standard:documentation:1.02:period]]
+  *   *   * [[standard:documentation:1.02:period-start]]
+  *   *   * [[standard:documentation:1.02:period-end]]
+  *   *   * [[standard:documentation:1.02:target]]
+  *   *   * [[standard:documentation:1.02:actual]]
+  *   * [[standard:documentation:1.02:baseline]]  
+  *   *   * [[standard:documentation:1.02:comment]]  
+[[standard:documentation:1.02:legacy-data]]
