@@ -14,3 +14,6 @@ Additionally, the Internet Media Type ("MIME type") of the document linked to, a
 <code xml>
     <document-link format="application/msword" url="http://www.aidtransparency.net/wp-content/uploads/2009/06/Summary-IATI-Standard-Version-1-Final.doc">
 </code>
+
+==== Changelog ====
+1.01 > 1.02: [[http://wiki.iatistandard.org/standard/revision/1.02/changes_specification#document_link_and_language_schema_error | removal of the language attribute from the document-link element]].
