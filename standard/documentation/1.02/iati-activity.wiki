@@ -12,4 +12,4 @@ This example declares that the activity has a default language of English (en) a
 ===1.02===
 Introduced the @linked-data-uri attribute on iati-activity element
 ===1.01===
-See previous version on the IATI Standard [[http://wiki.iatistandard.org/standard/documentation/1.0/iati-activity | wiki]] and [[http://iatistandard.org/101/activities-standard/identification/iati-activity-identifier/ | website]]
+See previous version on the IATI Standard [[http://wiki.iatistandard.org/standard/documentation/1.0/iati-activity | wiki]] and [[http://iatistandard.org/101/activities-standard/container-elements/record-header/ | website]]
