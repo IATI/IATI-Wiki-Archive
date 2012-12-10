@@ -21,6 +21,6 @@ Additionally, a text description of the code can be provided:
 
 ==== Changelog ====
 ===1.02===
-the addition of a language element as a child of the document-link element: document-link/language/text() (0..1) - The ISO 639 code for the language of the document
+Addition of a language element as a child of the document-link element: document-link/language/text() (0..1) - The ISO 639 code for the language of the document
 ===1.01===
 This element did not exist
