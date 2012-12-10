@@ -9,13 +9,13 @@ The code should be declared in any usage of this element:
 
 <code xml>
     <language code="en" />
-<language code="fr" />
+    <language code="fr" />
 </code>
 
 Additionally, a text description of the code can be provided:
 
 <code xml>
     <language code="fr" xml:lang="en">French</language>
-<language code="fr" xml:lang="fr">Francais</language>
+    <language code="fr" xml:lang="fr">Francais</language>
 </code>
 
