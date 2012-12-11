@@ -1,1 +1,23 @@
-This page is redirected to [[:iati-rda]].
+====== IATI Registry Data Analyzer ======
+/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+Standalone tool to work directly with IATI Registry Information (publishers info and XML download and validation)\\
+Creator: [[community:user:aac]]
+
+===== Detailed Description =====
+/* Provide additional details here */
+IATI-RDA application has been created to help the users to know and download all the IATI Registry information available. Here the main features:\\
+
+  * Validation of IATI XML files locally saved. It is possible to validate many files with only one click.
+  * Selection of the Schema File used to validate the XML files. This option facilitates the addition of future IATI schema releases.
+  * Tool to connect to the IATI Registry and download and review the publishers information.
+  * It is possible to select a subset of the available XML files and the IATI-RDA application will connect to the Publisher Server to download them.
+
+
+
+===== Documentation =====
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+Documentation: [[http://www.iablog.info/?wpfb_dl=7]]
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
+Software download and additional information: [[http://www.iablog.info/?page_id=130]]
