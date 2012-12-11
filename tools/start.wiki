@@ -14,6 +14,7 @@ Validation Tools are used to check the quality of data formatted to the IATI Sta
 
   *[[:tools:XML Validation:start]]
   *[[:tools:Batch processing:start]]
+  *[[:tools:IATI Registry & Data Analyzer:start]]
 ===== Consuming IATI data =====
 
 Tools for accessing and working with IATI Data
