@@ -1,4 +1,4 @@
-====== Tool Name ======
+====== Open UN-Habitat ======
 Open UN-Habitat is UN-Habitat's open data website. Built by [[http://akvo.org | Akvo]] in partnership with [[http://www.zimmermanzimmerman.nl|Zimmerman & Zimmerman]] and [[http://www.verviant.com/|Verviant]], it's based on the [[tools:oipa_v2:start | OIPA Open Aid Search]] IATI parser engine.
 
 ===== Detailed Description =====
