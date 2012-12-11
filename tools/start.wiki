@@ -13,7 +13,7 @@ There are many different tools developed and currently in development for creati
 Validation Tools are used to check the quality of data formatted to the IATI Standard.
 
   *[[:tools:XML Validation:start]]
-  *[[:tools:IATI Public Validator]]
+  *[[:tools:IATI Public Validator:start]]
   *[[:tools:Batch processing:start]]
   *[[:tools:IATI Registry & Data Analyzer:start]]
 ===== Consuming IATI data =====
