@@ -12,12 +12,14 @@ twitter_url: @kitwallace
 
 email_mail: kit.wallace@gmail.com
 
-one-line-bio: retired lecturer, now developer, datasmith and sailor
+one-line-bio: Developer of the IATI database http://datadev.aidinfo.org 
 
 user_tags:   XML,XQuery,AidView database
 ----
 
 ===== More detail =====
+retired lecturer, now developer, datasmith and sailor
+
 Developer of the IATI database http://datadev.aidinfo.org running on an [[http:eXist-db.org |eXist-db]] platform.  http://opencirce.org linked data hub
 
 
