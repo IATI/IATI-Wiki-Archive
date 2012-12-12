@@ -20,7 +20,7 @@ user_tags:   XML,XQuery,AidView database
 ===== More detail =====
 retired lecturer, now developer, datasmith and sailor
 
-Developer of the IATI database http://datadev.aidinfolabs.org running on an [[http:eXist-db.org | eXist-db]][ platform.  Developer of http://opencirce.org/orgs Organisation ID hub
+Developer of the AidView database of IATI activities http://datadev.aidinfolabs.org running on an [[http:eXist-db.org | eXist-db]] platform.  Developer of http://opencirce.org/orgs Organisation ID hub
 
 
 
