@@ -14,7 +14,7 @@ email_mail: kit.wallace@gmail.com
 
 one-line-bio: Developer of the AidView IATI database 
 
-user_tags:   XML,XQuery,AidView database
+user_tags:   XML,XQuery,AidView database,validation,codelists
 ----
 
 ===== More detail =====
