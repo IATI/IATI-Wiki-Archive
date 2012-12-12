@@ -6,9 +6,9 @@ name: Chris Wallace
 
 organisation: Kit Wallace Associates
 
-website_url: kitwallace.co.uk
+website_url: http://kitwallace.co.uk
 
-twitter_url: @kitwallace
+twitter_url: https://twitter.com/kitwallace
 
 email_mail: kit.wallace@gmail.com
 
