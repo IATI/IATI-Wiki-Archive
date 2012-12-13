@@ -37,6 +37,7 @@ Tools for accessing and working with IATI Data
 === Conversion Tools ===
   * [[tools:xslt:start|Format Conversions]], including [[tools:xslt:CSV Exporter]] tool linked from IATI Registry
   * [[tools:linked data:start|Linked Data conversion]]
+  * [[tools:crs:start|IATI to CRS++ Format (experiment)]]
 
 === IATI Data on Third Party Platforms ===
   * [[tools:Open Spending:start]]
