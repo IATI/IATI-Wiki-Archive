@@ -1,0 +1,58 @@
+====== Tool Name ======
+/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+
+Herman van Loon of [[http://minbuza.nl|The Netherlands Ministry of Foreign Affairs]] has run a pilot converting IATI data to CRS. This page documents the process, and includes an example spreadsheet that shows how Excel formula can be used to general CRS++ data from flattened IATI XML.
+
+===== Resources =====
+/* Provide additional details here */
+
+
+
+===== Documentation =====
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+
+==== Pilot CRS++ from the Netherlands regular IATI publication (towards a common format)====
+
+=== Why this pilot? ===
+In the current situation we produce on a regular basis IATI, CRS++ files. These 2 formats have large overlap. The idea was to test if it is in principle possible use the IATI standard to derive the CRS++ format automatically, thereby reducing the number of formats we have to publish and improve consistency between CRS++ reporting and IATI publication.
+
+=== Why from IATI to CRS++ and not the other way around?===
+
+The IATI format is a modern machine readable standard which covers a large part of all aid information. The CRS++ format does not have such a large coverage of aid information, as is illustrated by the following figure:
+
+{{ :tools:crs:iaticrs.png |}}
+
+=== What was our approach?=== 
+  * We first converted our regular IATI data into a flat file (CSV) format. Because we currently only publish ODA flows in IATI format, the pilot was limited to the ODA flows.
+  * This IATI CSV file was read into Excel
+  * Conversion to CRS++ was automated using standard Excel (without macro’s or any other form of programming)
+
+The advantage of this approach was that anybody who can convert its IATI data into a flat file, is able to convert the IATI data into a relatively straightforward way into CRS++
+
+As an import byproduct, we plan to publish to IATI flat file on our website, there enabling non-technical consumers of aid data (such as data journalist) to easily use our aid-data for analysis with simple and widespread tools like Excel. 
+
+=== What were the results? ===
+Based on our IATI flat file we were able to automatically a large part of the CRS++ data automatically within half a day. There are some issues which need to be addressed in order to produce a fully qualified CRS++ file from IATI:
+
+A - Some elements are lacking in the IATI standard:
+  * Free Standing Technical Cooperation (FTC)
+  * Programme Based Approaches (PBA)
+  * Investment Project Marker (IP)
+  * AF (Associated Finance)
+  * Specific Loan elements
+
+B - Some elements can be derived from the IATI data. The derivation of the CRS-identification number requires special attention. This derivation can in our case be done automatically, because in our source system we automatically produce donor project numbers in an ascending sequence. Secondly we always publish an complete history of all relevant projects in the IATI file. This means that we can use the sequence number of the donor project number as the basis for the CRS-identification number. This is an important assumption, which might not always be true for all donor systems. 
+
+C – Some elements are not derived because they were not relevant for us (e.g. we do not publish amounts received because they are not relevant for the ODA activities we publish in IATI at this moment). If in the future we would extend the scope of our IATI reporting, some of these fields would be derivable. The geographical target area can be derived from geolocation information in the IATI file. This is not part of this pilot because we do not publish geolocation information yet.
+
+=== Conclusions ===
+Deriving CRS++ from the IATI dataset for the ODA flows is in the current situation possible for most of the CRS++ data-elements. In order to fully produce the CRS++ dataset, the IATI standard needs to be extended slightly with 4 specific markers and the technical loan data-elements. The benefit of doing this would be not only to have a common standard, but also a common format. In would mean that every donor could limit itself to only publish IATI data in the common format. The consumers (e.g. the DAC) of these data can produce CRS++ and (from CRS++) and DAC tables from IATI. This would limit the proliferation of different formats, improve consistency in aid data, and reduce the workload of producing aid data. For the non-ODA flows, we expect that it also possible to derive CRS++ from IATI because the non-ODA flows cover a far smaller set of data-elements then the ODA flows.
+
+A second conclusion is that IATI in a flat file format, is very easy to use in ‘low-end technology’ tools like spreadsheets. In order to increase the usability of our IATI data, we will consider providing the flat file structure alongside the IATI XML format.
+
+=== Work to do ===
+It would be interesting to investigate if the same holds true for producing de FSS from IATI data. Once we publish our forward looking IATI data on activity level, we will look into this possibility. 
+
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
