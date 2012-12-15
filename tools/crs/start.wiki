@@ -6,7 +6,7 @@ Herman van Loon of [[http://minbuza.nl|The Netherlands Ministry of Foreign Affai
 ===== Resources =====
 /* Provide additional details here */
 
-{{:tools:crs:iatitocrsplusexamplenl.xlsx|}}
+{{:tools:crs:iatitocrsplusexamplenl.xlsx|Example conversion spreadsheet (16Mb)}}
 
 
 ===== Documentation =====
