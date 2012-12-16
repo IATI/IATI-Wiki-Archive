@@ -9,16 +9,24 @@ We recognise the need to version our documentation over time, and see this wiki 
 
 ===== Version 1.x =====
 
-[[standard:documentation:1.0:start|1.01 (current)]]
+==== Current Version ====
+=== Version 1.02 ===
+**In use from:** 17th December 2012  \\
+[[standard:documentation:1.02:start|Version 1.02 (current)]]
+
+
+==== Old Versions ====
+**In use from:** 11th August 2010  \\
+[[standard:documentation:1.0:start|Version 1.01]]
 
 
 ====Updating the Standard====
 Generic details of how we make [[standard:revision:start|Revisions]] to the standard.
 
-[[standard:documentation:1.02:start|Decimal Upgrade to 1.02]] \\
-This Upgrade is in progress. Changes are due to go live in December 2012.
-
 [[standard:documentation:1.03:start|Decimal Upgrade to 1.03]] \\
-This Upgrade is not yet in progress, but you can contribute to the issue queue: \\
+This upgrade is now in progress. You can contribute to the issue queue: \\
 http://support.iatistandard.org/forums/20020808-modifications-additions-improvements \\
-We would anticipate that changes for this upgrade would go live in April 2013.
+Changes for this upgrade would go live in May 2013.
+
+[[standard:documentation:1.02:start|Decimal Upgrade to 1.02]] \\
+Details of the upgrade to 1.02 which went live on 17th December 2012.
