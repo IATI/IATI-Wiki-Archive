@@ -1,10 +1,10 @@
-====== Proposed revisions to version 1.02 ======
+====== Revisions to version 1.02 ======
 
-The IATI TAG has expressed a desire to perform a decimal upgrade of the standard by December 2012. The process for achieving this is outlined below.
+The first decimal upgrade of the standard happened in December 2012. The process for achieving that is outlined below.
 
-Details about the specific changes are listed on the [[http://support.iatistandard.org/|knowledge base]] in the [[http://support.iatistandard.org/forums/21131653-first-decimal-upgrade|First Decimal Upgrade Forum]] for consultation.
+Details about the specific changes are listed on the [[http://support.iatistandard.org/|knowledge base]] in the [[http://support.iatistandard.org/forums/21131653-first-decimal-upgrade|First Decimal Upgrade Forum]].
 
-Full proposals are being worked up on the [[standard:revision:1.02:changes_specification|Changes Specification]] page.
+Full proposals were worked up on the [[standard:revision:1.02:changes_specification|Changes Specification]] page.
 
 ^ IATI ^ Community ^ Timescale ^ Due Date ^
 | A clear cut off date for new submissions should be advertised. | Community submits and discusses proposals/ideas before the cut off date |  | 1 Jun |
