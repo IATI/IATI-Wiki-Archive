@@ -1,13 +1,80 @@
 ====== Wordpress theme ======
-This section deals with setting up your own Wordpress website and adding an integrated IATI search to your site using a Wordpress theme the way you would usually do. The goal is to provide a non-technical solution to show IATI compliant data in your own look & feel. You can connect the Wordpress theme either the [[tools:oipa_v2:start|OIPA API]] which contains all the IATI objects in store or setup your own [[tools:oipa_v2:start|OIPA]] instance and use that one instead.
+This section deals with setting up your own [[http://wordpress.org/|Wordpress]] website and adding an integrated IATI search to your site using a Wordpress theme the way you would usually do. The goal is to provide a non-technical solution to show IATI compliant data in your own look & feel. You can connect the Wordpress theme either the [[tools:oipa_v2:start|OIPA API]] which contains all the IATI objects in store or setup your own [[tools:oipa_v2:start|OIPA]] instance and use that one instead.
 
 If you are using Wordpress or planning to use Wordpress to show IATI objects, you need to install Wordpress. If you are familiar with Wordpress, just download the Wordpress theme developed for the [[tools:open_un-habitat|open UN-Habitat]] website or follow to documentation on how to use the parameters used in order to connect.
 
+===== Get the Wordpress theme (tutorial) =====
+
+For instructions sake we will use the [[tools:open_un-habitat|open UN-Habitat]] theme as an example. This tutorial assumes you have Wordpress up and running and you are able to upload the theme. Download [[https://github.com/openaid-IATI/OPEN-UN-HABITAT/archive/master.zip|the theme]] from Github. The [[tools:open_un-habitat|open UN-Habitat]] is openly licensed, so don't worry about IP. Upload the theme and activate it in your Wordpress administrator area. 
+This theme will now show you all the UN-Habitat projects. 
+
 ===== Documentation =====
 
-For instructions sake we will use the [[tools:open_un-habitat|open UN-Habitat]] theme as an example. This tutorial assumes you have Wordpress up and running and you are able to upload the theme. Download [[https://github.com/openaid-IATI/OPEN-UN-HABITAT/archive/master.zip|the theme]].
+This Wordpress PHP client provides search and data manipulation retrieved from from the OpenAidSearch API (http://oipa.openaidsearch.org/api/v2/). The main configurations for the PHP client are set in constants.php file of the wordpress theme. 
 
+Configurations include the following constants:
+
+  * define( 'SEARCH_URL', 'http://oipa.openaidsearch.org/api/v2/');
+  * $_DEFAULT_ORGANISATION_ID = ''; (enter your unique IATI identifier or leave empty to show all objects in store)
+  * $_PER_PAGE = 20;
+  * $_RELAOD_FILTERS_TIMEOUT = 24*60*60; - 24 hours (if you use filters, you can set refresh interval here)
+
+Main functionalities are defined in functions.php file in the wordpress theme. There are functions that perform the search requests to the API, front-end visualization
+of the data as well as building the filter constants.
+
+The concept in general is to list activities and apply certain filters on this list. One of the pre-defined filters is the constant $_DEFAULT_ORGANISATION_ID, which if set will list all the activities for a specific organisation, also known as your unique IATI identifier. 
+
+The user-manipulatable filters available are:
+
+  * Organisations
+  * Countries
+  * Sectors
+  * Regions
+  * Budgets
+
+
+In order the optimize speed and reduce the number of request to the API on every page load the PHP client builds constants files for each of the above filters every $_RELAOD_FILTERS_TIMEOUT hours. The only exception here is the Budgets filter which is hard coded in constants.php file.
+
+Here are the server-side functions that make all of this possible:
+
+**wp_generate_constants():**
+
+This is the function that rebuilds the front-end filters constants so that these are not requested everytime when they need to be displayed. The function makes request to the API to get all the current activities and then it parses these activities to extract the relevant countries, sectors, regions and organisations. When this is done, the function writes .php files such as: countries.php, sectors.php, regions.php and organisations.php.
+Once these files are available the filters can be visualized in the front end.
+
+**wp_generate_filter_html( $filter, $limit = 4 ):**
+
+This is the function that builds the front-end filters HTML that will be available to the user for search manipulation. It makes use of the above mentioned constants files to list all the possible options.
+It takes as parameters the name of the filter to generate and also the number of items to show. If there are more available filter options than the specified limit, the function generates a "more" link that will be used later to open a popup with all the possible filter options.
+
+**wp_generate_filter_popup($filter, $limit = 4 ):**
+
+This function generates the popup HTML for any specified filter.
+
+**wp_generate_results_html(&$meta, &$has_filter):**
+
+This function does the main search to the API based on URL provided filters. It takes the result from the API and it builds up the list HTML that is presented to the user. It also sets all the meta information that is returned from the API about the given search request. This includes total results available, the number of results returned for the particular call etc. It also passes to the template if there is a filter applied, so that in the explore template the currently selected filters can be shown to the user.
+
+**wp_generate_paging($meta):**
+
+This function generated the listing pagination HTML based on the meta information returned by the API for the current search request.
+
+**wp_get_activity($identifier):**
+
+This function retrieves specific activity data based on the provided identifier. All of this information is passed to the Project detail template and is visualized according to the template design.
+
+
+This summarizes the server-side functions that visualize activities and filters on a page load. All of the above functionalities are backed-up by Javascript functions that perform search requests based on filters, visualize the results returned from the API and as well perform certain graphical representation of the data.
+
+In order for the JS to make search requests there is a server side php file that is AJAX loaded when a filter is selected. The file is called ajax_search.php and it takes as parameters the selected filters, it creates a search request to the API and then it returns to the JS json encoded the result.
+
+Another functionality of the PHP client is to visualize the activities by countries on a dynamic map (Google maps in this case). In order to show countries on the map, all the country boundaries are predefined in a file called map_regions.php. When all the activities from certain search request are parsed, then the country regions are extracted from the map_regions.php and these are applied to the map in the spcified by the Google maps API standard. Again this must be available to the user dynamically when a new filter is applied to the front end via Javascript. For this reason there is a file called map_search.php in the theme folder of Wordpress, which is AJAX called when a new filter is applied. This file returns the results to the Javascript and the new country boundaries are applied to the map.
+
+[[https://www.assembla.com/spaces/oipa/wiki/OIPA_Wordpress_PHP_clients|Link to this documentation on Assembla]].
 
 
 ===== Links, source code and development plans =====
-/* Please provide links to any source code, additional resources, or development plans*/
+
+
+
+
