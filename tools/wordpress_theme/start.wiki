@@ -1,0 +1,13 @@
+====== Wordpress theme ======
+This section deals with setting up your own Wordpress website and adding an integrated IATI search to your site using a Wordpress theme the way you would usually do. The goal is to provide a non-technical solution to show IATI compliant data in your own look & feel. You can connect the Wordpress theme either the [[tools:oipa_v2:start|OIPA API]] which contains all the IATI objects in store or setup your own [[tools:oipa_v2:start|OIPA]] instance and use that one instead.
+
+If you are using Wordpress or planning to use Wordpress to show IATI objects, you need to install Wordpress. If you are familiar with Wordpress, just download the Wordpress theme developed for the [[tools:open_un-habitat|open UN-Habitat]] website or follow to documentation on how to use the parameters used in order to connect.
+
+===== Documentation =====
+
+For instructions sake we will use the [[tools:open_un-habitat|open UN-Habitat]] theme as an example. This tutorial assumes you have Wordpress up and running and you are able to upload the theme. Download [[https://github.com/openaid-IATI/OPEN-UN-HABITAT/archive/master.zip|the theme]].
+
+
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
