@@ -1,6 +1,6 @@
 ====== OIPA V2 ======
 
-OIPA V2 stands for **O**penaid **I**ATI **P**arser and **A**PI. It has been developed within the [[tools:open_aid:start|OpenAid NL]] project and runs as an open webservice. Anyone can use it with the data residing in the OIPA network.
+OIPA V2 stands for **O**penaid **I**ATI **P**arser and **A**PI. It has been developed within the [[tools:oipa_v2:openaid.nl|OpenAid NL]] project and runs as an open webservice. Anyone can use it with the data residing in the OIPA network.
 
 {{:tools:oipa:oipa.001.png?450|}}
 
