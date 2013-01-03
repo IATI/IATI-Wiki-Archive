@@ -33,6 +33,9 @@ Tools for accessing and working with IATI Data
   * [[tools:OIPA V2:start]] (OpenAidNL) [[tools:OIPA:start]] (no longer supported)
   * [[tools:AidView:API|AidView API]]
 
+=== PHP clients ===
+  * [[tools:Wordpress theme:start]]
+
 
 === Conversion Tools ===
   * [[tools:xslt:start|Format Conversions]], including [[tools:xslt:CSV Exporter]] tool linked from IATI Registry
