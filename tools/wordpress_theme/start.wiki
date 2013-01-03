@@ -75,6 +75,11 @@ Another functionality of the PHP client is to visualize the activities by countr
 
 ===== Links, source code and development plans =====
 
+  * Download link to the [[https://github.com/openaid-IATI/OPEN-UN-HABITAT/archive/master.zip|open UN-Habitat Wordpress theme]]
+  * [[https://www.assembla.com/spaces/oipa/wiki/OIPA_Wordpress_PHP_clients|Documentation on Assembla for the Wordpress theme]]
+  * Running live example of a Wordpress theme using IATI objects: [[http://open.unhabitat.org/?s=|open UN-Habitat]]
 
+
+We will be working on many upgrades this year, making sure non technical users will find it easy to use IATI on their Wordpress driven websites. Main focus will be on moving some of the manual performance required currently in order to set parameters correct to a Wordpress IATI plugin, where a user can control it from a nice User Interface.
 
 
