@@ -1,12 +1,12 @@
 ====== Wordpress theme ======
-This section deals with setting up your own [[http://wordpress.org/|Wordpress]] website and adding an integrated IATI search to your site using a Wordpress theme the way you would usually do. The goal is to provide a non-technical solution to show IATI compliant data in your own look & feel. You can connect the Wordpress theme either the [[tools:oipa_v2:start|OIPA API]] which contains all the IATI objects in store or setup your own [[tools:oipa_v2:start|OIPA]] instance and use that one instead.
+This section deals with setting up your own [[http://wordpress.org/|Wordpress]] website and adding an integrated IATI search to your site using a Wordpress theme the way you would usually do. The goal is to provide a non-technical solution to show IATI compliant data in your own look & feel. You can connect the Wordpress theme either to the [[tools:oipa_v2:start|OIPA API]] which contains all the IATI objects in store or setup your own [[tools:oipa_v2:start|OIPA]] instance and use that one instead.
 
-If you are using Wordpress or planning to use Wordpress to show IATI objects, you need to install Wordpress. If you are familiar with Wordpress, just download the Wordpress theme developed for the [[tools:open_un-habitat|open UN-Habitat]] website or follow to documentation on how to use the parameters used in order to connect.
+If you are using Wordpress or planning to use Wordpress to show IATI objects, you need to install Wordpress. If you are familiar with Wordpress, just download the Wordpress theme developed for the [[tools:open_un-habitat|open UN-Habitat]] website or follow to documentation on how to use the parameters used in order to connect or ask your webmaster to do that for you.
 
 ===== Get the Wordpress theme (tutorial) =====
 
-For instructions sake we will use the [[tools:open_un-habitat|open UN-Habitat]] theme as an example. This tutorial assumes you have Wordpress up and running and you are able to upload the theme. Download [[https://github.com/openaid-IATI/OPEN-UN-HABITAT/archive/master.zip|the theme]] from Github. The [[tools:open_un-habitat|open UN-Habitat]] is openly licensed, so don't worry about IP. Upload the theme and activate it in your Wordpress administrator area. 
-This theme will now show you all the UN-Habitat projects. 
+For instructions sake we will use the [[tools:open_un-habitat|open UN-Habitat]] theme as an example. This tutorial assumes you have Wordpress up and running and you are able to upload the theme. Download [[https://github.com/openaid-IATI/OPEN-UN-HABITAT/archive/master.zip|the theme]] from Github. The [[tools:open_un-habitat|open UN-Habitat]] theme is openly licensed, so don't worry about IP. Upload the theme and activate it in your Wordpress administrator area. 
+This theme will now show you all the UN-Habitat projects. In order to show either all objects or only the objects from your organisation, please follow the documentation guideline.
 
 ===== Documentation =====
 
@@ -70,7 +70,7 @@ In order for the JS to make search requests there is a server side php file that
 
 Another functionality of the PHP client is to visualize the activities by countries on a dynamic map (Google maps in this case). In order to show countries on the map, all the country boundaries are predefined in a file called map_regions.php. When all the activities from certain search request are parsed, then the country regions are extracted from the map_regions.php and these are applied to the map in the spcified by the Google maps API standard. Again this must be available to the user dynamically when a new filter is applied to the front end via Javascript. For this reason there is a file called map_search.php in the theme folder of Wordpress, which is AJAX called when a new filter is applied. This file returns the results to the Javascript and the new country boundaries are applied to the map.
 
-[[https://www.assembla.com/spaces/oipa/wiki/OIPA_Wordpress_PHP_clients|Link to this documentation on Assembla]].
+[[https://www.assembla.com/spaces/oipa/wiki/OIPA_Wordpress_PHP_clients|Link to this documentation on Assembla]], it may have more regular updates than this one.
 
 
 ===== Links, source code and development plans =====
