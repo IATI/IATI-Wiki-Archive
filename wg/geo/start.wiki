@@ -8,7 +8,7 @@
   * [[community:user:timdavies|Tim Davies]]
   * [[community:user:reinier|Reinier Battenberg]]
   * [[community:user:reinier|Josh Powell]]
-
+  * [[community:user:mikel|Mikel Maron]] particularly technical and data issues of OSM
 
 ==== Subjects ====
 
