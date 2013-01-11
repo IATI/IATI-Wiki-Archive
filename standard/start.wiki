@@ -24,8 +24,8 @@ We recognise the need to version our documentation over time, and see this wiki 
 Generic details of how we make [[standard:revision:start|Revisions]] to the standard.
 
 [[standard:documentation:1.03:start|Decimal Upgrade to 1.03]] \\
-This upgrade is now in progress. You can contribute to the issue queue: \\
-http://support.iatistandard.org/forums/20020808-modifications-additions-improvements \\
+This upgrade is now in progress. You can discuss and refine the proposals: \\
+http://support.iatistandard.org/forums/21675117-1-03-decimal-upgrade \\
 Changes for this upgrade would go live in May 2013.
 
 [[standard:documentation:1.02:start|Decimal Upgrade to 1.02]] \\
