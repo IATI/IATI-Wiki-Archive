@@ -1,0 +1,31 @@
+======Changes Specification - Revision 1.03 details======
+
+Formal proposals under consultation can be found at: \\
+http://support.iatistandard.org/forums/21675117-1-03-decimal-upgrade
+
+This is a working document. As proposals are refined and finalised they will be prepared here. For discussion and comment please use the forum via the links provided.
+
+=====Schema Changes=====
+==== Add more granularity to activity contact details ====
+http://support.iatistandard.org/entries/21180307-add-more-granularity-to-activity-contact-details
+===Required Change===
+This is a change to the [[http://iatistandard.org/downloads/iati-activities-schema.xsd|iati-activities-schema.xsd]]. \\
+It requires:
+  - The addition of elements
+A sample diff is shown below:
+<code lang=xml>
+<xsd:element 
+</xsd:element>
+</code>
+
+=== Reason ===
+
+=== Demo ===
+
+
+=== Proposed Changelog text ===
+
+
+
+=== Proposed Guidance ===
+
