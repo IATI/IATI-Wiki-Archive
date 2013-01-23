@@ -27,41 +27,31 @@ A sample diff is shown below:
 
 =====Code list Changes=====
 
-==== Gazetteer Agency ====
-http://support.iatistandard.org/entries/21090158-add-openstreetmap-as-gazetteer-agency
+==== Collaboration Type Code List ====
+http://support.iatistandard.org/entries/21871373-collaboration-type-code-list
 
-Adding Open Street Map to the list at http://iatistandard.org/codelists/gazetteer_agency:
+Add missing value to codelist: http://iatistandard.org/codelists/collaboration_type/
 
-   code: OSM 
-   name: Open Street Map
+   code: 6
+   name: Private sector outflows
+   descritption:
+   language:
 
 XML
   
-   <codelist name="GazetteerAgency" date-last-modified="NEW DATETIME" version="1.01" xml:lang="en">
-      <comment>Added Open Street Map</comment>
-      <GazetteerAgency>
-        <code>GEO</code>
-        <name>Geonames.org</name>
-      </GazetteerAgency>
-      <GazetteerAgency>
-        <code>NGA</code>
-        <name>National Geospatial-Intelligence Agency</name>
-      </GazetteerAgency>
-      <GazetteerAgency>
-        <code>OSM</code>
-        <name>Open Street Map</name>
-      </GazetteerAgency>
+   <codelist name="" date-last-modified="NEW DATETIME" version="" xml:lang="en">
+      
     </codelist>
         
 
 === Metadata Change ===
-Version 1.01 
+Version 
 
 === Changelog ===
-Added Open Street Map
+Added Code 6; name
 
 ===Demo===
-  * http://datadev.aidinfolabs.org/data/codelist/GazetteerAgency/version/1.01/lang/en
+  
 
 
 === Proposed Guidance ===
