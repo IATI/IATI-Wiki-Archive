@@ -13,12 +13,11 @@ email_mail: siem@zimmermanzimmerman.nl
 
 one-line-bio: Technical liason of OIPA, building an open aid data infrastructure. 
 
-user_tags:   technical, concept, usability#<-Enter comma separated key words about your involvement in IATI
+user_tags:   technical, concept, usability, consulting, implementation#<-Enter comma separated key words about your involvement in IATI
 ----
 
 ===== More detail =====
 /* You might like to include details of projects you work on, or more about your engagement with IATI here. */
-
 
 
 
