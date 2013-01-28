@@ -1,0 +1,24 @@
+====== Proposed revisions to version 1.03 ======
+
+The second decimal upgrade grade of the standard is proposed to occur in spring 2013. The process for achieving this is outlined below.
+
+You can contribute issues to be considered in this upgrade in the [[http://support.iatistandard.org/|knowledge base]].
+
+Full proposals will be worked up on the [[standard:revision:1.03:changes_specification|Changes Specification]] page.
+
+^ IATI ^ Community ^ Timescale ^ Due Date ^
+| A clear cut off date for new submissions should be advertised. | Community submits and discusses proposals/ideas before the cut off date |  | 7th Jan 2013 |
+| The TAG technical team should have agreed as to which proposals should go forward to the next upgrade, and communicated this with the community. | These are flagged on the knowledge base as under consideration. During this time the community can help shape the proposals, and discuss what has been included or left out. | usually within 1 week | 11th Jan |
+| Consultation | During this time the community can help shape the proposals, and discuss what has been included or left out. |Over a two week period (three weeks during Summer) | 25th Jan |
+| These ideas need to then be built into fully implemented examples. | During this time the community can help shape the proposals | within 1 week | 1 Feb |
+| At which point they are published as proposed changes for consultation | During this time the community can help shape the proposals | over a 4 week period | 1 Mar |
+| Final proposals are published. | At this stage we hope that the proposals are solid and will be accepted, but people will still have a chance to air their views. | within 2 weeks | 15 Mar |
+| Consultation |  | over a 2 week period | 29 Mar |
+| Proposals are accepted, and implementation process begins. |  |  | 1 Apr |
+| Development version of changes are in place. |  | within 2 weeks | 15 Apr |
+| Development versions are available for community testing. | Community can test | within 2 weeks | 26 Apr May |
+| Bugs ironed out |  | within 2 weeks | 10 May |
+| Changes go live |  |  | 24 May|
+
+
+
