@@ -255,6 +255,8 @@ None
 
 
 ===== NEED MORE WORK TO SPECIFY PROPERLY =====
+==== Extend the IATI standard with elements to cover CRS++ ====
+http://support.iatistandard.org/entries/22874883-extend-the-iati-standard-with-elements-to-cover-crs
 
 ==== Add more granularity to activity contact details (inc. Web Address) ====
 http://support.iatistandard.org/entries/21180307-add-more-granularity-to-activity-contact-details
