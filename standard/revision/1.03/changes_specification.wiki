@@ -216,3 +216,30 @@ Not available
 
 === Proposed Guidance ===
 None
+
+==== Flow Type Code List ====
+http://support.iatistandard.org/entries/22900861-additional-entry-on-flow-type-codelist
+
+Add Non Flow value to codelist: http://iatistandard.org/codelists/flow_type/
+
+   code: 40
+   name: Non Flow
+   descritption:
+   language:
+
+
+XML
+  
+      
+
+=== Metadata Change ===
+Version 1.01
+
+=== Changelog ===
+Added Code 40; name
+
+===Demo===
+Not available 
+
+=== Proposed Guidance ===
+None
