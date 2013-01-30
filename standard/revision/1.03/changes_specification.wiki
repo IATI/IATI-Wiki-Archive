@@ -133,14 +133,13 @@ XML
 Version 1.01
 
 === Changelog ===
-Added Code 6; name
+Added Code 6 Private sector outflows
 
 ===Demo===
 Not available 
 
 === Proposed Guidance ===
 None
-
 ==== Condition Type Code List ====
 http://support.iatistandard.org/entries/22919106-condition-codelist-add-fiduciary
 
