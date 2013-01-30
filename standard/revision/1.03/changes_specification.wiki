@@ -205,32 +205,178 @@ Add Audit Report, Evaluation, Institutional strategy and Exclusions policy value
    code: B06
    name: Audit Report
    description:
-   language:
-   
+   category: B
+   category-name: Agency Level
+
    code: B07
    name: Evaluation
    description:
-   language:
+   category: B
+   category-name: Agency Level
 
    code: B08
    name: Institutional strategy
    description:
-   language:
+   category: B
+   category-name: Agency Level
 
-   code: B10
+   code: B09
    name: Exclusions policy
    description:
-   language:
+   category: B
+   category-name: Agency Level
 
 XML
-  
+   + <codelist name="DocumentCategory" date-last-modified="NEW DATETIME" version="1.02" xml:lang="en">
+   - <codelist name="DocumentCategory" date-last-modified="2012-10-02T15:59:56Z" version="1.01" xml:lang="en">
+       <DocumentCategory>
+        <code>A01</code>
+        <name>Pre- and post-project impact appraisal</name>
+        <description />
+        <category>A</category>
+        <category-name>Activity Level</category-name>
+      </DocumentCategory>
+      <DocumentCategory>
+        <code>A02</code>
+        <name>Objectives / Purpose of activity</name>
+        <description />
+        <category>A</category>
+        <category-name>Activity Level</category-name>
+      </DocumentCategory>
+      <DocumentCategory>
+        <code>A03</code>
+        <name>Intended ultimate beneficiaries</name>
+        <description />
+        <category>A</category>
+        <category-name>Activity Level</category-name>
+      </DocumentCategory>
+      <DocumentCategory>
+        <code>A04</code>
+        <name>Conditions</name>
+        <description />
+        <category>A</category>
+        <category-name>Activity Level</category-name>
+      </DocumentCategory>
+      <DocumentCategory>
+        <code>A05</code>
+        <name>Budget</name>
+        <description />
+        <category>A</category>
+        <category-name>Activity Level</category-name>
+      </DocumentCategory>
+      <DocumentCategory>
+        <code>A06</code>
+        <name>Summary information about contract</name>
+        <description />
+        <category>A</category>
+        <category-name>Activity Level</category-name>
+      </DocumentCategory>
+      <DocumentCategory>
+        <code>A07</code>
+        <name>Review of project performance and evaluation</name>
+        <description />
+        <category>A</category>
+        <category-name>Activity Level</category-name>
+      </DocumentCategory>
+      <DocumentCategory>
+        <code>A08</code>
+        <name>Results, outcomes and outputs</name>
+        <description />
+        <category>A</category>
+        <category-name>Activity Level</category-name>
+      </DocumentCategory>
+      <DocumentCategory>
+        <code>A09</code>
+        <name>Memorandum of understanding (If agreed by all parties)</name>
+        <description />
+        <category>A</category>
+        <category-name>Activity Level</category-name>
+      </DocumentCategory>
+      <DocumentCategory>
+        <code>A10</code>
+        <name>Tender</name>
+        <description />
+        <category>A</category>
+        <category-name>Activity Level</category-name>
+      </DocumentCategory>
+      <DocumentCategory>
+        <code>A11</code>
+        <name>Contract</name>
+        <description />
+        <category>A</category>
+        <category-name>Activity Level</category-name>
+      </DocumentCategory>
+      <DocumentCategory>
+        <code>B01</code>
+        <name>Annual report</name>
+        <description />
+        <category>B</category>
+        <category-name>Agency Level</category-name>
+      </DocumentCategory>
+      <DocumentCategory>
+        <code>B02</code>
+        <name>Strategy paper</name>
+        <description />
+        <category>B</category>
+        <category-name>Agency Level</category-name>
+      </DocumentCategory>
+      <DocumentCategory>
+        <code>B03</code>
+        <name>Country strategy paper</name>
+        <description />
+        <category>B</category>
+        <category-name>Agency Level</category-name>
+      </DocumentCategory>
+      <DocumentCategory>
+        <code>B04</code>
+        <name>Aid Allocation Policy</name>
+        <description />
+        <category>B</category>
+        <category-name>Agency Level</category-name>
+      </DocumentCategory>
+      <DocumentCategory>
+        <code>B05</code>
+        <name>Procurement Policy and Procedure</name>
+        <description />
+        <category>B</category>
+        <category-name>Agency Level</category-name>
+      </DocumentCategory>
+      + <DocumentCategory>
+      +  <code>B06</code>
+      +  <name>Audit Report</name>
+      +  <description />
+      +  <category>B</category>
+      +  <category-name>Agency Level</category-name>
+      + </DocumentCategory>
+      + <DocumentCategory>
+      +  <code>B07</code>
+      +  <name>Evaluation</name>
+      +  <description />
+      +  <category>B</category>
+      +  <category-name>Agency Level</category-name>
+      + </DocumentCategory>
+      + <DocumentCategory>
+      +  <code>B08</code>
+      +  <name>Institutional strategy</name>
+      +  <description />
+      +  <category>B</category>
+      +  <category-name>Agency Level</category-name>
+      + </DocumentCategory>
+      + <DocumentCategory>
+      +  <code>B09</code>
+      +  <name>Exclusions policy</name>
+      +  <description />
+      +  <category>B</category>
+      +  <category-name>Agency Level</category-name>
+      + </DocumentCategory>
+    </codelist>
       
 
 === Metadata Change ===
 Version 1.01
 
 === Changelog ===
-Added Codes B06, B07, B08, B10; name
+Added Codes B06 Audit Report, B07 Evaluation, B08 Institutional strategy, B09 Exclusions policy
 
 ===Demo===
 Not available 
