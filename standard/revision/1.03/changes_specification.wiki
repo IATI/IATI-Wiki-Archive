@@ -76,6 +76,8 @@ Not yet available
 === Proposed Changelog text ===
 Values are now allowed to be declared as decimals instead of integers 
 
+<html>
+<!--
 ==== Add more granularity to activity contact details ====
 http://support.iatistandard.org/entries/21180307-add-more-granularity-to-activity-contact-details
 ===Required Change===
@@ -94,6 +96,8 @@ A sample diff is shown below:
 
 
 === Proposed Changelog text ===
+-->
+</html>
 
 =====Code list Changes=====
 
