@@ -161,18 +161,34 @@ Add Fiduciary value to codelist: http://iatistandard.org/codelists/condition_typ
 
    code: 3
    name: Fiduciary
-   descritption:
-   language:
+   language: en
 
 XML
-  
+  - <codelist name="ConditionType" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
+  + <codelist name="ConditionType" date-last-modified="NEW DATETIME" version="1.01" xml:lang="en">
+    <ConditionType>
+      <code>2</code>
+      <name>Performance</name>
+      <language>en</language>
+    </ConditionType>
+    <ConditionType>
+      <code>1</code>
+      <name>Policy</name>
+      <language>en</language>
+    </ConditionType>
+  + <ConditionType>
+  +    <code>3</code>
+  +    <name>Fiduciary</name>
+  +    <language>en</language>
+  +  </ConditionType>
+  </codelist>
       
 
 === Metadata Change ===
 Version 1.01
 
 === Changelog ===
-Added Code 3; name
+Added Code 3 Fiduciary
 
 ===Demo===
 Not available 
