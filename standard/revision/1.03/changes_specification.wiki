@@ -76,24 +76,6 @@ Not yet available
 === Proposed Changelog text ===
 Values are now allowed to be declared as decimals instead of integers 
 
-==== Add more granularity to activity contact details ====
-http://support.iatistandard.org/entries/21180307-add-more-granularity-to-activity-contact-details
-===Required Change===
-This is a change to the [[http://iatistandard.org/downloads/iati-activities-schema.xsd|iati-activities-schema.xsd]]. \\
-It requires:
-  - The addition of elements
-A sample diff is shown below:
-<code lang=xml>
-<xsd:element 
-</xsd:element>
-</code>
-
-=== Reason ===
-
-=== Demo ===
-
-
-=== Proposed Changelog text ===
 
 =====Code list Changes=====
 
@@ -268,6 +250,14 @@ None
 
 
 ===== NEED MORE WORK TO SPECIFY PROPERLY =====
+
+==== Add more granularity to activity contact details ====
+http://support.iatistandard.org/entries/21180307-add-more-granularity-to-activity-contact-details
+===Required Change===
+This is a change to the [[http://iatistandard.org/downloads/iati-activities-schema.xsd|iati-activities-schema.xsd]]. \\
+It requires:
+  - The addition of elements
+
 ==== Vocabulary Code List ====
 http://support.iatistandard.org/entries/22916773-add-us-sector-framework-to-the-vocabulary-codelist
 
