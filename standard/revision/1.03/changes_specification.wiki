@@ -68,7 +68,7 @@ A sample diff is shown below:
 </code>
 
 === Reason ===
-Users have expressed the desire to give full decimal figures for values
+Users have expressed the desire to give full decimal figures for values. We don't think this is problematic as integer values will still be recognised.
 
 === Demo ===
 Not yet available
