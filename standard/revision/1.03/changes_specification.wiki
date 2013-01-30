@@ -68,7 +68,7 @@ A sample diff is shown below:
 </code>
 
 === Reason ===
-Users have expressed the desire to give full decimal figures for values. We don't think this is problematic as integer values will still be recognised.
+Users have expressed the desire to give full decimal figures for values
 
 === Demo ===
 Not yet available
@@ -76,8 +76,6 @@ Not yet available
 === Proposed Changelog text ===
 Values are now allowed to be declared as decimals instead of integers 
 
-<html>
-<!--
 ==== Add more granularity to activity contact details ====
 http://support.iatistandard.org/entries/21180307-add-more-granularity-to-activity-contact-details
 ===Required Change===
@@ -96,8 +94,6 @@ A sample diff is shown below:
 
 
 === Proposed Changelog text ===
--->
-</html>
 
 =====Code list Changes=====
 
@@ -209,178 +205,32 @@ Add Audit Report, Evaluation, Institutional strategy and Exclusions policy value
    code: B06
    name: Audit Report
    description:
-   category: B
-   category-name: Agency Level
-
+   language:
+   
    code: B07
    name: Evaluation
    description:
-   category: B
-   category-name: Agency Level
+   language:
 
    code: B08
    name: Institutional strategy
    description:
-   category: B
-   category-name: Agency Level
+   language:
 
-   code: B09
+   code: B10
    name: Exclusions policy
    description:
-   category: B
-   category-name: Agency Level
+   language:
 
 XML
-   + <codelist name="DocumentCategory" date-last-modified="NEW DATETIME" version="1.02" xml:lang="en">
-   - <codelist name="DocumentCategory" date-last-modified="2012-10-02T15:59:56Z" version="1.01" xml:lang="en">
-       <DocumentCategory>
-        <code>A01</code>
-        <name>Pre- and post-project impact appraisal</name>
-        <description />
-        <category>A</category>
-        <category-name>Activity Level</category-name>
-      </DocumentCategory>
-      <DocumentCategory>
-        <code>A02</code>
-        <name>Objectives / Purpose of activity</name>
-        <description />
-        <category>A</category>
-        <category-name>Activity Level</category-name>
-      </DocumentCategory>
-      <DocumentCategory>
-        <code>A03</code>
-        <name>Intended ultimate beneficiaries</name>
-        <description />
-        <category>A</category>
-        <category-name>Activity Level</category-name>
-      </DocumentCategory>
-      <DocumentCategory>
-        <code>A04</code>
-        <name>Conditions</name>
-        <description />
-        <category>A</category>
-        <category-name>Activity Level</category-name>
-      </DocumentCategory>
-      <DocumentCategory>
-        <code>A05</code>
-        <name>Budget</name>
-        <description />
-        <category>A</category>
-        <category-name>Activity Level</category-name>
-      </DocumentCategory>
-      <DocumentCategory>
-        <code>A06</code>
-        <name>Summary information about contract</name>
-        <description />
-        <category>A</category>
-        <category-name>Activity Level</category-name>
-      </DocumentCategory>
-      <DocumentCategory>
-        <code>A07</code>
-        <name>Review of project performance and evaluation</name>
-        <description />
-        <category>A</category>
-        <category-name>Activity Level</category-name>
-      </DocumentCategory>
-      <DocumentCategory>
-        <code>A08</code>
-        <name>Results, outcomes and outputs</name>
-        <description />
-        <category>A</category>
-        <category-name>Activity Level</category-name>
-      </DocumentCategory>
-      <DocumentCategory>
-        <code>A09</code>
-        <name>Memorandum of understanding (If agreed by all parties)</name>
-        <description />
-        <category>A</category>
-        <category-name>Activity Level</category-name>
-      </DocumentCategory>
-      <DocumentCategory>
-        <code>A10</code>
-        <name>Tender</name>
-        <description />
-        <category>A</category>
-        <category-name>Activity Level</category-name>
-      </DocumentCategory>
-      <DocumentCategory>
-        <code>A11</code>
-        <name>Contract</name>
-        <description />
-        <category>A</category>
-        <category-name>Activity Level</category-name>
-      </DocumentCategory>
-      <DocumentCategory>
-        <code>B01</code>
-        <name>Annual report</name>
-        <description />
-        <category>B</category>
-        <category-name>Agency Level</category-name>
-      </DocumentCategory>
-      <DocumentCategory>
-        <code>B02</code>
-        <name>Strategy paper</name>
-        <description />
-        <category>B</category>
-        <category-name>Agency Level</category-name>
-      </DocumentCategory>
-      <DocumentCategory>
-        <code>B03</code>
-        <name>Country strategy paper</name>
-        <description />
-        <category>B</category>
-        <category-name>Agency Level</category-name>
-      </DocumentCategory>
-      <DocumentCategory>
-        <code>B04</code>
-        <name>Aid Allocation Policy</name>
-        <description />
-        <category>B</category>
-        <category-name>Agency Level</category-name>
-      </DocumentCategory>
-      <DocumentCategory>
-        <code>B05</code>
-        <name>Procurement Policy and Procedure</name>
-        <description />
-        <category>B</category>
-        <category-name>Agency Level</category-name>
-      </DocumentCategory>
-      + <DocumentCategory>
-      +  <code>B06</code>
-      +  <name>Audit Report</name>
-      +  <description />
-      +  <category>B</category>
-      +  <category-name>Agency Level</category-name>
-      + </DocumentCategory>
-      + <DocumentCategory>
-      +  <code>B07</code>
-      +  <name>Evaluation</name>
-      +  <description />
-      +  <category>B</category>
-      +  <category-name>Agency Level</category-name>
-      + </DocumentCategory>
-      + <DocumentCategory>
-      +  <code>B08</code>
-      +  <name>Institutional strategy</name>
-      +  <description />
-      +  <category>B</category>
-      +  <category-name>Agency Level</category-name>
-      + </DocumentCategory>
-      + <DocumentCategory>
-      +  <code>B09</code>
-      +  <name>Exclusions policy</name>
-      +  <description />
-      +  <category>B</category>
-      +  <category-name>Agency Level</category-name>
-      + </DocumentCategory>
-    </codelist>
+  
       
 
 === Metadata Change ===
 Version 1.01
 
 === Changelog ===
-Added Codes B06 Audit Report, B07 Evaluation, B08 Institutional strategy, B09 Exclusions policy
+Added Codes B06, B07, B08, B10; name
 
 ===Demo===
 Not available 
@@ -393,59 +243,27 @@ http://support.iatistandard.org/entries/22900861-additional-entry-on-flow-type-c
 Add Non Flow value to codelist: http://iatistandard.org/codelists/flow_type/
 
    code: 40
-   name: Non flow (e.g. GNI)
-   description:
+   name: Non Flow
+   descritption:
+   language:
 
 
 XML
-   + <codelist name="FlowType" date-last-modified="NEW DATETIME" version="1.01" xml:lang="en">
-   - <codelist name="FlowType" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
-      <FlowType>
-        <code>10</code>
-        <name>ODA</name>
-        <description>Official Development Assistance. Those flows to countries and territories on the DAC List of ODA Recipients and to multilateral development institutions which are: -- provided by official agencies, including state and local governments, or by their executive agencies; and -- each transaction of which: a) is administered with the promotion of the economic development and welfare of developing countries as its main objective; and b) is concessional in character and conveys a grant element of at least 25 per cent (calculated at a rate of discount of 10 per cent).</description>
-      </FlowType>
-      <FlowType>
-        <code>20</code>
-        <name>OOF</name>
-        <description>Other Official Flows Official sector transactions that do not meet the ODA criteria, e.g. -- Grants to developing countries for representational or essentially commercial purposes. -- Official bilateral transactions intended to promote development but having a grant element of less than 25 per cent. -- Official bilateral transactions, whatever their grant element, that are primarily export-facilitating in purpose. -- The net acquisition by governments and central monetary institutions of securities issued by multilateral development banks at market terms. -- Subsidies (grants) to the private sector to soften its credits to developing countries. -- Funds in support of private investment.</description>
-      </FlowType>
-      <FlowType>
-        <code>30</code>
-        <name>Private Grants</name>
-        <description>Grants made by private non-governmental organisations and other private sources (including foundations and other private bodies). Grants by private non-profit-making agencies, including co-operative societies and trade unions, which are active in development and national in the sense that their funds are fully or mainly obtained from sources in the donor economy.</description>
-      </FlowType>
-      <FlowType>
-        <code>35</code>
-        <name>Private Market</name>
-        <description>Private long-term (i.e. over one-year maturity) capital transactions. Direct investment (new capital outflows and reinvested earnings), other securities and claims (bonds, export credits, equities) by banks and nonbanks, multilateral private flows.</description>
-      </FlowType>
-      <FlowType>
-     + <FlowType>
-     +   <code>40</code>
-     +   <name>Non flow (e.g. GNI)</name>
-     +   <description>TBC</description>
-     + </FlowType>
-      <FlowType>
-        <code>50</code>
-        <name>Other flows</name>
-        <description>Non-ODA component of peacebuilding operations.</description>
-      </FlowType>
-    </codelist>
-  </codelist>
+  
       
 
 === Metadata Change ===
 Version 1.01
 
 === Changelog ===
-Added Code 40 Non flow (e.g. GNI)
+Added Code 40; name
 
 ===Demo===
 Not available 
 
 === Proposed Guidance ===
-40 Non flow (e.g. GNI), would only be needed for any donor trying to report to CRS via IATI. It is not for individual activities, but to allow for calculation of some donor aggregates in DAC reporting.
+None
+
 ==== File Format Code List ====
 http://support.iatistandard.org/entries/22915207-additions-to-file-format-code-list
 
@@ -473,29 +291,10 @@ Not available
 === Proposed Guidance ===
 None
 
+===== NEED MORE WORK TO SPECIFY PROPERLY =====
 ==== Vocabulary Code List ====
 http://support.iatistandard.org/entries/22916773-add-us-sector-framework-to-the-vocabulary-codelist
 
 Add US Sector Framework value to codelist: http://iatistandard.org/codelists/vocabulary/
 
-   code: 
-   name: 
-   descritption:
-   language:
-
-
-XML
   
-      
-
-=== Metadata Change ===
-Version 1.01
-
-=== Changelog ===
-Added Code ; name
-
-===Demo===
-Not available 
-
-=== Proposed Guidance ===
-None
