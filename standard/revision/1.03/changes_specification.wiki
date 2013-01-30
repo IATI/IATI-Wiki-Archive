@@ -99,6 +99,18 @@ A sample diff is shown below:
   + <xsd:attribute name="percentage" type="xsd:decimal" use="optional">
 </code>
 
+
+=== Reason ===
+Users have suggested that this would be useful especially where fractions have meant that integer values result in percentages not summing to 100.
+
+=== Demo ===
+Not yet available
+
+=== Proposed Changelog text ===
+Where used, the @percentage attribute is now designated as a decimal value and no longer as a positive Integer
+
+
+
 =====Code list Changes=====
 
 ==== Collaboration Type Code List ====
