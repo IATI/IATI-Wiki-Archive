@@ -197,7 +197,7 @@ Not available
 === Proposed Guidance ===
 None
 ==== Document Category Code List ====
-http://support.iatistandard.org/entries/22889658-document-link-category-codes-audit-report
+http://support.iatistandard.org/entries/22889658-document-link-category-codes-audit-report \\
 http://support.iatistandard.org/entries/22881037-document-link-category-codes-exclusions-policy
 
 Add Audit Report, Evaluation, Institutional strategy and Exclusions policy values to codelist: http://iatistandard.org/codelists/document_category/
