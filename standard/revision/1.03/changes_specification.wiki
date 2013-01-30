@@ -81,6 +81,24 @@ Not yet available
 === Proposed Changelog text ===
 Currency values are now allowed to be declared as decimals instead of integers, 
 
+==== Allow percentages to be specified as decimals ====
+http://support.iatistandard.org/entries/22922608-allow-percentages-to-be-specified-as-decimals
+
+===Required Change===
+Percentages as recorded as attributes to the following elements:
+* recipient-country
+* recipient-region
+* sector
+* location
+
+will be able to be specified as a decimal value instead of an integer.
+
+A sample diff is shown below:
+<code lang=xml>
+  - <xsd:attribute name="percentage" type="xsd:positiveInteger" use="optional">
+  + <xsd:attribute name="percentage" type="xsd:decimal" use="optional">
+</code>
+
 =====Code list Changes=====
 
 ==== Collaboration Type Code List ====
@@ -286,7 +304,7 @@ XML
       </DocumentCategory>
       <DocumentCategory>
         <code>A11</code>
-        <name>Contract</name>
+    08-allow-decimal-transaction-val>
         <description />
         <category>A</category>
         <category-name>Activity Level</category-name>
