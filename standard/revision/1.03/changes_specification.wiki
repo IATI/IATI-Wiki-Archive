@@ -6,6 +6,36 @@ http://support.iatistandard.org/forums/21675117-1-03-decimal-upgrade
 This is a working document. As proposals are refined and finalised they will be prepared here. For discussion and comment please use the forum via the links provided.
 
 =====Schema Changes=====
+==== Add a Schema Version Attribute to the root element ====
+http://support.iatistandard.org/entries/21971586-proposal-add-an-schema-version-attribute-to-the-root-element
+===Required Change===
+This is a change to the [[http://iatistandard.org/downloads/iati-activities-schema.xsd|iati-activities-schema.xsd]]. \\
+This is a change to the [[http://iatistandard.org/downloads/iati-organisations-schema.xsd|iati-organisations-schema.xsd]]. \\
+This is a change to the [[http://iatistandard.org/downloads/iati-registry-record-schema.xsd|iati-registry-record-schema.xsd]]. \\
+This is a change to the [[http://iatistandard.org/downloads/iati-common.xsd|iati-common.xsd]]. \\
+It requires:
+  - The addition of an attribute @version to the root element of each schema
+  - The version shall reflect the version of the standard, not the version of the document. Documents should only change in line with the standard.
+A sample diff is shown below:
+<code lang=xml>
+-  <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
++  <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.03">
+</code>
+<code lang=xml>
+-  <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ir="http://iatiregistry.org/ns/record#" targetNamespace="http://iatiregistry.org/ns/record#">
++  <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ir="http://iatiregistry.org/ns/record#" targetNamespace="http://iatiregistry.org/ns/record#" version="1.03">
+</code>
+
+=== Reason ===
+Users have suggested that this would be useful, and we agree
+
+=== Demo ===
+Not yet available
+
+=== Proposed Changelog text ===
+Version numbers now included in the document root. 
+Versions match the version of the standard, not the document, although documents will only change in line with the standard.
+
 ==== Allow decimal transaction values ====
 http://support.iatistandard.org/entries/21908708-allow-decimal-transaction-values
 ===Required Change===
