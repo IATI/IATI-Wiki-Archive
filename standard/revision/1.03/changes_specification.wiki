@@ -36,12 +36,17 @@ Not yet available
 Version numbers now included in the document root. 
 Versions match the version of the standard, not the document, although documents will only change in line with the standard.
 
-==== Allow decimal transaction values ====
+==== Currency Values as Decimal ====
 http://support.iatistandard.org/entries/21908708-allow-decimal-transaction-values
 ===Required Change===
 This is a change to the [[http://iatistandard.org/downloads/iati-common.xsd|iati-common.xsd]]. \\
 It requires:
   - The change of the data type from an integer to a decimal value
+It will effect
+  - Budgets
+  - Transactions
+  - Planned Disbursements
+  - any other reporting of elements of 'currencyType'
 A sample diff is shown below:
 <code lang=xml>
 <xsd:complexType name="currencyType">
