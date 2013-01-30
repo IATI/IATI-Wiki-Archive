@@ -104,12 +104,12 @@ XML
       <description>Aid activities financed from the multilateral institutions' regular budgets.</description>
       <language>en</language>
     </CollaborationType>
-+    <CollaborationType>
-+      <code>6</code>
-+      <name>Private sector outflows</name>
-+      <description>TO BE ADDED</description>
-+      <language>en</language>
-+    </CollaborationType>
+  +    <CollaborationType>
+  +      <code>6</code>
+  +      <name>Private sector outflows</name>
+  +      <description>TO BE ADDED</description>
+  +      <language>en</language>
+  +    </CollaborationType>
   </codelist>        
 
 === Metadata Change ===
