@@ -189,13 +189,13 @@ Add Audit Report, Evaluation and Institutional strategy values to codelist: http
    name: Audit Report
    descritption:
    language:
-
- code: B07
+   
+   code: B07
    name: Evaluation
    descritption:
    language:
 
- code: B08
+   code: B08
    name: Institutional strategy
    descritption:
    language:
