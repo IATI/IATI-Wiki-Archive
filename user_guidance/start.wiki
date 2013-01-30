@@ -11,3 +11,23 @@ We are in the process of establishing a workshop group to focus on developing us
 //Below we have started creating a [[questions|list of questions]] that people have asked about the data available form IATI. Please add to this list with your own questions and answers.//
 
   * [[user_guidance:questions:Volume of NGO Resources|What is volume of resources controlled by NGOs?]] - Total expenditure & income as well as total receipts from official and foundation sources
+
+
+The following questions came from Development Initiatives analysts look at IATI files. We could use them as the basis of FAQs in future:
+
+  * Question about organisation files vs activity files: Why have 2 types of files? This may increase the risk of double counting and make IATI less user-friendly
+
+  * Question about accessibility: Why is some data 'open access' and other data marked as 'not openly licensed'
+
+  * Suggestion for user friendliness: Suggest improving user ease by giving indication of level of detail in files below downloading them. The problem is that many organisations only have one line of data in the downloaded files- e.g. one figure: total expenses. Other organisations have broken down transactions in detail. So, if you are looking for data on transaction details, you will spend lots of time unnecessarily downloading files – this can be avoided. Can we imagine a kind of ‘grading system’ or ‘level of detail rank’ (i.e incomplete to complete data)?
+
+  * Question about creating single transaction codes: Creating single transaction codes would be useful to enhance traceability of funds and avoid double counting
+
+  * Question about different download options: What is the value of having 3 different download options for CSV activity files- why not include sector information in 'all transactions' option for example?
+
+  * Question about currencies: Aggregation issues of having data in different currencies, lack of indication of what exchange rates were used, if in current or constant prices
+
+  * Data issue: sector purpose codes: Use of semicolons columns within a single cell to separate different sector codes complicates data analysis- better to use different cells for different codes
+
+  * Is it possible to find subnational geo-coded data in IATI and if not, can this be done?
+
