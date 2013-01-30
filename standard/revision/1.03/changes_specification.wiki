@@ -179,3 +179,40 @@ Not available
 
 === Proposed Guidance ===
 None
+
+==== Document Category Code List ====
+http://support.iatistandard.org/entries/22889658-document-link-category-codes-audit-report
+
+Add Audit Report, Evaluation and Institutional strategy values to codelist: http://iatistandard.org/codelists/document_category/
+
+   code: B06
+   name: Audit Report
+   descritption:
+   language:
+
+ code: B07
+   name: Evaluation
+   descritption:
+   language:
+
+ code: B08
+   name: Institutional strategy
+   descritption:
+   language:
+
+
+XML
+  
+      
+
+=== Metadata Change ===
+Version 1.01
+
+=== Changelog ===
+Added Codes B06, B07, B08; name
+
+===Demo===
+Not available 
+
+=== Proposed Guidance ===
+None
