@@ -153,3 +153,29 @@ Not available
 
 === Proposed Guidance ===
 None
+
+==== Condition Type Code List ====
+http://support.iatistandard.org/entries/22919106-condition-codelist-add-fiduciary
+
+Add Fiduciary value to codelist: http://iatistandard.org/codelists/condition_type
+
+   code: 3
+   name: Fiduciary
+   descritption:
+   language:
+
+XML
+  
+      
+
+=== Metadata Change ===
+Version 1.01
+
+=== Changelog ===
+Added Code 3; name
+
+===Demo===
+Not available 
+
+=== Proposed Guidance ===
+None
