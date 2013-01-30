@@ -259,3 +259,30 @@ Not available
 
 === Proposed Guidance ===
 None
+
+==== File Format Code List ====
+http://support.iatistandard.org/entries/22915207-additions-to-file-format-code-list
+
+Add full set of available mime-types values to codelist: http://iatistandard.org/codelists/flow_type/
+
+   code: 
+   name: 
+   descritption:
+   language:
+
+
+XML
+  
+      
+
+=== Metadata Change ===
+Version 1.01
+
+=== Changelog ===
+Added Code ; name
+
+===Demo===
+Not available 
+
+=== Proposed Guidance ===
+None
