@@ -251,13 +251,13 @@ None
 
 ===== NEED MORE WORK TO SPECIFY PROPERLY =====
 
-==== Add more granularity to activity contact details ====
+==== Add more granularity to activity contact details (inc. Web Address) ====
 http://support.iatistandard.org/entries/21180307-add-more-granularity-to-activity-contact-details
+http://support.iatistandard.org/entries/20195526-web-address-in-contact-info
 ===Required Change===
 This is a change to the [[http://iatistandard.org/downloads/iati-activities-schema.xsd|iati-activities-schema.xsd]]. \\
 It requires:
   - The addition of elements
-
 ==== Vocabulary Code List ====
 http://support.iatistandard.org/entries/22916773-add-us-sector-framework-to-the-vocabulary-codelist
 
