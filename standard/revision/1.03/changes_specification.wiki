@@ -390,8 +390,7 @@ Add Non Flow value to codelist: http://iatistandard.org/codelists/flow_type/
 
    code: 40
    name: Non Flow
-   descritption:
-   language:
+   description:
 
 
 XML
@@ -402,13 +401,14 @@ XML
 Version 1.01
 
 === Changelog ===
-Added Code 40; name
+Added Code 40 Non Flow
 
 ===Demo===
 Not available 
 
 === Proposed Guidance ===
-None
+40 Non Flow, would only be needed for any donor trying to report to CRS via IATI. It is not for individual activities, but to allow for calculation of some donor aggregates in DAC reporting.
+
 
 ==== File Format Code List ====
 http://support.iatistandard.org/entries/22915207-additions-to-file-format-code-list
