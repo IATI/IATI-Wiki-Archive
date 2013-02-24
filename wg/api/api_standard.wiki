@@ -1,0 +1,30 @@
+====== IATI API Convention ======
+
+This document is currently under development based on the [[https://docs.google.com/document/d/1gxvmYZSDXBTSMAU16bxfFd-hn1lYVY1c2olkXbuPBj4/edit|Working Draft]] of a convention for APIs built on top of IATI data. 
+
+===== Introduction =====
+The International Aid Transparency Initiative requires that organisations publish XML files (a) about their organisations; and (b) about aid activities that they are involved in. The [[http://iatistandard.org/guides/data-considerations/segmenting-your-data|segmentation policy of IATI]] means that donors should publish one IATI Activity file per region or country they work in, and that an activity should only ever be included in one file. This means that users cannot be sure they have found all the activities for a given country, or a given sector, without searching through all available IATI Activity files. It also means that there are considerable technical barriers for anyone wishing to use IATI data, requiring them to download, parse and manipulate XML data. 
+
+Many uses of IATI data therefore involve placing the data into some form of data store or database, and their retrieving it from there, without primary regard to the separate files it was distributed in. Many such stores of IATI data will provide API access to their contents, and to analytic functions over the data. If each available service doing so takes a different approach to providing access to that data, and serialising the results of queries, then users still face a high barrier when encountering any new platform, and tools built on top of these platforms will need to be customised for each data store they use. A shared convention for building APIs  will increase the interoperability of tools for working with IATI data, and will lower the barriers for anyone seeking to use the data. 
+
+An API convention can also help developers to address some of the complexity of working with IATI data by recording common patterns and logic for dealing with difficult issues such as versioning, double-counting, JSON and CSV serialisation of XML data, and so-on. 
+
+As of February 2013 this convention has been widely discussed in the IATI technical community. It is not a formally agreed standard by the TAG. Discussion of the convention takes place on the [[community:mailing list|IATI Technical mailing list]].
+
+===== Design Principles =====
+The development of any API should be governed by the following principles:
+
+**[[w>Representational_state_transfer|RESTful design]]** - APIs should follow a RESTful pattern, using URLs for key services, and querystring parameters for any filters and settings to be applied to responses. 
+
+2) Fidelity to the IATI standard
+The IATI Schema provides clear definitions of a wide range of elements.
+
+Names used in any API should be based closely upon the names in the IATI Standard schemas. The schemas and code lists provide the authoritative definition of terms. The use of nested elements in the IATI XML schema is semantically important.
+
+The rendering of element names and structures in different serialisations (e.g. CSV, JSON) should use predictable rule-based transformations of the element names and structures from the schema. 
+
+3) Query by codes, rather than names
+IATI has been designed (a) to support multilingual data; (b) to enable users to review individual XML files without reference to code list look-up tables. This means there are places where both a code or reference, and a text description can be given against an element. The text descriptions of code list entries can vary across language, but the codes will always stay the same. For this reason, the default behaviour should be to use codes in queries rather than the text of elements. 
+
+4) Accountability and provenance
+Most APIs will perform some transformation on the raw IATI XML data they consume. It is important for users to be able to discover (a) what IATI data any public API covers; (b) what processes have been applied to data to clean, transform or augment it. 
