@@ -26,10 +26,72 @@ Do not invent names for parameters or fields in an API. Agree all new names with
 
 ===== Conventions ===== 
 
-=== Notes ===
-This document uses the terms MUST, MUST NOT, SHOULD, SHOULD NOT, and MAY according to RFC2119 (http://www.ietf.org/rfc/rfc2119.txt). 
+<note tip>This document uses the terms MUST, MUST NOT, SHOULD, SHOULD NOT, and MAY [[http://www.ietf.org/rfc/rfc2119.txt|according to RFC2119]]</note>
+
+<note warning>The convention is currently in a beta state. Not all issues will be fully addressed, not will it account for all situations. Consult with the IATI Technical mailing list if you encounter issues not handled by the convention.</note>
 
 ==== Endpoints ====
+Any API may provide one or more endpoints for accessing entities extracted from IATI XML files. The endpoint determines the kind of response a client can expect. For example, /activity/ endpoints return full 'iati-activity' records. /transaction/ endpoints return the 'transaction' blocks from within 'iati-activity' records. 
+
+Three basic endpoint families are suggested:
+  * **access** for fetching individual records or collections of records
+  * **aggregate** for fetching aggregated data 
+  * **about** for describing the data held in the API
+
+A fourth **provenance** endpoint has been suggested, but no clear specification or use-case yet agreed. 
+
+=== Access Endpoint ===
+Access endpoints can be provided for activities, transactions, budgets, planned-disbursements, results and other common elements in IATI XML files. In general, these endpoints will return collections, filtered by query parameters, but may also provide access to individual records. 
+
+  * access/ - for all queries that return lists, collections or individual records 
+    * activity/ - for returning a list of activities. 
+    * transaction/ - for returning a list of transactions. 
+    * organisation/ - for returning a list of organisations based on organisational files
+
+A number of entities occur across activities, and have no single unique representation within IATI Activity or Organisation files. This includes sectors, countries, organisations and classifications applied to activities. Endpoints may be provided which return a general description of these entities based upon code lists and/or upon information derived from the available data. Examples include:
+
+  * participating-org/ - providing a list of know participating organisations
+    * (To get just funding organisations use /access/participating-orgs/?role=Funding)
+    * participating-org/{@ref} - information on a specific participating organisation
+  * sector/{@vocabulary} - providing a list of sectors. {@vocabulary} is optional.
+    * sector/{@vocabulary}/{@code} - providing details of a specific sector
+  * recipient-country/{@code} - providing details of a specific country
+  * recipient-region/{@code} - providing details of a specific region
+
+=== Aggregate Endpoint**
+The aggregate endpoint should be used for all aggregations across activities or organisations. 
+
+<note tip>Note: Some APIs MAY also choose to provide per-activity aggregation: for example, to add up the total value of transactions by type for an activity, and to add this to the data returned against that activity. This type of activity-level aggregation is exposed under the access/ endpoint. )
+</note>
+
+Under aggregate/ the following common endpoints may be provided:
+
+  * aggregate/
+    * activity/ - for total numbers of activities in an area
+    * transaction/ - for aggregating transactions
+    * budget/ - for aggregating budget values
+    * planned-disbursement/ - for aggregating planned disbursements
+
+=== Organisation Endpoint ===
+The IATI Standard also include a standard for Organisation files. These is not widely used at present. If planning an API that will return data from organisation files please consult with the IATI Technical mailing list to agree an approach.
+
+  * organisation/
+
+=== Provenance Endpoint ===
+provenance/ - this endpoint could be used for machine readable provenance data. Not detailed use case or specification is worked out yet.
+
+=== About Endpoing ===
+about/ - this endpoint should return a human and machine readable description of the API, including information about the creator, the features the API implements, and any special considerations for users of the data. No detailed specification for this is worked out yet. 
+
+=== Versioning ===
+
+An endpoint without version numbers should point to the most recent version of the endpoint. Version numbers may be prefixed to address a particular version of an API. For example, if the current version is 1.2 then:
+
+/1.1/access/ talks to version 1.1
+/1.2/access/ talks to version 1.2
+/access/ talks to version 1.2 
+
+Please detail in /about/ and in API responses which version of the IATI standard you are using in rendering output. 
 
 ==== Naming ====
 
