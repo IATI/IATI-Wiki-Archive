@@ -109,8 +109,9 @@ When .{attribute-name} is omitted, the API should use a default behaviour based 
   * For elements where the schema allows @code or @ref values, then search on the value of @code or @ref
   * For elements without @code or @ref specified, then search on the value of the element
 
-=== Examples: ===
+== Examples: ==
 
+= As parameters =
   * ?sector=60061 searches on //sector[@vocabulary=’DAC’]/@code
   * ?sector.text =Debt searches on //sector[@vocabulary=’DAC’]/text()
   * ?participating-org=GB-1-123 searches on //participating-org/@ref
@@ -122,6 +123,8 @@ When .{attribute-name} is omitted, the API should use a default behaviour based 
 Where a default behaviour is provided it MUST be possible to also use the canonical parameter name. For example, ?sector.code and ?sector should both be valid to search //sector[@vocabulary=’DAC’]/@code
 
 It SHOULD be possible to search on the element value with .text. 
+
+
 ==== Parameters and query logic ====
 
 ==== Response formats ====
