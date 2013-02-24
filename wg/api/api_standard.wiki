@@ -103,6 +103,10 @@ The default naming pattern for parameters should be:
 
 Where the parent is iati-activity or iati-organisation, then {parent-element-name}_ may be omitted. 
 
+This naming convention should be used:
+  * When accepting parameter for queries;
+  * When outputting data in CSV format or another flat format (e.g. flattened JSON)
+
 === Prefer codes over text ===
 When .{attribute-name} is omitted, the API should use a default behaviour based on the following rules:
 
@@ -111,7 +115,7 @@ When .{attribute-name} is omitted, the API should use a default behaviour based 
 
 == Examples: ==
 
-= As parameters =
+As parameters
   * ?sector=60061 searches on //sector[@vocabulary=’DAC’]/@code
   * ?sector.text =Debt searches on //sector[@vocabulary=’DAC’]/text()
   * ?participating-org=GB-1-123 searches on //participating-org/@ref
@@ -123,6 +127,16 @@ When .{attribute-name} is omitted, the API should use a default behaviour based 
 Where a default behaviour is provided it MUST be possible to also use the canonical parameter name. For example, ?sector.code and ?sector should both be valid to search //sector[@vocabulary=’DAC’]/@code
 
 It SHOULD be possible to search on the element value with .text. 
+
+=== Entities filtered by attribute ===
+
+In some cases a flattened output may split out fields based on attribute values as well as element names. For example, a CSV file may include separate columns for start date and end date rather than just one concatenated field for activity-date. In these cases:
+
+  * Where the schema permits a single code-list controlled attribute, the value of this can be placed in parentheses after the field name
+    * e.g. 'activity-date (start-actual)'
+  * Where the schema permits multiple code-list controlled attributes, the relevant value can be placed in paratheses after the field name, preceeded by the attribute name and colon.
+    * e.g. 'sector (vocabulary:DAC)'
+
 
 
 ==== Parameters and query logic ====
