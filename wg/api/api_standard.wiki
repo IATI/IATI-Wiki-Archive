@@ -95,6 +95,33 @@ Please detail in /about/ and in API responses which version of the IATI standard
 
 ==== Naming ====
 
+<note tip>The naming conventions have been designed to balance human readability with straightforward rule-based conversion between parameter or field names, and xpath expressions - in order to reflect the structure of IATI XML as closely as possible</note>
+
+The default naming pattern for parameters should be:
+
+  {parent-element-name}_{element-name}.{attribute-name} 
+
+Where the parent is iati-activity or iati-organisation, then {parent-element-name}_ may be omitted. 
+
+=== Prefer codes over text ===
+When .{attribute-name} is omitted, the API should use a default behaviour based on the following rules:
+
+  * For elements where the schema allows @code or @ref values, then search on the value of @code or @ref
+  * For elements without @code or @ref specified, then search on the value of the element
+
+=== Examples: ===
+
+  * ?sector=60061 searches on //sector[@vocabulary=’DAC’]/@code
+  * ?sector.text =Debt searches on //sector[@vocabulary=’DAC’]/text()
+  * ?participating-org=GB-1-123 searches on //participating-org/@ref
+  * ?participating-org.text=Oxfam searches on //participating-org/text()
+  * ?iati-identifier=GB-1-123 searches on //iati-identifier/text()
+  * ?location_name=Oxford searches on //location/name/text()
+  * ?transaction_value=1000 searches on //transaction/value/text()
+
+Where a default behaviour is provided it MUST be possible to also use the canonical parameter name. For example, ?sector.code and ?sector should both be valid to search //sector[@vocabulary=’DAC’]/@code
+
+It SHOULD be possible to search on the element value with .text. 
 ==== Parameters and query logic ====
 
 ==== Response formats ====
