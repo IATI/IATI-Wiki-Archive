@@ -2,7 +2,9 @@
 
 IATI data may be stored in many different backend databases. It would be useful to have a standardised approach to providing APIs onto IATI data so that front-end applications can be agnostic about the backend they use. 
 
-**The [[https://docs.google.com/document/d/1gxvmYZSDXBTSMAU16bxfFd-hn1lYVY1c2olkXbuPBj4/edit|current working draft of an IATI API Standard can be found here.]]** Comments are welcome directly on the document before 10th January 2013.
+**The [[https://docs.google.com/document/d/1gxvmYZSDXBTSMAU16bxfFd-hn1lYVY1c2olkXbuPBj4/edit|current working draft of an IATI API Standard can be found here.]]** 
+
+The [[API Standard]] page is currently being developed with version 1.0 of an API Convention.
 
 <note important>This is all draft. [[https://groups.google.com/d/topic/iati-technical/eFRluh5wXQE/discussion|Please join discussions on the IATI Technical List]].</note>
 
