@@ -14,17 +14,25 @@ As of February 2013 this convention has been widely discussed in the IATI techni
 ===== Design Principles =====
 The development of any API should be governed by the following principles:
 
-**[[w>Representational_state_transfer|RESTful design]]** - APIs should follow a RESTful pattern, using URLs for key services, and querystring parameters for any filters and settings to be applied to responses. 
+**1) [[wp>Representational_state_transfer|RESTful design]]** - APIs should follow a RESTful pattern, using URLs for key services, and querystring parameters for any filters and settings to be applied to responses. 
 
-2) Fidelity to the IATI standard
-The IATI Schema provides clear definitions of a wide range of elements.
+**2) Fidelity to the IATI standard** - The IATI Schema provides clear definitions of a wide range of elements. Names used in any API should be based closely upon the names in the IATI Standard schemas. The schemas and code lists provide the authoritative definition of terms. The use of nested elements in the IATI XML schema is semantically important. The rendering of element names and structures in different serialisations (e.g. CSV, JSON) should use predictable rule-based transformations of the element names and structures from the schema. 
 
-Names used in any API should be based closely upon the names in the IATI Standard schemas. The schemas and code lists provide the authoritative definition of terms. The use of nested elements in the IATI XML schema is semantically important.
+Do not invent names for parameters or fields in an API. Agree all new names with other users of the API convention.
 
-The rendering of element names and structures in different serialisations (e.g. CSV, JSON) should use predictable rule-based transformations of the element names and structures from the schema. 
+**3) Query by codes, rather than names** - IATI has been designed (a) to support multilingual data; (b) to enable users to review individual XML files without reference to code list look-up tables. This means there are places where both a code or reference, and a text description can be given against an element. The text descriptions of code list entries can vary across language, but the codes will always stay the same. For this reason, the default behaviour should be to use codes in queries rather than the text of elements. 
 
-3) Query by codes, rather than names
-IATI has been designed (a) to support multilingual data; (b) to enable users to review individual XML files without reference to code list look-up tables. This means there are places where both a code or reference, and a text description can be given against an element. The text descriptions of code list entries can vary across language, but the codes will always stay the same. For this reason, the default behaviour should be to use codes in queries rather than the text of elements. 
+**4) Accountability and provenance** - Most APIs will perform some transformation on the raw IATI XML data they consume. It is important for users to be able to discover (a) what IATI data any public API covers; (b) what processes have been applied to data to clean, transform or augment it. 
 
-4) Accountability and provenance
-Most APIs will perform some transformation on the raw IATI XML data they consume. It is important for users to be able to discover (a) what IATI data any public API covers; (b) what processes have been applied to data to clean, transform or augment it. 
+===== Conventions ===== 
+
+=== Notes ===
+This document uses the terms MUST, MUST NOT, SHOULD, SHOULD NOT, and MAY according to RFC2119 (http://www.ietf.org/rfc/rfc2119.txt). 
+
+==== Endpoints ====
+
+==== Naming ====
+
+==== Parameters and query logic ====
+
+==== Response formats ====
