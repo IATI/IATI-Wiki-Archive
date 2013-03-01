@@ -1,0 +1,8 @@
+====== OIPA-V3 ======
+
+Updated datamodel based on OIPA-V2 and adding sector wide indicators from UN-Habitat and Worldbank to the model. Probably SDMX support. Release planned for Q3/Q4 2013. 
+
+{{:tools:oipa-v3:eer_iati_plus_indicatoren.png?300|}}
+
+
+
