@@ -216,6 +216,7 @@ http://support.iatistandard.org/entries/22889658-document-link-category-codes-au
 http://support.iatistandard.org/entries/22881037-document-link-category-codes-exclusions-policy
 
 Add Audit Report, Evaluation, Institutional strategy and Exclusions policy values to codelist: http://iatistandard.org/codelists/document_category/
+Modify B02 Name from "Strategy paper" to "Institutional Strategy paper", to distinguish from B03 - "Country Strategy paper"
 
    code: B06
    name: Audit Report
@@ -330,7 +331,7 @@ XML
       </DocumentCategory>
       <DocumentCategory>
         <code>B02</code>
-        <name>Strategy paper</name>
+        <name>Institutional Strategy paper</name>
         <description />
         <category>B</category>
         <category-name>Agency Level</category-name>
