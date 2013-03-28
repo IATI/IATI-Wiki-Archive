@@ -12,13 +12,13 @@ Full proposals will be worked up on the [[standard:revision:1.03:changes_specifi
 | Consultation | During this time the community can help shape the proposals, and discuss what has been included or left out. |Over a two week period (three weeks during Summer) | 25th Jan |
 | These ideas need to then be built into fully implemented examples. | During this time the community can help shape the proposals | within 1 week | 1 Feb |
 | At which point they are published as proposed changes for consultation | During this time the community can help shape the proposals | over a 4 week period | 1 Mar |
-| Final proposals are published. | At this stage we hope that the proposals are solid and will be accepted, but people will still have a chance to air their views. | within 2 weeks | 15 Mar |
-| Consultation |  | over a 2 week period | 29 Mar |
-| Proposals are accepted, and implementation process begins. |  |  | 1 Apr |
-| Development version of changes are in place. |  | within 2 weeks | 15 Apr |
-| Development versions are available for community testing. | Community can test | within 2 weeks | 26 Apr May |
-| Bugs ironed out |  | within 2 weeks | 10 May |
-| Changes go live |  |  | 24 May|
+| Final proposals are published. | At this stage we hope that the proposals are solid and will be accepted, but people will still have a chance to air their views. | within 2 weeks | 28 Mar |
+| Consultation |  | over a 2 week period | 23 Apr |
+| Proposals are accepted, and implementation process begins. |  |  | 23 Apr |
+| Development version of changes are in place. |  | within 2 weeks | 10 May |
+| Development versions are available for community testing. | Community can test | within 2 weeks | 24 May |
+| Bugs ironed out |  | within 2 weeks | 7 June |
+| Changes go live |  |  | 21 June|
 
 
 
