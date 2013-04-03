@@ -1,12 +1,4 @@
 **[[:|Home]]**
+
 {{indexmenu>#1|navbar tsort}}
 
-[[wg:start|Working Groups]] 
-
-[[tools:start|IATI tools]] 
-
-[[community:start|The technical community]] 
-
-[[standard:start|Standard documentation]] 
-
-[[roadmap:start|Technical Roadmap]] 
