@@ -75,11 +75,10 @@ A sample diff is shown below:
 Users have expressed the desire to give full decimal figures for currency values. We don't think this is problematic as integer values will still be recognised.
 
 === Demo ===
-Not yet available
-
+https://github.com/davidmegginson/iati-schemas/tree/1.03dev \\
+Commit: [[https://github.com/davidmegginson/iati-schemas/commit/cbdf0a98f92342b2658f5e837118f45e3a6f438a | cbdf0a98 ]]
 === Proposed Changelog text ===
-Currency values are now allowed to be declared as decimals instead of integers, 
-
+Currency values are now allowed to be declared as decimals instead of integers. 
 ==== Allow percentages to be specified as decimals ====
 http://support.iatistandard.org/entries/22922608-allow-percentages-to-be-specified-as-decimals
 
