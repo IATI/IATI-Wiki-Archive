@@ -5,7 +5,14 @@ We are in the process of establishing a workshop group to focus on developing us
 ===== Guidance Required =====
 //We need to draft guidance on the following areas of IATI standard.//
 
-  * tbc. 
+  * **Dealing with data from many sources**
+  * **Understanding country and region classifications**
+  * **Understanding sectors**
+  * **Understanding transaction types**
+  * **Avoiding double-counting data** - traceability issues
+  * **Working with organisational identifiers**
+  * Checking the license of data
+  * //More to come//
   
 ===== Question Log =====
 //Below we have started creating a [[questions|list of questions]] that people have asked about the data available form IATI. Please add to this list with your own questions and answers.//
