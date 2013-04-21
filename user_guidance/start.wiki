@@ -6,6 +6,7 @@ We are in the process of establishing a workshop group to focus on developing us
 //We need to draft guidance on the following areas of IATI standard.//
 
   * **Dealing with data from many sources**
+  * **Dealing with CSV serialisations**
   * **Understanding country and region classifications**
   * **Understanding sectors**
   * **Understanding transaction types**
