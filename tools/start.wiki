@@ -22,10 +22,12 @@ Tools for accessing and working with IATI Data
 
 === Interfaces ===
   * [[tools:AidView:start]]
-  * [[tools:IATI Explorer:start]] including simple [[tools:IATI Explorer:activity viewer]]
   * [[tools:oipa_v2:openaid.nl| OpenAid NL]]
   * [[Open UN-Habitat|Open UN-Habitat]]
   * [[OPENAIDSEARCH|Openaidsearch.org]]
+
+Abandoned:
+  * [[tools:IATI Explorer:start]] including simple [[tools:IATI Explorer:activity viewer]]
 
 === APIs ===
 
@@ -42,7 +44,6 @@ Deprecated:
 
 === PHP clients ===
   * [[tools:Wordpress theme:start]]
-
 
 === Conversion Tools ===
   * [[tools:xslt:start|Format Conversions]], including [[tools:xslt:CSV Exporter]] tool linked from IATI Registry
