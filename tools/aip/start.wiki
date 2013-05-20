@@ -1,0 +1,22 @@
+====== DFID Aid Information Platform ======
+/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+
+The UK Department for International Development are creating an 'Aid Information Platform' that will display information on all the aid funded projects from UK Government Departments, drawing upon IATI data as the source. 
+
+===== Detailed Description =====
+/* Provide additional details here */
+
+The platform is build in Scala at the front-end, and uses the Neo4J graph store for data management. It provides API access onto the data.
+
+It implements feature for aid traceability, allowing the relationships between IATI data to be explored. 
+
+As of May 2013 the platform is in private beta.
+
+===== Documentation =====
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
+
+The source code is not yet published, though it is anticipated that it will be.
