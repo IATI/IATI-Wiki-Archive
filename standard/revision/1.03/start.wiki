@@ -6,7 +6,7 @@ You can contribute issues to be considered in this upgrade in the [[http://suppo
 
 Full proposals will be worked up on the [[standard:revision:1.03:changes_specification|Changes Specification]] page.
 
-^ IATI ^ Community ^ Timescale ^ Due Date ^
+^ IATI ^ Community ^ Timescale ^ Due Date ^ Revised Date (proposed) ^
 | A clear cut off date for new submissions should be advertised. | Community submits and discusses proposals/ideas before the cut off date |  | 7th Jan 2013 |
 | The TAG technical team should have agreed as to which proposals should go forward to the next upgrade, and communicated this with the community. | These are flagged on the knowledge base as under consideration. During this time the community can help shape the proposals, and discuss what has been included or left out. | usually within 1 week | 11th Jan |
 | Consultation | During this time the community can help shape the proposals, and discuss what has been included or left out. |Over a two week period (three weeks during Summer) | 25th Jan |
@@ -15,10 +15,9 @@ Full proposals will be worked up on the [[standard:revision:1.03:changes_specifi
 | Final proposals are published. | At this stage we hope that the proposals are solid and will be accepted, but people will still have a chance to air their views. | within 2 weeks | 28 Mar |
 | Consultation |  | over a 2 week period | 23 Apr |
 | Proposals are accepted, and implementation process begins. |  |  | 23 Apr |
-| Development version of changes are in place. |  | within 2 weeks | 10 May |
-| Development versions are available for community testing. | Community can test | within 2 weeks | 24 May |
-| Bugs ironed out |  | within 2 weeks | 7 June |
-| Changes go live |  |  | 21 June|
-
+| Development version of changes are in place. |  | within 2 weeks | 10 May | 27 May |
+| Development versions are available for community testing. | Community can test | within 2 weeks | 24 May | 3 June |
+| Bugs ironed out |  | within 2 weeks | 7 June | 17 June |
+| Changes go live |  |  | 21 June | 1 July |
 
 
