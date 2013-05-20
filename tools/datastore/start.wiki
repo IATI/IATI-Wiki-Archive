@@ -1,0 +1,23 @@
+====== IATI Data Store ======
+/* Please provide a brief description of the tool, and upload a screenshot if possible. Include details of the tool creator. */
+
+The IATI Data Store was commissioned by the IATI Technical Secretariat to provide access to extracts of IATI data from across segmented files on the IATI Registry.
+
+It provides CSV extracts of the data, and can stream large files in response to queries. 
+
+===== Detailed Description =====
+/* Provide additional details here */
+
+The Data Store code imports IATI data into a Postgres SQL database, and provides an API layer on top of this. 
+
+A version of the code will be deployed alongside the IATI Registry and kept updated with all available files. 
+
+===== Documentation =====
+/* Provide links to documentation, or use the wiki to develop documentation of this tool. */
+
+
+
+===== Links, source code and development plans =====
+/* Please provide links to any source code, additional resources, or development plans*/
+
+[[https://github.com/okfn/iati-datastore|Sourcecode]]
