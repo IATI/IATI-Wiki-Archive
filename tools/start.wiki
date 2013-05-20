@@ -29,11 +29,16 @@ Tools for accessing and working with IATI Data
 
 === APIs ===
 
-  * [[tools:IATI Explorer:start]] (including Android client libraries)
+Current:
+  * [[tools:datastore:start|IATI Data Store]]
   * [[tools:OIPA V2:start]] (OpenAidNL) [[tools:OIPA-V3:start]] (in progress)
   * [[tools:AidView:API|AidView API]]
-  * OKF Data Store
-  * DFID Data Store
+
+In development:
+  * [[tools:aip:start|DFID Aid Information Platform]]
+
+Deprecated:
+  * [[tools:IATI Explorer:start]] (including Android client libraries)
 
 === PHP clients ===
   * [[tools:Wordpress theme:start]]
