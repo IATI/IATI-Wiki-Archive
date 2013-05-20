@@ -10,7 +10,9 @@ It provides CSV extracts of the data, and can stream large files in response to 
 
 The Data Store code imports IATI data into a Postgres SQL database, and provides an API layer on top of this. 
 
-A version of the code will be deployed alongside the IATI Registry and kept updated with all available files. 
+A version of the code will be deployed alongside the IATI Registry and kept updated with all available files.
+
+It has been [[https://github.com/okfn/|developed by the Open Knowledge Foundation]].
 
 ===== Documentation =====
 /* Provide links to documentation, or use the wiki to develop documentation of this tool. */
