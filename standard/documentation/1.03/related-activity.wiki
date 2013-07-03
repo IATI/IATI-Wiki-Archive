@@ -1,0 +1,22 @@
+===== Related Activity ===== 
+{{for revison 1.02}}
+
+==== Example Usage ====
+
+The reference and type of relation can be cited in this element:
+
+<code xml>
+   <related-activity type="1" ref="GB-1-105838"/>
+</code>
+
+Additionally, a text title of the specific related activity can be provided:
+
+<code xml>
+    <related-activity type="1" ref="GB-1-105838">Trade Sector Programme</related-activity>
+</code>
+
+Where this text is in a language that differs from the default set in <iati-activity>, then this should be declared accordingly:
+
+<code xml>
+    <related-activity type="1" ref="GB-1-105838" xml:lang="fr">Programme du secteur commercial</related-activity>
+</code>
