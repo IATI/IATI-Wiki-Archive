@@ -1,0 +1,26 @@
+===== Transaction Type ===== 
+{{for revison 1.02}}
+
+==== Notes ====
+This provides the code for the transaction type. There are seven of these: C - Commitment, D - Disbursement, E - Expenditure, IF - Incoming funds, IR - Interest Repayment, LR - Loan Repayment, and R - Reimbursement.
+
+
+==== Example Usage ====
+
+The code should be declared in any usage of this element:
+
+<code xml>
+    <transaction-type code="C"/>
+</code>
+
+Additionally, a text description of the code can be provided:
+
+<code xml>
+    <transaction-type code="C">Commitment</transaction-type>
+</code>
+
+Where this text description is in a language that differs from the default, then this should be declared accordingly:
+
+<code xml>
+    <transaction-type code="C" xml:lang="en">Commitment</transaction-type>
+</code>
