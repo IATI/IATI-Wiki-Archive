@@ -1,0 +1,8 @@
+===== Period ===== 
+{{for revison 1.02}}
+==== Example Usage ====
+<code xml>
+    <period>
+    ....
+    </period>
+</code>
