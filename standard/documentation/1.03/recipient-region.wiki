@@ -1,0 +1,23 @@
+===== Recipient Region ===== 
+{{for revison 1.02}}
+
+==== Example Usage ====
+
+Recipient region can be declared just through the relevant code:
+<code xml>
+<recipient-region code="289"/>
+</code>
+Additionally, the name of the region can also be declared.
+<code xml>
+<recipient-region code="289">South of Sahara, regional<recipient-region>
+</code>
+Where the name of the region is declared in a language other than the default, it is good practice to cite this:
+<code xml>
+<recipient-region code="289" xml:lang="es">Africa subsahariana</recipient-region>
+</code>
+When multiple regions are declared, then the percentages should equal 100% for that activity
+
+<code xml>
+<recipient-region percentage="60" code="289">South of Sahara, regional</recipient-region>
+<recipient-region percentage="40" code="189">North of Sahara, regional</recipient-region>
+</code>
