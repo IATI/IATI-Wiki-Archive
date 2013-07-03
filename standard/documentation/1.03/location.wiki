@@ -1,0 +1,31 @@
+===== Location ===== 
+{{for revison 1.02}}
+
+==== Example Usage ====
+The location element is used a contain various other elements
+<code xml>
+    <location>
+       ....
+    </location>
+</code>
+
+If more than one location is reported, percentage of activity commitment allocated to this location (if available).
+<code xml>
+    <location percentage="85>
+       ....
+    </location>
+    <location percentage="15>
+       ....
+    </location>
+</code>
+
+Example from UNOPS:
+
+<code xml>
+<location>
+      <name>Herat</name>
+      <coordinates latitude="34.341944400000003000" longitude="62.203055599999971000" precision="2" />
+      <location-type code="PPL" />
+      <administrative country="AF">Afghanistan, Herat, Injil</administrative>
+    </location>
+</code>
