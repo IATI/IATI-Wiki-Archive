@@ -1,7 +1,7 @@
 ===== 1.03 =====
 {{for revision 1.03}}
 
-1.03 is due for release in summer 2013. For details of the change process please see [[standard:revision:1.03|Revisions 1.03]]
+1.03 is due for release in summer 2013. For details of the change process please see [[standard:revision:1.03:start|Revisions 1.03]]
 
 For detailed information about the changes please see: \\
 [[standard:revision:1.03:changes_specification|Changes Specification]]
