@@ -1,0 +1,15 @@
+===== IATI Activities ===== 
+{{for revison 1.02}}
+==== Example Usage ====
+Example that uses version 1.01, and was generated on 29th May 2012:
+<code xml>
+    <iati-activities version="1.01" generated-datetime="2012-05-29T00:00:00">
+       ....
+    </iati-activities>
+</code>
+
+==== Changelog ====
+===1.02===
+Introduced the @linked-data-default attribute on iati-activities element
+===1.01===
+See previous version on the IATI Standard [[http://wiki.iatistandard.org/standard/documentation/1.0/iati-activities | wiki]] and [[http://iatistandard.org/101/activities-standard/container-elements/file-header/ | website]]
