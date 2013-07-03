@@ -1,0 +1,15 @@
+===== Location Name ===== 
+{{for revison 1.02}}
+
+==== Example Usage ====
+
+The name of the location being used can be declared as such:
+
+<code xml>
+<name>Ivory Coast</name>
+</code>
+It is also good practice to declare this name in the language of the country where the project is being implemented, particularly if this differs from the default language of the activity:
+
+<code xml>
+<name xml:lang-"fr">Côte d'Ivoire</name>
+</code>
