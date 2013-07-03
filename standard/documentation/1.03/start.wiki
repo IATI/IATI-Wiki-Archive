@@ -1,1 +1,117 @@
-This page is redirected to [[:standard:revision:1.03:start]].
+===== 1.03 =====
+{{for revison 1.03}}
+
+1.03 is due for release in summer 2013. For details of the change process please see [[standard:revision:1.03|Revisions 1.03]]
+
+For detailed information about the changes please see: \\
+[[standard:revision:1.03:changes_specification|Changes Specification]]
+
+===== Activity Standard =====
+[[standard:documentation:1.03:iati-activities]]
+
+[[standard:documentation:1.03:iati-activity]]
+
+[[standard:documentation:1.03:reporting-org]]
+
+[[standard:documentation:1.03:iati-identifier]]
+
+[[standard:documentation:1.03:other-identifier]]
+
+[[standard:documentation:1.03:activity-website]]
+
+[[standard:documentation:1.03:title]]
+
+[[standard:documentation:1.03:description]]
+
+[[standard:documentation:1.03:activity-status]]
+
+[[standard:documentation:1.03:activity-date]]
+
+[[standard:documentation:1.03:contact-info]]
+
+  * [[standard:documentation:1.03:organisation]]
+  * [[standard:documentation:1.03:person-name]]
+  * [[standard:documentation:1.03:telephone]]
+  * [[standard:documentation:1.03:email]]
+  * [[standard:documentation:1.03:mailing-address]]
+
+[[standard:documentation:1.03:participating-org]]
+
+[[standard:documentation:1.03:recipient-country]]
+
+[[standard:documentation:1.03:recipient-region]]
+
+[[standard:documentation:1.03:location]]
+
+  * [[standard:documentation:1.03:location-type]]
+  * [[standard:documentation:1.03:location-name]]
+  * [[standard:documentation:1.03:description]]
+  * [[standard:documentation:1.03:administrative]]
+  * [[standard:documentation:1.03:coordinates]]
+  * [[standard:documentation:1.03:gazetteer-entry]]
+
+[[standard:documentation:1.03:sector]]
+
+[[standard:documentation:1.03:policy-marker]]
+
+[[standard:documentation:1.03:collaboration-type]]
+
+[[standard:documentation:1.03:default-flow-type]]
+
+[[standard:documentation:1.03:default-finance-type]]
+
+[[standard:documentation:1.03:default-aid-type]]
+
+[[standard:documentation:1.03:default-tied-status]]
+
+[[standard:documentation:1.03:budget]]
+
+  * [[standard:documentation:1.03:period-start]]
+  * [[standard:documentation:1.03:period-end]]
+  * [[standard:documentation:1.03:value]]
+
+[[standard:documentation:1.03:planned-disbursement]]
+
+  * [[standard:documentation:1.03:period-start]]
+  * [[standard:documentation:1.03:period-end]]
+  * [[standard:documentation:1.03:value]]
+
+[[standard:documentation:1.03:transaction]]
+
+  * [[standard:documentation:1.03:transaction-type]]
+  * [[standard:documentation:1.03:provider-org]]
+  * [[standard:documentation:1.03:receiver-org]]
+  * [[standard:documentation:1.03:value]]
+  * [[standard:documentation:1.03:description]]
+  * [[standard:documentation:1.03:transaction-date]]
+  * [[standard:documentation:1.03:flow-type]]
+  * [[standard:documentation:1.03:finance-type]]
+  * [[standard:documentation:1.03:aid-type]]
+  * [[standard:documentation:1.03:disbursement-channel]]
+  * [[standard:documentation:1.03:tied-status]]
+
+[[standard:documentation:1.03:document-link]]
+
+  * [[standard:documentation:1.03:title]]
+  * [[standard:documentation:1.03:category]]
+  * [[standard:documentation:1.03:language]]
+
+[[standard:documentation:1.03:related-activity]]
+
+[[standard:documentation:1.03:conditions]]
+  * [[standard:documentation:1.03:condition]]
+
+[[standard:documentation:1.03:result]]
+  * [[standard:documentation:1.03:title]]
+  * [[standard:documentation:1.03:description]]
+  * [[standard:documentation:1.03:indicator]]
+  *   * [[standard:documentation:1.03:title]]
+  *   * [[standard:documentation:1.03:description]]
+  *   * [[standard:documentation:1.03:period]]
+  *   *   * [[standard:documentation:1.03:period-start]]
+  *   *   * [[standard:documentation:1.03:period-end]]
+  *   *   * [[standard:documentation:1.03:target]]
+  *   *   * [[standard:documentation:1.03:actual]]
+  *   * [[standard:documentation:1.03:baseline]]  
+  *   *   * [[standard:documentation:1.03:comment]]  
+[[standard:documentation:1.03:legacy-data]]
