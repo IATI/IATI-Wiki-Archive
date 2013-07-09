@@ -25,6 +25,8 @@ For detailed information about the changes please see: \\
 
 [[standard:documentation:1.03:activity-status]]
 
+[[standard:documentation:1.03:activity-scope]]
+
 [[standard:documentation:1.03:activity-date]]
 
 [[standard:documentation:1.03:contact-info]]
