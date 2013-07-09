@@ -1,0 +1,8 @@
+===== Capital Spend ===== 
+{{for revison 1.03}}
+{{for release 1.03}}
+==== Example Usage ====
+
+<code xml>
+<capital-spend percentage="88.8"/>
+</code>
