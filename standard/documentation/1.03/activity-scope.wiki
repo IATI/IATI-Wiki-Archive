@@ -1,0 +1,8 @@
+===== Activity Scope ===== 
+{{for revison 1.03}}
+{{for release 1.03}}
+==== Example Usage ====
+
+<code xml>
+<activity-scope code="1" xml:lang="en">Global</activity-scope>
+</code>
