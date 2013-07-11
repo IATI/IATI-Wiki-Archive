@@ -33,6 +33,8 @@ For detailed information about the changes please see: \\
 
 [[standard:documentation:1.03:country-budget-items]]
 
+  * [[standard:documentation:1.03:budget-item]]
+
 [[standard:documentation:1.03:contact-info]]
 
   * [[standard:documentation:1.03:organisation]]
