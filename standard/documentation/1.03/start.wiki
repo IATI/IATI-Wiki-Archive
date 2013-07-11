@@ -37,6 +37,7 @@ For detailed information about the changes please see: \\
 
   * [[standard:documentation:1.03:organisation]]
   * [[standard:documentation:1.03:person-name]]
+  * [[standard:documentation:1.03:job-title]]
   * [[standard:documentation:1.03:telephone]]
   * [[standard:documentation:1.03:email]]
   * [[standard:documentation:1.03:mailing-address]]
