@@ -38,7 +38,7 @@ An alternative approach using [[Virtuoso]] is documented [[virtuoso|here]] and t
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
 
-IATI2LOD Scripts by Kasper Brantd: [[https://github.com/KasperBrandt/IATI2LOD]]
+IATI2LOD Scripts by Kasper Brantd: [[https://github.com/KasperBrandt/IATI2LOD]] and [[http://iati2lod.appspot.com/]]
 
 XSLT Templates (for conversion to RDF): [[https://github.com/aidinfolabs/IATI-XSLT/tree/master/templates/rdf]]
 
