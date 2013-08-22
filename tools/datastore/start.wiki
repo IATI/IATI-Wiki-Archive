@@ -17,7 +17,7 @@ It has been [[https://github.com/okfn/|developed by the Open Knowledge Foundatio
 ===== Documentation =====
 /* Provide links to documentation, or use the wiki to develop documentation of this tool. */
 
-
+  * [[datastore:Concept:start]]
 
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
