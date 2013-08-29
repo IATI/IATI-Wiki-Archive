@@ -3,10 +3,10 @@
 {{ :community:user:timdavies.jpg?200|}}
 ---- dataentry people ----
 name           : Tim Davies
-organisation   : AidInfo / Practical Participation
+organisation   : Practical Participation
 website_url    : http://www.timdavies.org.uk
 twitter_url    : http://www.twitter.com/timdavies
-one-line-bio   : Part-time contracted to AidInfo; providing research, development and technical for IATI
+one-line-bio   : 
 email          : tim@practicalparticipation.co.uk
 lastupdated_dt : 
 user_tags      : technical, policy, tools, usability 
