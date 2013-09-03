@@ -22,3 +22,7 @@ The ISO 4217 code for the currency in which the project is denominated should be
 <code xml>
 <value currency="GBP" value-date="2010-10-01">700000</value>
 </code>
+
+==== Changelog ====
+===1.03===
+Currency values are now allowed to be declared as decimals instead of integers.
