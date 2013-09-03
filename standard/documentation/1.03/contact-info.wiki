@@ -1,16 +1,16 @@
 ===== Contact Info ===== 
-{{for revison 1.02}}
+{{for revison 1.03}}
 ==== Example Usage ====
 This element is a container for other sub elements:
 <code xml>
-    <contact-info>
+    <contact-info type="">
        ....
     </contact-info>
 </code>
 
 This example from DfID, contains the Organisation, telephone, email and mailing address for the activity.  
 <code>
-<contact-info>
+<contact-info type="">
 <person-name>A Smith</person-name>
 <organisation>Department for International Development</organisation>
 <telephone>+44 (0) 1355 84 3132</telephone>
@@ -18,5 +18,6 @@ This example from DfID, contains the Organisation, telephone, email and mailing 
 <mailing-address>
 Public Enquiry Point, Abercrombie House, Eaglesham Road, East Kilbride, Glasgow G75 8EA
 </mailing-address>
+<website>https://www.gov.uk/government/organisations/department-for-international-development</website>
 </contact-info>
 </code>
