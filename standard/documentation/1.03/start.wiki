@@ -44,6 +44,7 @@ For detailed information about the changes please see: \\
   * [[standard:documentation:1.03:email]]
   * [[standard:documentation:1.03:mailing-address]]
   * [[standard:documentation:1.03:website]]
+  * [[standard:documentation:1.03:contact-type]]
 
 [[standard:documentation:1.03:participating-org]]
 
