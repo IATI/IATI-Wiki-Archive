@@ -21,3 +21,16 @@ Public Enquiry Point, Abercrombie House, Eaglesham Road, East Kilbride, Glasgow 
 <website>https://www.gov.uk/government/organisations/department-for-international-development</website>
 </contact-info>
 </code>
+
+
+==== Changelog ====
+===1.03===
+Added the optional contact-info/website element
+
+Added the optional contact-info/@type attribute
+
+Changed the following subelements of contact-info to allow multiple-language versions explicitly (no change to parsing; purely semantic): 
+  * organisation
+  * person-name
+  * job-title
+  * mailing-address
