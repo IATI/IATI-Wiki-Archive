@@ -29,3 +29,7 @@ Example from UNOPS:
       <administrative country="AF">Afghanistan, Herat, Injil</administrative>
     </location>
 </code>
+
+==== Changelog ====
+===1.03===
+Where used, the @percentage attribute is now designated as a decimal value and no longer as a positive Integer
