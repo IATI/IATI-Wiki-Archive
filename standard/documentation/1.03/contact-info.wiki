@@ -3,14 +3,14 @@
 ==== Example Usage ====
 This element is a container for other sub elements:
 <code xml>
-    <contact-info type="">
+    <contact-info type="1">
        ....
     </contact-info>
 </code>
 
 This example from DfID, contains the Organisation, telephone, email and mailing address for the activity.  
 <code>
-<contact-info type="">
+<contact-info type="1">
 <person-name>A Smith</person-name>
 <organisation>Department for International Development</organisation>
 <telephone>+44 (0) 1355 84 3132</telephone>
