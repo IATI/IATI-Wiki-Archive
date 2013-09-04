@@ -1,0 +1,19 @@
+===== CRS Add ===== 
+{{for revision 1.03}}
+
+Additional items specific to CRS++ reporting
+==== Example Usage ====
+
+
+
+  <crs-add>
+  
+   ...
+   
+  </crs-add>
+
+==== Changelog ====
+===1.03===
+New in 1.03  \\
+Added the optional crs-add element and its child elements
+ 
