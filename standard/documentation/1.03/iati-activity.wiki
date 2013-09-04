@@ -8,6 +8,24 @@ This example declares that the activity has a default language of English (en) a
  </iati-activity>
 </code>
 
+Additionally, a IATI version number can be declared.  NB: This would already be within the <iati-activities> element, but could differ.
+
+<code xml>
+ <iati-activity xml:lang="en" default-currency="USD" last-updated-datetime="2012-03-31T01:01:01" hierarchy="1" version="1.01">
+       ....
+ </iati-activity>
+</code>
+
+Finally, this example, includes the linked-data-uri attribute, introduced in the decimal upgrade 1.02
+
+<code xml>
+ <iati-activity xml:lang="en" default-currency="USD" last-updated-datetime="2012-03-31T01:01:01" hierarchy="1" version="1.01" linked-data-uri="">
+       ....
+ </iati-activity>
+</code>
+
+
+
 ==== Changelog ====
 ===1.02===
 Introduced the @linked-data-uri attribute on iati-activity element
