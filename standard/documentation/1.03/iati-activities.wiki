@@ -1,12 +1,20 @@
 ===== IATI Activities ===== 
 {{for revison 1.02}}
 ==== Example Usage ====
-Example that uses version 1.02, and was generated on 29th June 2013:
+Example that uses version 1.03, and was generated on 5th September 2013:
 <code xml>
-    <iati-activities version="1.02" generated-datetime="2012-06-29T00:00:00">
+    <iati-activities version="1.03" generated-datetime="2013-09-05T00:00:00">
        ....
     </iati-activities>
 </code>
+
+With the optional linked-data-default attribute, introduced in version 1.02
+<code xml>
+    <iati-activities version="1.02" generated-datetime="2013-09-05T00:00:00" linked-data-default="">
+       ....
+    </iati-activities>
+</code>
+
 
 ==== Changelog ====
 ===1.02===
