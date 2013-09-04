@@ -1,7 +1,5 @@
 ===== CRS Add ===== 
 {{for revision 1.03}}
-
-Additional items specific to CRS++ reporting
 ==== Example Usage ====
 
 
