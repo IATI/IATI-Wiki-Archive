@@ -4,7 +4,7 @@ The first decimal upgrade of the standard happened in December 2012. The process
 
 Details about the specific changes are listed on the [[http://support.iatistandard.org/|knowledge base]] in the [[http://support.iatistandard.org/forums/21131653-first-decimal-upgrade|First Decimal Upgrade Forum]].
 
-Full proposals were worked up on the [[standard:revision:1.02:changes_specification|Changes Specification]] page.
+Full proposals were worked up on the [[http://wiki.iatistandard.org/standard/revision/1.02/changes_specification|Changes Specification]] page of the [[http://wiki.iatistandard.org/|wiki]].
 
 ^ IATI ^ Community ^ Timescale ^ Due Date ^
 | A clear cut off date for new submissions should be advertised. | Community submits and discusses proposals/ideas before the cut off date |  | 1 Jun |
@@ -19,7 +19,6 @@ Full proposals were worked up on the [[standard:revision:1.02:changes_specificat
 | Development versions are available for community testing. | Community can test | within 2 weeks | 23 Nov |
 | Bugs ironed out |  | within 2 weeks | 3 Dec |
 | Changes go live |  |  | 17 Dec |
-
 
 
 
