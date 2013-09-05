@@ -4,7 +4,7 @@ The second decimal upgrade grade of the standard is proposed to occur in spring 
 
 You can contribute issues to be considered in this upgrade in the [[http://support.iatistandard.org/|knowledge base]].
 
-Full proposals will be worked up on the [[http://wiki.iatistandard.org/standard/revision/1.03/start|Changes Specification]] page on the [[http://wiki.iatistandard.org/|wiki]].
+Full proposals will be worked up on the [[http://wiki.iatistandard.org/standard/revision/1.03/changes_specification|Changes Specification]] page on the [[http://wiki.iatistandard.org/|wiki]].
 
 ^ IATI ^ Community ^ Timescale ^ Due Date ^ Revised Date (final) ^
 | A clear cut off date for new submissions should be advertised. | Community submits and discusses proposals/ideas before the cut off date |  | 7th Jan 2013 |
