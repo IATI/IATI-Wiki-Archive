@@ -10,4 +10,4 @@
 ==== Changelog ====
 ===1.03===
 New in 1.03  \\
-Added the optional crs-add element and its child elements
+Added the optional fss element and its child elements
