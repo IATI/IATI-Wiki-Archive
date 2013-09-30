@@ -10,12 +10,15 @@ We recognise the need to version our documentation over time, and see this wiki 
 ===== Version 1.x =====
 
 ==== Current Version ====
-=== Version 1.02 ===
-**In use from:** 17th December 2012  \\
-[[standard:documentation:1.02:start|Version 1.02 (current)]]
+=== Version 1.03 ===
+**In use from:** 6th September 2013  \\
+[[standard:documentation:1.03:start|Version 1.03 (current)]]
 
 
 ==== Old Versions ====
+**In use from:** 17th December 2012  \\
+[[standard:documentation:1.02:start|Version 1.02]]
+
 **In use from:** 11th August 2010  \\
 [[standard:documentation:1.0:start|Version 1.01]]
 
