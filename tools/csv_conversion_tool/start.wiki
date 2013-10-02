@@ -1,15 +1,16 @@
-====== IATI Conversion Tool ======
-[[http://csvconverter.aidinfolabs.org|http://csvconverter.aidinfolabs.org]]
+====== CSV2IATI Conversion Tool ======
+http://csv2iati.iatistandard.org
 {{:tools:csv_conversion_tool:csv_converter.png?nolink&300 |}}
 
-The IATI Conversion Tool is aimed at organisations that have too many projects to enter manually into a web-entry platform, but not enough projects to have in-house technical support that could help with implementation. It will make publication less labour-intensive and significantly increase capacity to publish more data from more organisations.
+CSV2IATI is aimed at organisations that have too many projects to enter manually into a web-entry platform, but not enough projects to have in-house technical support that could help with implementation. It will make publication less labour-intensive and significantly increase capacity to publish more data from more organisations.
 
 ===== Detailed Description =====
-The IATI Conversion Tool provides a service to convert a spreadsheet of aid data into the IATI format (technically called “IATI-XML”). Spreadsheets will have to satisfy some minimum conditions for the way they are formatted, but the Conversion Tool is flexible enough to allow a broad range of organisations to convert their data without much work required in advance.
 
-To use the Conversion Tool, you will need to:
+CSV2IATI provides a service to convert a spreadsheet of aid data into the IATI format (technically called “IATI-XML”). Spreadsheets will have to satisfy some minimum conditions for the way they are formatted, but the Conversion Tool is flexible enough to allow a broad range of organisations to convert their data without much work required in advance.
+
+To use the conversion tool, you will need to:
   - Extract the data from your internal project management system;
-  - Make sure the data is a single spreadsheet, and saved in the CSV (“comma-separated values”) format1;
+  - Make sure the data is a single spreadsheet, and saved in the CSV (“comma-separated values”) format;
   - Upload the data to the Conversion Tool website;
   - Map the columns in your data across to the IATI Standard fields (you don’t need to be too familiar with the Standard, but you should consult the IATI Activity Standard if you are unsure: http://iatistandard.org/activities-standard/overview);
   - Check that you’re happy with the mapping you’ve created (you might want to share it around your organisation);
@@ -18,16 +19,17 @@ To use the Conversion Tool, you will need to:
 
 ===== Links, source code and development plans =====
 Live version available at:
-  * http://csvconverter.aidinfolabs.org
+  * http://csv2iati.iatistandard.org
 
 Source code is available on Github:
-  * https://github.com/markbrough/CSV-IATI-Converter.modeleditor
-  * https://github.com/markbrough/CSV-IATI-Converter
+  * https://github.com/IATI/CSV2IATI
+  * https://github.com/IATI/CSV2IATI-backend
 
 
 ===== Documentation =====
   * Download an overview of the conversion tool here: {{:tools:csv_conversion_tool:iati_conversion_tool.docx|}}
+  * (Note: this is currently out of date.)
 
 ===== Contacts =====
-  * For implementaton support, please contact [[community:user:mandy_burrows|Mandy Burrows]] 
-  * For information about the development of the converter, please contact [[community:user:markbrough|Mark Brough]] 
+  * For implementation support, please contact support@iatistandard.org
+  * For information about the code, contact code@iatistandard.org
