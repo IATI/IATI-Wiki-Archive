@@ -26,4 +26,4 @@ You can also follow updates from the [[https://twitter.com/iati_tag|IATI Tag]] T
 
 ===== Current projects =====
 
-  * [[roadmap:api standardisation|API Standardisation]]
+  * [[wg:api:start|API Standardisation]]
