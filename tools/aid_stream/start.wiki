@@ -10,8 +10,7 @@ URL: [[http://www.aidstream.org]]
 It has been developed by the good people at [[http://www.younginnovations.com.np/|Young Innovations]], Nepal
 ===== Documentation =====
 /* Provide links to documentation, or use the wiki to develop documentation of this tool. */
-http://docs.aidstream.org/
-
+http://www.aidstream.org/public/how-to/
 
 ===== Links, source code and development plans =====
 /* Please provide links to any source code, additional resources, or development plans*/
