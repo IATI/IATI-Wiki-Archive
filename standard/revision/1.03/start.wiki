@@ -1,10 +1,10 @@
-====== Proposed revisions to version 1.03 ======
+====== Revisions to version 1.03 ======
 
-The second decimal upgrade grade of the standard is proposed to occur in spring 2013. The process for achieving this is outlined below.
+The second decimal upgrade grade of the standard was proposed to occur during the spring of 2013, but faced delays that meant the timetable had to be revised. The process for achieving this is outlined below.
 
-You can contribute issues to be considered in this upgrade in the [[http://support.iatistandard.org/|knowledge base]].
+You can contribute issues to be considered in future upgrades in the [[http://support.iatistandard.org/|knowledge base]].
 
-Full proposals will be worked up on the [[http://wiki.iatistandard.org/standard/revision/1.03/changes_specification|Changes Specification]] page on the [[http://wiki.iatistandard.org/|wiki]].
+Full proposals were worked up on the [[http://wiki.iatistandard.org/standard/revision/1.03/changes_specification|Changes Specification]] page on the [[http://wiki.iatistandard.org/|wiki]].
 
 ^ IATI ^ Community ^ Timescale ^ Due Date ^ Revised Date (final) ^
 | A clear cut off date for new submissions should be advertised. | Community submits and discusses proposals/ideas before the cut off date |  | 7th Jan 2013 |
