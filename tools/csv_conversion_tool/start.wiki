@@ -27,9 +27,7 @@ Source code is available on Github:
 
 
 ===== Documentation =====
-  * Download an overview of the conversion tool here: {{:tools:csv_conversion_tool:iati_conversion_tool.docx|}}
-  * (Note: this is currently out of date.)
-
+  * http://csv2iati.readthedocs.org/en/latest/user_guide.html
 ===== Contacts =====
   * For implementation support, please contact support@iatistandard.org
   * For information about the code, contact code@iatistandard.org
