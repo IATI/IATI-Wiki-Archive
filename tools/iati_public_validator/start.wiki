@@ -14,4 +14,4 @@ Available from the repository. See below.
 
 === Links, source code and development plans ===
 /* Please provide links to any source code, additional resources, or development plans*/
-https://github.com/caprenter/IATI-Public_Validator
+https://github.com/IATI/IATI-Public_Validator
