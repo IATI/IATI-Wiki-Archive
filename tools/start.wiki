@@ -2,6 +2,8 @@
 
 There are many different tools developed and currently in development for creating, validating and consuming IATI data. This page provides links to those tools right now, and will be developed to provide detailed documentation on tools soon.
 
+IATI also has a github organisation at https://github.com/IATI for code curated directly by IATI.
+
 ===== Creating IATI Data =====
 
   * [[tools:Aid Stream:start]]
