@@ -18,5 +18,3 @@ Please add yourself to the lists below by either [[community:start#create_your_o
   *[[community:user:start|Community Members]]
   *[[creating a page for your organisation|Organisations]]
 
-===== Twitter =====
-[[https://twitter.com/#!/iati_tag|@iati_tag]] 
