@@ -1,0 +1,20 @@
+====== Revisions to version 1.05 ======
+**
+THIS IS NOT AGREED. THIS IS JUST TO HELP US SEE WHAT A TIMESCALE MIGHT LOOK LIKE**
+
+
+The process for the 1.05 decimal upgrade of the standard is outlined below.
+
+^ IATI ^ Community ^ Timescale ^ Due Date ^
+| A clear cut off date for new submissions should be advertised. | Community submits and discusses proposals/ideas before the cut off date |  | 14 Apr |
+| The TAG technical team should have agreed as to which proposals should go forward to the next upgrade, and communicated this with the community. | These are flagged on the knowledge base as under consideration. Individuals may be contacted and asked for opinoin/clarity | usually within 1 week | 21 Apr|
+| Consultation | Community debate: During this time the community can help shape the proposals, and discuss what has been included or left out. |Over a two week period (three weeks during Summer) | 5 May|
+| These ideas need to then be built into fully implemented examples. | During this time the community can help shape the proposals, but really this is a writing up task. | within 1 week | 12 May|
+| The community has until the due date to inspect what the TAG publishes as their proposed changes for consultation. i.e. the TAG now owns the changes. | During this time the community can help shape the proposals | over a 2 week period | 26 May|
+| Final proposals proposals are constructed and then published on the due date. | At this stage we hope that the proposals are solid and will be accepted, but people will still have a chance to air their views. | within 1 week | 2 Jun |
+| Consultation | Community scrutinises the final proposals, and feeds back on errors, omissions, problems, solutions. | over a 2 week period | 16 Jun |
+| Proposals are accepted, and implementation process begins. |  |  | 23 Jun |
+| Development version of changes are refined/built and in place by the due date. | Hopefully over this period development versions may come available before the due date, so the community may be able to start testing early | within 1 week | 30 Jun |
+| Development versions are available for community testing. | Community can test for 4 weeks | over a 4 week period | 28 July |
+| Bugs ironed out |  | within 2 weeks | 11 Aug  |
+| Changes go live |  |  | 25 Aug 2014 |
