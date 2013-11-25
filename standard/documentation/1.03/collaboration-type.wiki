@@ -1,5 +1,5 @@
 ===== Collaboration Type ===== 
-{{for revison 1.02}}
+{{for revision 1.02}}
 
 ==== Example Usage ====
 The code can be declared:
