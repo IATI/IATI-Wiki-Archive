@@ -1,5 +1,5 @@
 ===== Policy Marker ===== 
-{{for revison 1.02}}
+{{for revision 1.03}}
 
 ==== Example Usage ====
 
@@ -40,4 +40,3 @@ Should a description be used that is different to the default language set for t
 <code xml>
 <policy-marker vocabulary="DAC" code="04" xml:lang="fr">Developpement du commerce</policy-marker>
 </code>
-
