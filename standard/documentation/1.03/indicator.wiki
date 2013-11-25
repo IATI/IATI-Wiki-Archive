@@ -1,5 +1,5 @@
 ===== Indicator ===== 
-{{for revison 1.02}}
+{{for revision 1.03}}
 ==== Example Usage ====
 The Indicator element is contained within a result set, and also contains other elements.
 
