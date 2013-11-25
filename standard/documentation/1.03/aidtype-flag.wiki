@@ -2,11 +2,9 @@
 {{for revision 1.03}}
 ==== Example Usage ====
 
-
-
   <crs-add>
   
-    <aidtype-flag code="" significance=""> </aidtype-flag>
+    <aidtype-flag code="1" significance="true">Free standing technical cooperation</aidtype-flag>
    
   </crs-add>
 
