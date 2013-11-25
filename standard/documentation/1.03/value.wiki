@@ -1,5 +1,5 @@
 ===== Value ===== 
-{{for revison 1.02}}
+{{for revision 1.03}}
 ==== Notes ====
 A monetary value in the specified currency – negative for repayments or reduced/cancelled commitments.
 
