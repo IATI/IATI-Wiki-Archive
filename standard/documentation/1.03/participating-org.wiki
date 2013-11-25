@@ -1,5 +1,5 @@
 ===== Participating Organisation ===== 
-{{for revison 1.02}}
+{{for revision 1.03}}
 
 ==== Example Usage ====
 This example from Cafod declares two participating organisations in the activity.  Caford as the Funding organisation, with a reference to the Charity Commission.  The Implementing organisation is not referenced:
