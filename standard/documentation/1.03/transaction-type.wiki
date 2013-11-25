@@ -1,5 +1,5 @@
 ===== Transaction Type ===== 
-{{for revison 1.02}}
+{{for revision 1.03}}
 
 ==== Notes ====
 This provides the code for the transaction type. There are seven of these: C - Commitment, D - Disbursement, E - Expenditure, IF - Incoming funds, IR - Interest Repayment, LR - Loan Repayment, and R - Reimbursement.
