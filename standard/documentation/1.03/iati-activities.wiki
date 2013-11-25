@@ -1,5 +1,6 @@
 ===== IATI Activities ===== 
-{{for revison 1.02}}
+{{for revision 1.03}}
+
 ==== Example Usage ====
 Example that uses version 1.03, and was generated on 5th September 2013:
 <code xml>
