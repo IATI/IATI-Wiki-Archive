@@ -1,5 +1,5 @@
 ===== Result ===== 
-{{for revison 1.02}}
+{{for revision 1.03}}
 ==== Example Usage ====
 Container element for a result set.  The type attribute can be used to describe whether it is an output, outcome, or impact indicator:
 <code xml>
