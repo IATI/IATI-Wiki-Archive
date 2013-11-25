@@ -1,5 +1,5 @@
 ===== Title ===== 
-{{for revison 1.02}}
+{{for revision 1.03}}
 ==== Example Usage ====
 When default language has been declared in the <iati-activity> element then this will suffice:
 <code xml>
