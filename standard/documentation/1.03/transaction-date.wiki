@@ -1,5 +1,5 @@
 ===== Transaction Date ===== 
-{{for revison 1.02}}
+{{for revision 1.03}}
 ==== Example Usage ====
 
 Date in the lifecycle of the financial transaction.  ISO 8601 date (yyyy-mm-dd):
