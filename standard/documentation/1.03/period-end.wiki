@@ -1,5 +1,5 @@
 ===== Period End ===== 
-{{for revison 1.02}}
+{{for revision 1.03}}
 ==== Example Usage ====
 
 For this element, an ISO 8601 code for the end date of the reporting period (yyyy-mm-dd) is required:
