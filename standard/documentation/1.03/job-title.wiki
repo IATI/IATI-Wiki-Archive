@@ -8,8 +8,9 @@ This is a new element for version 1.03.
 
 This is a child element of contact-info
 
-***NEED EXAMPLE***
-***NEEDS CLARITY ON MULTI_LANGUAGE USE***
+<code xml>
+<job-title>Database Manager</job-title>
+</code>
 
 ==== Changelog ====
 ===1.03===
