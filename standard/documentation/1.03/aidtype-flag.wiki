@@ -1,6 +1,5 @@
 ===== Aidtype Flag ===== 
 {{for revision 1.03}}
-{{for release 1.03}}
 ==== Example Usage ====
 
   <crs-add>
