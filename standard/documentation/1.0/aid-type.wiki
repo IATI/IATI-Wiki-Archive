@@ -1,5 +1,5 @@
 ===== Aid Type ===== 
-{{for revison 1.01}}
+{{for revision 1.01}}
 
 ==== Example Usage ====
 
