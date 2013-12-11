@@ -17,7 +17,10 @@ To make an XML file more readable in your text editor:
 
   xmllint --format --recover input_file.xml > output_file.xml
  
-
+To test a whole directory of files
+  
+  xmllint --noout --schema <chose your schema!>.xsd *
+  
 ==== Validate all files in a directory using PHP ====
 The following code will supply you with 2 arrays of files that validate or fail validation
 Using the DOM loads the full file into memory, so large files might take time (but not that much!)
