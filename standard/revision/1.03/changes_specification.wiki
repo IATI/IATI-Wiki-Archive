@@ -218,7 +218,7 @@ Add Audit Report, Evaluation, Institutional strategy and Exclusions policy value
 Modify B02 Name from "Strategy paper" to "Institutional Strategy paper", to distinguish from B03 - "Country Strategy paper"
 
    code: B06
-   name: Audit Report
+   name: Institutional Audit Report
    description:
    category: B
    category-name: Agency Level
@@ -358,7 +358,7 @@ XML
       </DocumentCategory>
       + <DocumentCategory>
       +  <code>B06</code>
-      +  <name>Audit Report</name>
+      +  <name>Institutional Audit Report</name>
       +  <description />
       +  <category>B</category>
       +  <category-name>Agency Level</category-name>
@@ -391,7 +391,7 @@ XML
 Version 1.02
 
 === Changelog ===
-Added Codes B06 Audit Report, B07 Evaluation, B08 Institutional strategy, B09 Exclusions policy
+Added Codes B06 Institutional Audit Report, B07 Evaluation, B08 Institutional strategy, B09 Exclusions policy
 
 ===Demo===
 Not available 
