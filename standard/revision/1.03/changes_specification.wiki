@@ -224,7 +224,7 @@ Modify B02 Name from "Strategy paper" to "Institutional Strategy paper", to dist
    category-name: Agency Level
 
    code: B07
-   name: Evaluation
+   name: Country Audit Report
    description:
    category: B
    category-name: Agency Level
@@ -365,7 +365,7 @@ XML
       + </DocumentCategory>
       + <DocumentCategory>
       +  <code>B07</code>
-      +  <name>Evaluation</name>
+      +  <name>Country Audit Report</name>
       +  <description />
       +  <category>B</category>
       +  <category-name>Agency Level</category-name>
@@ -391,7 +391,7 @@ XML
 Version 1.02
 
 === Changelog ===
-Added Codes B06 Institutional Audit Report, B07 Evaluation, B08 Institutional strategy, B09 Exclusions policy
+Added Codes B06 Institutional Audit Report, B07 Country Audit Report, B08 Institutional strategy, B09 Exclusions policy
 
 ===Demo===
 Not available 
