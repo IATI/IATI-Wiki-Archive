@@ -391,7 +391,7 @@ XML
 Version 1.02
 
 === Changelog ===
-Added Codes B06 Institutional Audit Report, B07 Country Audit Report, B08 Exclusions Policy, B09 Exclusions policy
+Added Codes B06 Institutional Audit Report, B07 Country Audit Report, B08 Exclusions Policy, B09 Institutional Evaluation Report
 
 ===Demo===
 Not available 
