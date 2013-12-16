@@ -236,7 +236,7 @@ Modify B02 Name from "Strategy paper" to "Institutional Strategy paper", to dist
    category-name: Agency Level
 
    code: B09
-   name: Exclusions policy
+   name: Institutional Evaluation Report
    description:
    category: B
    category-name: Agency Level
@@ -379,7 +379,7 @@ XML
       + </DocumentCategory>
       + <DocumentCategory>
       +  <code>B09</code>
-      +  <name>Exclusions policy</name>
+      +  <name>Institutional Evaluation Report</name>
       +  <description />
       +  <category>B</category>
       +  <category-name>Agency Level</category-name>
