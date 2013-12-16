@@ -240,6 +240,13 @@ Modify B02 Name from "Strategy paper" to "Institutional Strategy paper", to dist
    description:
    category: B
    category-name: Agency Level
+   
+   code: B10
+   name: Country Evaluation Report
+   description:
+   category: B
+   category-name: Agency Level
+   
 
 XML
    + <codelist name="DocumentCategory" date-last-modified="NEW DATETIME" version="1.02" xml:lang="en">
@@ -384,6 +391,14 @@ XML
       +  <category>B</category>
       +  <category-name>Agency Level</category-name>
       + </DocumentCategory>
+      + <DocumentCategory>
+      +  <code>B10</code>
+      +  <name>Country Evaluation Report</name>
+      +  <description />
+      +  <category>B</category>
+      +  <category-name>Agency Level</category-name>
+      + </DocumentCategory>      
+      
     </codelist>
       
 
@@ -391,7 +406,7 @@ XML
 Version 1.02
 
 === Changelog ===
-Added Codes B06 Institutional Audit Report, B07 Country Audit Report, B08 Exclusions Policy, B09 Institutional Evaluation Report
+Added Codes B06 Institutional Audit Report, B07 Country Audit Report, B08 Exclusions Policy, B09 Institutional Evaluation Report, B10 Country Evaluation Report
 
 ===Demo===
 Not available 
