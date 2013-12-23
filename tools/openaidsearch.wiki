@@ -1,6 +1,6 @@
 ====== Global openaidsearch ======
 
-[[http://beta.openaidsearch.org/explore/?query&countries=BR|Openaidsearch.org]] aims to interface all the IATI compliant dataset residing at the IATI registry. It provides users with an interface enabling them to search on that combined dataset using manual queries and filters.
+[[http://www.openaidsearch.org/explore/?query&countries=BR|Openaidsearch.org]] aims to interface all the IATI compliant dataset residing at the IATI registry. It provides users with an interface enabling them to search on that combined dataset using manual queries and filters.
 
 
 ===== Links, source code and development plans =====
