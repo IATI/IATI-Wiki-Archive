@@ -5,6 +5,6 @@
 
 ===== Links, source code and development plans =====
 
-Current beta runs [[http://beta.openaidsearch.org/explore/?query&countries=BR|here]]. The beta will be deployed as a production version Q4 2012. Users will be able to filter on more specific IATI namespaces, export to cvs, pdf and will be able to save their queries.
+The platform runs [[http://www.openaidsearch.org/here]]. Users are able to filter on more specific IATI namespaces, export to cvs, pdf and will be able to save their queries.
 
 Openaidsearch.org is an interface built on top of [[tools:oipa_v2:start|OIPA-V2]].
