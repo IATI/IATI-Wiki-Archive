@@ -5,16 +5,16 @@ The process for the 1.04 decimal upgrade of the standard is outlined below.
 Details about the specific changes are listed on the [[http://support.iatistandard.org/|knowledge base]] in the [[http://support.iatistandard.org/forums/22743317-1-04-Decimal-Upgrade|1.04 Decimal Upgrade Forum]].
 
 
-^ IATI ^ Community ^ Timescale ^ Due Date ^
-| A clear cut off date for new submissions should be advertised. | Community submits and discusses proposals/ideas before the cut off date |  | 28 Oct 2013 |
-| The TAG technical team should have agreed as to which proposals should go forward to the next upgrade, and communicated this with the community. | These are flagged on the knowledge base as under consideration. Individuals may be contacted and asked for opinoin/clarity | usually within 1 week | 4th Nov |
-| Consultation | Community debate: During this time the community can help shape the proposals, and discuss what has been included or left out. |Over a two week period (three weeks during Summer) | 18 Nov |
-| These ideas need to then be built into fully implemented examples. | During this time the community can help shape the proposals, but really this is a writing up task. | within 1 week | 25 Nov |
-| The community has until the due date to inspect what the TAG publishes as their proposed changes for consultation. i.e. the TAG now owns the changes. | During this time the community can help shape the proposals | over a 2 week period | 9 Dec |
-| Final proposals proposals are constructed and then published on the due date. | At this stage we hope that the proposals are solid and will be accepted, but people will still have a chance to air their views. | within 1 week | 16 Dec |
-| Consultation | Community scrutinises the final proposals, and feeds back on errors, omissions, problems, solutions. | over a 2 week period | 30 Dec |
-| Proposals are accepted, and implementation process begins. |  |  | 6 Jan 1014 |
-| Development version of changes are refined/built and in place by the due date. | Hopefully over this period development versions may come available before the due date, so the community may be able to start testing early | within 1 week | 13 Jan |
-| Development versions are available for community testing. | Community can test for 4 weeks | over a 4 week period | 10 Feb |
-| Bugs ironed out |  | within 2 weeks | 24 Feb  |
-| Changes go live |  |  | 10 Mar 2014 |
+^ IATI ^ Community ^ Timescale ^ Due Date ^ Now Due ^
+| A clear cut off date for new submissions should be advertised. | Community submits and discusses proposals/ideas before the cut off date |  | 28 Oct 2013 | |
+| The TAG technical team should have agreed as to which proposals should go forward to the next upgrade, and communicated this with the community. | These are flagged on the knowledge base as under consideration. Individuals may be contacted and asked for opinoin/clarity | usually within 1 week | 4th Nov | |
+| Consultation | Community debate: During this time the community can help shape the proposals, and discuss what has been included or left out. |Over a two week period (three weeks during Summer) | 18 Nov | |
+| These ideas need to then be built into fully implemented examples. | During this time the community can help shape the proposals, but really this is a writing up task. | within 1 week | 25 Nov | |
+| The community has until the due date to inspect what the TAG publishes as their proposed changes for consultation. i.e. the TAG now owns the changes. | During this time the community can help shape the proposals | over a 2 week period | 9 Dec | |
+| Final proposals proposals are constructed and then published on the due date. | At this stage we hope that the proposals are solid and will be accepted, but people will still have a chance to air their views. | within 1 week | 16 Dec | 24 Feb |
+| Consultation | Community scrutinises the final proposals, and feeds back on errors, omissions, problems, solutions. | over a 2 week period | 30 Dec | 10 Mar |
+| Proposals are accepted, and implementation process begins. |  |  | 6 Jan 1014 | 17 Mar |
+| Development version of changes are refined/built and in place by the due date. | Hopefully over this period development versions may come available before the due date, so the community may be able to start testing early | within 1 week | 13 Jan | 24 Mar |
+| Development versions are available for community testing. | Community can test for 4 weeks | over a 4 week period | 10 Feb | 7 Apr |
+| Bugs ironed out |  | within 2 weeks | 24 Feb  | 21 Apr |
+| Changes go live |  |  | 10 Mar 2014 | 5 May |
