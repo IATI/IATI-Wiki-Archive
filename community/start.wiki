@@ -11,10 +11,16 @@ There is a strong overlap between the TAG membership, and those in the wider IAT
 
 Regular discussion takes place on the [[mailing list]].
 
+===== IRC channel =====
+
+The IATI Technical Team have taken to hanging around on IRC in [[http://webchat.freenode.net/?channels=%23iati|the #iati channel on freenode]].
+
+Further, we plan to guarantee that there will be at least one of us on line every Thursday at 15:00 UTC (16:00 CET, 10:00 EST) for an hour or so. 
+We'd like to make that a time where we find out as much about what you might be up to, as much as it is a chance for us to tell you about what we are doing.
+
 ===== Organisations and individuals =====
 
 Please add yourself to the lists below by either [[community:start#create_your_own|creating and linking to your user page]], or [[creating a page for your organisation]].
 
   *[[community:user:start|Community Members]]
   *[[creating a page for your organisation|Organisations]]
-
