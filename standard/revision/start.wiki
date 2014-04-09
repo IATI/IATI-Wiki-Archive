@@ -2,11 +2,11 @@
 
 The IATI standards are living entities that will be improved through the suggestions and experiences of the publishers and users of IATI-format data, and expanded as the transparency agenda develops. IATI's change control system allows for two types of upgrades:
 
-Minor or Decimal upgrades (i.e from 1.00 to 1.01) will occur quarterly and include bug-fixes, codelist modifications and minor additions to the standards which improve the functionality without introducing substantial new content. These upgrades will be approved by the Secretariats of the Technical Advisory Group and Steering Committee.
+Minor or Decimal upgrades (i.e from 1.01 to 1.02) will occur quarterly and include bug-fixes, codelist modifications and minor additions to the standards which improve the functionality without introducing substantial new content. These upgrades will be approved by the Secretariats of the Technical Advisory Group and Steering Committee.
 
 All proposed decimal upgrade changes will be published in this section of the Knowledge Base as they arise. Discussion in these pages is most welcome.
 
-Major or Integer Upgrades (i.e. from 1.00 to 2.00) will occur when substantial additions involving new areas of data are required. These upgrades will be preceded by a formal consultation period in which all stakeholders and publishers will be included.  
+Major or Integer Upgrades (i.e. from 1.x to 2.x) will occur when substantial additions involving new areas of data are required. These upgrades will be preceded by a formal consultation period in which all stakeholders and publishers will be included.  
 
 The [[http://support.iatistandard.org/forums/20020808-modifications-additions-improvements|IATI Knowledge Base Modifications, Additions, Improvements forum]] is the official channel for managing current proposals for revisions. 
 
