@@ -35,7 +35,7 @@ Abandoned:
 
 Current:
   * [[tools:datastore:start|IATI Data Store]]
-  * [[tools:OIPA V2:start]] (OpenAidNL) [[tools:OIPA-V3:start]] (in progress)
+  * [[tools:OIPA-V3:start | OIPA]]
   * [[tools:AidView:API|AidView API]]
 
 In development:
@@ -43,6 +43,7 @@ In development:
 
 Deprecated:
   * [[tools:IATI Explorer:start]] (including Android client libraries)
+  * [[tools:OIPA V2:start]] (OIPA - old version) 
 
 === PHP clients ===
   * [[tools:Wordpress theme:start]]
