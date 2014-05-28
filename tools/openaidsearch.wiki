@@ -7,4 +7,4 @@
 
 The platform runs [[http://www.openaidsearch.org/|here]]. Users are able to filter on more specific IATI namespaces, export to cvs, pdf and will be able to save their queries.
 
-Openaidsearch.org is an interface built on top of [[tools:oipa_v2:start|OIPA-V2]].
+Openaidsearch.org is an interface built on top of the [[tools:oipa_v3:start|OIPA framework]].
