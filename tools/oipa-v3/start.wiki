@@ -1,5 +1,5 @@
 ====== OIPA ======
 
-OIPA is an open-source framework that renders IATI compliant XML and related indicator files into the OIPA datamodel for storage and I/O using the OIPA Tastypie API which renders XML and JSON output. Does Django and MySQL. Fork it at [[https://github.com/openaid-IATI/OIPA|OIPA at Github]] or check the documentation on how to use OIPA at: [[hhttp://oipa.openaidsearch.org/api/v3/docs/|OIPA documentation.]]
+OIPA is an open-source framework that renders IATI compliant XML and related indicator files into the OIPA datamodel for storage and I/O using the OIPA Tastypie API which renders XML and JSON output. Does Django and MySQL. Fork it at [[https://github.com/openaid-IATI/OIPA|OIPA at Github]] or check the documentation on how to use OIPA [[http://oipa.openaidsearch.org/api/v3/docs/|here.]]
 
 {{:tools:oipa-v3:eer_iati_activity_organisation_standard_plus_indicators.png?300|}}
