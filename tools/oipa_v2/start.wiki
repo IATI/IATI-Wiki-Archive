@@ -3,7 +3,7 @@
 OIPA V2 stands for **O**penaid **I**ATI **P**arser and **A**PI. It has been developed within the [[tools:oipa_v2:openaid.nl|OpenAid NL]] project and runs as an open webservice. Anyone can use it with the data residing in the OIPA network.
 
 <note warning>
-Note: As of July 2013 this version of OIPA is no longer supported. Please use the documentation on [[tools:OIPA V3:start]]. You can contact [[community:user:siemvaessen|Siem Vaessen]] if you have any questions. 
+Note: As of July 2013 this version of OIPA is no longer supported. Please use the documentation on [[tools:OIPA-v3:start]]. You can contact [[community:user:siemvaessen|Siem Vaessen]] if you have any questions. 
 </note>
 
 {{:tools:oipa:oipa.001.png?450|}}
